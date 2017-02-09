@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module extractCueWords</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>extractCueWords</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href="index.html">index</a><br><a href="file:extractcuewords.html">extractcuewords.py</a></font></td></tr></table>
+    <p><tt>Author:&nbsp;Darmin&nbsp;Spahic&nbsp;&lt;Spahic@stud.uni-heidelberg.de&gt;<br>
+Project:&nbsp;Negation&nbsp;Detection<br>
+&nbsp;<br>
+Module&nbsp;name:<br>
+extract_cuewords<br>
+&nbsp;<br>
+Short&nbsp;description:<br>
+This&nbsp;module&nbsp;extracts&nbsp;negation&nbsp;cue&nbsp;words&nbsp;from&nbsp;xml&nbsp;files<br>
+and&nbsp;writes&nbsp;them&nbsp;into&nbsp;a&nbsp;txt&nbsp;file,&nbsp;one&nbsp;word&nbsp;per&nbsp;line.<br>
+&nbsp;<br>
+License:&nbsp;MIT&nbsp;License<br>
+Version:&nbsp;1.0</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="#">codecs</a><br>
+</td><td width="25%" valign=top><a href="#">lxml</a><br>
+</td><td width="25%" valign=top><a href="#">os</a><br>
+</td><td width="25%" valign=top><a href="#">sys</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-extract_cuewords"><strong>extract_cuewords</strong></a>(cuewords, xml_file_path)</dt><dd><tt>This&nbsp;function&nbsp;extracts&nbsp;negation&nbsp;cuewords&nbsp;from&nbsp;xml&nbsp;files<br>
+and&nbsp;writes&nbsp;them&nbsp;into&nbsp;a&nbsp;txt&nbsp;file,&nbsp;one&nbsp;word&nbsp;per&nbsp;line.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;cuewords&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;an&nbsp;empty&nbsp;txt&nbsp;file&nbsp;for&nbsp;output<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml_file_path&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;input&nbsp;files<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Two&nbsp;written&nbsp;files&nbsp;with&nbsp;negation&nbsp;cues&nbsp;alphabetically&nbsp;sorted<br>
+&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;without&nbsp;duplicates,&nbsp;one&nbsp;file&nbsp;contains&nbsp;POS&nbsp;tags.<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#-extract_cuewords">extract_cuewords</a>('../res/cuewords/baskerville_cuewords.txt',&nbsp;'../res/xml/train/')</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>CUEWORDS_DATA_PATH</strong> = '../../res/cuewords/'<br>
+<strong>CUEWORDS_FILE</strong> = 'baskerville_cuewords.txt'<br>
+<strong>CUEWORDS_FILE_POS_TAGGED</strong> = 'baskerville_cuewords_postagged.txt'<br>
+<strong>CUEWORDS_STATS_PATH</strong> = '../../res/cuewords/stats/'<br>
+<strong>NEGATION_FRAME_NAME</strong> = 'Negation'<br>
+<strong>XML_TRAIN_FILES_OUTPUT_PATH</strong> = '../../res/xml/train/output/'<br>
+<strong>XML_TRAIN_FILES_PATH</strong> = '../../res/xml/train/'</td></tr></table>
+</body></html>

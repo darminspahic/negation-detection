@@ -1,0 +1,8228 @@
+
+=========
+
+Frame: 5_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['auslöschlich']
+
+Negated [Gold]: ['auslöschlich']
+Negated [Test]: ['auslöschlich']
+
+Scope [Gold]: ['auslöschlich']
+Scope [Test]: ['auslöschlich']
+
+=========
+
+Frame: 15_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['heimliches']
+
+Negated [Gold]: ['heimliches']
+Negated [Test]: ['heimliches']
+
+Scope [Gold]: ['heimliches']
+Scope [Test]: ['heimliches']
+
+=========
+
+Frame: 17_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['glaublich']
+
+Negated [Gold]: ['möglich']
+Negated [Test]: ['glaublich']
+
+Scope [Gold]: ['möglich']
+Scope [Test]: ['glaublich']
+
+=========
+
+Frame: 17_f2
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['möglich']
+
+Negated [Gold]: ['glaublich']
+Negated [Test]: ['möglich']
+
+Scope [Gold]: ['glaublich']
+Scope [Test]: ['möglich']
+
+=========
+
+Frame: 18_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['denken']
+
+Negated [Gold]: ['ist']
+Negated [Test]: ['erfüllt']
+
+Scope [Gold]: ['an', 'denken', 'etwas', 'ist', 'so', 'zu']
+Scope [Test]: ['an', 'denken', 'etwas', 'ist', 'so', 'zu']
+
+=========
+
+Frame: 19_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['etwas']
+
+Negated [Gold]: ['bringen']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'an', 'bringen', 'dazu', 'etwas', 'glauben', 'mich', 'nichts', 'so', 'wird', 'zu']
+Scope [Test]: ['an', 'bringen', 'dazu', 'etwas', 'glauben', 'mich', 'so', 'wird', 'zu']
+
+=========
+
+Frame: 20_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gewöhnlichen']
+
+Negated [Gold]: ['begnügen']
+Negated [Test]: ['einem']
+
+Scope [Gold]: ['Höllenhund', 'begnügen', 'die', 'einem', 'gewöhnlichen', 'mit', 'sich']
+Scope [Test]: ['Höllenhund', 'begnügen', 'die', 'einem', 'gewöhnlichen', 'mit', 'sich']
+
+=========
+
+Frame: 21_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['hören']
+
+Negated [Gold]: ['']
+Negated [Test]: ['würde']
+
+Scope [Gold]: ['Holmes', 'Spinnereien', 'auf', 'hören', 'solche', 'würde']
+Scope [Test]: ['Holmes', 'Spinnereien', 'auf', 'hören', 'solche', 'würde']
+
+=========
+
+Frame: 24_f1
+
+Target [Gold]: ['niemand']
+Target [Test]: ['niemand']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sieht']
+
+Negated [Gold]: ['sieht']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Tage', 'bei', 'ihn', 'niemand', 'sieht']
+Scope [Test]: ['Tage', 'bei', 'ihn', 'sieht']
+
+=========
+
+Frame: 32_f1
+
+Target [Gold]: ['niemand']
+Target [Test]: ['niemand']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gesehen']
+
+Negated [Gold]: ['ist']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Er', 'bislang', 'den', 'gesehen', 'habe', 'hier', 'ich', 'ist', 'niemand']
+Scope [Test]: ['Er', 'ist']
+
+=========
+
+Frame: 34_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['folgen']
+
+Negated [Gold]: ['können']
+Negated [Test]: ['können']
+
+Scope [Gold]: ['er', 'folgen', 'hatte', 'können', 'uns']
+Scope [Test]: ['er', 'folgen', 'hatte', 'können', 'uns']
+
+=========
+
+Frame: 36_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['abschütteln']
+
+Negated [Gold]: ['können']
+Negated [Test]: ['können']
+
+Scope [Gold]: ['Wir', 'abschütteln', 'haben', 'ihn', 'können']
+Scope [Test]: ['Wir', 'abschütteln', 'haben', 'ihn', 'können']
+
+=========
+
+Frame: 43_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['würde']
+
+Negated [Gold]: ['möchte']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ich', 'das', 'möchte', 'nichts', 'noch', 'sagen', 'seine', 'verstärken', 'würde', 'Ängste']
+Scope [Test]: ['Ich', 'möchte', 'sagen']
+
+=========
+
+Frame: 49_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['fair']
+
+Negated [Gold]: ['fair']
+Negated [Test]: ['fair']
+
+Scope [Gold]: ['fair']
+Scope [Test]: ['fair']
+
+=========
+
+Frame: 54_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['anderen']
+
+Negated [Gold]: ['sahen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ausweg', 'Sie', 'anderen', 'sahen']
+Scope [Test]: ['Ausweg', 'Sie', 'anderen', 'sahen']
+
+=========
+
+Frame: 55_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['geglaubt']
+
+Negated [Gold]: ['']
+Negated [Test]: ['geglaubt']
+
+Scope [Gold]: ['Ich', 'Sie', 'ausnutzen', 'das', 'dass', 'geglaubt', 'hätte', 'würden']
+Scope [Test]: ['Ich', 'Sie', 'ausnutzen', 'das', 'dass', 'geglaubt', 'hätte', 'würden']
+
+=========
+
+Frame: 55_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gedacht']
+
+Negated [Gold]: ['gedacht']
+Negated [Test]: ['gedacht']
+
+Scope [Gold]: ['das', 'gedacht', 'hätte', 'ich', 'wirklich']
+Scope [Test]: ['Henry', 'Sir', 'das', 'gedacht', 'hätte', 'ich', 'wirklich', '–']
+
+=========
+
+Frame: 57_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['zurückschreckt']
+
+Negated [Gold]: ['zurückschreckt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['der', 'nichts', 'vor', 'zurückschreckt']
+Scope [Test]: ['der', 'vor', 'zurückschreckt']
+
+=========
+
+Frame: 60_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gibt']
+
+Negated [Gold]: ['ist']
+Negated [Test]: ['gibt']
+
+Scope [Gold]: ['Riegel', 'Schloss', 'er', 'hinter', 'ist', 'und']
+Scope [Test]: ['Schloss', 'er', 'hinter']
+
+=========
+
+Frame: 60_f2
+
+Target [Gold]: ['niemanden']
+Target [Test]: ['niemanden']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['gibt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Sicherheit', 'es', 'für', 'gibt', 'niemanden']
+Scope [Test]: ['Sicherheit', 'es', 'für', 'gibt']
+
+=========
+
+Frame: 61_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['einbrechen']
+
+Negated [Gold]: ['einbrechen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Er', 'Haus', 'einbrechen', 'in', 'wird']
+Scope [Test]: ['Er', 'Haus', 'einbrechen', 'in', 'wird']
+
+=========
+
+Frame: 63_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['behelligen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Land', 'behelligen', 'diesem', 'er', 'in', 'irgend', 'jemanden', 'niemals', 'wird']
+Scope [Test]: ['Land', 'behelligen', 'diesem', 'er', 'in', 'irgend', 'jemanden', 'mehr', 'wird']
+
+=========
+
+Frame: 65_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['wissen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['befindet']
+
+Scope [Gold]: ['Moor', 'Polizei', 'befindet', 'dass', 'die', 'er', 'im', 'lassen', 'noch', 'sich', 'wissen', 'zu']
+Scope [Test]: ['Moor', 'Polizei', 'befindet', 'dass', 'die', 'er', 'im', 'lassen', 'noch', 'sich', 'wissen', 'zu']
+
+=========
+
+Frame: 67_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['auffliegen']
+
+Negated [Gold]: ['können']
+Negated [Test]: ['können']
+
+Scope [Gold]: ['Sie', 'auffliegen', 'ihn', 'können', 'lassen']
+Scope [Test]: ['Sie', 'auffliegen', 'ihn', 'können', 'lassen']
+
+=========
+
+Frame: 68_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['polizei']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Polizei', 'Sie', 'der', 'nichts', 'sagen']
+Scope [Test]: ['Polizei', 'Sie', 'der', 'sagen']
+
+=========
+
+Frame: 73_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['tun']
+
+Negated [Gold]: ['']
+Negated [Test]: ['sir']
+
+Scope [Gold]: ['Dummes', 'So', 'er', 'etwas', 'tun', 'würde']
+Scope [Test]: ['Dummes', 'So', 'er', 'etwas', 'tun', 'würde']
+
+=========
+
+Frame: 81_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['imstande']
+
+Negated [Gold]: ['imstande']
+Negated [Test]: ['den']
+
+Scope [Gold]: ['Mann', 'auszuliefern', 'den', 'imstande', 'mich']
+Scope [Test]: ['Mann', 'also', 'auszuliefern', 'bewenden', 'dabei', 'den', 'ich', 'imstande', 'lassen', 'mich', 'sehe', 'wir‘s']
+
+=========
+
+Frame: 86_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gesagt']
+
+Negated [Gold]: ['gesagt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ich', 'Wort', 'darüber', 'ein', 'gesagt', 'habe', 'jemandem', 'niemals', 'zu']
+Scope [Test]: ['Ich', 'Wort', 'darüber', 'ein', 'gesagt', 'habe', 'jemandem', 'zu']
+
+=========
+
+Frame: 90_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 90_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['weiß']
+Negated [Test]: ['weiß']
+
+Scope [Gold]: ['das', 'ich', 'weiß']
+Scope [Test]: ['das', 'ich', 'weiß']
+
+=========
+
+Frame: 97_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ich']
+
+Negated [Gold]: ['weiß']
+Negated [Test]: ['kenne']
+
+Scope [Gold]: ['Namen', 'ich', 'ihren', 'weiß']
+Scope [Test]: ['Leider', 'Namen', 'ich', 'ihren', 'weiß']
+
+=========
+
+Frame: 104_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['gedacht']
+
+Scope [Gold]: ['Ich', 'daran', 'gedacht', 'hätte', 'mehr']
+Scope [Test]: ['Ich', 'daran', 'gedacht', 'hätte', 'mehr']
+
+=========
+
+Frame: 105_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['angerührt']
+Negated [Test]: ['angerührt']
+
+Scope [Gold]: ['Tod', 'angerührt', 'es', 'mehr', 'seinem', 'seit', 'war', 'worden']
+Scope [Test]: ['Arbeitszimmer', 'Charles', 'Sir', 'Tod', 'Vor', 'Wochen', 'angerührt', 'einigen', 'erst', 'es', 'im', 'machte', 'mehr', 'sauber', 'seinem', 'seit', 'sie', 'von', 'war', 'worden', '–']
+
+=========
+
+Frame: 110_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 112_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['besondere']
+Focus [Test]: ['besondere']
+
+Negated [Gold]: ['nahm']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Briefen', 'Notiz', 'besondere', 'nahm', 'seinen', 'von']
+Scope [Test]: ['Briefen', 'Notiz', 'besondere', 'ich', 'nahm', 'normalerweise', 'seinen', 'von']
+
+=========
+
+Frame: 113_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['aufgefallen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['aufgefallen']
+
+Scope [Gold]: ['Auch', 'aufgefallen', 'dieser', 'mir', 'wäre']
+Scope [Test]: ['Auch', 'aufgefallen', 'der', 'dieser', 'einzige', 'es', 'gewesen', 'mir', 'nicht', 'wenn', 'wäre', 'wäre']
+
+=========
+
+Frame: 113_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['einzige']
+
+Negated [Gold]: ['']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['der', 'einzige', 'es', 'gewesen', 'wäre']
+Scope [Test]: ['der', 'einzige', 'es', 'gewesen', 'wäre']
+
+=========
+
+Frame: 114_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ahnung', 'L.', 'L.', 'Sie', 'haben', 'könnte', 'sein', 'wer']
+Scope [Test]: ['Ahnung', 'Sie', 'haben']
+
+=========
+
+Frame: 115_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sir']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: ['Leider']
+
+=========
+
+Frame: 115_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Sie', 'als', 'mehr']
+Scope [Test]: ['Sie', 'als', 'mehr']
+
+=========
+
+Frame: 117_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sie']
+
+Negated [Gold]: ['verstehe']
+Negated [Test]: ['vorenthalten']
+
+Scope [Gold]: ['Ich', 'Information', 'Sie', 'diese', 'konnten', 'uns', 'verstehe', 'vorenthalten', 'wichtige', 'wie']
+Scope [Test]: ['Ich', 'verstehe']
+
+=========
+
+Frame: 118_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mittelbar']
+
+Negated [Gold]: ['mittelbar']
+Negated [Test]: ['mittelbar']
+
+Scope [Gold]: ['mittelbar']
+Scope [Test]: ['mittelbar']
+
+=========
+
+Frame: 120_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['gebracht']
+
+Scope [Gold]: ['Die', 'Geschichte', 'aufzurühren', 'helfen', 'ihm', 'konnte', 'mehr', 'wieder']
+Scope [Test]: ['Die', 'Geschichte', 'aufzurühren', 'helfen', 'ihm', 'konnte', 'mehr', 'wieder']
+
+=========
+
+Frame: 123_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['entstünde']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Gutes', 'daraus', 'entstünde', 'nichts']
+Scope [Test]: ['Gutes', 'daraus', 'entstünde']
+
+=========
+
+Frame: 124_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['fair']
+
+Negated [Gold]: ['']
+Negated [Test]: ['fair']
+
+Scope [Gold]: ['fair']
+Scope [Test]: ['fair']
+
+=========
+
+Frame: 124_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['alles']
+
+Negated [Gold]: ['']
+Negated [Test]: ['offenzulegen']
+
+Scope [Gold]: ['Angelegenheit', 'Ihnen', 'alles', 'die', 'ich', 'offenzulegen', 'was', 'weiß', 'über']
+Scope [Test]: ['Ihnen', 'alles', 'offenzulegen']
+
+=========
+
+Frame: 137_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['veranlasste']
+
+Negated [Gold]: ['']
+Negated [Test]: ['veranlasste']
+
+Scope [Gold]: ['das', 'dazu', 'dazu', 'herzukommen', 'ihn', 'veranlasste']
+Scope [Test]: ['das', 'dazu', 'herzukommen', 'ihn', 'veranlasste']
+
+=========
+
+Frame: 148_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sichtbare']
+
+Negated [Gold]: ['sichtbare']
+Negated [Test]: ['sichtbare']
+
+Scope [Gold]: ['sichtbare']
+Scope [Test]: ['sichtbare']
+
+=========
+
+Frame: 155_f1
+
+Target [Gold]: ['nirgendwo']
+Target [Test]: ['nirgendwo']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gesehen']
+
+Negated [Gold]: ['war']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Mannes', 'Nirgendwo', 'Nächte', 'Spur', 'Stelle', 'an', 'den', 'die', 'dieser', 'dieses', 'eben', 'einsamen', 'geringste', 'gesehen', 'hatte', 'ich', 'sehen', 'war', 'zu', 'zuvor', 'zwei']
+Scope [Test]: ['Mannes', 'Spur', 'die', 'dieses', 'einsamen', 'geringste', 'sehen', 'war', 'zu']
+
+=========
+
+Frame: 156_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['befestigten']
+
+Negated [Gold]: ['befestigten']
+Negated [Test]: ['befestigten']
+
+Scope [Gold]: ['unbefestigten']
+Scope [Test]: ['befestigten']
+
+=========
+
+Frame: 160_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['zurückgekommen']
+Negated [Test]: ['gelaufen']
+
+Scope [Gold]: ['Er', 'mehr', 'zurückgekommen']
+Scope [Test]: ['mehr', 'zurückgekommen']
+
+=========
+
+Frame: 161_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['vorstellen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['würde']
+
+Scope [Gold]: ['Hund', 'dass', 'er', 'ich', 'jemals', 'kleinen', 'konnte', 'mir', 'seinen', 'vorstellen', 'wiedersehen', 'würde']
+Scope [Test]: ['Hund', 'dass', 'er', 'jemals', 'kleinen', 'konnte', 'mir', 'seinen', 'vorstellen', 'wiedersehen', 'würde']
+
+=========
+
+Frame: 162_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['kennen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['kennen']
+
+Scope [Gold]: ['Sie', 'die', 'kennen']
+Scope [Test]: ['Sie', 'die', 'kennen']
+
+=========
+
+Frame: 163_f1
+
+Target [Gold]: ['niemand']
+Target [Test]: ['niemand']
+
+Focus [Gold]: ['']
+Focus [Test]: ['glaube']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['So', 'gut', 'niemand', 'wie']
+Scope [Test]: ['So', 'gut', 'wie']
+
+=========
+
+Frame: 166_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 167_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['kann']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['']
+
+Scope [Gold]: ['die', 'ich', 'kann', 'nichts', 'sagen', 'über']
+Scope [Test]: ['die', 'ich', 'kann', 'sagen', 'über']
+
+=========
+
+Frame: 167_f2
+
+Target [Gold]: ['niemanden']
+Target [Test]: ['niemanden']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['wüsste']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Bauern', 'Leuten', 'den', 'den', 'gebildeten', 'ich', 'niemanden', 'oder', 'unter', 'wüsste']
+Scope [Test]: ['Leuten', 'den', 'gebildeten', 'ich', 'wüsste']
+
+=========
+
+Frame: 176_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['allein']
+
+Negated [Gold]: ['lag']
+Negated [Test]: ['gehört']
+
+Scope [Gold]: [',', 'Die', 'Schuld', 'allein', 'allem', 'bei', 'gehört', 'habe', 'ich', 'ihm', 'nach', 'so', 'was']
+Scope [Test]: ['allein', 'bei', 'ihm']
+
+=========
+
+Frame: 178_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['alten']
+
+Negated [Gold]: ['hatte']
+Negated [Test]: ['dem']
+
+Scope [Gold]: ['Das', 'Freude', 'Mädchen', 'Sünder', 'alten', 'dem', 'dem', 'hatte', 'jungen', 'und', 'viel', 'zwischen']
+Scope [Test]: ['Das', 'Freude', 'Mädchen', 'alten', 'dem', 'hatte', 'viel', 'zwischen']
+
+=========
+
+Frame: 180_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['er']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['steckt']
+
+Scope [Gold]: ['es', 'kann', 'sein', 'viel']
+Scope [Test]: ['Geldschwierigkeiten', 'beträchtlichen', 'da', 'er', 'es', 'in', 'ja', 'kann', 'sein', 'selbst', 'steckt', 'viel']
+
+=========
+
+Frame: 181_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['einfach']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Hunde', 'die', 'einfach', 'gehen', 'kann', 'lassen', 'man', 'sie', 'vor']
+Scope [Test]: ['Hunde', 'die', 'einfach', 'gehen', 'kann', 'lassen', 'man', 'sie', 'vor']
+
+=========
+
+Frame: 186_f1
+
+Target [Gold]: ['ohne']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['wir']
+
+Negated [Gold]: ['preiszugeben']
+Negated [Test]: ['']
+
+Scope [Gold]: ['preiszugeben', 'viel', 'zu']
+Scope [Test]: ['Grund', 'es', 'gab']
+
+=========
+
+Frame: 188_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['angenehmen']
+
+Negated [Gold]: ['angenehmen']
+Negated [Test]: ['angenehmen']
+
+Scope [Gold]: ['angenehmen']
+Scope [Test]: ['angenehmen']
+
+=========
+
+Frame: 189_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['umsonst']
+
+Negated [Gold]: ['zusammengelebt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Holmes', 'Jahre', 'Sherlock', 'habe', 'lang', 'mit', 'umsonst', 'zusammengelebt']
+Scope [Test]: ['Holmes', 'Jahre', 'Schließlich', 'Sherlock', 'habe', 'ich', 'lang', 'mit', 'umsonst', 'viele', 'zusammengelebt']
+
+=========
+
+Frame: 195_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sir']
+
+Negated [Gold]: ['weiß']
+Negated [Test]: ['sir']
+
+Scope [Gold]: ['Ich', 'es', 'weiß']
+Scope [Test]: ['Ich', 'es', 'weiß']
+
+=========
+
+Frame: 197_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ihm']
+
+Negated [Gold]: ['gehört']
+Negated [Test]: ['']
+
+Scope [Gold]: ['gehört', 'habe', 'ich', 'ihm', 'mehr', 'nichts', 'von']
+Scope [Test]: ['gehört', 'habe', 'ich', 'ihm', 'mehr', 'von']
+
+=========
+
+Frame: 199_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 206_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 209_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['entflohener']
+
+Negated [Gold]: ['sträfling']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Sträfling', 'entflohener', 'er', 'ist']
+Scope [Test]: ['Sträfling', 'entflohener', 'er', 'ist']
+
+=========
+
+Frame: 210_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ich']
+
+Negated [Gold]: ['gefällt']
+Negated [Test]: ['sagen']
+
+Scope [Gold]: ['Das', 'gefällt', 'mir']
+Scope [Test]: ['Das', 'gefällt', 'mir']
+
+=========
+
+Frame: 210_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['gefällt']
+Negated [Test]: ['gefällt']
+
+Scope [Gold]: ['das', 'gefällt', 'mir']
+Scope [Test]: ['das', 'gefällt', 'mir']
+
+=========
+
+Frame: 215_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['gefällt']
+
+Scope [Gold]: ['Ihnen', 'gefällt', 'was']
+Scope [Test]: ['Ihnen', 'gefällt', 'was']
+
+=========
+
+Frame: 224_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['würde']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Einbruch', 'Mensch', 'Nacht', 'der', 'dort', 'hinaustrauen', 'nach', 'sich', 'würde']
+Scope [Test]: ['Einbruch', 'Mensch', 'Nacht', 'der', 'dort', 'hinaustrauen', 'nach', 'sich', 'würde']
+
+=========
+
+Frame: 228_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['trägt']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Baskervilles', 'Das', 'Gutes', 'Namen', 'bedeuten', 'den', 'der', 'der', 'für', 'jemanden', 'kann', 'trägt']
+Scope [Test]: ['Das', 'Gutes', 'bedeuten', 'für', 'jemanden', 'kann']
+
+=========
+
+Frame: 233_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['preisgibt']
+
+Negated [Gold]: ['preisgibt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['der', 'der', 'nichts', 'preisgibt', 'preisgibt']
+Scope [Test]: ['der', 'preisgibt']
+
+=========
+
+Frame: 235_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['herausbekommen']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['getan']
+
+Scope [Gold]: ['dort', 'er', 'er', 'getan', 'hat', 'herausbekommen', 'konnte', 'was']
+Scope [Test]: ['er', 'herausbekommen', 'konnte']
+
+=========
+
+Frame: 244_f1
+
+Target [Gold]: ['unruhige']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ruhige']
+
+Negated [Gold]: ['']
+Negated [Test]: ['ruhige']
+
+Scope [Gold]: ['']
+Scope [Test]: ['ruhige']
+
+=========
+
+Frame: 248_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['weiterer']
+
+Negated [Gold]: ['soll']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Tag', 'soll', 'vergehen', 'weiterer']
+Scope [Test]: ['Menschenmögliche', 'Tag', 'alles', 'dass', 'getan', 'haben', 'ich', 'ohne', 'soll', 'vergehen', 'weiterer', 'werde']
+
+=============================
+====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch10.jr.xml ======
+Total Sentences: 248 
+Gold frames: 85 
+Test frames: 82 
+
+----- CUEWORDS -----
+F1 score:	 0.894117647059
+
+----- FOCUS -----
+F1 score:	 0.152941176471
+
+----- NEGATED -----
+F1 score:	 0.305882352941
+
+----- SCOPE -----
+Precision:	 0.935064935065
+Recall:	 0.743522386704
+F1 score:	 0.802312576073
+Jaccard similarity:	 0.580582260452
+
+=========
+
+Frame: 4_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['auslöschlich']
+Focus [Test]: ['auslöschlich']
+
+Negated [Gold]: ['auslöschlich']
+Negated [Test]: ['auslöschlich']
+
+Scope [Gold]: ['auslöschlich']
+Scope [Test]: ['auslöschlich']
+
+=========
+
+Frame: 5_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['bekannte']
+
+Negated [Gold]: ['bekannte']
+Negated [Test]: ['bekannte']
+
+Scope [Gold]: ['bekannte']
+Scope [Test]: ['bekannte']
+
+=========
+
+Frame: 6_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ausreichend']
+
+Negated [Gold]: ['ausreichend']
+Negated [Test]: ['bringen']
+
+Scope [Gold]: ['Intelligenz', 'Mut', 'ausreichend', 'entweder', 'mein', 'meine', 'oder', 'sein']
+Scope [Test]: ['Licht', 'Mut', 'Punkte', 'ausreichend', 'bringen', 'diese', 'dunklen', 'ich', 'in', 'könnte', 'mein', 'nicht', 'sein', 'wenn']
+
+=========
+
+Frame: 6_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['dunklen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['bringen']
+
+Scope [Gold]: ['Licht', 'Punkte', 'bringen', 'diese', 'dunklen', 'ich', 'in', 'könnte']
+Scope [Test]: ['Licht', 'Punkte', 'bringen', 'diese', 'dunklen', 'ich', 'in', 'könnte']
+
+=========
+
+Frame: 11_f1
+
+Target [Gold]: ['ohne']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['leichte']
+
+Negated [Gold]: ['']
+Negated [Test]: ['ein']
+
+Scope [Gold]: ['Gewissensbisse', 'ein', 'leichte', 'paar']
+Scope [Test]: ['Gewissensbisse', 'ein', 'leichte', 'ohne', 'paar']
+
+=========
+
+Frame: 13_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ihre']
+
+Negated [Gold]: ['war']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Es', 'Problem', 'Wohnung', 'ausfindig', 'die', 'eingerichtet', 'gelegen', 'gut', 'ihre', 'machen', 'und', 'war', 'war', 'zentral', 'zu']
+Scope [Test]: ['Es', 'Problem', 'war']
+
+=========
+
+Frame: 20_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['stimmen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['lag']
+
+Scope [Gold]: ['Gesicht', 'Mit', 'Weise', 'auf', 'etwas', 'ihrem', 'stimmen', 'subtile', 'zu']
+Scope [Test]: ['Gesicht', 'Mit', 'Weise', 'auf', 'etwas', 'ihrem', 'schien', 'stimmen', 'subtile', 'zu']
+
+=========
+
+Frame: 23_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['klar']
+
+Negated [Gold]: ['gemacht']
+Negated [Test]: ['gemacht']
+
+Scope [Gold]: ['Mission', 'delikat', 'gemacht', 'hatte', 'ich', 'klar', 'meine', 'mir', 'war', 'wie']
+Scope [Test]: ['Augenblick', 'Bis', 'diesem', 'gemacht', 'hatte', 'ich', 'klar', 'mir', 'zu']
+
+=========
+
+Frame: 25_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['beholfener']
+
+Negated [Gold]: ['beholfener']
+Negated [Test]: ['beholfener']
+
+Scope [Gold]: ['beholfener']
+Scope [Test]: ['beholfener']
+
+=========
+
+Frame: 26_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['antwortete']
+
+Negated [Gold]: ['habe']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ich', 'Vater', 'habe', 'meinem', 'mit', 'schaffen', 'zu']
+Scope [Test]: ['Ich', 'Vater', 'habe', 'meinem', 'mit', 'schaffen', 'zu']
+
+=========
+
+Frame: 27_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['freunde']
+
+Negated [Gold]: ['schulde']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ich', 'ihm', 'schulde']
+Scope [Test]: ['Ich', 'ihm', 'schulde']
+
+=========
+
+Frame: 27_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sind']
+
+Negated [Gold]: ['sind']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Freunde', 'die', 'meinen', 'seine', 'sind']
+Scope [Test]: ['Freunde', 'die', 'meinen', 'seine', 'sind']
+
+=========
+
+Frame: 28_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['selige']
+
+Negated [Gold]: ['']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['Baskerville', 'Charles', 'Herzen', 'Sir', 'Wären', 'andere', 'da', 'der', 'einige', 'freundliche', 'gewesen', 'selige', 'und']
+Scope [Test]: ['Baskerville', 'Charles', 'Sir', 'Wären', 'da', 'der', 'selige']
+
+=========
+
+Frame: 32_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['wahr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['gekannt']
+
+Scope [Gold]: ['wahr']
+Scope [Test]: ['wahr']
+
+=========
+
+Frame: 34_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['glücklichen']
+
+Negated [Gold]: ['glücklichen']
+Negated [Test]: ['glücklichen']
+
+Scope [Gold]: ['glücklichen']
+Scope [Test]: ['glücklichen']
+
+=========
+
+Frame: 47_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 61_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ist']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: [':', 'Antwort', 'Sicher', 'dann', 'ist', 'meine']
+
+=========
+
+Frame: 62_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Charles', 'Sir', 'Todestag', 'am', 'von']
+Scope [Test]: ['Auch', 'Charles', 'Sir', 'Todestag', 'am', 'von']
+
+=========
+
+Frame: 64_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: ["''", 'hauchen']
+
+=========
+
+Frame: 69_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Gibt', 'es', 'mehr']
+Scope [Test]: ['Gentleman', 'Gibt', 'denn', 'es', 'mehr']
+
+=========
+
+Frame: 75_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['dafür']
+
+Negated [Gold]: ['habe']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Grund', 'Ich', 'dafür', 'habe', 'mich', 'schämen', 'zu']
+Scope [Test]: ['Grund', 'Ich', 'habe']
+
+=========
+
+Frame: 80_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['früher']
+Focus [Test]: ['früher']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['konnte']
+
+Scope [Gold]: ['dort', 'früher', 'ich', 'sein']
+Scope [Test]: ['dort', 'früher', 'ich', 'konnte', 'sein', 'warum']
+
+=========
+
+Frame: 84_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['']
+
+Negated [Gold]: ['hingegangen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ich', 'bin', 'hingegangen']
+Scope [Test]: ['Ich', 'bin', 'hingegangen']
+
+=========
+
+Frame: 86_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 86_f2
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['']
+
+Negated [Gold]: ['hingegangen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['bin', 'hingegangen', 'ich']
+Scope [Test]: ['bin', 'hingegangen', 'ich']
+
+=========
+
+Frame: 89_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['erzählen']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['kann']
+
+Scope [Gold]: ['Ihnen', 'der', 'erzählen', 'ich', 'kann', 'von']
+Scope [Test]: ['Ihnen', 'der', 'erzählen', 'ich', 'kann', 'von']
+
+=========
+
+Frame: 92_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['kam']
+Negated [Test]: ['kam']
+
+Scope [Gold]: ['Punkt', 'diesen', 'hinaus', 'ich', 'kam', 'über']
+Scope [Test]: ['Punkt', 'diesen', 'doch', 'hinaus', 'ich', 'kam', 'über']
+
+=========
+
+Frame: 93_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['befriedigendem']
+
+Negated [Gold]: ['befriedigendem']
+Negated [Test]: ['befriedigendem']
+
+Scope [Gold]: ['befriedigendem']
+Scope [Test]: ['befriedigendem']
+
+=========
+
+Frame: 93_f2
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['angenehme']
+
+Negated [Gold]: ['angenehme']
+Negated [Test]: ['angenehme']
+
+Scope [Gold]: ['angenehme']
+Scope [Test]: ['angenehme']
+
+=========
+
+Frame: 95_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['schuldig']
+
+Negated [Gold]: ['']
+Negated [Test]: ['schuldig']
+
+Scope [Gold]: ['schuldig']
+Scope [Test]: ['schuldig']
+
+=========
+
+Frame: 99_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gesagt']
+
+Negated [Gold]: ['gesagt']
+Negated [Test]: ['gesagt']
+
+Scope [Gold]: ['Brief', 'Ich', 'dass', 'den', 'ganzen', 'gelesen', 'gesagt', 'habe', 'habe', 'ich']
+Scope [Test]: ['Brief', 'Ich', 'dass', 'den', 'ganzen', 'gelesen', 'gesagt', 'habe', 'habe', 'ich']
+
+=========
+
+Frame: 102_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['vollständig']
+Focus [Test]: ['vollständig']
+
+Negated [Gold]: ['lesbar']
+Negated [Test]: ['verbrannt']
+
+Scope [Gold]: ['Brief', 'der', 'vollständig', 'war']
+Scope [Test]: ['lesbar', 'vollständig']
+
+=========
+
+Frame: 107_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['glücklichen']
+
+Negated [Gold]: ['glücklichen']
+Negated [Test]: ['glücklichen']
+
+Scope [Gold]: ['glücklichen']
+Scope [Test]: ['glücklichen']
+
+=========
+
+Frame: 114_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['hingegangen']
+
+Negated [Gold]: ['hingegangen']
+Negated [Test]: ['hingegangen']
+
+Scope [Gold]: ['Sie', 'hingegangen', 'sind']
+Scope [Test]: ['Sie', 'dann', 'hingegangen', 'sind', 'warum']
+
+=========
+
+Frame: 116_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['geschrieben']
+
+Negated [Gold]: ['geschrieben']
+Negated [Test]: ['geschrieben']
+
+Scope [Gold]: ['Charles', 'Sie', 'Sir', 'alles', 'erklärt', 'geschrieben', 'haben', 'und']
+Scope [Test]: ['Charles', 'Sie', 'Sir', 'Warum', 'dann', 'geschrieben', 'haben']
+
+=========
+
+Frame: 117_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['nächsten']
+
+Negated [Gold]: ['']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['Tag', 'Tod', 'Zeitung', 'am', 'aus', 'der', 'erfahren', 'hätte', 'ich', 'nächsten', 'seinem', 'von']
+Scope [Test]: ['Tag', 'Tod', 'Zeitung', 'am', 'aus', 'der', 'erfahren', 'hätte', 'ich', 'nächsten', 'seinem', 'von']
+
+=========
+
+Frame: 120_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['wahrscheinlich']
+
+Negated [Gold]: ['wahrscheinlich']
+Negated [Test]: ['wahrscheinlich']
+
+Scope [Gold]: ['wahrscheinlich']
+Scope [Test]: ['wahrscheinlich']
+
+=========
+
+Frame: 120_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['nächsten']
+
+Negated [Gold]: ['']
+Negated [Test]: ['dem']
+
+Scope [Gold]: ['Coombe', 'Morgen', 'Tracey', 'dem', 'hätte', 'in', 'können', 'nächsten', 'sein', 'sie', 'vor', 'zurück']
+Scope [Test]: ['Coombe', 'Morgen', 'Tracey', 'dem', 'hätte', 'in', 'können', 'nächsten', 'sein', 'sie', 'vor', 'zurück']
+
+=========
+
+Frame: 121_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['verheimlicht']
+
+Negated [Gold]: ['']
+Negated [Test]: ['verheimlicht']
+
+Scope [Gold]: ['Ausflug', 'Ein', 'konnte', 'solcher', 'verheimlicht', 'werden']
+Scope [Test]: ['Ausflug', 'Ein', 'konnte', 'solcher', 'verheimlicht', 'werden']
+
+=========
+
+Frame: 124_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['überwindlichen']
+
+Negated [Gold]: ['überwindlichen']
+Negated [Test]: ['überwindlichen']
+
+Scope [Gold]: ['überwindlichen']
+Scope [Test]: ['überwindlichen']
+
+=========
+
+Frame: 129_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ganz']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['unschuldig']
+
+Scope [Gold]: ['Erklärung', 'dafür', 'die', 'ganz', 'glauben', 'konnte', 'machen', 'mich', 'sein', 'sie', 'so', 'unschuldig', 'wie', 'wollte']
+Scope [Test]: ['Erklärung', 'Sicher', 'dafür', 'die', 'ganz', 'konnte', 'sein', 'so', 'unschuldig']
+
+=========
+
+Frame: 130_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['musste']
+
+Negated [Gold]: ['kam']
+Negated [Test]: ['musste']
+
+Scope [Gold]: ['Im', 'Moment', 'Richtung', 'dieser', 'ich', 'in', 'kam', 'weiter']
+Scope [Test]: ['Im', 'Moment', 'Richtung', 'dieser', 'ich', 'in', 'kam', 'weiter']
+
+=========
+
+Frame: 141_f1
+
+Target [Gold]: ['niemand']
+Target [Test]: ['niemand']
+
+Focus [Gold]: ['']
+Focus [Test]: ['stand']
+
+Negated [Gold]: ['war']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Frankland', 'Mr.', 'Nachricht', 'als', 'anderer', 'der', 'der', 'guten', 'Überbringer']
+Scope [Test]: ['Frankland', 'Mr.', 'Nachricht', 'als', 'anderer', 'der', 'der', 'guten', 'war', 'Überbringer']
+
+=========
+
+Frame: 142_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gewohnt']
+
+Negated [Gold]: ['gewohnt']
+Negated [Test]: ['gewohnt']
+
+Scope [Gold]: ['gewohnt']
+Scope [Test]: ['gewohnt']
+
+=========
+
+Frame: 144_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['sonderlich']
+Focus [Test]: ['sonderlich']
+
+Negated [Gold]: ['waren']
+Negated [Test]: ['erschien']
+
+Scope [Gold]: ['Gefühle', 'Natur', 'freundschaftlicher', 'gegenüber', 'ihm', 'meine', 'sonderlich', 'waren']
+Scope [Test]: ['Gefühle', 'Natur', 'freundschaftlicher', 'gegenüber', 'ihm', 'meine', 'sonderlich', 'waren']
+
+=========
+
+Frame: 152_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['treten']
+
+Negated [Gold]: ['können']
+Negated [Test]: ['können']
+
+Scope [Gold]: ['Bürger', 'Füßen', 'Rechte', 'der', 'die', 'können', 'mit', 'sie', 'treten']
+Scope [Test]: ['Bürger', 'Füßen', 'Rechte', 'der', 'die', 'können', 'mit', 'sie', 'treten']
+
+=========
+
+Frame: 154_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gibt']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Eigentumsrecht', 'es', 'gibt']
+Scope [Test]: ['Eigentumsrecht', 'es', 'gibt']
+
+=========
+
+Frame: 156_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['erlebt']
+Negated [Test]: ['erlebt']
+
+Scope [Gold]: ['Einen', 'Tag', 'erlebt', 'habe', 'ich', 'mehr', 'solchen']
+Scope [Test]: ['Einen', 'Gehege', 'Hausfriedensbruch', 'John', 'Sir', 'Tag', 'eigenen', 'er', 'erlebt', 'habe', 'ich', 'ich', 'in', 'jagte', 'ließ', 'mehr', 'seinem', 'seit', 'solchen', 'verurteilen', 'wegen', 'weil']
+
+=========
+
+Frame: 161_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 162_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['persönliches']
+
+Negated [Gold]: ['hatte']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Fall', 'Interesse', 'an', 'diesem', 'hatte', 'ich', 'persönliches']
+Scope [Test]: ['Fall', 'Interesse', 'an', 'diesem', 'hatte', 'ich', 'persönliches']
+
+=========
+
+Frame: 164_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mein']
+
+Negated [Gold]: ['habe']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Bild', 'Fernworthy', 'Leute', 'Nacht', 'Scheiterhaufen', 'Zweifel', 'auf', 'dass', 'dem', 'die', 'habe', 'heute', 'ich', 'mein', 'noch', 'verbrennen', 'von', 'werden']
+Scope [Test]: ['Bild', 'Fernworthy', 'Leute', 'Nacht', 'Natürlich', 'Scheiterhaufen', 'Zweifel', 'auf', 'dass', 'dem', 'die', 'habe', 'heute', 'ich', 'mein', 'noch', 'verbrennen', 'von', 'werden']
+
+=========
+
+Frame: 165_f1
+
+Target [Gold]: ['losen']
+Target [Test]: ['losen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['scham']
+
+Negated [Gold]: ['scham']
+Negated [Test]: ['scham']
+
+Scope [Gold]: ['scham']
+Scope [Test]: ['scham']
+
+=========
+
+Frame: 166_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mir']
+
+Negated [Gold]: ['war']
+Negated [Test]: ['der']
+
+Scope [Gold]: [',', 'Die', 'Grafschaft', 'Lage', 'Polizei', 'Schutz', 'angemessenen', 'der', 'der', 'in', 'lassen', 'mir', 'war', 'zu', 'zukommen']
+Scope [Test]: ['Lage', 'der', 'in', 'war']
+
+=========
+
+Frame: 171_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['kann']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Lumpen', 'Weise', 'auf', 'diesen', 'helfen', 'irgendeine', 'kann', 'mich', 'veranlassen', 'zu']
+Scope [Test]: ['kann', 'mich', 'veranlassen']
+
+=========
+
+Frame: 178_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sagen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['wissen']
+
+Scope [Gold]: [',', ',', 'Sie', 'Sie', 'dass', 'er', 'sagen', 'sich', 'versteckt', 'wissen', 'wo', 'wollen']
+Scope [Test]: ['Sie', 'Sie', 'dass', 'doch', 'sagen', 'wissen', 'wollen']
+
+=========
+
+Frame: 179_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['genau']
+Focus [Test]: ['genau']
+
+Negated [Gold]: ['']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['er', 'genau', 'ich', 'ist', 'weiß', 'wo']
+Scope [Test]: ['Vielleicht', 'genau', 'ich', 'weiß']
+
+=========
+
+Frame: 181_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['angenehme']
+
+Negated [Gold]: ['angenehme']
+Negated [Test]: ['angenehme']
+
+Scope [Gold]: ['angenehme']
+Scope [Test]: ['angenehme']
+
+=========
+
+Frame: 182_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sagte']
+
+Negated [Gold]: ['zweifel']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Zweifel']
+Scope [Test]: ['Zweifel']
+
+=========
+
+Frame: 185_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['leichte']
+
+Negated [Gold]: ['sollte']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Diesem', 'Prozesshansel', 'Schulter', 'alten', 'auf', 'ausgeliefert', 'boshaften', 'die', 'leichte', 'man', 'nehmen', 'sein', 'zu']
+Scope [Test]: ['Diesem', 'Prozesshansel', 'Schulter', 'alten', 'auf', 'ausgeliefert', 'boshaften', 'die', 'leichte', 'man', 'nehmen', 'sein', 'sollte', 'zu']
+
+=========
+
+Frame: 194_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gestoßen']
+
+Negated [Gold]: ['gestoßen']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Frankland', 'Fährte', 'Sträflings', 'auf', 'des', 'die', 'gestoßen', 'war']
+Scope [Test]: ['Frankland', 'Fährte', 'Sträflings', 'auf', 'auf', 'des', 'die', 'gestoßen', 'seine', 'und', 'war']
+
+=========
+
+Frame: 231_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['nichts']
+
+Negated [Gold]: ['bringen']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Polizei', 'Weise', 'bringen', 'dazu', 'der', 'helfen', 'in', 'irgendeiner', 'mich', 'wird', 'zu']
+Scope [Test]: ['Polizei', 'Weise', 'bringen', 'dazu', 'der', 'helfen', 'in', 'irgendeiner', 'mich', 'wird', 'zu']
+
+=========
+
+Frame: 233_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['schon']
+
+Negated [Gold]: ['']
+Negated [Test]: ['wollen']
+
+Scope [Gold]: ['Sie', 'gehen', 'schon', 'wollen']
+Scope [Test]: ['Sie', 'doch', 'gehen', 'schon', 'wollen']
+
+=========
+
+Frame: 237_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['vertun']
+
+Negated [Gold]: ['']
+Negated [Test]: ['würde']
+
+Scope [Gold]: ['Ausdauer', 'Chance', 'Energie', 'Füßen', 'Mangel', 'Schicksal', 'an', 'das', 'die', 'die', 'durch', 'gelegt', 'hatte', 'ich', 'mir', 'oder', 'vertun', 'würde', 'zu']
+Scope [Test]: ['Ausdauer', 'Energie', 'Mangel', 'an', 'durch', 'oder', 'vertun', 'würde']
+
+=========
+
+Frame: 240_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sah']
+
+Negated [Gold]: ['hörte']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ton', 'Weite', 'die', 'gesamte', 'hörte', 'man', 'Über']
+Scope [Test]: ['Ton', 'Weite', 'die', 'gesamte', 'hörte', 'man', 'Über']
+
+=========
+
+Frame: 240_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['geringte']
+
+Negated [Gold]: ['sah']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Bewegung', 'Weite', 'die', 'die', 'geringte', 'gesamte', 'man', 'sah', 'Über']
+Scope [Test]: ['Bewegung', 'die', 'geringte', 'sah']
+
+=========
+
+Frame: 244_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sehen']
+
+Negated [Gold]: ['war']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Jungen', 'Spur', 'Von', 'dem', 'sehen', 'war', 'zu']
+Scope [Test]: ['Hügeln', 'Jungen', 'Kreis', 'Senke', 'Spur', 'Steinhütten', 'Von', 'alten', 'dem', 'den', 'doch', 'ein', 'einer', 'in', 'lag', 'mir', 'sehen', 'unter', 'von', 'war', 'weit', 'zu', 'zwischen']
+
+=========
+
+Frame: 254_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['falschen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['Fährte', 'auf', 'der', 'falschen', 'ich', 'war']
+Scope [Test]: ['Fährte', 'auf', 'der', 'falschen', 'ich', 'war']
+
+=========
+
+Frame: 266_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['selbst']
+Focus [Test]: ['selbst']
+
+Negated [Gold]: ['gefolgt']
+Negated [Test]: ['gefolgt']
+
+Scope [Gold]: ['Er', 'gefolgt', 'mir', 'selbst', 'war']
+Scope [Test]: ['Er', 'gefolgt', 'mir', 'selbst', 'war']
+
+=========
+
+Frame: 267_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['unternommen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Moor', 'Schritt', 'angekommen', 'aufgezeichnet', 'beobachtet', 'der', 'hatte', 'ich', 'ich', 'im', 'nicht', 'seit', 'und', 'unternommen', 'war', 'war', 'worden']
+Scope [Test]: ['Moor', 'Schritt', 'Wahrscheinlich', 'angekommen', 'hatte', 'ich', 'ich', 'im', 'seit', 'unternommen', 'war']
+
+=========
+
+Frame: 267_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['beobachtet']
+
+Negated [Gold]: ['']
+Negated [Test]: ['beobachtet']
+
+Scope [Gold]: ['aufgezeichnet', 'beobachtet', 'der', 'und', 'war', 'worden']
+Scope [Test]: ['beobachtet', 'der']
+
+=========
+
+Frame: 269_f1
+
+Target [Gold]: ['keinerlei']
+Target [Test]: ['keinerlei']
+
+Focus [Gold]: ['']
+Focus [Test]: ['irgendetwas']
+
+Negated [Gold]: ['fand']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Art', 'Spur', 'anderem', 'dieser', 'fand', 'ich', 'irgendetwas', 'von']
+Scope [Test]: ['Art', 'Hinweis', 'Spur', 'anderem', 'darauf', 'dieser', 'einen', 'entdecken', 'fand', 'ich', 'ich', 'irgend', 'irgendetwas', 'konnte', 'noch', 'von']
+
+=========
+
+Frame: 270_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['umstößlich']
+
+Negated [Gold]: ['umstößlich']
+Negated [Test]: ['umstößlich']
+
+Scope [Gold]: ['umstößlich']
+Scope [Test]: ['umstößlich']
+
+=========
+
+Frame: 270_f2
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gastlichen']
+
+Negated [Gold]: ['gastlichen']
+Negated [Test]: ['gastlichen']
+
+Scope [Gold]: ['gastlichen']
+Scope [Test]: ['gastlichen']
+
+=========
+
+Frame: 272_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['verlassen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['verlassen']
+
+Scope [Gold]: ['Hütte', 'die', 'ich', 'verlassen', 'würde']
+Scope [Test]: ['Hütte', 'Lösung', 'bis', 'die', 'die', 'ich', 'ich', 'kannte', 'verlassen', 'würde']
+
+=========
+
+Frame: 277_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['nachempfinden']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['nachempfinden']
+
+Scope [Gold]: ['Bild', 'Natur', 'das', 'der', 'friedliche', 'ich', 'konnte', 'nachempfinden']
+Scope [Test]: ['Bild', 'Natur', 'das', 'der', 'friedliche', 'ich', 'konnte', 'nachempfinden']
+
+=========
+
+Frame: 282_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['zeigen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['einen']
+
+Scope [Gold]: ['mich', 'zeigen', 'zu']
+Scope [Test]: ['Blick', 'Fremden', 'Gelegenheit', 'auf', 'bevor', 'den', 'einen', 'hatte', 'ich', 'mich', 'nicht', 'selbst', 'werfen', 'zeigen', 'zu', 'zu']
+
+=========
+
+Frame: 282_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['selbst']
+
+Negated [Gold]: ['']
+Negated [Test]: ['einen']
+
+Scope [Gold]: ['Blick', 'Fremden', 'Gelegenheit', 'auf', 'den', 'einen', 'hatte', 'ich', 'selbst', 'werfen', 'zu']
+Scope [Test]: ['Blick', 'Fremden', 'Gelegenheit', 'auf', 'den', 'einen', 'hatte', 'ich', 'selbst', 'werfen', 'zu']
+
+=============================
+====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch11.jr.xml ======
+Total Sentences: 286 
+Gold frames: 84 
+Test frames: 93 
+
+----- CUEWORDS -----
+F1 score:	 0.904761904762
+
+----- FOCUS -----
+F1 score:	 0.142857142857
+
+----- NEGATED -----
+F1 score:	 0.404761904762
+
+----- SCOPE -----
+Precision:	 0.949367088608
+Recall:	 0.764244299763
+F1 score:	 0.81917403141
+Jaccard similarity:	 0.600895415377
+
+=========
+
+Frame: 3_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['']
+Focus [Test]: ['atem']
+
+Negated [Gold]: ['atem']
+Negated [Test]: ['atem']
+
+Scope [Gold]: ['atem']
+Scope [Test]: ['atem']
+
+=========
+
+Frame: 12_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sagte']
+
+Negated [Gold]: ['erleichterter']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Leben', 'dich', 'ich', 'im', 'sehen', 'war', 'zu']
+Scope [Test]: ['Leben', 'erleichterter', 'ich', 'im', 'war']
+
+=========
+
+Frame: 15_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['nur']
+
+Negated [Gold]: ['einseitig']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['die', 'einseitig', 'nur', 'war', 'Überraschung']
+Scope [Test]: ['die', 'einseitig', 'nur', 'war', 'Überraschung']
+
+=========
+
+Frame: 16_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['']
+Focus [Test]: ['du']
+
+Negated [Gold]: ['hatte']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', ',', 'Ahnung', 'Ich', 'Schlupfwinkel', 'Schritte', 'Tür', 'bevor', 'dass', 'dass', 'denn', 'der', 'drinnen', 'du', 'du', 'entdeckt', 'entfernt', 'geschweige', 'hast', 'hatte', 'ich', 'meinen', 'von', 'war', 'warst', 'zwanzig']
+Scope [Test]: ['Ahnung', 'Ich', 'Schlupfwinkel', 'dass', 'du', 'entdeckt', 'hast', 'hatte', 'meinen']
+
+=========
+
+Frame: 18_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 18_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['deine']
+
+Negated [Gold]: ['bin']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['Fußabdrücke', 'Fußabdrücken', 'Lage', 'Welt', 'allen', 'bin', 'deine', 'der', 'der', 'herauszufinden', 'ich', 'in', 'unter']
+Scope [Test]: ['Lage', 'bin', 'der', 'ich', 'in']
+
+=========
+
+Frame: 21_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['']
+Focus [Test]: ['zweifel']
+
+Negated [Gold]: ['zweifel']
+Negated [Test]: ['zweifel']
+
+Scope [Gold]: ['Zweifel']
+Scope [Test]: ['zweifel']
+
+=========
+
+Frame: 25_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['du']
+
+Negated [Gold]: ['wusste']
+Negated [Test]: ['herauszufinden']
+
+Scope [Gold]: ['Ich', 'bist', 'du', 'wer', 'wusste']
+Scope [Test]: ['Ich', 'wusste']
+
+=========
+
+Frame: 28_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['vorsichtig']
+
+Negated [Gold]: ['vorsichtig']
+Negated [Test]: ['vorsichtig']
+
+Scope [Gold]: ['vorsichtig']
+Scope [Test]: ['vorsichtig']
+
+=========
+
+Frame: 31_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 33_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gleich']
+
+Negated [Gold]: ['erkannt']
+Negated [Test]: ['erkannt']
+
+Scope [Gold]: [',', 'Ich', 'Licht', 'Linse', 'Mal', 'als', 'brechen', 'das', 'das', 'der', 'erkannt', 'erste', 'es', 'gleich', 'habe', 'ich', 'in', 'sah', 'sich', 'war', 'was']
+Scope [Test]: ['Ich', 'erkannt', 'gleich', 'habe']
+
+=========
+
+Frame: 37_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['wahr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['wahr']
+Scope [Test]: ['wahr']
+
+=========
+
+Frame: 47_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['vertraut']
+
+Negated [Gold]: ['vertraut']
+Negated [Test]: ['vertraut']
+
+Scope [Gold]: ['du', 'mir', 'vertraut']
+Scope [Test]: ['doch', 'mir', 'vertraut']
+
+=========
+
+Frame: 49_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['schätzbarem']
+
+Negated [Gold]: ['schätzbarem']
+Negated [Test]: ['schätzbarem']
+
+Scope [Gold]: ['schätzbarem']
+Scope [Test]: ['schätzbarem']
+
+=========
+
+Frame: 52_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['möglich']
+
+Negated [Gold]: ['']
+Negated [Test]: ['wäre']
+
+Scope [Gold]: ['es', 'gewesen', 'mir', 'möglich', 'wäre']
+Scope [Test]: ['Baskerville', 'Hall', 'es', 'gewesen', 'gewohnt', 'hätte', 'ich', 'in', 'mir', 'möglich', 'wenn', 'wie', 'wäre']
+
+=========
+
+Frame: 52_f2
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['bekannter']
+
+Negated [Gold]: ['bekannter']
+Negated [Test]: ['bekannter']
+
+Scope [Gold]: ['bekannter']
+Scope [Test]: ['bekannter']
+
+=========
+
+Frame: 54_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['weitergeholfen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['geführt']
+
+Scope [Gold]: ['das', 'hätte', 'uns', 'weitergeholfen']
+Scope [Test]: ['das', 'hätte', 'uns', 'weitergeholfen']
+
+=========
+
+Frame: 55_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['nötiges']
+
+Negated [Gold]: ['nötiges']
+Negated [Test]: ['nötiges']
+
+Scope [Gold]: ['nötiges']
+Scope [Test]: ['nötiges']
+
+=========
+
+Frame: 58_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['schätzbarem']
+
+Negated [Gold]: ['schätzbarem']
+Negated [Test]: ['schätzbarem']
+
+Scope [Gold]: ['schätzbarem']
+Scope [Test]: ['schätzbarem']
+
+=========
+
+Frame: 64_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gewöhnlich']
+
+Negated [Gold]: ['gewöhnlich']
+Negated [Test]: ['gewöhnlich']
+
+Scope [Gold]: ['gewöhnlich']
+Scope [Test]: ['gewöhnlich']
+
+=========
+
+Frame: 66_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['war']
+
+Negated [Gold]: ['gewesen']
+Negated [Test]: ['das']
+
+Scope [Gold]: ['Anwesenheit', 'Bilde', 'Moor', 'gewesen', 'ich', 'im', 'im', 'seine', 'war', 'über']
+Scope [Test]: ['Anwesenheit', 'Bilde', 'Moor', 'gewesen', 'ich', 'im', 'im', 'seine', 'war', 'über']
+
+=========
+
+Frame: 69_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['heute']
+
+Negated [Gold]: ['']
+Negated [Test]: ['gefahren']
+
+Scope [Gold]: ['du', 'gefahren', 'heute', 'wärest']
+Scope [Test]: ['du', 'gefahren', 'heute', 'wärest']
+
+=========
+
+Frame: 75_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['überbrücken']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['konnte']
+
+Scope [Gold]: ['bislang', 'die', 'ich', 'konnte', 'noch', 'überbrücken']
+Scope [Test]: ['bislang', 'die', 'ich', 'konnte', 'noch', 'überbrücken']
+
+=========
+
+Frame: 77_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['vertrautheit']
+
+Negated [Gold]: ['wusste']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ich', 'Vertrautheit', 'einer', 'engen', 'von', 'wusste']
+Scope [Test]: ['Ich', 'Vertrautheit', 'einer', 'engen', 'von', 'wusste']
+
+=========
+
+Frame: 78_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['bestehen']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Darüber', 'Zweifel', 'bestehen', 'kann']
+Scope [Test]: ['Darüber', 'Zweifel', 'bestehen', 'gar', 'kann']
+
+=========
+
+Frame: 87_f1
+
+Target [Gold]: ['niemandem']
+Target [Test]: ['niemandem']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Henry', 'Henrys', 'Sir', 'Sir', 'Verliebtheit', 'außer', 'niemandem', 'schaden', 'selbst']
+Scope [Test]: ['Henry', 'Henrys', 'Sir', 'Sir', 'Verliebtheit', 'außer', 'konnte', 'schaden', 'selbst']
+
+=========
+
+Frame: 88_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['weiter']
+
+Negated [Gold]: ['ging']
+Negated [Test]: ['ging']
+
+Scope [Gold]: ['Henry', 'Sir', 'ging', 'weiter']
+Scope [Test]: ['Henry', 'Sir', 'ging', 'weiter']
+
+=========
+
+Frame: 89_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['seine']
+
+Negated [Gold]: ['schwester']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Dame', 'Schwester', 'die', 'ist', 'seine']
+Scope [Test]: ['Schwester', 'seine']
+
+=========
+
+Frame: 91_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['verheiratete']
+
+Negated [Gold]: ['verheiratete']
+Negated [Test]: ['verheiratete']
+
+Scope [Gold]: ['verheiratete']
+Scope [Test]: ['verheiratete']
+
+=========
+
+Frame: 92_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ausgesprochenen']
+
+Negated [Gold]: ['ausgesprochenen']
+Negated [Test]: ['ausgesprochenen']
+
+Scope [Gold]: ['ausgesprochenen']
+Scope [Test]: ['ausgesprochenen']
+
+=========
+
+Frame: 93_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['bewegten']
+
+Negated [Gold]: ['bewegten']
+Negated [Test]: ['bewegten']
+
+Scope [Gold]: ['bewegten']
+Scope [Test]: ['bewegten']
+
+=========
+
+Frame: 93_f2
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['endlicher']
+
+Negated [Gold]: ['endlicher']
+Negated [Test]: ['endlicher']
+
+Scope [Gold]: ['endlicher']
+Scope [Test]: ['endlicher']
+
+=========
+
+Frame: 98_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['geheuren']
+
+Negated [Gold]: ['geheuren']
+Negated [Test]: ['geheuren']
+
+Scope [Gold]: ['geheuren']
+Scope [Test]: ['geheuren']
+
+=========
+
+Frame: 101_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['vorsichtig']
+
+Negated [Gold]: ['vorsichtig']
+Negated [Test]: ['vorsichtig']
+
+Scope [Gold]: ['vorsichtig']
+Scope [Test]: ['vorsichtig']
+
+=========
+
+Frame: 112_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['scheidung']
+
+Negated [Gold]: ['wusste']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ehemann', 'Ich', 'Scheidung', 'einer', 'geplanten', 'ihr', 'ihrem', 'und', 'von', 'wusste', 'zwischen']
+Scope [Test]: ['Ich', 'Scheidung', 'einer', 'geplanten', 'ihr', 'von', 'wusste', 'zwischen']
+
+=========
+
+Frame: 113_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['verheiratet']
+
+Negated [Gold]: ['verheiratet']
+Negated [Test]: ['verheiratet']
+
+Scope [Gold]: ['verheiratet']
+Scope [Test]: ['verheiratet']
+
+=========
+
+Frame: 117_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['du']
+
+Negated [Gold]: ['']
+Negated [Test]: ['ferngeblieben']
+
+Scope [Gold]: ['Glaubst', 'Pflichten', 'bist', 'dass', 'deinen', 'du', 'du', 'ferngeblieben', 'lange', 'nun', 'recht', 'schon']
+Scope [Test]: ['Glaubst', 'du']
+
+=========
+
+Frame: 122_f1
+
+Target [Gold]: ['keiner']
+Target [Test]: ['keiner']
+
+Focus [Gold]: ['']
+Focus [Test]: ['uns']
+
+Negated [Gold]: ['bedarf']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Geheimniskrämerei', 'bedarf', 'es', 'uns', 'zwischen']
+Scope [Test]: ['Geheimniskrämerei', 'Sicherlich', 'bedarf', 'es', 'uns', 'zwischen']
+
+=========
+
+Frame: 126_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['mich']
+
+Scope [Gold]: ['Einzelheiten', 'Frage', 'mich', 'nach']
+Scope [Test]: ['Einzelheiten', 'Frage', 'mich', 'nach']
+
+=========
+
+Frame: 130_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['seiner']
+
+Negated [Gold]: ['']
+Negated [Test]: ['gewichen']
+
+Scope [Gold]: ['Seite', 'du', 'gewichen', 'seiner', 'von', 'wärest']
+Scope [Test]: ['Seite', 'du', 'gewichen', 'seiner', 'von', 'wärest']
+
+=========
+
+Frame: 145_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: ['dort']
+
+=========
+
+Frame: 154_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['einziger']
+
+Negated [Gold]: ['durchbrach']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Laut', 'Nacht', 'Stille', 'der', 'die', 'durchbrach', 'einziger', 'mehr', 'schwere', 'windlosen']
+Scope [Test]: ['Laut', 'Nacht', 'Stille', 'der', 'die', 'durchbrach', 'einziger', 'mehr', 'schwere', 'windlosen']
+
+=========
+
+Frame: 159_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 159_f2
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 159_f3
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['bestimmt']
+
+Scope [Gold]: ['']
+Scope [Test]: ['bestimmt']
+
+=========
+
+Frame: 164_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['bewegte']
+
+Negated [Gold]: ['bewegte']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Antlitz', 'auf', 'bewegte', 'seinem', 'sich', 'öden']
+Scope [Test]: ['Antlitz', 'auf', 'bewegte', 'seinem', 'sich', 'öden']
+
+=========
+
+Frame: 166_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['nichts']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 171_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['regelmäßiges']
+
+Negated [Gold]: ['']
+Negated [Test]: ['regelmäßiges']
+
+Scope [Gold]: ['']
+Scope [Test]: ['regelmäßiges']
+
+=========
+
+Frame: 174_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['darüber']
+
+Negated [Gold]: ['war']
+Negated [Test]: ['das']
+
+Scope [Gold]: [',', ',', 'Hülle', 'Klaren', 'Seufzer', 'Stöhnen', 'darüber', 'das', 'das', 'dass', 'der', 'gehört', 'gewesen', 'hatten', 'ich', 'im', 'letzte', 'mir', 'seiner', 'sterblichen', 'war', 'war', 'wir', 'zunächst']
+Scope [Test]: ['Klaren', 'Stöhnen', 'darüber', 'das', 'dass', 'ich', 'im', 'mir', 'war', 'zunächst']
+
+=========
+
+Frame: 175_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['erhob']
+
+Negated [Gold]: ['erhob']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Flüstern', 'Gestalt', 'beugten', 'der', 'die', 'dunklen', 'erhob', 'mehr', 'sich', 'uns', 'von', 'wir', 'über']
+Scope [Test]: ['Flüstern']
+
+=========
+
+Frame: 175_f2
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['erhob']
+
+Negated [Gold]: ['erhob']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Gestalt', 'Rascheln', 'beugten', 'der', 'die', 'dunklen', 'erhob', 'mehr', 'sich', 'uns', 'von', 'wir', 'über']
+Scope [Test]: ['Gestalt', 'Rascheln', 'beugten', 'der', 'die', 'dunklen', 'erhob', 'mehr', 'sich', 'uns', 'von', 'wir', 'über']
+
+=========
+
+Frame: 184_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['']
+Focus [Test]: ['überlassen']
+
+Negated [Gold]: ['verzeihen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Schicksal', 'diesem', 'haben', 'ich', 'ihn', 'mir', 'verzeihen', 'werde', 'zu', 'überlassen']
+Scope [Test]: ['ich', 'mir', 'verzeihen', 'werde']
+
+=========
+
+Frame: 197_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['einmal']
+
+Negated [Gold]: ['können']
+Negated [Test]: ['die']
+
+Scope [Gold]: [',', 'Abgesehen', 'Existenz', 'beschwören', 'dem', 'des', 'die', 'einmal', 'hörten', 'letzteren', 'noch', 'von', 'was', 'wir', 'wir']
+Scope [Test]: ['Existenz', 'Henry', 'Sir', 'Sturz', 'Tode', 'beschwören', 'da', 'den', 'des', 'die', 'durch', 'einmal', 'ganz', 'kam', 'können', 'letzteren', 'noch', 'offensichtlich', 'wir', 'zu']
+
+=========
+
+Frame: 199_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['widerruflichen']
+
+Negated [Gold]: ['widerruflichen']
+Negated [Test]: ['widerruflichen']
+
+Scope [Gold]: ['widerruflichen']
+Scope [Test]: ['widerruflichen']
+
+=========
+
+Frame: 204_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sofort']
+
+Negated [Gold]: ['']
+Negated [Test]: ['sollten']
+
+Scope [Gold]: ['ergreifen', 'ihn', 'sofort', 'sollten', 'wir']
+Scope [Test]: ['Warum', 'ergreifen', 'ihn', 'sofort', 'sollten', 'wir']
+
+=========
+
+Frame: 205_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['abgeschlossen']
+
+Negated [Gold]: ['abgeschlossen']
+Negated [Test]: ['abgeschlossen']
+
+Scope [Gold]: ['Fall', 'Unser', 'abgeschlossen', 'ist', 'noch']
+Scope [Test]: ['Fall', 'Unser', 'abgeschlossen', 'ist', 'noch']
+
+=========
+
+Frame: 207_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['wir']
+
+Negated [Gold]: ['geht']
+Negated [Test]: ['wissen']
+
+Scope [Gold]: [',', ',', 'Es', 'beweisen', 'darum', 'geht', 'können', 'sondern', 'was', 'was', 'wir', 'wir', 'wissen']
+Scope [Test]: ['Es', 'darum', 'geht']
+
+=========
+
+Frame: 215_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['allein']
+
+Negated [Gold]: ['können']
+Negated [Test]: ['den']
+
+Scope [Gold]: ['Baskerville', 'Hall', 'Weg', 'Wir', 'allein', 'bis', 'den', 'ganzen', 'ihn', 'können', 'nach', 'tragen']
+Scope [Test]: ['Baskerville', 'Hall', 'Weg', 'Wir', 'allein', 'bis', 'den', 'ganzen', 'ihn', 'können', 'nach', 'tragen']
+
+=========
+
+Frame: 227_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['geben']
+
+Negated [Gold]: ['geben']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Augen', 'Augenbrauen', 'Es', 'Tieres', 'Zweifel', 'buschigen', 'die', 'diese', 'eines', 'eingefallenen', 'geben', 'konnte', 'und', 'über']
+Scope [Test]: ['Augenbrauen', 'Es', 'Zweifel', 'buschigen', 'diese', 'geben', 'konnte', 'über']
+
+=========
+
+Frame: 242_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['nehme']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ich']
+Scope [Test]: ['Ich', 'an', 'nehme']
+
+=========
+
+Frame: 244_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ganze']
+
+Negated [Gold]: ['']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Moor', 'Zeit', 'auf', 'dem', 'die', 'er', 'frei', 'ganze', 'herumläuft']
+Scope [Test]: ['Moor', 'Zeit', 'auf', 'dem', 'die', 'er', 'frei', 'ganze', 'herumläuft']
+
+=========
+
+Frame: 245_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['freilassen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['auszugehen']
+
+Scope [Gold]: [',', 'Henry', 'Sir', 'Stapleton', 'aufhält', 'auszugehen', 'dass', 'davon', 'dort', 'freilassen', 'ihn', 'ohne', 'sich', 'würde']
+Scope [Test]: ['Stapleton', 'freilassen', 'ihn', 'würde']
+
+=========
+
+Frame: 248_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['hier']
+
+Negated [Gold]: ['können']
+Negated [Test]: ['den']
+
+Scope [Gold]: ['Füchsen', 'Raben', 'Wir', 'den', 'hier', 'können', 'sie', 'und', 'überlassen']
+Scope [Test]: ['Füchsen', 'Wir', 'den', 'hier', 'können', 'sie']
+
+=========
+
+Frame: 253_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['unseren']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Wort']
+Scope [Test]: ['Wort']
+
+=========
+
+Frame: 253_f2
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['mein']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Wort']
+Scope [Test]: ['Verdacht', 'Wort', 'das', 'könnte', 'unseren', 'verraten', '–']
+
+=========
+
+Frame: 257_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['wahr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['wahr']
+Scope [Test]: ['wahr']
+
+=========
+
+Frame: 261_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 274_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['beherrschen']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['konnte']
+
+Scope [Gold]: ['?', 'Henry', 'Sir', 'Warum', 'beherrschen', 'fragen', 'gerade', 'ich', 'konnte', 'mich', 'um', 'zu']
+Scope [Test]: ['beherrschen', 'fragen', 'ich', 'konnte', 'mich', 'zu']
+
+=========
+
+Frame: 276_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['kam']
+
+Negated [Gold]: ['kam']
+Negated [Test]: ['kam']
+
+Scope [Gold]: ['er', 'kam']
+Scope [Test]: ['er', 'kam']
+
+=========
+
+Frame: 278_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 280_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 285_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sagte']
+
+Negated [Gold]: ['gehört']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Wir', 'dergleichen', 'gehört', 'haben']
+Scope [Test]: ['Wir', 'dergleichen', 'gehört', 'haben']
+
+=========
+
+Frame: 287_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ihn']
+
+Negated [Gold]: ['habe']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Angst', 'Entdeckung', 'Ich', 'Wahnsinn', 'Zweifel', 'dass', 'den', 'die', 'getrieben', 'habe', 'hat', 'ihn', 'in', 'vor']
+Scope [Test]: ['Angst', 'Entdeckung', 'Ich', 'Wahnsinn', 'Zweifel', 'dass', 'den', 'die', 'getrieben', 'habe', 'hat', 'ihn', 'in', 'vor']
+
+=========
+
+Frame: 295_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['meines']
+
+Negated [Gold]: ['zweifle']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Erklärung', 'Freundes', 'dass', 'die', 'ich', 'meines', 'zutrifft', 'zweifle']
+Scope [Test]: ['Erklärung', 'Freundes', 'dass', 'die', 'ich', 'meines', 'zutrifft', 'zweifle']
+
+=========
+
+Frame: 296_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['']
+Focus [Test]: ['angenehme']
+
+Negated [Gold]: ['angenehme']
+Negated [Test]: ['angenehme']
+
+Scope [Gold]: ['angenehme']
+Scope [Test]: ['angenehme']
+
+=========
+
+Frame: 301_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['immer']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['den']
+
+Scope [Gold]: ['Erfolg', 'Man', 'den', 'den', 'erhofft', 'immer', 'kann', 'man', 'sich']
+Scope [Test]: ['Erfolg', 'Man', 'den', 'haben', 'immer', 'kann']
+
+=========
+
+Frame: 302_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['benötigt']
+Negated [Test]: ['ein']
+
+Scope [Gold]: ['Detektiv', 'Ein', 'Gerüchte', 'Legenden', 'benötigt', 'oder']
+Scope [Test]: ['Gerüchte', 'Legenden', 'oder']
+
+=========
+
+Frame: 303_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['sonderlich']
+Focus [Test]: ['sonderlich']
+
+Negated [Gold]: ['fall']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Es', 'Fall', 'befriedigender', 'sonderlich', 'war']
+Scope [Test]: ['Es', 'Fall', 'befriedigender', 'sonderlich', 'war']
+
+=========
+
+Frame: 308_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['geschehen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['bis', 'geschehen', 'ihm', 'morgen', 'wird']
+Scope [Test]: ['bis', 'geschehen', 'ihm', 'morgen', 'wird', 'wohl']
+
+=============================
+====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch12.jr.xml ======
+Total Sentences: 311 
+Gold frames: 80 
+Test frames: 85 
+
+----- CUEWORDS -----
+F1 score:	 0.9875
+
+----- FOCUS -----
+F1 score:	 0.175
+
+----- NEGATED -----
+F1 score:	 0.475
+
+----- SCOPE -----
+Precision:	 1.08695652174
+Recall:	 0.875793851881
+F1 score:	 0.931484192518
+Jaccard similarity:	 0.733988957902
+
+=========
+
+Frame: 6_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['']
+
+Negated [Gold]: ['gehabt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Gegner', 'einen', 'gehabt', 'haben', 'wir', 'würdigeren']
+Scope [Test]: ['Gegner', 'einen', 'gehabt', 'haben', 'wir', 'würdigeren']
+
+=========
+
+Frame: 8_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['vermeiden']
+
+Negated [Gold]: ['ließ']
+Negated [Test]: ['ließ']
+
+Scope [Gold]: ['es', 'ließ', 'sich', 'vermeiden']
+Scope [Test]: ['es', 'ließ', 'sich', 'vermeiden']
+
+=========
+
+Frame: 12_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['umgehend']
+
+Negated [Gold]: ['lassen']
+Negated [Test]: ['sollten']
+
+Scope [Gold]: ['ihn', 'lassen', 'sollten', 'umgehend', 'verhaften', 'wir']
+Scope [Test]: ['Warum', 'ihn', 'lassen', 'sollten', 'umgehend', 'verhaften', 'wir']
+
+=========
+
+Frame: 16_f1
+
+Target [Gold]: ['keinerlei']
+Target [Test]: ['keinerlei']
+
+Focus [Gold]: ['keinerlei']
+Focus [Test]: ['ihn']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Beweis', 'Hand', 'Wir', 'der', 'gegen', 'hätten', 'ihn', 'in']
+Scope [Test]: ['Beweis', 'Hand', 'Wir', 'der', 'gegen', 'hätten', 'ihn', 'in']
+
+=========
+
+Frame: 18_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['helfen']
+Focus [Test]: ['helfen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Hals', 'Herrn', 'Schlinge', 'den', 'die', 'es', 'helfen', 'legen', 'seines', 'um', 'uns', 'würde', 'zu']
+Scope [Test]: ['Hals', 'Herrn', 'Schlinge', 'den', 'die', 'doch', 'es', 'helfen', 'legen', 'seines', 'um', 'uns', 'würde', 'zu']
+
+=========
+
+Frame: 20_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['spur']
+Focus [Test]: ['–']
+
+Negated [Gold]: ['']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Spur', 'Verbrechens', 'die', 'eines']
+Scope [Test]: ['Spur', 'Verbrechens', 'die', 'eines']
+
+=========
+
+Frame: 27_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['']
+Focus [Test]: ['beißt']
+
+Negated [Gold]: ['beißt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Hund', 'Leiche', 'beißt', 'ein']
+Scope [Test]: ['Hund', 'Leiche', 'beißt', 'ein']
+
+=========
+
+Frame: 27_f2
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['tier']
+Focus [Test]: ['tier']
+
+Negated [Gold]: ['tier']
+Negated [Test]: ['tier']
+
+Scope [Gold]: ['tier']
+Scope [Test]: ['tier']
+
+=========
+
+Frame: 28_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sind']
+
+Negated [Gold]: ['']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['Lage', 'dazu', 'der', 'in', 'momentan', 'sind', 'wir']
+Scope [Test]: ['Lage', 'dazu', 'der', 'in', 'momentan', 'sind', 'wir']
+
+=========
+
+Frame: 30_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['besser']
+Focus [Test]: ['besser']
+
+Negated [Gold]: ['besser']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Nacht', 'besser', 'dran', 'heute', 'sind', 'wir']
+Scope [Test]: ['Auch', 'Nacht', 'besser', 'dran', 'heute', 'sind', 'wir']
+
+=========
+
+Frame: 31_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['gibt']
+Focus [Test]: ['direkte']
+
+Negated [Gold]: ['gibt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Hund', 'Mannes', 'Tod', 'Verbindung', 'dem', 'dem', 'des', 'direkte', 'es', 'gibt', 'und', 'zwischen']
+Scope [Test]: ['Hund', 'Verbindung', 'Wieder', 'dem', 'direkte', 'es', 'gibt', 'zwischen']
+
+=========
+
+Frame: 32_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['gesehen']
+
+Negated [Gold]: ['gesehen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Hund', 'Wir', 'den', 'gesehen', 'haben']
+Scope [Test]: ['Hund', 'Wir', 'den', 'gesehen', 'haben']
+
+=========
+
+Frame: 33_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['können']
+Focus [Test]: ['beweisen']
+
+Negated [Gold]: ['können']
+Negated [Test]: ['dem']
+
+Scope [Gold]: ['Fersen', 'Mann', 'auf', 'beweisen', 'dass', 'dem', 'den', 'er', 'können', 'war', 'wir']
+Scope [Test]: ['Fersen', 'Mann', 'auf', 'beweisen', 'dass', 'dem', 'den', 'er', 'können', 'war', 'wir']
+
+=========
+
+Frame: 34_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['gibt']
+Focus [Test]: ['']
+
+Negated [Gold]: ['gibt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Es', 'Motiv', 'absolut', 'gibt']
+Scope [Test]: ['Es', 'Motiv', 'absolut', 'gibt']
+
+=========
+
+Frame: 35_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 35_f2
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['vorliegt']
+Focus [Test]: ['beweisbares']
+
+Negated [Gold]: ['vorliegt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Verbrechen', 'Zeitpunkt', 'beweisbares', 'jetzigen', 'vorliegt', 'zum']
+Scope [Test]: ['Verbrechen', 'Zeitpunkt', 'beweisbares', 'dass', 'es', 'jedoch', 'jetzigen', 'lohnt', 'sich', 'vorliegt', 'zum']
+
+=========
+
+Frame: 40_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['konnte']
+Focus [Test]: ['herausbekommen']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['herausbekommen']
+
+Scope [Gold]: ['Mehr', 'aus', 'herausbekommen', 'ich', 'ihm', 'konnte']
+Scope [Test]: ['Mehr', 'aus', 'herausbekommen', 'ich', 'ihm', 'konnte']
+
+=========
+
+Frame: 42_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['sehe']
+Focus [Test]: ['für']
+
+Negated [Gold]: ['sehe']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Geheimniskrämerei', 'Grund', 'für', 'ich', 'sehe', 'weitere']
+Scope [Test]: ['Geheimniskrämerei', 'Grund', 'für', 'ich', 'sehe', 'weitere']
+
+=========
+
+Frame: 44_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['erzähle']
+Focus [Test]: ['hund']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Erzähle', 'Henry', 'Hund', 'Sir', 'dem', 'von']
+Scope [Test]: ['Erzähle', 'Henry', 'Hund', 'Sir', 'dem', 'von']
+
+=========
+
+Frame: 54_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['angenehme']
+Focus [Test]: ['angenehme']
+
+Negated [Gold]: ['angenehme']
+Negated [Test]: ['angenehme']
+
+Scope [Gold]: ['angenehme']
+Scope [Test]: ['angenehme']
+
+=========
+
+Frame: 57_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['eine']
+Focus [Test]: ['wenigstens']
+
+Negated [Gold]: ['']
+Negated [Test]: ['eine']
+
+Scope [Gold]: ['Frau', 'den', 'eine', 'trauert', 'um', 'wenigstens']
+Scope [Test]: ['Frau', 'den', 'eine', 'trauert', 'um', 'wenigstens']
+
+=========
+
+Frame: 60_f1
+
+Target [Gold]: ['keinesfalls']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['geschworen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['hätte']
+
+Scope [Gold]: ['allein', 'gehen', 'hinaus', 'zu']
+Scope [Test]: ['allein', 'gehen', 'geschworen', 'hinaus', 'hätte', 'ich', 'keinesfalls', 'zu']
+
+=========
+
+Frame: 61_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['bezweifle']
+Focus [Test]: ['sie']
+
+Negated [Gold]: ['bezweifle']
+Negated [Test]: ['einen']
+
+Scope [Gold]: ['Abend', 'Ich', 'Sie', 'bezweifle', 'dass', 'einen', 'hätten', 'unterhaltsameren', 'verlebt']
+Scope [Test]: ['Abend', 'Ich', 'Sie', 'bezweifle', 'dass', 'einen', 'hätten', 'unterhaltsameren', 'verlebt']
+
+=========
+
+Frame: 67_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['wahrscheinlich']
+Focus [Test]: ['wahrscheinlich']
+
+Negated [Gold]: ['wahrscheinlich']
+Negated [Test]: ['wahrscheinlich']
+
+Scope [Gold]: ['wahrscheinlich']
+Scope [Test]: ['wahrscheinlich']
+
+=========
+
+Frame: 68_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['gekennzeichnet']
+Focus [Test]: ['gekennzeichnet']
+
+Negated [Gold]: ['']
+Negated [Test]: ['gekennzeichnet']
+
+Scope [Gold]: ['gekennzeichnet', 'sie', 'sind']
+Scope [Test]: ['gekennzeichnet', 'sie', 'sind']
+
+=========
+
+Frame: 69_f1
+
+Target [Gold]: ['niemand']
+Target [Test]: ['niemand']
+
+Focus [Gold]: ['niemand']
+Focus [Test]: ['stand']
+
+Negated [Gold]: ['stand']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Affäre', 'Ihnen', 'dieser', 'in', 'stand', 'von']
+Scope [Test]: ['Affäre', 'Gesetzes', 'Ihnen', 'Seite', 'auf', 'der', 'des', 'dieser', 'in', 'richtigen', 'stand', 'von']
+
+=========
+
+Frame: 74_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ich']
+
+Negated [Gold]: ['weiß']
+Negated [Test]: ['kamen']
+
+Scope [Gold]: [',', 'Ich', 'Watson', 'geworden', 'hierher', 'ich', 'kamen', 'ob', 'schlauer', 'sehr', 'seit', 'sind', 'so', 'und', 'viel', 'weiß', 'wir']
+Scope [Test]: ['Ich', 'Watson', 'ob', 'weiß']
+
+=========
+
+Frame: 87_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['bezweifle']
+Focus [Test]: ['']
+
+Negated [Gold]: ['bezweifle']
+Negated [Test]: ['bezweifle']
+
+Scope [Gold]: ['Ich', 'bezweifle']
+Scope [Test]: ['Ich', 'bezweifle']
+
+=========
+
+Frame: 94_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['zugeben']
+Focus [Test]: ['zugeben']
+
+Negated [Gold]: ['']
+Negated [Test]: ['verstehe']
+
+Scope [Gold]: ['Kunst', 'Watson', 'dass', 'etwas', 'ich', 'irgend', 'verstehe', 'von', 'wird', 'zugeben']
+Scope [Test]: ['Kunst', 'Watson', 'dass', 'etwas', 'ich', 'irgend', 'verstehe', 'von', 'wird', 'zugeben']
+
+=========
+
+Frame: 97_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['will']
+Focus [Test]: ['behaupten']
+
+Negated [Gold]: ['will']
+Negated [Test]: ['ein']
+
+Scope [Gold]: ['Dingen', 'Ich', 'behaupten', 'diesen', 'verstehen', 'viel', 'von', 'will', 'zu']
+Scope [Test]: ['Ich', 'behaupten', 'will']
+
+=========
+
+Frame: 111_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ihn', 'vergessen', 'werden', 'wir']
+Scope [Test]: ['Ihn', 'vergessen', 'werden', 'wir']
+
+=========
+
+Frame: 115_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['besteht']
+Focus [Test]: ['stehen']
+
+Negated [Gold]: ['besteht']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Echtheit', 'Zweifel', 'besteht', 'die', 'Über']
+Scope [Test]: ['Echtheit', 'Zweifel', 'besteht', 'die', 'Über']
+
+=========
+
+Frame: 121_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['barmherzigen']
+Focus [Test]: ['brutalen']
+
+Negated [Gold]: ['barmherzigen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['barmherzigen']
+Scope [Test]: ['Ausdruck', 'Es', 'brutalen', 'hatte']
+
+=========
+
+Frame: 121_f2
+
+Target [Gold]: ['keinen']
+Target [Test]: ['un']
+
+Focus [Gold]: ['hatte']
+Focus [Test]: ['barmherzigen']
+
+Negated [Gold]: ['hatte']
+Negated [Test]: ['barmherzigen']
+
+Scope [Gold]: ['Ausdruck', 'Es', 'brutalen', 'hatte']
+Scope [Test]: ['barmherzigen']
+
+=========
+
+Frame: 132_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['glaublich']
+Focus [Test]: ['glaublich']
+
+Negated [Gold]: ['glaublich']
+Negated [Test]: ['glaublich']
+
+Scope [Gold]: ['glaublich']
+Scope [Test]: ['glaublich']
+
+=========
+
+Frame: 140_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['hilf']
+Focus [Test]: ['hilf']
+
+Negated [Gold]: ['hilf']
+Negated [Test]: ['hilf']
+
+Scope [Gold]: ['hilf']
+Scope [Test]: ['hilf']
+
+=========
+
+Frame: 143_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['oft']
+Focus [Test]: ['oft']
+
+Negated [Gold]: ['hören']
+Negated [Test]: ['bedeutete']
+
+Scope [Gold]: ['habe', 'hören', 'ich', 'ihn', 'lachen', 'oft']
+Scope [Test]: ['habe', 'hören', 'ich', 'ihn', 'lachen', 'oft']
+
+=========
+
+Frame: 150_f1
+
+Target [Gold]: ['niemand']
+Target [Test]: ['niemand']
+
+Focus [Gold]: ['niemand']
+Focus [Test]: ['bekommen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Sache', 'bekommen', 'dieser', 'euch', 'in', 'von', 'wird', 'Ärger']
+Scope [Test]: ['Sache', 'bekommen', 'dieser', 'euch', 'in', 'von', 'wird', 'Ärger']
+
+=========
+
+Frame: 151_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['beruhigt']
+Focus [Test]: ['über']
+
+Negated [Gold]: ['']
+Negated [Test]: ['über']
+
+Scope [Gold]: ['Situation', 'augenblickliche', 'beruhigt', 'hätte', 'ich', 'ihn', 'meine', 'über']
+Scope [Test]: ['Situation', 'augenblickliche', 'beruhigt', 'hätte', 'ich', 'ihn', 'meine', 'über']
+
+=========
+
+Frame: 169_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['sonderlich']
+Focus [Test]: ['sonderlich']
+
+Negated [Gold]: ['orte']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Baskerville', 'Hall', 'Moor', 'Orte', 'allein', 'amüsanten', 'das', 'ist', 'man', 'sind', 'sonderlich', 'und', 'wenn']
+Scope [Test]: ['Moor', 'Orte', 'allein', 'amüsanten', 'das', 'ist', 'man', 'sind', 'sonderlich', 'wenn']
+
+=========
+
+Frame: 170_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['vorbehalt']
+Focus [Test]: ['vorbehalt']
+
+Negated [Gold]: ['vorbehalt']
+Negated [Test]: ['vorbehalt']
+
+Scope [Gold]: ['vorbehalt']
+Scope [Test]: ['vorbehalt']
+
+=========
+
+Frame: 175_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['gibt']
+Focus [Test]: ['']
+
+Negated [Gold]: ['gibt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Alternative', 'es', 'gibt']
+Scope [Test]: ['Alternative', 'es', 'gibt']
+
+=========
+
+Frame: 178_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['mittelbar']
+Focus [Test]: ['mittelbar']
+
+Negated [Gold]: ['mittelbar']
+Negated [Test]: ['mittelbar']
+
+Scope [Gold]: ['mittelbar']
+Scope [Test]: ['mittelbar']
+
+=========
+
+Frame: 180_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['können']
+Focus [Test]: ['kommen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['kommen']
+
+Scope [Gold]: ['kommen', 'können', 'zu']
+Scope [Test]: ['kommen', 'können', 'zu']
+
+=========
+
+Frame: 190_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['gefahr']
+Focus [Test]: ['gefahr']
+
+Negated [Gold]: ['gefahrlos']
+Negated [Test]: ['gefahr']
+
+Scope [Gold]: ['gefahr']
+Scope [Test]: ['gefahr']
+
+=========
+
+Frame: 191_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['viel']
+Focus [Test]: ['so']
+
+Negated [Gold]: ['']
+Negated [Test]: ['würde']
+
+Scope [Gold]: ['Hätte', 'Ihre', 'Ihren', 'Mut', 'Nervenstärke', 'Vertrauen', 'ich', 'in', 'so', 'und', 'viel']
+Scope [Test]: ['Hätte', 'Ihre', 'Nervenstärke', 'Vertrauen', 'ich', 'in', 'so', 'viel']
+
+=========
+
+Frame: 191_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['vorschlagen']
+Focus [Test]: ['vorschlagen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['tun']
+
+Scope [Gold]: ['es', 'ich', 'vorschlagen', 'würde']
+Scope [Test]: ['es', 'ich', 'vorschlagen', 'würde']
+
+=========
+
+Frame: 193_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['beliebiger']
+
+Negated [Gold]: ['']
+Negated [Test]: ['das']
+
+Scope [Gold]: ['Moor', 'Richtung', 'Sie', 'beliebiger', 'das', 'durch', 'gehen', 'in']
+Scope [Test]: ['Moor', 'Richtung', 'Sie', 'beliebiger', 'das', 'durch', 'gehen', 'in', 'so']
+
+=========
+
+Frame: 198_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['gekommen']
+
+Negated [Gold]: ['gekommen']
+Negated [Test]: ['den']
+
+Scope [Gold]: ['Gedanken', 'Ich', 'auf', 'bislang', 'dass', 'den', 'fahren', 'ich', 'ihm', 'mit', 'sollte', 'war']
+Scope [Test]: ['Gedanken', 'Ich', 'auf', 'bislang', 'dass', 'den', 'fahren', 'gekommen', 'ich', 'ich', 'ihm', 'jedoch', 'konnte', 'mit', 'noch', 'sollte', 'verstehen', 'war']
+
+=========
+
+Frame: 198_f2
+
+Target [Gold]: ['noch']
+Target [Test]: ['keiner']
+
+Focus [Gold]: ['konnte']
+Focus [Test]: ['sollte']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', ',', 'Augenblick', 'als', 'beiden', 'bezeichnet', 'bleiben', 'da', 'den', 'einem', 'er', 'hatte', 'ich', 'in', 'keiner', 'konnte', 'kritisch', 'selbst', 'sollte', 'uns', 'verstehen', 'von', 'warum', 'äußerst']
+Scope [Test]: ['Augenblick', 'beiden', 'bleiben', 'da', 'einem', 'in', 'sollte', 'uns', 'von', 'warum']
+
+=========
+
+Frame: 199_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['blieb']
+Focus [Test]: ['übrig']
+
+Negated [Gold]: ['blieb']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Es', 'als', 'anderes', 'blieb', 'gehorchen', 'mir', 'vorbehaltlos', 'zu', 'übrig']
+Scope [Test]: ['Es', 'als', 'anderes', 'blieb', 'gehorchen', 'jedoch', 'mir', 'vorbehaltlos', 'zu', 'übrig']
+
+=========
+
+Frame: 199_f2
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['vorbehalt']
+Focus [Test]: ['vorbehalt']
+
+Negated [Gold]: ['vorbehalt']
+Negated [Test]: ['vorbehalt']
+
+Scope [Gold]: ['vorbehalt']
+Scope [Test]: ['vorbehalt']
+
+=========
+
+Frame: 200_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['tröstlichen']
+Focus [Test]: ['tröstlichen']
+
+Negated [Gold]: ['tröstlichen']
+Negated [Test]: ['tröstlichen']
+
+Scope [Gold]: ['tröstlichen']
+Scope [Test]: ['tröstlichen']
+
+=========
+
+Frame: 226_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['gibt']
+Focus [Test]: ['']
+
+Negated [Gold]: ['gibt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Es', 'Zusammenhang', 'gibt']
+Scope [Test]: ['Es', 'Zusammenhang', 'gibt']
+
+=========
+
+Frame: 227_f1
+
+Target [Gold]: ['außer']
+Target [Test]: ['außer']
+
+Focus [Gold]: ['ordentlichen']
+Focus [Test]: ['ordentlichen']
+
+Negated [Gold]: ['ordentlichen']
+Negated [Test]: ['ordentlichen']
+
+Scope [Gold]: ['ordentlichen']
+Scope [Test]: ['ordentlichen']
+
+=========
+
+Frame: 233_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['geheimnis']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['geheimnis']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Diese', 'Geheimnis', 'Tatsache', 'ist', 'längst', 'mehr']
+Scope [Test]: ['Diese', 'Geheimnis', 'Tatsache', 'ist', 'längst', 'mehr']
+
+=========
+
+Frame: 239_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['mann']
+Focus [Test]: ['verheirateter']
+
+Negated [Gold]: ['mann']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Er', 'Mann', 'ist', 'verheirateter']
+Scope [Test]: ['Er', 'Mann', 'ist', 'verheirateter']
+
+=========
+
+Frame: 253_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['gesprochen']
+
+Negated [Gold]: ['gesprochen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Wort', 'auch', 'ein', 'er', 'gesprochen', 'hat', 'mir', 'nur', 'wahres', 'zu']
+Scope [Test]: ['Wort', 'auch', 'ein', 'er', 'gesprochen', 'hat', 'mir', 'nur', 'wahres', 'zu']
+
+=========
+
+Frame: 256_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['']
+
+Negated [Gold]: ['loyal']
+Negated [Test]: ['']
+
+Scope [Gold]: ['er', 'loyal', 'mir', 'war', 'zu']
+Scope [Test]: ['doch', 'er', 'loyal', 'mir', 'war', 'zu']
+
+=========
+
+Frame: 258_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['verschweigen']
+Focus [Test]: ['verschweigen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['ich', 'verschweigen', 'werde']
+Scope [Test]: ['ich', 'verschweigen', 'werde']
+
+=========
+
+Frame: 259_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['hatte']
+Focus [Test]: ['alten']
+
+Negated [Gold]: ['hatte']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', ',', ',', 'Absicht', 'Als', 'Brief', 'Freund', 'Herrn', 'Moment', 'Schaden', 'alten', 'dem', 'den', 'der', 'die', 'geschrieben', 'gütigster', 'habe', 'hatte', 'ich', 'ich', 'mein', 'war', 'zuzufügen']
+Scope [Test]: ['Absicht', 'Herrn', 'Moment', 'alten', 'dem', 'die', 'hatte', 'ich']
+
+=========
+
+Frame: 270_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['gehört']
+Focus [Test]: ['über']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Bericht', "Charles'", 'Danach', 'Sache', 'Sie', 'Sie', 'Sir', 'Tod', 'Zeitung', 'bis', 'den', 'der', 'die', 'gehört', 'haben', 'in', 'lasen', 'mehr', 'über', 'über']
+Scope [Test]: ['Bericht', "Charles'", 'Danach', 'Sache', 'Sie', 'Sie', 'Sir', 'Tod', 'Zeitung', 'bis', 'den', 'der', 'die', 'gehört', 'haben', 'in', 'lasen', 'mehr', 'über', 'über']
+
+=========
+
+Frame: 272_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['verraten']
+Focus [Test]: ['über']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Charles', 'Ihre', 'Sir', 'Verabredung', 'mit', 'verraten', 'zu', 'über']
+Scope [Test]: ['Charles', 'Ihre', 'Sir', 'Verabredung', 'mit', 'verraten', 'zu', 'über']
+
+=========
+
+Frame: 288_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['haben']
+Focus [Test]: ['einmal']
+
+Negated [Gold]: ['haben']
+Negated [Test]: ['einen']
+
+Scope [Gold]: ['Fall', 'Hand', 'Mann', 'Noch', 'beweisbaren', 'der', 'diesen', 'einen', 'einmal', 'gegen', 'gerissenen', 'haben', 'in', 'jetzt', 'wir']
+Scope [Test]: ['Fall', 'Hand', 'Mann', 'Noch', 'beweisbaren', 'der', 'diesen', 'einen', 'einmal', 'gegen', 'gerissenen', 'haben', 'in', 'jetzt', 'wir']
+
+=========
+
+Frame: 289_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['gelingen']
+Focus [Test]: ['gelingen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['würde']
+
+Scope [Gold]: ['Bett', 'Nacht', 'bevor', 'dies', 'gehen', 'gelingen', 'heute', 'uns', 'wir', 'würde', 'zu']
+Scope [Test]: ['Bett', 'Nacht', 'bevor', 'dies', 'gehen', 'gelingen', 'heute', 'uns', 'wir', 'würde', 'zu']
+
+=========
+
+Frame: 297_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['']
+
+Negated [Gold]: ['dort']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Noch', 'dort', 'gewesen']
+Scope [Test]: ['Noch', 'dort', 'gewesen']
+
+=========
+
+Frame: 298_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['glaube']
+Focus [Test]: ['sie']
+
+Negated [Gold]: ['glaube']
+Negated [Test]: ['glaube']
+
+Scope [Gold]: ['Besuch', 'Ihren', 'Sie', 'dass', 'ersten', 'glaube', 'ich', 'je', 'vergessen', 'werden']
+Scope [Test]: ['Besuch', 'Ihren', 'Sie', 'dass', 'ersten', 'glaube', 'ich', 'je', 'vergessen', 'werden']
+
+=============================
+====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch13.xml ======
+Total Sentences: 298 
+Gold frames: 72 
+Test frames: 77 
+
+----- CUEWORDS -----
+F1 score:	 0.875
+
+----- FOCUS -----
+F1 score:	 0.291666666667
+
+----- NEGATED -----
+F1 score:	 0.291666666667
+
+----- SCOPE -----
+Precision:	 0.915492957746
+Recall:	 0.830017188924
+F1 score:	 0.857779975133
+Jaccard similarity:	 0.718396236002
+
+=========
+
+Frame: 4_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['einzugehen']
+Focus [Test]: ['unnötiges']
+
+Negated [Gold]: ['einzugehen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Risiko', 'einzugehen', 'unnötiges']
+Scope [Test]: ['Risiko', 'einzugehen', 'unnötiges']
+
+=========
+
+Frame: 6_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['während']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Dunkelheit', 'Fahrt', 'darunter', 'die', 'dieser', 'durch', 'gelitten', 'hatte', 'ich', 'langen', 'sehr', 'so', 'wie', 'während']
+Scope [Test]: ['Dunkelheit', 'Fahrt', 'die', 'dieser', 'durch', 'langen', 'sehr', 'so', 'wie', 'während']
+
+=========
+
+Frame: 7_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['nichts']
+Focus [Test]: ['konnte']
+
+Negated [Gold]: ['verlauten']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Holmes', 'Pläne', 'hatte', 'lassen', 'noch', 'seine', 'verlauten', 'über']
+Scope [Test]: ['Holmes', 'Pläne', 'hatte', 'lassen', 'noch', 'seine', 'verlauten', 'über']
+
+=========
+
+Frame: 11_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['natürlichen']
+Focus [Test]: ['natürlichen']
+
+Negated [Gold]: ['natürlichen']
+Negated [Test]: ['natürlichen']
+
+Scope [Gold]: ['natürlichen']
+Scope [Test]: ['natürlichen']
+
+=========
+
+Frame: 12_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['fahren']
+
+Negated [Gold]: ['ließen']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Tür', 'Wir', 'die', 'fahren', 'ließen', 'uns', 'vor']
+Scope [Test]: ['Tür', 'Wir', 'die', 'fahren', 'ließen', 'uns', 'vor']
+
+=========
+
+Frame: 22_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['sonderlich']
+Focus [Test]: ['sonderlich']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ort', 'das', 'fröhlicher', 'sein', 'sonderlich', 'zu']
+Scope [Test]: ['Ort', 'das', 'fröhlicher', 'scheint', 'sein', 'sonderlich', 'wirklich', 'zu']
+
+=========
+
+Frame: 32_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['gewesen']
+Focus [Test]: ['schon']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Bist', 'Haus', 'du', 'gewesen', 'im', 'schon']
+Scope [Test]: ['Bist', 'Haus', 'du', 'gewesen', 'im', 'schon']
+
+=========
+
+Frame: 40_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['laut']
+Focus [Test]: ['laut']
+
+Negated [Gold]: ['laut']
+Negated [Test]: ['laut']
+
+Scope [Gold]: ['laut']
+Scope [Test]: ['laut']
+
+=========
+
+Frame: 40_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['merken']
+Focus [Test]: ['merken']
+
+Negated [Gold]: ['']
+Negated [Test]: ['beobachtet']
+
+Scope [Gold]: ['Himmels', 'Willen', 'beobachtet', 'dass', 'dürfen', 'merken', 'sie', 'sie', 'um', 'werden']
+Scope [Test]: ['Himmels', 'Willen', 'beobachtet', 'dass', 'dürfen', 'merken', 'sie', 'sie', 'um', 'werden']
+
+=========
+
+Frame: 42_f1
+
+Target [Gold]: ['lose']
+Target [Test]: ['lose']
+
+Focus [Gold]: ['vorhang']
+Focus [Test]: ['vorhang']
+
+Negated [Gold]: ['vorhang']
+Negated [Test]: ['vorhang']
+
+Scope [Gold]: ['vorhang']
+Scope [Test]: ['vorhang']
+
+=========
+
+Frame: 56_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['dort']
+Focus [Test]: ['dort']
+
+Negated [Gold]: ['']
+Negated [Test]: ['fragte']
+
+Scope [Gold]: ['Mrs.', 'Stapleton', 'dort', 'war']
+Scope [Test]: ['Mrs.', 'Stapleton', 'dort', 'war']
+
+=========
+
+Frame: 58_f1
+
+Target [Gold]: ['nirgends']
+Target [Test]: ['nirgends']
+
+Focus [Gold]: ['sonst']
+Focus [Test]: ['brennt']
+
+Negated [Gold]: ['brennt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Küche', 'Licht', 'außer', 'brennt', 'der', 'in', 'sonst']
+Scope [Test]: ['Küche', 'Licht', 'außer', 'brennt', 'der', 'doch', 'in', 'sonst']
+
+=========
+
+Frame: 59_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sie']
+
+Negated [Gold]: ['habe']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ahnung', 'Ich', 'habe', 'könnte', 'sein', 'sie', 'wo']
+Scope [Test]: ['Ahnung', 'Ich', 'habe']
+
+=========
+
+Frame: 67_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['bleiben']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['kann']
+
+Scope [Gold]: ['Henry', 'Sir', 'bleiben', 'jetzt', 'kann', 'lange', 'mehr']
+Scope [Test]: ['Henry', 'Sir', 'bleiben', 'jetzt', 'kann', 'lange', 'mehr']
+
+=========
+
+Frame: 70_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['stetes']
+Focus [Test]: ['stetes']
+
+Negated [Gold]: ['stetes']
+Negated [Test]: ['stetes']
+
+Scope [Gold]: ['stetes']
+Scope [Test]: ['stetes']
+
+=========
+
+Frame: 79_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['geduldig']
+Focus [Test]: ['geduldig']
+
+Negated [Gold]: ['geduldig']
+Negated [Test]: ['geduldig']
+
+Scope [Gold]: ['geduldig']
+Scope [Test]: ['geduldig']
+
+=========
+
+Frame: 80_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['draußen']
+Focus [Test]: ['draußen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['einer']
+
+Scope [Gold]: ['Viertelstunde', 'draußen', 'einer', 'er', 'in', 'ist']
+Scope [Test]: ['Viertelstunde', 'draußen', 'einer', 'er', 'in', 'ist']
+
+=========
+
+Frame: 81_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['können']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['einer']
+
+Scope [Gold]: ['Augen', 'Hand', 'In', 'Stunde', 'einer', 'halben', 'können', 'mehr', 'sehen', 'unsere', 'vor', 'werden', 'wir']
+Scope [Test]: ['Augen', 'Hand', 'In', 'Stunde', 'einer', 'halben', 'können', 'mehr', 'sehen', 'unsere', 'vor', 'werden', 'wir']
+
+=========
+
+Frame: 84_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['erbittlich']
+Focus [Test]: ['erbittlich']
+
+Negated [Gold]: ['erbittlich']
+Negated [Test]: ['erbittlich']
+
+Scope [Gold]: ['erbittlich']
+Scope [Test]: ['erbittlich']
+
+=========
+
+Frame: 86_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['dürfen']
+Focus [Test]: ['eingehen']
+
+Negated [Gold]: ['dürfen']
+Negated [Test]: ['das']
+
+Scope [Gold]: [',', ',', 'Risiko', 'Wir', 'bevor', 'das', 'dass', 'dürfen', 'eingehen', 'eingeholt', 'er', 'er', 'erreicht', 'hat', 'uns', 'wird']
+Scope [Test]: ['Risiko', 'Wir', 'bevor', 'das', 'dass', 'dürfen', 'eingehen', 'eingeholt', 'er', 'er', 'erreicht', 'hat', 'uns', 'wird']
+
+=========
+
+Frame: 94_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['fühlt']
+Focus [Test]: ['wohl']
+
+Negated [Gold]: ['']
+Negated [Test]: ['fühlt']
+
+Scope [Gold]: ['der', 'fühlt', 'sich', 'wohl']
+Scope [Test]: ['der', 'fühlt', 'sich', 'wohl']
+
+=========
+
+Frame: 99_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['sicheren']
+Focus [Test]: ['sicheren']
+
+Negated [Gold]: ['sicheren']
+Negated [Test]: ['sicheren']
+
+Scope [Gold]: ['sicheren']
+Scope [Test]: ['sicheren']
+
+=========
+
+Frame: 105_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['jemals']
+Focus [Test]: ['ihn']
+
+Negated [Gold]: ['hund']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Augen', 'Es', 'Hund', 'gesehen', 'haben', 'ihn', 'jemals', 'sterbliche', 'war', 'wie']
+Scope [Test]: ['Hund']
+
+=========
+
+Frame: 107_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['wahnsinniger']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', ',', 'Fratze', 'Hirns', 'Nebelwand', 'Schöpfung', 'Traum', 'Ungeheuer', 'als', 'aus', 'der', 'die', 'diese', 'ein', 'eines', 'entgegenstürzte', 'entsetzlicheres', 'erzeugen', 'höllischeres', 'irren', 'konnte', 'mit', 'nachtschwarze', 'teuflischer', 'uns', 'wahnsinniger', 'wilderes']
+Scope [Test]: ['Hirns', 'Traum', 'ein', 'eines', 'irren', 'konnte', 'wahnsinniger', 'wilderes']
+
+=========
+
+Frame: 111_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['blieb']
+Focus [Test]: ['stehen']
+
+Negated [Gold]: ['blieb']
+Negated [Test]: ['stehen']
+
+Scope [Gold]: ['blieb', 'sie', 'stehen']
+Scope [Test]: ['blieb', 'sie', 'stehen']
+
+=========
+
+Frame: 112_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['hilf']
+Focus [Test]: ['hilf']
+
+Negated [Gold]: ['hilf']
+Negated [Test]: ['hilf']
+
+Scope [Gold]: ['hilf']
+Scope [Test]: ['hilf']
+
+=========
+
+Frame: 112_f2
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['tier']
+Focus [Test]: ['tier']
+
+Negated [Gold]: ['tier']
+Negated [Test]: ['tier']
+
+Scope [Gold]: ['tier']
+Scope [Test]: ['tier']
+
+=========
+
+Frame: 115_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['rennen']
+
+Negated [Gold]: ['sehen']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Holmes', 'Nacht', 'gerannt', 'habe', 'ich', 'in', 'ist', 'jemanden', 'jener', 'rennen', 'sehen', 'so', 'wie']
+Scope [Test]: ['habe', 'ich', 'jemanden', 'rennen', 'sehen', 'so']
+
+=========
+
+Frame: 119_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['tiers']
+Focus [Test]: ['tiers']
+
+Negated [Gold]: ['tiers']
+Negated [Test]: ['tiers']
+
+Scope [Gold]: ['tiers']
+Scope [Test]: ['tiers']
+
+=========
+
+Frame: 120_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['reg']
+Focus [Test]: ['reg']
+
+Negated [Gold]: ['reg']
+Negated [Test]: ['reg']
+
+Scope [Gold]: ['reg']
+Scope [Test]: ['reg']
+
+=========
+
+Frame: 121_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['sinn']
+Focus [Test]: ['sinn']
+
+Negated [Gold]: ['sinn']
+Negated [Test]: ['sinn']
+
+Scope [Gold]: ['sinn']
+Scope [Test]: ['sinn']
+
+=========
+
+Frame: 123_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['bewusst']
+Focus [Test]: ['bewusst']
+
+Negated [Gold]: ['bewusst']
+Negated [Test]: ['bewusst']
+
+Scope [Gold]: ['bewusst']
+Scope [Test]: ['bewusst']
+
+=========
+
+Frame: 124_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['erkennen']
+Focus [Test]: ['erkennen']
+
+Negated [Gold]: ['erkennen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Anzeichen', 'Verletzung', 'einer', 'erkennen', 'zu']
+Scope [Test]: ['Anzeichen', 'Verletzung', 'einer', 'erkennen', 'zu']
+
+=========
+
+Frame: 132_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['bluthund']
+Focus [Test]: ['reinrassiger']
+
+Negated [Gold]: ['bluthund']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Bluthund', 'Es', 'kein', 'reinrassiger', 'war']
+Scope [Test]: ['Bluthund', 'Es', 'reinrassiger', 'war']
+
+=========
+
+Frame: 132_f2
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['dogge']
+Focus [Test]: ['reinrassige']
+
+Negated [Gold]: ['dogge']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Dogge', 'Es', 'reinrassige', 'war']
+Scope [Test]: ['Dogge', 'reinrassige']
+
+=========
+
+Frame: 137_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['hat']
+Focus [Test]: ['sein']
+
+Negated [Gold]: ['hat']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Es', 'Geruch', 'Witterungsvermögen', 'der', 'hat', 'irritieren', 'könnte', 'sein']
+Scope [Test]: ['Es', 'Geruch', 'hat']
+
+=========
+
+Frame: 139_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['war']
+
+Negated [Gold]: ['vorbereitet']
+Negated [Test]: ['ein']
+
+Scope [Gold]: ['Untier', 'auf', 'dieses', 'ein', 'ich', 'vorbereitet', 'war', 'wie']
+Scope [Test]: ['Untier', 'auf', 'dieses', 'ein', 'wie']
+
+=========
+
+Frame: 148_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['verfassung']
+Focus [Test]: ['für']
+
+Negated [Gold]: ['']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['Abenteuer', 'Nacht', 'Sie', 'Verfassung', 'der', 'dieser', 'für', 'in', 'in', 'sind', 'weitere']
+Scope [Test]: ['Abenteuer', 'Nacht', 'Sie', 'Verfassung', 'der', 'dieser', 'für', 'in', 'in', 'sind', 'weitere']
+
+=========
+
+Frame: 155_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['finden']
+Focus [Test]: ['finden']
+
+Negated [Gold]: ['']
+Negated [Test]: ['fuhr']
+
+Scope [Gold]: ['Hause', 'finden', 'ihn', 'werden', 'wir', 'zu']
+Scope [Test]: ['Hause', 'finden', 'ihn', 'werden', 'wir', 'zu']
+
+=========
+
+Frame: 159_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 159_f2
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 162_f1
+
+Target [Gold]: ['nirgends']
+Target [Test]: ['nirgends']
+
+Focus [Gold]: ['nirgends']
+Focus [Test]: ['geschnappt']
+
+Negated [Gold]: ['brannte']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Abgesehen', 'Esszimmer', 'Licht', 'brannte', 'vom']
+Scope [Test]: ['Abgesehen', 'Esszimmer', 'Licht', 'brannte', 'vom']
+
+=========
+
+Frame: 162_f2
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['ließ']
+Focus [Test]: ['unerforscht']
+
+Negated [Gold]: ['ließ']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Hauses', 'Holmes', 'Winkel', 'des', 'ließ', 'unerforscht']
+Scope [Test]: ['Hauses', 'Winkel', 'des', 'ließ', 'unerforscht']
+
+=========
+
+Frame: 162_f3
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['erforscht']
+Focus [Test]: ['erforscht']
+
+Negated [Gold]: ['erforscht']
+Negated [Test]: ['erforscht']
+
+Scope [Gold]: ['erforscht']
+Scope [Test]: ['erforscht']
+
+=========
+
+Frame: 163_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['geringste']
+Focus [Test]: ['geringste']
+
+Negated [Gold]: ['finden']
+Negated [Test]: ['das']
+
+Scope [Gold]: ['Anzeichen', 'Mannes', 'das', 'den', 'des', 'finden', 'geringste', 'suchten', 'war', 'wir', 'zu']
+Scope [Test]: ['Anzeichen', 'Mannes', 'das', 'des', 'geringste']
+
+=========
+
+Frame: 171_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['sehen']
+Focus [Test]: ['sehen']
+
+Negated [Gold]: ['sehen']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Schurken', 'Spur', 'dem', 'den', 'erwartet', 'finden', 'hatten', 'sehen', 'trotzigen', 'und', 'verzweifelten', 'von', 'war', 'wir', 'zu', 'zu']
+Scope [Test]: ['Spur', 'sehen', 'war', 'zu']
+
+=========
+
+Frame: 172_f1
+
+Target [Gold]: ['unerwarteter']
+Target [Test]: ['un']
+
+Focus [Gold]: ['erwarteter']
+Focus [Test]: ['erwarteter']
+
+Negated [Gold]: ['erwarteter']
+Negated [Test]: ['erwarteter']
+
+Scope [Gold]: ['erwarteter']
+Scope [Test]: ['erwarteter']
+
+=========
+
+Frame: 175_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['konnten']
+Focus [Test]: ['sagen']
+
+Negated [Gold]: ['konnten']
+Negated [Test]: ['konnten']
+
+Scope [Gold]: ['Frau', 'Mann', 'eine', 'einen', 'es', 'handelte', 'konnten', 'ob', 'oder', 'sagen', 'sich', 'um', 'wir', 'zunächst']
+Scope [Test]: ['Frau', 'Mann', 'eine', 'einen', 'es', 'handelte', 'konnten', 'ob', 'oder', 'sagen', 'sich', 'um', 'wir', 'zunächst']
+
+=========
+
+Frame: 186_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['kann']
+Focus [Test]: ['entkommen']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['madam']
+
+Scope [Gold]: ['Er', 'entkommen', 'kann', 'uns']
+Scope [Test]: ['Er', 'entkommen', 'kann', 'uns']
+
+=========
+
+Frame: 187_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 187_f2
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: 187_f3
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['meinen']
+
+Negated [Gold]: ['meine']
+Negated [Test]: ['meine']
+
+Scope [Gold]: ['Ehemann', 'ich', 'meine', 'meinen']
+Scope [Test]: ['Ehemann', 'ich', 'meine', 'meinen']
+
+=========
+
+Frame: 199_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['war']
+Negated [Test]: ['']
+
+Scope [Gold]: ['das', 'gar', 'war']
+Scope [Test]: ['das', 'gar', 'war']
+
+=========
+
+Frame: 203_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['schulden']
+Focus [Test]: ['sagte']
+
+Negated [Gold]: ['schulden']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Sie', 'ihm', 'schulden']
+Scope [Test]: ['Sie', 'So', 'ihm', 'schulden']
+
+=========
+
+Frame: 205_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['taten']
+Focus [Test]: ['taten']
+
+Negated [Gold]: ['taten']
+Negated [Test]: ['taten']
+
+Scope [Gold]: ['taten']
+Scope [Test]: ['taten']
+
+=========
+
+Frame: 213_f1
+
+Target [Gold]: ['niemand']
+Target [Test]: ['niemand']
+
+Focus [Gold]: ['niemand']
+Focus [Test]: ['kann']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Grimpener', 'Moor', 'Nacht', 'Weg', 'das', 'den', 'dieser', 'durch', 'finden', 'in', 'kann', 'richtigen']
+Scope [Test]: ['Grimpener', 'Moor', 'Nacht', 'Weg', 'das', 'den', 'dieser', 'durch', 'finden', 'in', 'kann', 'richtigen']
+
+=========
+
+Frame: 216_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['rief']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Er', 'Weg', 'den', 'finden', 'heraus', 'mag', 'wieder']
+Scope [Test]: ['heraus', 'wieder']
+
+=========
+
+Frame: 221_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['sinn']
+Focus [Test]: ['sinn']
+
+Negated [Gold]: ['sinn']
+Negated [Test]: ['sinn']
+
+Scope [Gold]: ['sinn']
+Scope [Test]: ['sinn']
+
+=========
+
+Frame: 223_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['länger']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['verheimlicht']
+
+Scope [Gold]: ['Die', 'Stapletons', 'Wahrheit', 'die', 'ihm', 'konnte', 'länger', 'verheimlicht', 'werden', 'über']
+Scope [Test]: ['Die', 'Stapletons', 'Wahrheit', 'die', 'ihm', 'konnte', 'länger', 'verheimlicht', 'werden', 'über']
+
+=========
+
+Frame: 226_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['gewöhnlichen']
+Focus [Test]: ['gewöhnlichen']
+
+Negated [Gold]: ['gewöhnlichen']
+Negated [Test]: ['gewöhnlichen']
+
+Scope [Gold]: ['gewöhnlichen']
+Scope [Test]: ['gewöhnlichen']
+
+=========
+
+Frame: 235_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['gewesen']
+Focus [Test]: ['ihm']
+
+Negated [Gold]: ['']
+Negated [Test]: ['herauszuziehen']
+
+Scope [Gold]: ['bei', 'gewesen', 'ihm', 'wir', 'wären']
+Scope [Test]: ['bei', 'gewesen', 'ihm', 'wir', 'wären']
+
+=========
+
+Frame: 235_f2
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['gesetzt']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Fuß', 'Grund', 'auf', 'er', 'festen', 'gesetzt', 'hätte', 'mehr', 'seinen']
+Scope [Test]: ['Fuß', 'Grund', 'auf', 'er', 'festen', 'gesetzt', 'hätte', 'mehr', 'seinen', 'wohl']
+
+=========
+
+Frame: 245_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['vermuteten']
+
+Negated [Gold]: ['erfahren']
+Negated [Test]: ['']
+
+Scope [Gold]: ['als', 'das', 'erfahren', 'mehr', 'sollten', 'wir']
+Scope [Test]: ['Menge', 'auch', 'das', 'eine', 'erfahren', 'sollten', 'vermuteten', 'wenn', 'wir', 'wir']
+
+=========
+
+Frame: 246_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['gab']
+Focus [Test]: ['finden']
+
+Negated [Gold]: ['gab']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Es', 'Fußabdrücke', 'Moor', 'Möglichkeiten', 'finden', 'gab', 'im', 'zu']
+Scope [Test]: ['Es', 'Möglichkeiten', 'gab']
+
+=========
+
+Frame: 246_f2
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['gefunden']
+
+Negated [Gold]: ['gefunden']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Anzeichen', 'das', 'gefunden', 'haben', 'kleinste', 'nur', 'nur', 'wir']
+Scope [Test]: ['Anzeichen', 'das', 'gefunden', 'haben', 'kleinste', 'nur', 'wir']
+
+=========
+
+Frame: 247_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['erreicht']
+Focus [Test]: ['erreicht']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Nacht', 'Nebel', 'Stapleton', 'Zufluchtsinsel', 'ansteuerte', 'den', 'die', 'diese', 'durch', 'er', 'erreicht', 'hat', 'jener', 'letzten']
+Scope [Test]: ['erreicht']
+
+=========
+
+Frame: 251_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['zweifel']
+Focus [Test]: ['zweifel']
+
+Negated [Gold]: ['zweifel']
+Negated [Test]: ['zweifel']
+
+Scope [Gold]: ['zweifel']
+Scope [Test]: ['zweifel']
+
+=========
+
+Frame: 256_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['']
+
+Negated [Gold]: ['wiedersehen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Der', 'Mortimer', 'Schoßhund', 'arme', 'seinen', 'wiedersehen', 'wird']
+Scope [Test]: ['Der', 'Mortimer', 'Schoßhund', 'arme', 'seinen', 'wiedersehen', 'wird']
+
+=========
+
+Frame: 257_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['glaube']
+Focus [Test]: ['noch']
+
+Negated [Gold]: ['glaube']
+Negated [Test]: ['ein']
+
+Scope [Gold]: [',', 'Geheimnis', 'Ort', 'das', 'dass', 'dieser', 'ein', 'entdeckt', 'enthält', 'glaube', 'haben', 'ich', 'nicht', 'noch', 'schon', 'wir']
+Scope [Test]: ['Geheimnis', 'Ort', 'dass', 'dieser', 'ein', 'enthält', 'glaube', 'ich', 'noch']
+
+=========
+
+Frame: 257_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['entdeckt']
+Focus [Test]: ['schon']
+
+Negated [Gold]: ['']
+Negated [Test]: ['entdeckt']
+
+Scope [Gold]: ['das', 'entdeckt', 'haben', 'schon', 'wir']
+Scope [Test]: ['das', 'entdeckt', 'haben', 'schon', 'wir']
+
+=========
+
+Frame: 258_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['konnte']
+Focus [Test]: ['abstellen']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['schön']
+
+Scope [Gold]: ['Heulen', 'abstellen', 'er', 'konnte', 'sein']
+Scope [Test]: ['Heulen', 'abstellen', 'er', 'konnte', 'sein']
+
+=========
+
+Frame: 258_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['anzuhören']
+Focus [Test]: ['schön']
+
+Negated [Gold]: ['schön']
+Negated [Test]: ['schön']
+
+Scope [Gold]: ['Tageslicht', 'anzuhören', 'auch', 'bei', 'das', 'schön', 'war']
+Scope [Test]: ['Tageslicht', 'anzuhören', 'auch', 'bei', 'das', 'schön', 'war']
+
+=========
+
+Frame: 262_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['dass']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', ',', 'Dunkelheit', 'Freund', 'Kreatur', 'Moor', 'Sträfling', 'Todesangst', 'Wunder', 'als', 'arme', 'auch', 'das', 'dass', 'davonlief', 'der', 'die', 'diese', 'durch', 'ebenso', 'er', 'es', 'getan', 'hätten', 'ihm', 'nachjagen', 'sah', 'schrie', 'selbst', 'und', 'und', 'unser', 'vor', 'wie', 'wir', 'wohl', 'über']
+Scope [Test]: ['Wunder']
+
+=========
+
+Frame: 264_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['verfolgt']
+
+Negated [Gold]: ['verfolgt']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Mann', 'als', 'der', 'einen', 'gefährlicheren', 'haben', 'hier', 'irgendwo', 'jenen', 'liegt', 'unten', 'verfolgt', 'wir']
+Scope [Test]: ['Mann', 'als', 'einen', 'gefährlicheren', 'haben', 'jenen', 'verfolgt', 'wir']
+
+=============================
+====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch14.xml ======
+Total Sentences: 265 
+Gold frames: 76 
+Test frames: 84 
+
+----- CUEWORDS -----
+F1 score:	 0.960526315789
+
+----- FOCUS -----
+F1 score:	 0.434210526316
+
+----- NEGATED -----
+F1 score:	 0.434210526316
+
+----- SCOPE -----
+Precision:	 1.02777777778
+Recall:	 0.863947698946
+F1 score:	 0.905565314315
+Jaccard similarity:	 0.756053090428
+
+=========
+
+Frame: 4_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['glückliche']
+Focus [Test]: ['glückliche']
+
+Negated [Gold]: ['glückliche']
+Negated [Test]: ['glückliche']
+
+Scope [Gold]: ['glückliche']
+Scope [Test]: ['glückliche']
+
+=========
+
+Frame: 6_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['zuließ']
+
+Negated [Gold]: ['zuließ']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Arbeit', 'Fälle', 'Fälle', 'Geist', 'abgelenkt', 'dass', 'er', 'erinnern', 'es', 'gegenwärtigen', 'klarer', 'logischer', 'sein', 'seiner', 'sich', 'sich', 'um', 'und', 'und', 'vergangener', 'von', 'würde', 'zu', 'überlappten']
+Scope [Test]: ['Fälle', 'dass', 'er', 'es', 'sich', 'zuließ', 'überlappten']
+
+=========
+
+Frame: 9_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['kannten']
+Focus [Test]: ['kannten']
+
+Negated [Gold]: ['kannten']
+Negated [Test]: ['kannten']
+
+Scope [Gold]: ['Handlungen', 'Motiv', 'anfangs', 'das', 'die', 'kannten', 'seiner', 'wir']
+Scope [Test]: ['Handlungen', 'Motiv', 'anfangs', 'das', 'die', 'kannten', 'seiner', 'wir']
+
+=========
+
+Frame: 10_f1
+
+Target [Gold]: ['keines']
+Target [Test]: ['keines']
+
+Focus [Gold]: ['keines']
+Focus [Test]: ['bewusst']
+
+Negated [Gold]: ['bewusst']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Rätsel', 'Umstands', 'bewusst', 'bin', 'der', 'ein', 'für', 'geblieben', 'ich', 'ist', 'mir', 'uns']
+Scope [Test]: ['Rätsel', 'Umstands', 'bewusst', 'bin', 'der', 'ein', 'für', 'geblieben', 'ich', 'ist', 'mir', 'uns']
+
+=========
+
+Frame: 13_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['garantieren']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['kann']
+
+Scope [Gold]: ['garantieren', 'ich', 'kann']
+Scope [Test]: ['Kopf', 'Tatsachen', 'alle', 'dass', 'garantieren', 'habe', 'ich', 'ich', 'im', 'kann']
+
+=========
+
+Frame: 19_f1
+
+Target [Gold]: ['frei']
+Target [Test]: ['frei']
+
+Focus [Gold]: ['zweifels']
+Focus [Test]: ['zweifels']
+
+Negated [Gold]: ['zweifels']
+Negated [Test]: ['zweifels']
+
+Scope [Gold]: ['zweifels']
+Scope [Test]: ['zweifels']
+
+=========
+
+Frame: 19_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['getäuscht']
+Focus [Test]: ['getäuscht']
+
+Negated [Gold]: ['getäuscht']
+Negated [Test]: ['getäuscht']
+
+Scope [Gold]: ['Familienporträt', 'das', 'getäuscht', 'hat']
+Scope [Test]: ['Familienporträt', 'das', 'getäuscht', 'hat']
+
+=========
+
+Frame: 20_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['verheiratet']
+Focus [Test]: ['verheiratet']
+
+Negated [Gold]: ['verheiratet']
+Negated [Test]: ['verheiratet']
+
+Scope [Gold]: ['verheiratet']
+Scope [Test]: ['verheiratet']
+
+=========
+
+Frame: 29_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['sonderlich']
+Focus [Test]: ['sonderlich']
+
+Negated [Gold]: ['']
+Negated [Test]: ['ausgefeilt']
+
+Scope [Gold]: ['Devonshire', 'Pläne', 'als', 'ausgefeilt', 'er', 'nach', 'seine', 'sonderlich', 'waren', 'zog']
+Scope [Test]: ['Devonshire', 'Pläne', 'als', 'ausgefeilt', 'er', 'nach', 'seine', 'sonderlich', 'waren', 'zog']
+
+=========
+
+Frame: 30_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['sicher']
+Focus [Test]: ['sicher']
+
+Negated [Gold]: ['']
+Negated [Test]: ['mag']
+
+Scope [Gold]: ['Einzelheiten', 'Vorhabens', 'die', 'er', 'gewesen', 'mag', 'noch', 'sein', 'seines', 'sich', 'sicher', 'über']
+Scope [Test]: ['Einzelheiten', 'Vorhabens', 'die', 'er', 'gewesen', 'mag', 'noch', 'sein', 'seines', 'sich', 'sicher', 'über']
+
+=========
+
+Frame: 47_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['seinem']
+
+Negated [Gold]: ['war']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['Der', 'Haus', 'Herr', 'alte', 'aus', 'locken', 'nachts', 'nicht', 'seinem', 'war', 'zu']
+Scope [Test]: ['Der', 'Haus', 'Herr', 'alte', 'aus', 'locken', 'nachts', 'seinem', 'war', 'zu']
+
+=========
+
+Frame: 49_f1
+
+Target [Gold]: ['losen']
+Target [Test]: ['losen']
+
+Focus [Gold]: ['frucht']
+Focus [Test]: ['frucht']
+
+Negated [Gold]: ['frucht']
+Negated [Test]: ['frucht']
+
+Scope [Gold]: ['frucht']
+Scope [Test]: ['frucht']
+
+=========
+
+Frame: 51_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['bereit']
+Focus [Test]: ['bereit']
+
+Negated [Gold]: ['bereit']
+Negated [Test]: ['einer']
+
+Scope [Gold]: ['Bindung', 'Charles', 'Feind', 'Sie', 'Sir', 'ausliefern', 'bereit', 'die', 'einer', 'ihn', 'seinem', 'sentimentalen', 'verführen', 'war', 'würde', 'zu', 'zu']
+Scope [Test]: ['Sie', 'bereit', 'war']
+
+=========
+
+Frame: 52_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['konnten']
+Focus [Test]: ['umstimmen']
+
+Negated [Gold]: ['konnten']
+Negated [Test]: ['konnten']
+
+Scope [Gold]: ['Drohungen', 'Schläge', 'selbst', 'sie', 'umstimmen', 'und']
+Scope [Test]: ['Schläge', 'konnten', 'selbst', 'sie', 'umstimmen']
+
+=========
+
+Frame: 53_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['nichts']
+Focus [Test]: ['befand']
+
+Negated [Gold]: ['wollte']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Sie', 'damit', 'haben', 'tun', 'wollte', 'zu']
+Scope [Test]: ['Sie', 'damit', 'haben', 'tun', 'wollte', 'zu']
+
+=========
+
+Frame: 55_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['glücklichen']
+Focus [Test]: ['glücklichen']
+
+Negated [Gold]: ['glücklichen']
+Negated [Test]: ['glücklichen']
+
+Scope [Gold]: ['unglücklichen']
+Scope [Test]: ['glücklichen']
+
+=========
+
+Frame: 56_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['verheiratet']
+Focus [Test]: ['verheiratet']
+
+Negated [Gold]: ['verheiratet']
+Negated [Test]: ['verheiratet']
+
+Scope [Gold]: ['verheiratet']
+Scope [Test]: ['verheiratet']
+
+=========
+
+Frame: 65_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['anderen']
+Focus [Test]: ['anderen']
+
+Negated [Gold]: ['waren']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Charles', 'Sir', 'Spuren', 'anderen', 'außer', 'den', 'sehen', 'von', 'waren', 'zu']
+Scope [Test]: ['Charles', 'Sir', 'Spuren', 'anderen', 'außer', 'dass', 'den', 'sehen', 'so', 'von', 'waren', 'zu']
+
+=========
+
+Frame: 66_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['rührte']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['rührte']
+
+Scope [Gold]: ['er', 'mehr', 'rührte', 'sich']
+Scope [Test]: ['er', 'mehr', 'rührte', 'sich']
+
+=========
+
+Frame: 70_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['möglich']
+Focus [Test]: ['möglich']
+
+Negated [Gold]: ['möglich']
+Negated [Test]: ['möglich']
+
+Scope [Gold]: ['möglich']
+Scope [Test]: ['möglich']
+
+=========
+
+Frame: 71_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['machte']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Der', 'Komplize', 'aussagen', 'den', 'einzige', 'er', 'gegen', 'hatte', 'ihn']
+Scope [Test]: ['aussagen', 'gegen', 'ihn', 'konnte']
+
+=========
+
+Frame: 71_f2
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['glaubliche']
+Focus [Test]: ['glaubliche']
+
+Negated [Gold]: ['glaubliche']
+Negated [Test]: ['glaubliche']
+
+Scope [Gold]: ['glaubliche']
+Scope [Test]: ['glaubliche']
+
+=========
+
+Frame: 74_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['abgesagten']
+Focus [Test]: ['ihr']
+
+Negated [Gold]: ['abgesagten']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Verabredung', 'abgesagten']
+Scope [Test]: ['Ahnung', 'Lyons', 'Mrs.', 'beidem', 'hatte', 'von', 'zwar']
+
+=========
+
+Frame: 75_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['nichts']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['befürchten', 'er', 'hatte', 'ihnen', 'von', 'zu']
+Scope [Test]: ['befürchten', 'er', 'hatte', 'ihnen', 'von', 'zu']
+
+=========
+
+Frame: 77_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['wusste']
+Focus [Test]: ['existenz']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Erben', 'Existenz', 'Kanada', 'Stapleton', 'der', 'eines', 'in', 'von', 'wusste']
+Scope [Test]: ['Erben', 'Existenz', 'Kanada', 'Möglicherweise', 'Stapleton', 'der', 'eines', 'in', 'von', 'wusste']
+
+=========
+
+Frame: 80_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['wagte']
+Focus [Test]: ['sie']
+
+Negated [Gold]: ['wagte']
+Negated [Test]: ['wagte']
+
+Scope [Gold]: ['allein', 'er', 'es', 'lange', 'lassen', 'sie', 'wagte', 'zu']
+Scope [Test]: ['deshalb', 'er', 'es', 'wagte']
+
+=========
+
+Frame: 84_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['wagte']
+
+Negated [Gold]: ['wagte']
+Negated [Test]: ['wagte']
+
+Scope [Gold]: [',', ',', 'Gefahren', 'Henry', 'Sir', 'den', 'denen', 'es', 'sie', 'sie', 'von', 'vor', 'wagte', 'warnen', 'wusste', 'zu']
+Scope [Test]: ['es', 'sie', 'wagte']
+
+=========
+
+Frame: 85_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['sicher']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['sollte']
+
+Scope [Gold]: ['Lebens', 'Sie', 'eigenen', 'gewesen', 'ihres', 'sicher', 'wäre']
+Scope [Test]: ['Lebens', 'Sie', 'eigenen', 'gewesen', 'ihres', 'mehr', 'sicher', 'wäre']
+
+=========
+
+Frame: 90_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['getragener']
+Focus [Test]: ['getragener']
+
+Negated [Gold]: ['getragener']
+Negated [Test]: ['getragener']
+
+Scope [Gold]: ['getragener']
+Scope [Test]: ['getragener']
+
+=========
+
+Frame: 91_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['andere']
+Focus [Test]: ['andere']
+
+Negated [Gold]: ['geben']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Erklärung', 'Schuh', 'alter', 'andere', 'benötigt', 'dafür', 'dass', 'ein', 'es', 'geben', 'kein', 'konnte', 'und', 'ungetragener', 'wurde']
+Scope [Test]: ['Erklärung', 'alter', 'andere', 'dafür', 'dass', 'ein', 'es', 'geben', 'konnte']
+
+=========
+
+Frame: 92_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['ungewöhnlicher']
+Focus [Test]: ['gewöhnlicher']
+
+Negated [Gold]: ['gewöhnlicher']
+Negated [Test]: ['gewöhnlicher']
+
+Scope [Gold]: ['gewöhnlicher']
+Scope [Test]: ['gewöhnlicher']
+
+=========
+
+Frame: 94_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['beschränkt']
+Focus [Test]: ['beschränkt']
+
+Negated [Gold]: ['']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Baskerville-Affäre', 'Karriere', 'Stapletons', 'Verbrecher', 'als', 'auf', 'beschränkt', 'die', 'sich']
+Scope [Test]: ['Baskerville-Affäre', 'Karriere', 'Stapletons', 'Verbrecher', 'als', 'auf', 'beschränkt', 'die', 'sich']
+
+=========
+
+Frame: 95_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['niemals']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['verhaftet']
+
+Negated [Gold]: ['verhaftet']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Schuldiger', 'ein', 'verhaftet', 'worden']
+Scope [Test]: ['Schuldiger', 'bei', 'ein', 'ist', 'verhaftet', 'welchen', 'worden']
+
+=========
+
+Frame: 97_f1
+
+Target [Gold]: ['keinerlei']
+Target [Test]: ['keinerlei']
+
+Focus [Gold]: ['keinerlei']
+Focus [Test]: ['seine']
+
+Negated [Gold]: ['habe']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ich', 'Jahren', 'Mann', 'Mittel', 'Stapleton', 'Weise', 'Zweifel', 'allem', 'auf', 'aufstockte', 'dass', 'diese', 'ein', 'finanziellen', 'fähiger', 'gefährlicher', 'habe', 'ist', 'schon', 'schwindenden', 'seine', 'seit', 'und', 'und', 'vielen', 'zu']
+Scope [Test]: ['Ich', 'Mittel', 'Stapleton', 'Weise', 'Zweifel', 'auf', 'aufstockte', 'dass', 'diese', 'finanziellen', 'habe', 'schwindenden', 'seine']
+
+=========
+
+Frame: 102_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['zweifel']
+Focus [Test]: ['zweifel']
+
+Negated [Gold]: ['zweifel']
+Negated [Test]: ['zweifel']
+
+Scope [Gold]: ['zweifel']
+Scope [Test]: ['zweifel']
+
+=========
+
+Frame: 102_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['erklärt']
+Focus [Test]: ['erklärt']
+
+Negated [Gold]: ['erklärt']
+Negated [Test]: ['einen']
+
+Scope [Gold]: ['Punkt', 'du', 'einen', 'erklärt', 'hast']
+Scope [Test]: ['Punkt', 'du', 'einen', 'erklärt', 'hast']
+
+=========
+
+Frame: 105_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['wahrscheinlich']
+Focus [Test]: ['wahrscheinlich']
+
+Negated [Gold]: ['']
+Negated [Test]: ['eingeweiht']
+
+Scope [Gold]: ['Pläne', 'dass', 'eingeweiht', 'er', 'es', 'hat', 'ihn', 'in', 'ist', 'je', 'seine', 'vollständig', 'wahrscheinlich']
+Scope [Test]: ['Pläne', 'dass', 'eingeweiht', 'er', 'es', 'hat', 'ihn', 'in', 'ist', 'je', 'seine', 'vollständig', 'wahrscheinlich']
+
+=========
+
+Frame: 109_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['sehr']
+Focus [Test]: ['sehr']
+
+Negated [Gold]: ['name']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Anthony', 'England', 'Name', 'in', 'ist', 'sehr', 'verbreiteter']
+Scope [Test]: ['Anthony', 'England', 'Name', 'in', 'ist', 'sehr', 'verbreiteter']
+
+=========
+
+Frame: 112_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['gewusst']
+Focus [Test]: ['gewusst']
+
+Negated [Gold]: ['']
+Negated [Test]: ['gewusst']
+
+Scope [Gold]: ['Tier', 'Zweck', 'das', 'er', 'gebraucht', 'gewusst', 'hat', 'welchem', 'wurde', 'zu']
+Scope [Test]: ['Tier', 'Zweck', 'das', 'er', 'gebraucht', 'gewusst', 'hat', 'welchem', 'womöglich', 'wurde', 'zu']
+
+=========
+
+Frame: 121_f1
+
+Target [Gold]: ['dies']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['konnte']
+Focus [Test]: ['tun']
+
+Negated [Gold]: ['']
+Negated [Test]: ['konnte']
+
+Scope [Gold]: ['dies', 'ich', 'konnte', 'tun']
+Scope [Test]: ['dies', 'euch', 'ich', 'ich', 'konnte', 'mit', 'tun', 'war', 'wenn', 'zusammen']
+
+=========
+
+Frame: 123_f1
+
+Target [Gold]: ['niemals']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['niemals']
+Focus [Test]: ['so']
+
+Negated [Gold]: ['dürfen']
+Negated [Test]: ['groß']
+
+Scope [Gold]: ['Details', 'Falls', 'Untersuchung', 'beeinflussen', 'die', 'dürfen', 'eines', 'ohnehin', 'solche', 'trivialen']
+Scope [Test]: ['Mein', 'Ungemach', 'groß', 'längst', 'so', 'war']
+
+=========
+
+Frame: 131_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['fall']
+Focus [Test]: ['ich']
+
+Negated [Gold]: ['hatte']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Fall', 'Gerichtsbarkeit', 'Moor', 'Zeitpunkt', 'Zu', 'da', 'dem', 'den', 'der', 'du', 'entdeckt', 'hast', 'hatte', 'ich', 'ich', 'im', 'konnte', 'mich', 'noch', 'übergeben']
+Scope [Test]: ['Fall', 'noch']
+
+=========
+
+Frame: 132_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['glücklichen']
+Focus [Test]: ['einmal']
+
+Negated [Gold]: ['glücklichen']
+Negated [Test]: ['dem']
+
+Scope [Gold]: ['glücklichen']
+Scope [Test]: ['Angriff', 'Henry', 'Nacht', 'Sir', 'Stapletons', 'auf', 'einmal', 'in', 'jener']
+
+=========
+
+Frame: 132_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['un']
+
+Focus [Gold]: ['stapletons']
+Focus [Test]: ['glücklichen']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['glücklichen']
+
+Scope [Gold]: [',', 'Angriff', 'Beweis', 'Henry', 'Mordes', 'Nacht', 'Sir', 'Stapletons', 'Sträflings', 'Tod', 'auf', 'dem', 'den', 'der', 'des', 'eines', 'endete', 'in', 'jener', 'konnte', 'liefern', 'mit', 'unglücklichen', 'uns']
+Scope [Test]: ['glücklichen']
+
+=========
+
+Frame: 133_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['']
+Focus [Test]: ['ihn']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Alternative', 'Es', 'Tat', 'als', 'auf', 'ertappen', 'frischer', 'gab', 'ihn', 'zu']
+Scope [Test]: ['Alternative', 'Es', 'Tat', 'als', 'anscheinend', 'auf', 'ertappen', 'frischer', 'gab', 'ihn', 'zu']
+
+=========
+
+Frame: 133_f2
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['geschützt']
+Focus [Test]: ['geschützt']
+
+Negated [Gold]: ['geschützt']
+Negated [Test]: ['geschützt']
+
+Scope [Gold]: ['geschützt']
+Scope [Test]: ['geschützt']
+
+=========
+
+Frame: 135_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['vorhersehen']
+
+Negated [Gold]: ['konnten']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['Hund', 'Schauspiel', 'der', 'gab', 'konnten', 'lähmendes', 'schreckliches', 'und', 'uns', 'vorhersehen', 'welch', 'wir']
+Scope [Test]: ['konnten', 'vorhersehen', 'wir', 'wirklich']
+
+=========
+
+Frame: 140_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['keinen']
+Focus [Test]: ['geben']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', ',', 'Angst', 'Einfluss', 'Es', 'Gefühle', 'Liebe', 'Stapleton', 'Zweifel', 'auf', 'ausübte', 'beides', 'da', 'das', 'dass', 'es', 'geben', 'gewesen', 'großen', 'kann', 'mag', 'miteinander', 'nicht', 'oder', 'sehr', 'sein', 'sie', 'sind', 'unvereinbare', 'wahrscheinlich', 'zwei']
+Scope [Test]: ['Einfluss', 'Es', 'Stapleton', 'Zweifel', 'auf', 'ausübte', 'dass', 'geben', 'großen', 'kann', 'sie']
+
+=========
+
+Frame: 140_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['unvereinbare']
+Focus [Test]: ['unvereinbare']
+
+Negated [Gold]: ['unvereinbare']
+Negated [Test]: ['das']
+
+Scope [Gold]: ['Gefühle', 'das', 'miteinander', 'sind', 'unvereinbare', 'zwei']
+Scope [Test]: ['Gefühle', 'das', 'miteinander', 'sind', 'unvereinbare', 'zwei']
+
+=========
+
+Frame: 140_f3
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['vereinbare']
+Focus [Test]: ['vereinbare']
+
+Negated [Gold]: ['vereinbare']
+Negated [Test]: ['vereinbare']
+
+Scope [Gold]: ['vereinbare']
+Scope [Test]: ['vereinbare']
+
+=========
+
+Frame: 150_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['bekäme']
+Focus [Test]: ['bekäme']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Gelegenheit', 'Henry', 'Sir', 'bekäme', 'sie', 'warnen', 'zu']
+Scope [Test]: ['Gelegenheit', 'bekäme', 'sie']
+
+=========
+
+Frame: 153_f1
+
+Target [Gold]: ['ohne']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['nachzulesen']
+Focus [Test]: ['detaillierteres']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Aufzeichnungen', 'in', 'meinen', 'nachzulesen']
+Scope [Test]: ['Bild', 'Falles', 'detaillierteres', 'dieses', 'dir', 'geben', 'ich', 'kann', 'seltsamen']
+
+=========
+
+Frame: 154_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['erklärt']
+Focus [Test]: ['geblieben']
+
+Negated [Gold]: ['erklärt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['erklärt']
+Scope [Test]: ['Mir', 'Wesentliches', 'ein', 'fällt']
+
+=========
+
+Frame: 154_f2
+
+Target [Gold]: ['nichts']
+Target [Test]: ['un']
+
+Focus [Gold]: ['wesentliches']
+Focus [Test]: ['erklärt']
+
+Negated [Gold]: ['fällt']
+Negated [Test]: ['erklärt']
+
+Scope [Gold]: ['Mir', 'Wesentliches', 'das', 'ein', 'fällt', 'geblieben', 'ist', 'unerklärt']
+Scope [Test]: ['erklärt']
+
+=========
+
+Frame: 155_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['konnte']
+Focus [Test]: ['bauen']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['dem']
+
+Scope [Gold]: [',', 'Er', 'Geisterhund', 'Henry', 'Onkel', 'Sir', 'Tode', 'alten', 'bauen', 'bei', 'darauf', 'dem', 'ebenso', 'erschrecken', 'es', 'gelungen', 'ihm', 'ist', 'konnte', 'mit', 'seinem', 'wie', 'zu', 'zu']
+Scope [Test]: ['Er', 'bauen', 'darauf', 'konnte']
+
+=========
+
+Frame: 157_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['schon']
+
+Negated [Gold]: ['']
+Negated [Test]: ['erschreckt']
+
+Scope [Gold]: ['Erscheinung', 'Opfer', 'Tode', 'erschreckt', 'hätte', 'ihr', 'ihre', 'schon', 'zu']
+Scope [Test]: ['Erscheinung', 'Opfer', 'Tode', 'Widerstand', 'den', 'erschreckt', 'gelähmt', 'hätte', 'hätte', 'ihr', 'ihre', 'schon', 'sie', 'so', 'wenigstens', 'zu']
+
+=========
+
+Frame: 158_f1
+
+Target [Gold]: ['kein']
+Target [Test]: ['kein']
+
+Focus [Gold]: ['zweifel']
+Focus [Test]: ['']
+
+Negated [Gold]: ['zweifel']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Zweifel']
+Scope [Test]: ['Zweifel']
+
+=========
+
+Frame: 162_f1
+
+Target [Gold]: ['außer']
+Target [Test]: ['außer']
+
+Focus [Gold]: ['ordentliches']
+Focus [Test]: ['ordentliches']
+
+Negated [Gold]: ['ordentliches']
+Negated [Test]: ['ordentliches']
+
+Scope [Gold]: ['ordentliches']
+Scope [Test]: ['ordentliches']
+
+=========
+
+Frame: 167_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['gibt']
+Focus [Test]: ['er']
+
+Negated [Gold]: ['gibt']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Schwierigkeit', 'Weg', 'Zweifel', 'dass', 'diese', 'einen', 'er', 'es', 'gefunden', 'gibt', 'hätte', 'umgehen', 'zu']
+Scope [Test]: ['Weg', 'Zweifel', 'dass', 'einen', 'er', 'es', 'gefunden', 'gibt', 'hätte']
+
+=============================
+====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch15.xml ======
+Total Sentences: 171 
+Gold frames: 64 
+Test frames: 69 
+
+----- CUEWORDS -----
+F1 score:	 0.796875
+
+----- FOCUS -----
+F1 score:	 0.421875
+
+----- NEGATED -----
+F1 score:	 0.390625
+
+----- SCOPE -----
+Precision:	 0.796875
+Recall:	 0.616028811405
+F1 score:	 0.662297327363
+Jaccard similarity:	 0.49214502945
+
+=========
+
+Frame: s7_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['unerschütterlichen']
+Focus [Test]: ['erschütterlichen']
+
+Negated [Gold]: ['erschütterlichen']
+Negated [Test]: ['erschütterlichen']
+
+Scope [Gold]: ['erschütterlichen']
+Scope [Test]: ['erschütterlichen']
+
+=========
+
+Frame: s9_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['nicht']
+Focus [Test]: ['vorgeschlagen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['vorgeschlagen']
+
+Scope [Gold]: [',', 'Freund', 'Morgen', 'Sie', 'aufzusuchen', 'heute', 'hier', 'hätte', 'mein', 'vorgeschlagen']
+Scope [Test]: ['Freund', 'hier', 'hätte', 'mein', 'vorgeschlagen']
+
+=========
+
+Frame: s13_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['nichts']
+Focus [Test]: ['nichts']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Wichtigkeit', 'von']
+Scope [Test]: ['Wichtigkeit', 'von']
+
+=========
+
+Frame: s20_f1
+
+Target [Gold]: ['niemand']
+Target [Test]: ['niemand']
+
+Focus [Gold]: ['niemand']
+Focus [Test]: ['konnte']
+
+Negated [Gold]: ['konnte']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Niemand', 'das', 'konnte', 'wissen']
+Scope [Test]: ['das', 'konnte', 'wissen']
+
+=========
+
+Frame: s22_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['zweifellos']
+Focus [Test]: ['zweifel']
+
+Negated [Gold]: ['zweifel']
+Negated [Test]: ['zweifel']
+
+Scope [Gold]: ['zweifel']
+Scope [Test]: ['zweifel']
+
+=========
+
+Frame: s23_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: s24_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['gab']
+Focus [Test]: ['möglichen']
+
+Negated [Gold]: ['gab']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Absicht', 'Es', 'Hinweis', 'Hotel', 'auf', 'diesem', 'gab', 'in', 'möglichen', 'unsere', 'wohnen', 'zu']
+Scope [Test]: ['Absicht', 'Es', 'Hinweis', 'Hotel', 'auf', 'diesem', 'gab', 'in', 'möglichen', 'unsere', 'wohnen', 'zu']
+
+=========
+
+Frame: s31_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['übernatürliches']
+Focus [Test]: ['übernatürliches']
+
+Negated [Gold]: ['ist']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Sache', 'an', 'dieser', 'dran', 'ist', 'zumindest', 'Übernatürliches']
+Scope [Test]: ['Sache', 'an', 'dieser', 'dran', 'ist', 'zumindest', 'Übernatürliches']
+
+=========
+
+Frame: s32_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: s46_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['nicht']
+Focus [Test]: ['bewundernswerter']
+
+Negated [Gold]: ['']
+Negated [Test]: ['ein']
+
+Scope [Gold]: ['Findest', 'Standpunkt', 'bewundernswerter', 'das', 'dass', 'du', 'ein', 'ist']
+Scope [Test]: ['Findest', 'Standpunkt', 'bewundernswerter', 'das', 'dass', 'du', 'ein', 'ist']
+
+=========
+
+Frame: s47_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['ratlos']
+Focus [Test]: ['rat']
+
+Negated [Gold]: ['rat']
+Negated [Test]: ['rat']
+
+Scope [Gold]: ['rat']
+Scope [Test]: ['rat']
+
+=========
+
+Frame: s48_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['viel']
+Focus [Test]: ['viel']
+
+Negated [Gold]: ['verstehe']
+Negated [Test]: ['sagte']
+
+Scope [Gold]: ['Ich', 'Sachen', 'Schutzzöllen', 'solchen', 'und', 'verstehe', 'viel', 'von']
+Scope [Test]: ['Ich', 'Schutzzöllen', 'verstehe', 'viel', 'von']
+
+=========
+
+Frame: s50_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['er']
+Focus [Test]: ['einmal']
+
+Negated [Gold]: ['']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Bedeutung', 'Satzes', 'die', 'dieses', 'einmal', 'er', 'erkannt', 'hat']
+Scope [Test]: ['Bedeutung', 'Satzes', 'dass', 'die', 'dieses', 'einmal', 'er', 'erkannt', 'hat']
+
+=========
+
+Frame: s51_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: s51_f2
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['kann']
+Focus [Test]: ['erkennen']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Zusammenhang', 'erkennen', 'ich', 'kann']
+Scope [Test]: ['Zusammenhang', 'erkennen', 'ich', 'kann']
+
+=========
+
+Frame: s53_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['schlau']
+
+Negated [Gold]: ['']
+Negated [Test]: ['schlau']
+
+Scope [Gold]: ['das', 'ist', 'schlau']
+Scope [Test]: ['das', 'ist', 'schlau']
+
+=========
+
+Frame: s68_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['verwechselbares']
+Focus [Test]: ['verwechselbares']
+
+Negated [Gold]: ['verwechselbares']
+Negated [Test]: ['verwechselbares']
+
+Scope [Gold]: ['verwechselbares']
+Scope [Test]: ['verwechselbares']
+
+=========
+
+Frame: s68_f2
+
+Target [Gold]: ['nirgendwo']
+Target [Test]: ['nirgendwo']
+
+Focus [Gold]: ['nirgendwo']
+Focus [Test]: ['']
+
+Negated [Gold]: ['herstammen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Wörter', 'diese', 'herstammen', 'konnten', 'sonst']
+Scope [Test]: ['Wörter', 'diese', 'herstammen', 'konnten', 'sonst']
+
+=========
+
+Frame: s78_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['gefunden']
+Focus [Test]: ['gefunden']
+
+Negated [Gold]: ['gefunden']
+Negated [Test]: ['gefunden']
+
+Scope [Gold]: ['Zeitung', 'der', 'er', 'es', 'gefunden', 'hat', 'in']
+Scope [Test]: ['Zeitung', 'der', 'er', 'es', 'gefunden', 'hat', 'in']
+
+=========
+
+Frame: s84_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['gebildet']
+Focus [Test]: ['gebildet']
+
+Negated [Gold]: ['gebildet']
+Negated [Test]: ['gebildet']
+
+Scope [Gold]: ['gebildet']
+Scope [Test]: ['gebildet']
+
+=========
+
+Frame: s85_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['akkurat']
+
+Negated [Gold]: ['aufgeklebt']
+Negated [Test]: ['einer']
+
+Scope [Gold]: ['Linie', 'Wörter', 'akkurat', 'aufgeklebt', 'die', 'einer', 'in', 'wurden']
+Scope [Test]: ['Linie', 'Wörter', 'akkurat', 'aufgeklebt', 'die', 'einer', 'in', 'wurden']
+
+=========
+
+Frame: s86_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['achtsamkeit']
+Focus [Test]: ['achtsamkeit']
+
+Negated [Gold]: ['achtsamkeit']
+Negated [Test]: ['achtsamkeit']
+
+Scope [Gold]: ['achtsamkeit']
+Scope [Test]: ['achtsamkeit']
+
+=========
+
+Frame: s87_f1
+
+Target [Gold]: ['es']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['wahrscheinlich']
+Focus [Test]: ['wahrscheinlich']
+
+Negated [Gold]: ['wahrscheinlich']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['Briefes', 'Verfasser', 'dass', 'der', 'eines', 'es', 'ist', 'solchen', 'unachtsam', 'vorgeht', 'wahrscheinlich']
+Scope [Test]: ['Briefes', 'Verfasser', 'dass', 'der', 'eines', 'es', 'ist', 'solchen', 'unachtsam', 'vorgeht', 'wahrscheinlich']
+
+=========
+
+Frame: s87_f2
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['achtsam']
+Focus [Test]: ['achtsam']
+
+Negated [Gold]: ['achtsam']
+Negated [Test]: ['achtsam']
+
+Scope [Gold]: ['achtsam']
+Scope [Test]: ['achtsam']
+
+=========
+
+Frame: s99_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['zögere']
+Focus [Test]: ['behaupten']
+
+Negated [Gold]: ['zögere']
+Negated [Test]: ['die']
+
+Scope [Gold]: [',', 'Charing', 'Cross', 'Hotels', 'Nachricht', 'Papierkörbe', 'Person', 'Times-Leitartikels', 'ausfindig', 'behaupten', 'dass', 'der', 'des', 'die', 'die', 'die', 'die', 'diese', 'finden', 'hat', 'ich', 'machen', 'müssten', 'nur', 'seltsame', 'so', 'um', 'um', 'und', 'untersuchen', 'verschickt', 'verstümmelten', 'wir', 'zu', 'zu', 'zu', 'zögere', 'Überreste']
+Scope [Test]: ['Charing', 'Cross', 'Hotels', 'Papierkörbe', 'behaupten', 'dass', 'der', 'die', 'ich', 'müssten', 'nur', 'um', 'untersuchen', 'wir', 'zu', 'zögere']
+
+=========
+
+Frame: s102_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['']
+Focus [Test]: ['sagte']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: s103_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['beschriebener']
+Focus [Test]: ['beschriebener']
+
+Negated [Gold]: ['beschriebener']
+Negated [Test]: ['beschriebener']
+
+Scope [Gold]: ['beschriebener']
+Scope [Test]: ['beschriebener']
+
+=========
+
+Frame: s105_f1
+
+Target [Gold]: ['nein']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: []
+
+=========
+
+Frame: s105_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['']
+
+Negated [Gold]: ['']
+Negated [Test]: ['glaube']
+
+Scope [Gold]: ['']
+Scope [Test]: ['glaube', 'ich']
+
+=========
+
+Frame: s106_f1
+
+Target [Gold]: ['niemanden']
+Target [Test]: ['niemanden']
+
+Focus [Gold]: ['niemanden']
+Focus [Test]: ['bemerkt']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Haben', 'Ihnen', 'Sie', 'Sie', 'bemerkt', 'beobachtete', 'der', 'folgte', 'oder']
+Scope [Test]: ['Haben', 'Sie', 'bemerkt']
+
+=========
+
+Frame: s109_f1
+
+Target [Gold]: ['nichts']
+Target [Test]: ['nichts']
+
+Focus [Gold]: ['anderes']
+Focus [Test]: ['zuwenden']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Angelegenheit', 'Haben', 'Sie', 'anderes', 'berichten', 'bevor', 'dieser', 'uns', 'uns', 'wir', 'zu', 'zuwenden']
+Scope [Test]: ['Angelegenheit', 'Haben', 'Sie', 'anderes', 'berichten', 'bevor', 'dieser', 'uns', 'uns', 'wir', 'zu', 'zuwenden']
+
+=========
+
+Frame: s113_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['viel']
+Focus [Test]: ['viel']
+
+Negated [Gold]: ['']
+Negated [Test]: ['das']
+
+Scope [Gold]: ['Leben', 'Noch', 'britische', 'das', 'ich', 'viel', 'weiß', 'über']
+Scope [Test]: ['Leben', 'Noch', 'britische', 'das', 'ich', 'viel', 'weiß', 'über']
+
+=========
+
+Frame: s113_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['alltäglichen']
+Focus [Test]: ['alltäglichen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['gehört']
+
+Scope [Gold]: ['Routine', 'Stiefel', 'alltäglichen', 'einen', 'es', 'gehört', 'seiner', 'verlieren', 'zu', 'zur']
+Scope [Test]: ['Routine', 'alltäglichen', 'es', 'gehört', 'zur']
+
+=========
+
+Frame: s124_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['getragen']
+
+Negated [Gold]: ['getragen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Stiefel', 'die', 'getragen', 'habe', 'ich', 'noch']
+Scope [Test]: ['getragen', 'habe', 'noch']
+
+=========
+
+Frame: s125_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['getragen']
+
+Negated [Gold]: ['getragen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Sie', 'getragen', 'haben', 'noch', 'sie']
+Scope [Test]: ['Sie', 'getragen', 'haben', 'noch', 'sie']
+
+=========
+
+Frame: s126_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['behandelt']
+
+Negated [Gold]: ['behandelt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Politur', 'behandelt', 'die', 'mit', 'noch', 'wurden']
+Scope [Test]: ['Politur', 'behandelt', 'die', 'mit', 'noch', 'wurden']
+
+=========
+
+Frame: s131_f1
+
+Target [Gold]: ['loser']
+Target [Test]: ['loser']
+
+Focus [Gold]: ['nutz']
+Focus [Test]: ['nutz']
+
+Negated [Gold]: ['nutz']
+Negated [Test]: ['nutz']
+
+Scope [Gold]: ['nutz']
+Scope [Test]: ['nutz']
+
+=========
+
+Frame: s140_f1
+
+Target [Gold]: ['nie']
+Target [Test]: ['nie']
+
+Focus [Gold]: ['nie']
+Focus [Test]: ['gedacht']
+
+Negated [Gold]: ['gedacht']
+Negated [Test]: ['']
+
+Scope [Gold]: ['daran', 'ernst', 'gedacht', 'hatte', 'ich', 'nehmen', 'sie', 'zu']
+Scope [Test]: ['daran', 'gedacht', 'hatte', 'ich']
+
+=========
+
+Frame: s141_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['klar']
+Focus [Test]: ['klar']
+
+Negated [Gold]: ['']
+Negated [Test]: ['kann']
+
+Scope [Gold]: ['denken', 'ich', 'kann', 'klar']
+Scope [Test]: ['denken', 'ich', 'kann', 'klar']
+
+=========
+
+Frame: s142_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['schlüssig']
+Focus [Test]: ['darüber']
+
+Negated [Gold]: ['']
+Negated [Test]: ['einen']
+
+Scope [Gold]: ['Fall', 'Geistlichen', 'Polizei', 'darüber', 'die', 'einen', 'einen', 'es', 'für', 'handelt', 'noch', 'ob', 'oder', 'schlüssig', 'sein', 'sich', 'sich', 'um', 'zu']
+Scope [Test]: ['Fall', 'Geistlichen', 'Polizei', 'Sie', 'darüber', 'die', 'einen', 'einen', 'es', 'für', 'handelt', 'noch', 'ob', 'oder', 'scheinen', 'schlüssig', 'sein', 'sich', 'sich', 'um', 'zu']
+
+=========
+
+Frame: s152_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['warum']
+Focus [Test]: ['gehen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['sollte']
+
+Scope [Gold]: ['Warum', 'gehen', 'ich', 'sollte']
+Scope [Test]: ['Warum', 'gehen', 'ich', 'sollte']
+
+=========
+
+Frame: s156_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['gibt']
+Focus [Test]: ['es']
+
+Negated [Gold]: ['gibt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Es', 'Haus', 'Hölle', 'Teufel', 'Väter', 'abhalten', 'das', 'davon', 'der', 'der', 'gibt', 'heimzukehren', 'in', 'in', 'kann', 'meiner', 'mich']
+Scope [Test]: [':', 'Antwort', 'Es', 'Hölle', 'Teufel', 'darauf', 'der', 'fest', 'gibt', 'in', 'meine', 'steht']
+
+=========
+
+Frame: s156_f2
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['gibt']
+Focus [Test]: ['abhalten']
+
+Negated [Gold]: ['gibt']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Erden', 'Haus', 'Menschen', 'Väter', 'abhalten', 'auf', 'das', 'davon', 'der', 'es', 'gibt', 'heimzukehren', 'in', 'kann', 'meiner', 'mich']
+Scope [Test]: ['Erden', 'Menschen', 'auf', 'es', 'gibt']
+
+=========
+
+Frame: s158_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['erloschen']
+Focus [Test]: ['erloschen']
+
+Negated [Gold]: ['erloschen']
+Negated [Test]: ['erloschen']
+
+Scope [Gold]: ['Baskervilles', 'Spross', 'Temperament', 'das', 'der', 'diesem', 'erloschen', 'grimmige', 'in', 'letzten', 'noch', 'war']
+Scope [Test]: ['Baskervilles', 'Spross', 'Temperament', 'das', 'der', 'diesem', 'erloschen', 'grimmige', 'in', 'letzten', 'noch', 'war']
+
+=========
+
+Frame: s159_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['hatte']
+Focus [Test]: ['alles']
+
+Negated [Gold]: ['hatte']
+Negated [Test]: ['']
+
+Scope [Gold]: [',', 'Gelegenheit', 'Sie', 'Zwischenzeitlich', 'alles', 'das', 'durchdenken', 'erzählt', 'haben', 'hatte', 'ich', 'mir', 'noch', 'zu']
+Scope [Test]: ['Gelegenheit', 'hatte', 'ich', 'noch']
+
+=========
+
+Frame: s160_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['einfach']
+Focus [Test]: ['einfach']
+
+Negated [Gold]: ['einfach']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Es', 'Konsequenzen', 'alles', 'einfach', 'gleichzeitig', 'ist', 'und', 'verstehen', 'ziehen', 'zu', 'zu']
+Scope [Test]: ['Es', 'einfach', 'ist']
+
+=========
+
+Frame: s176_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['haben']
+Focus [Test]: ['verlieren']
+
+Negated [Gold]: ['haben']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Wir', 'Zeit', 'haben', 'verlieren', 'zu']
+Scope [Test]: ['Wir', 'Zeit', 'haben', 'verlieren', 'zu']
+
+=========
+
+Frame: s181_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['alles']
+Focus [Test]: ['alles']
+
+Negated [Gold]: ['']
+Negated [Test]: ['der']
+
+Scope [Gold]: ['Welt', 'alles', 'der', 'in', 'um']
+Scope [Test]: ['Welt', 'alles', 'der', 'in', 'um']
+
+=========
+
+Frame: s190_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['mehr']
+Focus [Test]: ['mehr']
+
+Negated [Gold]: ['']
+Negated [Test]: ['können']
+
+Scope [Gold]: ['können', 'mehr', 'tun', 'wir']
+Scope [Test]: ['können', 'mehr', 'tun', 'wir']
+
+=========
+
+Frame: s193_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['besetzte']
+Focus [Test]: ['']
+
+Negated [Gold]: ['besetzte']
+Negated [Test]: ['']
+
+Scope [Gold]: ['besetzte']
+Scope [Test]: ['Sicht', 'in', 'unbesetzte', 'war']
+
+=========
+
+Frame: s199_f1
+
+Target [Gold]: ['keine']
+Target [Test]: ['keine']
+
+Focus [Gold]: ['habe']
+Focus [Test]: ['']
+
+Negated [Gold]: ['habe']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ahnung', 'Ich', 'habe']
+Scope [Test]: ['Ahnung', 'Ich', 'habe']
+
+=========
+
+Frame: s206_f1
+
+Target [Gold]: ['niemanden']
+Target [Test]: ['niemanden']
+
+Focus [Gold]: ['niemanden']
+Focus [Test]: ['gesehen']
+
+Negated [Gold]: ['gesehen']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Ich', 'gesehen', 'habe']
+Scope [Test]: ['aber', 'gesehen']
+
+=========
+
+Frame: s208_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['darüber']
+
+Negated [Gold]: ['']
+Negated [Test]: ['einen']
+
+Scope [Gold]: [',', 'Klaren', 'Menschen', 'bin', 'dem', 'einen', 'es', 'es', 'haben', 'handelt', 'hier', 'ich', 'im', 'mir', 'mit', 'noch', 'ob', 'oder', 'sich', 'tun', 'um', 'wir', 'wohlwollenden', 'zu', 'übelwollenden']
+Scope [Test]: ['Klaren', 'Menschen', 'bin', 'darüber', 'dem', 'einen', 'es', 'es', 'haben', 'handelt', 'hier', 'ich', 'im', 'mir', 'mit', 'noch', 'ob', 'oder', 'sich', 'tun', 'um', 'wir', 'wohlwollenden', 'zu', 'übelwollenden']
+
+=========
+
+Frame: s209_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['sichtbaren']
+Focus [Test]: ['sichtbaren']
+
+Negated [Gold]: ['sichtbaren']
+Negated [Test]: ['sichtbaren']
+
+Scope [Gold]: ['sichtbaren']
+Scope [Test]: ['sichtbaren']
+
+=========
+
+Frame: s210_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['fuß']
+Focus [Test]: ['folgen']
+
+Negated [Gold]: ['folgen']
+Negated [Test]: ['eine']
+
+Scope [Gold]: ['Fuß', 'folgen', 'ihnen', 'zu', 'zu']
+Scope [Test]: ['Fuß', 'folgen', 'ihnen', 'zu', 'zu']
+
+=========
+
+Frame: s214_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['notiert']
+Focus [Test]: ['notiert']
+
+Negated [Gold]: ['notiert']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Droschkennummer', 'die', 'haben', 'notiert', 'wir']
+Scope [Test]: ['Droschkennummer', 'die', 'haben', 'notiert', 'wir']
+
+=========
+
+Frame: s215_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['geschickt']
+Focus [Test]: ['geschickt']
+
+Negated [Gold]: ['geschickt']
+Negated [Test]: ['geschickt']
+
+Scope [Gold]: ['geschickt']
+Scope [Test]: ['geschickt']
+
+=========
+
+Frame: s215_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['ernsthaft']
+Focus [Test]: ['ernsthaft']
+
+Negated [Gold]: ['']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Nummer', 'dass', 'die', 'du', 'ernsthaft', 'glauben', 'ich', 'kannst', 'merken', 'mir', 'nachlässig', 'nicht', 'so', 'war', 'zu']
+Scope [Test]: ['dass', 'doch', 'du', 'ernsthaft', 'glauben', 'ich', 'kannst', 'nachlässig', 'so', 'war']
+
+=========
+
+Frame: s215_f3
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['merken']
+Focus [Test]: ['merken']
+
+Negated [Gold]: ['']
+Negated [Test]: ['die']
+
+Scope [Gold]: ['Nummer', 'die', 'merken', 'mir', 'zu']
+Scope [Test]: ['Nummer', 'die', 'merken', 'mir', 'zu']
+
+=========
+
+Frame: s216_f1
+
+Target [Gold]: ['los']
+Target [Test]: ['los']
+
+Focus [Gold]: ['nutz']
+Focus [Test]: ['nutz']
+
+Negated [Gold]: ['nutz']
+Negated [Test]: ['nutz']
+
+Scope [Gold]: ['nutz']
+Scope [Test]: ['nutz']
+
+=========
+
+Frame: s217_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['erkennen']
+
+Negated [Gold]: ['kann']
+Negated [Test]: ['können']
+
+Scope [Gold]: ['Ich', 'du', 'erkennen', 'hättest', 'kann', 'können', 'noch', 'sonst', 'tun', 'was']
+Scope [Test]: ['Ich', 'erkennen', 'kann']
+
+=========
+
+Frame: s220_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['bekannter']
+Focus [Test]: ['bekannter']
+
+Negated [Gold]: ['bekannter']
+Negated [Test]: ['bekannter']
+
+Scope [Gold]: ['bekannter']
+Scope [Test]: ['bekannter']
+
+=========
+
+Frame: s221_f1
+
+Target [Gold]: ['außer']
+Target [Test]: ['außer']
+
+Focus [Gold]: ['ordentlicher']
+Focus [Test]: ['ordentlicher']
+
+Negated [Gold]: ['ordentlicher']
+Negated [Test]: ['ordentlicher']
+
+Scope [Gold]: ['ordentlicher']
+Scope [Test]: ['ordentlicher']
+
+=========
+
+Frame: s223_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['hat']
+Focus [Test]: ['ihnen']
+
+Negated [Gold]: ['hat']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Es', 'Zweck', 'folgen', 'hat', 'ihnen', 'weiter', 'zu']
+Scope [Test]: ['Es', 'Zweck', 'hat']
+
+=========
+
+Frame: s223_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['zurückkommen']
+Focus [Test]: ['zurückkommen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['zurückkommen']
+
+Scope [Gold]: ['Schatten', 'ihr', 'wird', 'zurückkommen']
+Scope [Test]: ['wird', 'zurückkommen']
+
+=========
+
+Frame: s228_f1
+
+Target [Gold]: ['keinen']
+Target [Test]: ['keinen']
+
+Focus [Gold]: ['']
+Focus [Test]: ['er']
+
+Negated [Gold]: ['braucht']
+Negated [Test]: ['']
+
+Scope [Gold]: ['Auftrag', 'Bart', 'Ein', 'Mann', 'braucht', 'einem', 'gerissener', 'heiklen', 'mit', 'so', 'so', 'solchen']
+Scope [Test]: ['Auftrag', 'Bart', 'Ein', 'Mann', 'braucht', 'dahinter', 'einem', 'er', 'gerissener', 'heiklen', 'mit', 'nicht', 'sich', 'so', 'so', 'sofern', 'solchen', 'verbergen', 'will']
+
+=========
+
+Frame: s228_f2
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['will']
+Focus [Test]: ['verbergen']
+
+Negated [Gold]: ['']
+Negated [Test]: ['will']
+
+Scope [Gold]: ['dahinter', 'er', 'sich', 'verbergen', 'will']
+Scope [Test]: ['dahinter', 'er', 'sich', 'verbergen', 'will']
+
+=========
+
+Frame: s231_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['vergessen']
+Focus [Test]: ['vergessen']
+
+Negated [Gold]: ['vergessen']
+Negated [Test]: ['vergessen']
+
+Scope [Gold]: ['Fall', 'Glück', 'Ihnen', 'Sie', 'das', 'den', 'haben', 'helfen', 'in', 'kleinen', 'können', 'vergessen', 'welchem', 'zu']
+Scope [Test]: ['Fall', 'Glück', 'Sie', 'das', 'den', 'haben', 'hatte', 'ich', 'in', 'kleinen', 'vergessen', 'welchem']
+
+=========
+
+Frame: s232_f1
+
+Target [Gold]: ['nicht']
+Target [Test]: ['nein']
+
+Focus [Gold]: ['habe']
+Focus [Test]: ['']
+
+Negated [Gold]: ['habe']
+Negated [Test]: ['']
+
+Scope [Gold]: ['das', 'habe', 'ich']
+Scope [Test]: []
+
+=========
+
+Frame: s232_f2
+
+Target [Gold]: ['nein']
+Target [Test]: ['nicht']
+
+Focus [Gold]: ['']
+Focus [Test]: ['habe']
+
+Negated [Gold]: ['']
+Negated [Test]: ['']
+
+Scope [Gold]: ['']
+Scope [Test]: ['das', 'habe', 'ich', 'tatsächlich']
+
+=========
+
+Frame: s242_f1
+
+Target [Gold]: ['un']
+Target [Test]: ['un']
+
+Focus [Gold]: ['mittelbaren']
+Focus [Test]: ['mittelbaren']
+
+Negated [Gold]: ['mittelbaren']
+Negated [Test]: ['mittelbaren']
+
+Scope [Gold]: ['mittelbaren']
+Scope [Test]: ['mittelbaren']
+
+=============================
+====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch4.jr.xml ======
+Total Sentences: 266 
+Gold frames: 73 
+Test frames: 76 
+
+----- CUEWORDS -----
+F1 score:	 0.917808219178
+
+----- FOCUS -----
+F1 score:	 0.465753424658
+
+----- NEGATED -----
+F1 score:	 0.369863013699
+
+----- SCOPE -----
+Precision:	 1.01515151515
+Recall:	 0.857798316925
+F1 score:	 0.904743616402
+Jaccard similarity:	 0.729320279003
+Done!

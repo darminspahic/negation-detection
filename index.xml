@@ -1,0 +1,12 @@
+<projekt> 
+	<titel>Negation Detection</titel> 
+	<typ>Softwareprojekt</typ>
+	<version>1.0</version> 
+	<autoren>Darmin Spahic, Robert Saß</autoren>
+	<angefangen>9.11.2016</angefangen>
+	<abgabe>8.2.2017</abgabe> 
+	<veranstaltung>Softwareprojekt, WS 2016/17</veranstaltung>
+	<institution>Institut für Computerlinguistik, Ruprecht-Karls-Universität Heidelberg</institution>
+	<abstract>Das Ziel dieses Projekts ist einen regelbasierten Parser zu entwickeln, der 
+	erfolgreich negierte Sätze erkennt.</abstract> 
+</projekt>

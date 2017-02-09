@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module main</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>main</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href="index.html">index</a><br><a href="file:main.html">main.py</a></font></td></tr></table>
+    <p><tt>Author:&nbsp;Darmin&nbsp;Spahic&nbsp;&lt;Spahic@stud.uni-heidelberg.de&gt;<br>
+Project:&nbsp;Negation&nbsp;Detection<br>
+&nbsp;<br>
+Module&nbsp;name:<br>
+<a href="#NegationDetection">NegationDetection</a><br>
+&nbsp;<br>
+Short&nbsp;description:<br>
+This&nbsp;is&nbsp;the&nbsp;main&nbsp;module&nbsp;and&nbsp;it&nbsp;is&nbsp;a&nbsp;collection&nbsp;of&nbsp;all<br>
+modules&nbsp;from&nbsp;the&nbsp;project.<br>
+&nbsp;<br>
+License:&nbsp;MIT&nbsp;License<br>
+Version:&nbsp;1.0</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="#">codecs</a><br>
+<a href="#">lxml</a><br>
+</td><td width="25%" valign=top><a href="#">numpy</a><br>
+<a href="#">os</a><br>
+</td><td width="25%" valign=top><a href="#">sys</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="main.html#NegationDetection">NegationDetection</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="NegationDetection">class <strong>NegationDetection</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>This&nbsp;is&nbsp;the&nbsp;main&nbsp;module&nbsp;and&nbsp;it&nbsp;is&nbsp;a&nbsp;collection&nbsp;of&nbsp;all<br>
+modules&nbsp;from&nbsp;the&nbsp;project.<br>
+&nbsp;<br>
+Returns:&nbsp;Results&nbsp;from&nbsp;all&nbsp;modules&nbsp;of&nbsp;this&nbsp;project<br>
+&nbsp;<br>
+Example:&nbsp;TRAIN&nbsp;=&nbsp;<a href="#NegationDetection">NegationDetection</a>()<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="NegationDetection-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="NegationDetection-create_directories"><strong>create_directories</strong></a>(self, path)</dt><dd><tt>This&nbsp;function&nbsp;creates&nbsp;missing&nbsp;directories&nbsp;that&nbsp;are&nbsp;needed&nbsp;for&nbsp;the&nbsp;output&nbsp;files<br>
+&nbsp;<br>
+Example:&nbsp;<a href="#NegationDetection-create_directories">create_directories</a>(../res/xml/train/output/tagged)<br>
+&nbsp;<br>
+Returns:&nbsp;created&nbsp;directories</tt></dd></dl>
+
+<dl><dt><a name="NegationDetection-cueword_statistics"><strong>cueword_statistics</strong></a>(self, xml_file_path)</dt><dd><tt>This&nbsp;function&nbsp;iterates&nbsp;over&nbsp;xml&nbsp;files&nbsp;and&nbsp;writes&nbsp;various&nbsp;statistics<br>
+about&nbsp;the&nbsp;cuewords,&nbsp;scope,&nbsp;focus&nbsp;and&nbsp;negated&nbsp;targets.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml_file_path&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;input&nbsp;files<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Written&nbsp;txt&nbsp;file&nbsp;for&nbsp;each&nbsp;file&nbsp;in&nbsp;the&nbsp;input&nbsp;path.<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#NegationDetection-cueword_statistics">cueword_statistics</a>('../res/xml/train/')</tt></dd></dl>
+
+<dl><dt><a name="NegationDetection-detect_negation"><strong>detect_negation</strong></a>(self, xml_file_path, xml_out, cuewords)</dt><dd><tt>This&nbsp;function&nbsp;detects&nbsp;negated&nbsp;sentences&nbsp;and&nbsp;split&nbsp;words<br>
+from&nbsp;a&nbsp;token&nbsp;annotated&nbsp;corpus&nbsp;file&nbsp;in&nbsp;xml&nbsp;format<br>
+and&nbsp;annotates&nbsp;them&nbsp;with&nbsp;negation,&nbsp;scope&nbsp;and&nbsp;focus&nbsp;frames.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;a&nbsp;corpus&nbsp;file&nbsp;in&nbsp;xml&nbsp;format&nbsp;without&nbsp;frame&nbsp;annotations<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml_out&nbsp;(str):&nbsp;&nbsp;Path&nbsp;to&nbsp;an&nbsp;empty&nbsp;file&nbsp;with&nbsp;.xml&nbsp;extension<br>
+&nbsp;&nbsp;&nbsp;&nbsp;cuewords&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;the&nbsp;cuewords&nbsp;file&nbsp;created&nbsp;with&nbsp;the&nbsp;extract_cuewords.py&nbsp;module<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;written&nbsp;file&nbsp;with&nbsp;with&nbsp;frame&nbsp;annotations<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#NegationDetection-detect_negation">detect_negation</a>('../res/xml/train/output',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;'../res/xml/train/output/tagged',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;'../res/cuewords/baskerville_cuewords.txt')</tt></dd></dl>
+
+<dl><dt><a name="NegationDetection-evaluate"><strong>evaluate</strong></a>(self, xml_gold_path, xml_output_path)</dt><dd><tt>This&nbsp;function&nbsp;iterates&nbsp;over&nbsp;Gold&nbsp;standard&nbsp;files&nbsp;and&nbsp;output&nbsp;files&nbsp;created&nbsp;with&nbsp;the&nbsp;<a href="#NegationDetection-detect_negation">detect_negation</a>()&nbsp;module.<br>
+It&nbsp;calculates&nbsp;the&nbsp;average&nbsp;f1&nbsp;score&nbsp;between&nbsp;all&nbsp;cuewords.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml_gold_path&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;corpus&nbsp;gold&nbsp;files&nbsp;in&nbsp;xml&nbsp;format&nbsp;with&nbsp;frame&nbsp;annotations<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml_output_path&nbsp;(str):&nbsp;&nbsp;Path&nbsp;to&nbsp;corpus&nbsp;files&nbsp;in&nbsp;xml&nbsp;format&nbsp;created&nbsp;with&nbsp;<a href="#NegationDetection-detect_negation">detect_negation</a>()&nbsp;module<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;average&nbsp;f1&nbsp;score&nbsp;per&nbsp;file<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#NegationDetection-evaluate">evaluate</a>('../res/xml/train/',&nbsp;'../res/xml/train/output/tagged/')</tt></dd></dl>
+
+<dl><dt><a name="NegationDetection-extract_cuewords"><strong>extract_cuewords</strong></a>(self, cuewords, xml_file_path)</dt><dd><tt>This&nbsp;function&nbsp;extracts&nbsp;negation&nbsp;cuewords&nbsp;from&nbsp;xml&nbsp;files<br>
+and&nbsp;writes&nbsp;them&nbsp;into&nbsp;a&nbsp;txt&nbsp;file,&nbsp;one&nbsp;word&nbsp;per&nbsp;line.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;cuewords&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;an&nbsp;empty&nbsp;txt&nbsp;file&nbsp;for&nbsp;output<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml_file_path&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;input&nbsp;files<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Two&nbsp;written&nbsp;files&nbsp;with&nbsp;negation&nbsp;cues&nbsp;alphabetically&nbsp;sorted<br>
+&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;without&nbsp;duplicates,&nbsp;one&nbsp;file&nbsp;contains&nbsp;POS&nbsp;tags.<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#NegationDetection-extract_cuewords">extract_cuewords</a>('../res/cuewords/baskerville_cuewords.txt',&nbsp;'../res/xml/train/')</tt></dd></dl>
+
+<dl><dt><a name="NegationDetection-remove_frames"><strong>remove_frames</strong></a>(self, xml_file_path, xml_output_file_path)</dt><dd><tt>This&nbsp;function&nbsp;removes&nbsp;Negation&nbsp;frames&nbsp;from&nbsp;corpus&nbsp;files&nbsp;in&nbsp;Tiger&nbsp;xml&nbsp;format.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml_file_path&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;corpus&nbsp;files&nbsp;in&nbsp;xml&nbsp;format<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml_output_file_path&nbsp;(str):&nbsp;Path&nbsp;for&nbsp;output<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;written&nbsp;files&nbsp;without&nbsp;frame&nbsp;annotations<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#NegationDetection-remove_frames">remove_frames</a>('../res/xml/train',&nbsp;'../res/xml/train/output')</tt></dd></dl>
+
+<dl><dt><a name="NegationDetection-xml_to_conll"><strong>xml_to_conll</strong></a>(self, xml_file_path)</dt><dd><tt>This&nbsp;function&nbsp;transforms&nbsp;corpus&nbsp;xml&nbsp;files&nbsp;into&nbsp;the&nbsp;CoNLL-2009&nbsp;format<br>
+which&nbsp;is&nbsp;needed&nbsp;for&nbsp;dependency&nbsp;parsing.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;corpus&nbsp;files&nbsp;in&nbsp;tiger&nbsp;xml&nbsp;format<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;written&nbsp;files&nbsp;with&nbsp;.conll&nbsp;extension<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#NegationDetection-xml_to_conll">xml_to_conll</a>('../res/xml/train/')</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>CONLL_PATH</strong> = '../res/conll/'<br>
+<strong>CUEWORDS_DATA_PATH</strong> = '../res/cuewords/'<br>
+<strong>CUEWORDS_FILE</strong> = 'baskerville_cuewords.txt'<br>
+<strong>CUEWORDS_FILE_POS_TAGGED</strong> = 'baskerville_cuewords_postagged.txt'<br>
+<strong>CUEWORDS_STATS_PATH</strong> = '../res/cuewords/stats/'<br>
+<strong>FOCUS_LEMMA_RULES</strong> = ['VMFIN', 'VVFIN', 'VVPP']<br>
+<strong>FOCUS_TAG_NAME</strong> = 'Focus'<br>
+<strong>NEGATED_TAG_NAME</strong> = 'Negated'<br>
+<strong>NEGATION_FRAME_NAME</strong> = 'Negation'<br>
+<strong>NICHTS_FOCUS_RULES</strong> = ['NN', 'PIS', 'PPER']<br>
+<strong>NICHTS_RULES</strong> = ['PIAT', 'PTKANT', 'PIS']<br>
+<strong>NICHT_NEGATED_RULES</strong> = ['VVPP', 'VVIZU', 'VVFIN', 'VMFIN', 'ART']<br>
+<strong>NICHT_PREV_RULES</strong> = ['VAFIN']<br>
+<strong>NICHT_RULES</strong> = ['PIS', 'VVPP', 'ADJD', 'ADV', 'PPER', 'VVINF', 'ADJ', 'ADJA', 'VMFIN', 'PPOSAT']<br>
+<strong>SCOPE_BREAKING_FENODE</strong> = ['$,', '$.']<br>
+<strong>SCOPE_CONTINUE_FENODE</strong> = ['KOUS', 'ADV', 'ART', 'KOKOM', 'APPR']<br>
+<strong>SCOPE_END_FENODE</strong> = ['$.', '$*LRB*']<br>
+<strong>SCOPE_END_LEMMA</strong> = ['–', 'und']<br>
+<strong>SCOPE_START_FENODE</strong> = ['$*LRB*', '$,', 'KON', 'KOUS']<br>
+<strong>SCOPE_TAG_NAME</strong> = 'Scope'<br>
+<strong>TEST_RESULTS_FILE</strong> = '../results/results-test.txt'<br>
+<strong>TRAIN_RESULTS_FILE</strong> = '../results/results-train.txt'<br>
+<strong>UN_AUS_RULES_POS_TAGS</strong> = ['ADJA', 'ADJD', 'NN', 'VVFIN', 'VVPP', 'VVINF']<br>
+<strong>XML_TEST_FILES_OUTPUT_PATH</strong> = '../res/xml/test/output/'<br>
+<strong>XML_TEST_FILES_PATH</strong> = '../res/xml/test/'<br>
+<strong>XML_TEST_FILES_TAGGED_PATH</strong> = '../res/xml/test/output/tagged/'<br>
+<strong>XML_TRAIN_FILES_OUTPUT_PATH</strong> = '../res/xml/train/output/'<br>
+<strong>XML_TRAIN_FILES_PATH</strong> = '../res/xml/train/'<br>
+<strong>XML_TRAIN_FILES_TAGGED_PATH</strong> = '../res/xml/train/output/tagged/'</td></tr></table>
+</body></html>

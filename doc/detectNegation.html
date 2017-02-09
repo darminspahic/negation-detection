@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module detectNegation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>detectNegation</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href="index.html">index</a><br><a href="file:detectnegation.html">detectnegation.py</a></font></td></tr></table>
+    <p><tt>Author:&nbsp;Darmin&nbsp;Spahic&nbsp;&lt;Spahic@stud.uni-heidelberg.de&gt;<br>
+Project:&nbsp;Negation&nbsp;Detection<br>
+&nbsp;<br>
+Module&nbsp;name:<br>
+detect_negation<br>
+&nbsp;<br>
+Short&nbsp;description:<br>
+This&nbsp;is&nbsp;the&nbsp;main&nbsp;module&nbsp;and&nbsp;it&nbsp;detects&nbsp;negated&nbsp;sentences&nbsp;and<br>
+split&nbsp;words&nbsp;from&nbsp;a&nbsp;token&nbsp;annotated&nbsp;corpus&nbsp;file&nbsp;in&nbsp;xml&nbsp;format<br>
+and&nbsp;annotates&nbsp;them&nbsp;with&nbsp;negation,&nbsp;scope&nbsp;and&nbsp;focus&nbsp;frames.<br>
+&nbsp;<br>
+License:&nbsp;MIT&nbsp;License<br>
+Version:&nbsp;1.0</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="#">codecs</a><br>
+</td><td width="25%" valign=top><a href="#">lxml</a><br>
+</td><td width="25%" valign=top><a href="#">os</a><br>
+</td><td width="25%" valign=top><a href="#">sys</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-detect_negation"><strong>detect_negation</strong></a>(xml_file_path, xml_out, cuewords)</dt><dd><tt>This&nbsp;function&nbsp;detects&nbsp;negated&nbsp;sentences&nbsp;and&nbsp;split&nbsp;words<br>
+from&nbsp;a&nbsp;token&nbsp;annotated&nbsp;corpus&nbsp;file&nbsp;in&nbsp;xml&nbsp;format<br>
+and&nbsp;annotates&nbsp;them&nbsp;with&nbsp;negation,&nbsp;scope&nbsp;and&nbsp;focus&nbsp;frames.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;a&nbsp;corpus&nbsp;file&nbsp;in&nbsp;xml&nbsp;format&nbsp;without&nbsp;frame&nbsp;annotations<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml_out&nbsp;(str):&nbsp;&nbsp;Path&nbsp;to&nbsp;an&nbsp;empty&nbsp;file&nbsp;with&nbsp;.xml&nbsp;extension<br>
+&nbsp;&nbsp;&nbsp;&nbsp;cuewords&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;the&nbsp;cuewords&nbsp;file&nbsp;created&nbsp;with&nbsp;the&nbsp;extract_cuewords.py&nbsp;module<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;written&nbsp;file&nbsp;with&nbsp;with&nbsp;frame&nbsp;annotations<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#-detect_negation">detect_negation</a>('../../res/xml/train/output',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;'../../res/xml/train/output/tagged',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;'../../res/cuewords/baskerville_cuewords.txt')</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>CONLL_PATH</strong> = '../../res/conll/'<br>
+<strong>CUEWORDS_DATA_PATH</strong> = '../../res/cuewords/'<br>
+<strong>CUEWORDS_FILE</strong> = 'baskerville_cuewords.txt'<br>
+<strong>CUEWORDS_FILE_POS_TAGGED</strong> = 'baskerville_cuewords_postagged.txt'<br>
+<strong>CUEWORDS_STATS_PATH</strong> = '../../res/cuewords/stats/'<br>
+<strong>FOCUS_LEMMA_RULES</strong> = ['VMFIN', 'VVFIN', 'VVPP']<br>
+<strong>FOCUS_TAG_NAME</strong> = 'Focus'<br>
+<strong>NEGATED_TAG_NAME</strong> = 'Negated'<br>
+<strong>NEGATION_FRAME_NAME</strong> = 'Negation'<br>
+<strong>NICHTS_FOCUS_RULES</strong> = ['NN', 'PIS', 'PPER']<br>
+<strong>NICHTS_RULES</strong> = ['PIAT', 'PTKANT', 'PIS']<br>
+<strong>NICHT_NEGATED_RULES</strong> = ['VVPP', 'VVIZU', 'VVFIN', 'VMFIN', 'ART']<br>
+<strong>NICHT_PREV_RULES</strong> = ['VAFIN']<br>
+<strong>NICHT_RULES</strong> = ['PIS', 'VVPP', 'ADJD', 'ADV', 'PPER', 'VVINF', 'ADJ', 'ADJA', 'VMFIN', 'PPOSAT']<br>
+<strong>SCOPE_BREAKING_FENODE</strong> = ['$,', '$.']<br>
+<strong>SCOPE_CONTINUE_FENODE</strong> = ['KOUS', 'ADV', 'ART', 'KOKOM', 'APPR']<br>
+<strong>SCOPE_END_FENODE</strong> = ['$.', '$*LRB*']<br>
+<strong>SCOPE_END_LEMMA</strong> = ['–', 'und']<br>
+<strong>SCOPE_START_FENODE</strong> = ['$*LRB*', '$,', 'KON', 'KOUS']<br>
+<strong>SCOPE_TAG_NAME</strong> = 'Scope'<br>
+<strong>TEST_RESULTS_FILE</strong> = '../../results/results-test.txt'<br>
+<strong>TRAIN_RESULTS_FILE</strong> = '../../results/results-train.txt'<br>
+<strong>UN_AUS_RULES_POS_TAGS</strong> = ['ADJA', 'ADJD', 'NN', 'VVFIN', 'VVPP', 'VVINF']<br>
+<strong>XML_TEST_FILES_OUTPUT_PATH</strong> = '../../res/xml/test/output/'<br>
+<strong>XML_TEST_FILES_PATH</strong> = '../../res/xml/test/'<br>
+<strong>XML_TEST_FILES_TAGGED_PATH</strong> = '../../res/xml/test/output/tagged/'<br>
+<strong>XML_TRAIN_FILES_OUTPUT_PATH</strong> = '../../res/xml/train/output/'<br>
+<strong>XML_TRAIN_FILES_PATH</strong> = '../../res/xml/train/'<br>
+<strong>XML_TRAIN_FILES_TAGGED_PATH</strong> = '../../res/xml/train/output/tagged/'</td></tr></table>
+</body></html>

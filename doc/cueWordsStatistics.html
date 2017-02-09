@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module cueWordsStatistics</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>cueWordsStatistics</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href="index.html">index</a><br><a href="file:cuewordsstatistics.html">cuewordsstatistics.py</a></font></td></tr></table>
+    <p><tt>Author:&nbsp;Darmin&nbsp;Spahic&nbsp;&lt;Spahic@stud.uni-heidelberg.de&gt;<br>
+Project:&nbsp;Negation&nbsp;Detection<br>
+&nbsp;<br>
+Module&nbsp;name:<br>
+cueword_statistics<br>
+&nbsp;<br>
+Short&nbsp;description:<br>
+This&nbsp;module&nbsp;writes&nbsp;various&nbsp;statistics<br>
+about&nbsp;the&nbsp;cuewords,&nbsp;scope,&nbsp;focus&nbsp;and&nbsp;negated&nbsp;targets.<br>
+&nbsp;<br>
+License:&nbsp;MIT&nbsp;License<br>
+Version:&nbsp;1.0</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="#">codecs</a><br>
+</td><td width="25%" valign=top><a href="#">lxml</a><br>
+</td><td width="25%" valign=top><a href="#">os</a><br>
+</td><td width="25%" valign=top><a href="#">sys</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-cueword_statistics"><strong>cueword_statistics</strong></a>(xml_file_path)</dt><dd><tt>This&nbsp;function&nbsp;iterates&nbsp;over&nbsp;xml&nbsp;files&nbsp;and&nbsp;writes&nbsp;various&nbsp;statistics<br>
+about&nbsp;the&nbsp;cuewords,&nbsp;scope,&nbsp;focus&nbsp;and&nbsp;negated&nbsp;targets.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;xml_file_path&nbsp;(str):&nbsp;Path&nbsp;to&nbsp;input&nbsp;files<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Written&nbsp;txt&nbsp;file&nbsp;for&nbsp;each&nbsp;file&nbsp;in&nbsp;the&nbsp;input&nbsp;path.<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#-cueword_statistics">cueword_statistics</a>('../res/xml/train/')</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>CONLL_PATH</strong> = '../../res/conll/'<br>
+<strong>CUEWORDS_DATA_PATH</strong> = '../../res/cuewords/'<br>
+<strong>CUEWORDS_FILE</strong> = 'baskerville_cuewords.txt'<br>
+<strong>CUEWORDS_FILE_POS_TAGGED</strong> = 'baskerville_cuewords_postagged.txt'<br>
+<strong>CUEWORDS_STATS_PATH</strong> = '../../res/cuewords/stats/'<br>
+<strong>FOCUS_TAG_NAME</strong> = 'Focus'<br>
+<strong>NEGATED_TAG_NAME</strong> = 'Negated'<br>
+<strong>NEGATION_FRAME_NAME</strong> = 'Negation'<br>
+<strong>SCOPE_TAG_NAME</strong> = 'Scope'<br>
+<strong>XML_TRAIN_FILES_OUTPUT_PATH</strong> = '../../res/xml/train/output/'<br>
+<strong>XML_TRAIN_FILES_PATH</strong> = '../../res/xml/train/'</td></tr></table>
+</body></html>

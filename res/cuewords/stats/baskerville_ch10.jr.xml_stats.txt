@@ -1,0 +1,672 @@
+
+=SPLITWORDS=
+s5_26	unauslöschlich	ADJD
+5_26_s0	un
+5_26_s1	auslöschlich
+5_26_s0	TARGET
+5_26_s1	NEGATED
+5_26_s1	SCOPE
+
+=SPLITWORDS=
+s15_50	unheimliches	ADJA
+15_50_s0	un
+15_50_s1	heimliches
+15_50_s0	TARGET
+15_50_s1	NEGATED
+15_50_s1	SCOPE
+
+=SPLITWORDS=
+s17_6	unglaublich	ADJD
+17_6_s0	un
+17_6_s1	glaublich
+17_6_s0	TARGET
+17_6_s1	NEGATED
+17_6_s1	SCOPE
+
+=SPLITWORDS=
+s17_9	unmöglich	VVPP
+17_9_s0	un
+17_9_s1	möglich
+17_9_s0	TARGET
+17_9_s1	NEGATED
+17_9_s1	SCOPE
+
+=SCOPE/FOCUS=
+s18_31	nicht	PTKNEG
+s18_31	TARGET
+s18_29	NEGATED	ist	VAFIN
+s18_526	SCOPE	['so', 'etwas']
+s18_25	SCOPE	[]
+s18_29	SCOPE	[]
+s18_532	SCOPE	['zu', 'denken']
+
+=SCOPE/FOCUS=
+s19_41	nichts	PIS
+s19_41	TARGET
+s19_46	NEGATED	bringen	VVINF
+s19_41	SCOPE	[]
+s19_42	SCOPE	[]
+s19_543	SCOPE	['mich', 'dazu', 'bringen', ',', ['an', ['so', 'etwas'], ['zu', 'glauben']]]
+
+=SCOPE/FOCUS=
+s20_25	nicht	PTKNEG
+s20_25	TARGET
+s20_31	NEGATED	begnügen	VVFIN
+s20_23	SCOPE	[]
+s20_31	SCOPE	[]
+s20_24	SCOPE	[]
+s20_526	SCOPE	['mit', 'einem', 'gewöhnlichen', 'Höllenhund']
+
+=SCOPE/FOCUS=
+s21_11	nicht	PTKNEG
+s21_11	TARGET
+s21_4	SCOPE	[]
+s21_12	SCOPE	[]
+s21_5	SCOPE	[]
+s21_507	SCOPE	['auf', 'solche', 'Spinnereien']
+
+=SCOPE/FOCUS=
+s24_36	niemand	PIS
+s24_36	TARGET
+s24_40	NEGATED	sieht	VVFIN
+s24_35	SCOPE	[]
+s24_537	SCOPE	['bei', 'Tage']
+s24_40	SCOPE	[]
+s24_36	SCOPE	[]
+
+=SCOPE/FOCUS=
+s32_8	niemand	PIS
+s32_8	TARGET
+s32_4	NEGATED	ist	VAFIN
+s32_4	SCOPE	[]
+s32_3	SCOPE	[]
+s32_510	SCOPE	['den', 'ich', 'habe', ['bislang', 'hier', 'gesehen']]
+s32_8	SCOPE	[]
+
+=SCOPE/FOCUS=
+s34_32	nicht	PTKNEG
+s34_32	TARGET
+s34_36	NEGATED	können	VVPP
+s34_36	SCOPE	[]
+s34_30	SCOPE	[]
+s34_31	SCOPE	[]
+s34_33	SCOPE	[]
+s34_35	SCOPE	[]
+
+=SCOPE/FOCUS=
+s36_7	nicht	PTKNEG
+s36_7	TARGET
+s36_9	NEGATED	können	VVPP
+s36_3	SCOPE	[]
+s36_9	SCOPE	[]
+s36_8	SCOPE	[]
+s36_6	SCOPE	[]
+s36_4	SCOPE	[]
+
+=SCOPE/FOCUS=
+s43_6	nichts	PIS
+s43_6	TARGET
+s43_5	NEGATED	möchte	VMFIN
+s43_4	SCOPE	[]
+s43_5	SCOPE	[]
+s43_8	SCOPE	[]
+s43_510	SCOPE	['das', ['seine', 'Ängste'], 'noch', 'verstärken', 'würde']
+s43_6	SCOPE	[]
+
+=SPLITWORDS=
+s49_13	unfair	VVPP
+49_13_s0	un
+49_13_s1	fair
+49_13_s0	TARGET
+49_13_s1	NEGATED
+49_13_s1	SCOPE
+
+=SCOPE/FOCUS=
+s53_22	ohne	APPR
+s53_22	TARGET
+
+=SCOPE/FOCUS=
+s54_69	keinen	PIAT
+s54_69	TARGET
+s54_72	NEGATED	sahen	VVFIN
+s54_67	SCOPE	[]
+s54_72	SCOPE	[]
+s54_70	SCOPE	[]
+s54_71	SCOPE	[]
+
+=SCOPE/FOCUS=
+s55_8	nicht	PTKNEG
+s55_8	TARGET
+s55_5	SCOPE	[]
+s55_6	SCOPE	[]
+s55_9	SCOPE	[]
+s55_511	SCOPE	['dass', 'Sie', ['das', 'ausnutzen'], 'würden']
+s55_31	nicht	PTKNEG
+s55_31	TARGET
+s55_32	NEGATED	gedacht	VVPP
+s55_525	SCOPE	['das', 'hätte']
+s55_29	SCOPE	[]
+s55_30	SCOPE	[]
+s55_32	SCOPE	[]
+
+=SCOPE/FOCUS=
+s57_28	nichts	PIS
+s57_28	TARGET
+s57_29	NEGATED	zurückschreckt	VVFIN
+s57_25	SCOPE	[]
+s57_29	SCOPE	[]
+s57_27	SCOPE	[]
+s57_28	SCOPE	[]
+
+=SCOPE/FOCUS=
+s60_6	nicht	PTKNEG
+s60_6	TARGET
+s60_13	NEGATED	ist	VAFIN
+s60_5	SCOPE	[]
+s60_13	SCOPE	[]
+s60_507	SCOPE	['hinter', ['Schloss', 'und', 'Riegel']]
+s60_20	niemanden	PIS
+s60_20	TARGET
+s60_15	NEGATED	gibt	VVFIN
+s60_15	SCOPE	[]
+s60_517	SCOPE	['Sicherheit', ['für', 'niemanden']]
+s60_16	SCOPE	[]
+
+=SCOPE/FOCUS=
+s61_10	kein	PIAT
+s61_10	TARGET
+s61_12	NEGATED	einbrechen	VVPP
+s61_4	SCOPE	[]
+s61_12	SCOPE	[]
+s61_5	SCOPE	[]
+s61_8	SCOPE	[]
+s61_11	SCOPE	[]
+
+=SCOPE/FOCUS=
+s63_7	niemals	ADV
+s63_7	TARGET
+s63_16	NEGATED	behelligen	VVINF
+s63_4	SCOPE	[]
+s63_16	SCOPE	[]
+s63_5	SCOPE	[]
+s63_7	SCOPE	[]
+s63_509	SCOPE	['irgend', 'jemanden']
+s63_512	SCOPE	['in', 'diesem', 'Land']
+
+=SCOPE/FOCUS=
+s65_26	nicht	PTKNEG
+s65_26	TARGET
+s65_523	SCOPE	['die', 'Polizei']
+s65_528	SCOPE	['zu', 'lassen']
+s65_27	SCOPE	[]
+s65_532	SCOPE	['dass', 'er', 'sich', 'noch', 'befindet', ['im', 'Moor']]
+
+=SCOPE/FOCUS=
+s67_6	nicht	PTKNEG
+s67_6	TARGET
+s67_4	NEGATED	können	VVFIN
+s67_3	SCOPE	[]
+s67_4	SCOPE	[]
+s67_5	SCOPE	[]
+s67_8	SCOPE	[]
+s67_9	SCOPE	[]
+s67_12	ohne	KOUI
+s67_12	TARGET
+s67_513	SCOPE	[[['meine', 'Frau'], 'und', 'mich'], ['in', 'Schwierigkeiten']]
+s67_523	SCOPE	['zu', 'bringen']
+
+=SCOPE/FOCUS=
+s68_13	nichts	PIS
+s68_13	TARGET
+s68_10	SCOPE	[]
+s68_514	SCOPE	['der', 'Polizei']
+s68_11	SCOPE	[]
+s68_13	SCOPE	[]
+
+=SCOPE/FOCUS=
+s73_11	nicht	PTKNEG
+s73_11	TARGET
+s73_504	SCOPE	['So', 'etwas', 'Dummes']
+s73_8	SCOPE	[]
+s73_9	SCOPE	[]
+s73_12	SCOPE	[]
+
+=SCOPE/FOCUS=
+s81_20	nicht	PTKNEG
+s81_20	TARGET
+s81_21	NEGATED	imstande	ADJD
+s81_18	SCOPE	[]
+s81_21	SCOPE	[]
+s81_523	SCOPE	[['den', 'Mann'], 'auszuliefern']
+
+=SCOPE/FOCUS=
+s86_6	niemals	ADV
+s86_6	TARGET
+s86_14	NEGATED	gesagt	VVPP
+s86_14	SCOPE	[]
+s86_4	SCOPE	[]
+s86_3	SCOPE	[]
+s86_507	SCOPE	['zu', 'jemandem']
+s86_510	SCOPE	['ein', 'Wort']
+s86_13	SCOPE	[]
+s86_6	SCOPE	[]
+
+=SCOPE/FOCUS=
+s90_4	Nein	PTKANT
+s90_4	TARGET
+s90_11	nicht	PTKNEG
+s90_11	TARGET
+s90_9	NEGATED	weiß	VVFIN
+s90_8	SCOPE	[]
+s90_10	SCOPE	[]
+s90_9	SCOPE	[]
+
+=SCOPE/FOCUS=
+s97_11	nicht	PTKNEG
+s97_11	TARGET
+s97_6	NEGATED	weiß	VVFIN
+s97_508	SCOPE	['ihren', 'Namen']
+s97_7	SCOPE	[]
+s97_6	SCOPE	[]
+
+=SCOPE/FOCUS=
+s104_7	nicht	PTKNEG
+s104_7	TARGET
+s104_4	SCOPE	[]
+s104_5	SCOPE	[]
+s104_510	SCOPE	['daran', 'gedacht']
+s104_8	SCOPE	[]
+
+=SCOPE/FOCUS=
+s105_29	nicht	PTKNEG
+s105_29	TARGET
+s105_33	NEGATED	angerührt	VVPP
+s105_522	SCOPE	['seit', 'seinem', 'Tod']
+s105_26	SCOPE	[]
+s105_27	SCOPE	[]
+s105_30	SCOPE	[]
+s105_532	SCOPE	['angerührt', 'worden']
+
+=SCOPE/FOCUS=
+s110_5	Nein	PTKANT
+s110_5	TARGET
+
+=SCOPE/FOCUS=
+s112_10	keine	PIAT
+s112_10	TARGET
+s112_7	NEGATED	nahm	VVFIN
+s112_7	SCOPE	[]
+s112_513	SCOPE	['von', 'seinen', 'Briefen']
+s112_11	SCOPE	[]
+s112_12	SCOPE	[]
+s112_11	FOCUS	ADJA	besondere	[]
+
+=SCOPE/FOCUS=
+s113_9	nicht	PTKNEG
+s113_9	TARGET
+s113_503	SCOPE	['Auch', 'dieser']
+s113_6	SCOPE	[]
+s113_10	SCOPE	[]
+s113_7	SCOPE	[]
+s113_16	nicht	PTKNEG
+s113_16	TARGET
+s113_14	SCOPE	[]
+s113_517	SCOPE	['der', 'einzige']
+s113_20	SCOPE	[]
+s113_21	SCOPE	[]
+
+=SCOPE/FOCUS=
+s114_8	keine	PIAT
+s114_8	TARGET
+s114_5	SCOPE	[]
+s114_6	SCOPE	[]
+s114_9	SCOPE	[]
+s114_511	SCOPE	['wer', [['L.', 'L.'], 'sein'], 'könnte']
+
+=SCOPE/FOCUS=
+s115_7	nicht	PTKNEG
+s115_7	TARGET
+s115_12	nicht	PTKNEG
+s115_12	TARGET
+s115_13	SCOPE	[]
+s115_514	SCOPE	['als', 'Sie']
+
+=SCOPE/FOCUS=
+s117_6	nicht	PTKNEG
+s117_6	TARGET
+s117_5	NEGATED	verstehe	VVFIN
+s117_4	SCOPE	[]
+s117_5	SCOPE	[]
+s117_510	SCOPE	['wie', 'Sie', 'uns', 'konnten', [['diese', 'wichtige', 'Information'], 'vorenthalten']]
+
+=SPLITWORDS=
+s118_6	unmittelbar	ADJD
+118_6_s0	un
+118_6_s1	mittelbar
+118_6_s0	TARGET
+118_6_s1	NEGATED
+118_6_s1	SCOPE
+
+=SCOPE/FOCUS=
+s120_13	nicht	PTKNEG
+s120_13	TARGET
+s120_10	NEGATED	konnte	VMFIN
+s120_11	SCOPE	[]
+s120_14	SCOPE	[]
+s120_15	SCOPE	[]
+s120_504	SCOPE	[['Die', 'Geschichte'], 'wieder', 'aufzurühren']
+s120_10	SCOPE	[]
+
+=SCOPE/FOCUS=
+s123_14	nichts	PIAT
+s123_14	TARGET
+s123_12	SCOPE	[]
+s123_15	SCOPE	[]
+s123_16	SCOPE	[]
+s123_14	SCOPE	[]
+
+=SPLITWORDS=
+s124_23	unfair	ADJD
+124_23_s0	un
+124_23_s1	fair
+124_23_s0	TARGET
+124_23_s1	SCOPE
+
+=SCOPE/FOCUS=
+s137_14	nicht	PTKNEG
+s137_14	TARGET
+s137_12	SCOPE	[]
+s137_18	SCOPE	[]
+s137_515	SCOPE	['dazu', 'veranlasste']
+s137_13	SCOPE	[]
+s137_16	SCOPE	[]
+
+=SCOPE/FOCUS=
+s139_39	ohne	APPR
+s139_39	TARGET
+s139_541	SCOPE	['jeglichen', 'Kommentar', ['zu', 'den', 'Informationen', [['von', 'mir'], 'gelieferten']]]
+s139_53	SCOPE	[]
+s139_554	SCOPE	['einen', 'Bezug', ['zu', 'meiner', 'Aufgabe']]
+
+=SPLITWORDS=
+s148_17	unsichtbare	ADJA
+148_17_s0	un
+148_17_s1	sichtbare
+148_17_s0	TARGET
+148_17_s1	NEGATED
+148_17_s1	SCOPE
+
+=SCOPE/FOCUS=
+s155_3	Nirgendwo	ADV
+s155_3	TARGET
+s155_4	NEGATED	war	VAFIN
+s155_4	SCOPE	[]
+s155_3	SCOPE	[]
+s155_505	SCOPE	['die', 'geringste', 'Spur']
+s155_510	SCOPE	['dieses', 'einsamen', 'Mannes']
+s155_514	SCOPE	['zu', 'sehen']
+s155_518	SCOPE	['den', 'ich', [['an', ['eben', 'dieser'], 'Stelle'], 'zuvor', 'gesehen', ['zwei', 'Nächte']], 'hatte']
+
+=SPLITWORDS=
+s156_25	unbefestigten	ADJA
+156_25_s0	un
+156_25_s1	befestigten
+156_25_s0	TARGET
+156_25_s1	NEGATED
+s156_25	SCOPE
+
+=SCOPE/FOCUS=
+s157_25	ohne	APPR
+s157_25	TARGET
+s157_27	SCOPE	[]
+s157_529	SCOPE	['nach', ['Baskerville', 'Hall']]
+s157_34	SCOPE	[]
+s157_35	SCOPE	[]
+s157_537	SCOPE	['um', ',', ['zu', 'sehen'], ['ob', 'es', 'uns', 'gut', 'ging']]
+
+=SCOPE/FOCUS=
+s160_14	nicht	PTKNEG
+s160_14	TARGET
+s160_16	NEGATED	zurückgekommen	VVINF
+s160_3	SCOPE	[]
+s160_15	SCOPE	[]
+s160_16	SCOPE	[]
+
+=SCOPE/FOCUS=
+s161_32	nicht	PTKNEG
+s161_32	TARGET
+s161_29	SCOPE	[]
+s161_31	SCOPE	[]
+s161_33	SCOPE	[]
+s161_535	SCOPE	['dass', 'er', ['seinen', 'kleinen', 'Hund'], ['jemals', 'wiedersehen'], 'würde']
+s161_18	SCOPE	[]
+
+=SCOPE/FOCUS=
+s162_45	nicht	PTKNEG
+s162_45	TARGET
+s162_43	SCOPE	[]
+s162_44	SCOPE	[]
+s162_46	SCOPE	[]
+
+=SCOPE/FOCUS=
+s163_9	niemand	PIS
+s163_9	TARGET
+s163_5	SCOPE	[]
+s163_6	SCOPE	[]
+s163_507	SCOPE	['wie', 'niemand']
+
+=SCOPE/FOCUS=
+s166_4	Nein	PTKANT
+s166_4	TARGET
+
+=SCOPE/FOCUS=
+s167_20	nichts	PIS
+s167_20	TARGET
+s167_22	NEGATED	kann	VMFIN
+s167_17	SCOPE	[]
+s167_18	SCOPE	[]
+s167_16	SCOPE	[]
+s167_519	SCOPE	['nichts', 'sagen']
+s167_22	SCOPE	[]
+s167_39	niemanden	PIS
+s167_39	TARGET
+s167_37	NEGATED	wüsste	VVFIN
+s167_526	SCOPE	['unter', ['oder', ['den', 'Bauern'], ['den', 'gebildeten', 'Leuten']]]
+s167_38	SCOPE	[]
+s167_39	SCOPE	[]
+s167_37	SCOPE	[]
+
+=SCOPE/FOCUS=
+s176_21	nicht	PTKNEG
+s176_21	TARGET
+s176_6	NEGATED	lag	VVFIN
+s176_503	SCOPE	['Die', 'Schuld']
+s176_523	SCOPE	['bei', 'ihm']
+s176_22	SCOPE	[]
+s176_508	SCOPE	['nach', 'allem', ',', ['was', ['ich', 'so', 'gehört'], 'habe']]
+
+=SCOPE/FOCUS=
+s177_28	ohne	APPR
+s177_28	TARGET
+s177_30	SCOPE	[]
+s177_29	SCOPE	[]
+
+=SCOPE/FOCUS=
+s178_7	nicht	PTKNEG
+s178_7	TARGET
+s178_6	NEGATED	hatte	VAFIN
+s178_503	SCOPE	['Das', 'Mädchen']
+s178_511	SCOPE	['zwischen', ['und', ['dem', 'alten'], ['dem', 'jungen', 'Sünder']]]
+s178_10	SCOPE	[]
+s178_9	SCOPE	[]
+s178_6	SCOPE	[]
+
+=SCOPE/FOCUS=
+s180_24	nicht	PTKNEG
+s180_24	TARGET
+s180_22	NEGATED	kann	VMFIN
+s180_21	SCOPE	[]
+s180_26	SCOPE	[]
+s180_22	SCOPE	[]
+s180_23	SCOPE	[]
+
+=SCOPE/FOCUS=
+s181_16	nicht	PTKNEG
+s181_16	TARGET
+s181_12	NEGATED	kann	VMFIN
+s181_11	SCOPE	[]
+s181_15	SCOPE	[]
+s181_17	SCOPE	[]
+s181_518	SCOPE	['vor', 'die', 'Hunde']
+s181_22	SCOPE	[]
+s181_23	SCOPE	[]
+s181_12	SCOPE	[]
+
+=SCOPE/FOCUS=
+s186_31	ohne	KOUI
+s186_31	TARGET
+s186_34	NEGATED	preiszugeben	VVIZU
+s186_32	SCOPE	[]
+s186_33	SCOPE	[]
+s186_34	SCOPE	[]
+s186_41	keinen	PIAT
+s186_41	TARGET
+s186_39	NEGATED	gab	VVFIN
+s186_38	SCOPE	[]
+s186_544	SCOPE	['warum', 'wir', ['jemanden', 'ziehen', ['ins', 'Vertrauen']], 'sollten']
+s186_39	SCOPE	[]
+s186_42	SCOPE	[]
+
+=SPLITWORDS=
+s188_31	unangenehmen	ADJA
+188_31_s0	un
+188_31_s1	angenehmen
+188_31_s0	TARGET
+188_31_s1	NEGATED
+188_31_s1	SCOPE
+
+=SCOPE/FOCUS=
+s189_10	nicht	PTKNEG
+s189_10	TARGET
+s189_20	NEGATED	zusammengelebt	VVINF
+s189_4	SCOPE	[]
+s189_20	SCOPE	[]
+s189_11	SCOPE	[]
+s189_13	SCOPE	[]
+s189_14	SCOPE	[]
+s189_515	SCOPE	['mit', ['Sherlock', 'Holmes']]
+
+=SCOPE/FOCUS=
+s195_8	nicht	PTKNEG
+s195_8	TARGET
+s195_6	NEGATED	weiß	VVFIN
+s195_6	SCOPE	[]
+s195_5	SCOPE	[]
+s195_7	SCOPE	[]
+
+=SCOPE/FOCUS=
+s197_21	nichts	PIS
+s197_21	TARGET
+s197_26	NEGATED	gehört	VVINF
+s197_17	SCOPE	[]
+s197_18	SCOPE	[]
+s197_22	SCOPE	[]
+s197_21	SCOPE	[]
+s197_523	SCOPE	['von', 'ihm']
+s197_26	SCOPE	[]
+
+=SCOPE/FOCUS=
+s199_5	Nein	PTKANT
+s199_5	TARGET
+
+=SCOPE/FOCUS=
+s206_4	Nein	PTKANT
+s206_4	TARGET
+
+=SCOPE/FOCUS=
+s209_23	kein	PIAT
+s209_23	TARGET
+s209_25	NEGATED	Sträfling	NN
+s209_20	SCOPE	[]
+s209_21	SCOPE	[]
+s209_24	SCOPE	[]
+s209_25	SCOPE	[]
+
+=SCOPE/FOCUS=
+s210_7	nicht	PTKNEG
+s210_7	TARGET
+s210_5	NEGATED	gefällt	VVFIN
+s210_4	SCOPE	[]
+s210_5	SCOPE	[]
+s210_6	SCOPE	[]
+s210_24	nicht	PTKNEG
+s210_24	TARGET
+s210_22	NEGATED	gefällt	VVFIN
+s210_23	SCOPE	[]
+s210_22	SCOPE	[]
+s210_21	SCOPE	[]
+
+=SCOPE/FOCUS=
+s215_14	nicht	PTKNEG
+s215_14	TARGET
+s215_11	SCOPE	[]
+s215_12	SCOPE	[]
+s215_13	SCOPE	[]
+
+=SCOPE/FOCUS=
+s224_5	Kein	PIAT
+s224_5	TARGET
+s224_6	SCOPE	[]
+s224_7	SCOPE	[]
+s224_8	SCOPE	[]
+s224_509	SCOPE	['nach', 'Einbruch', ['der', 'Nacht']]
+s224_15	SCOPE	[]
+s224_16	SCOPE	[]
+
+=SCOPE/FOCUS=
+s228_6	nichts	PIS
+s228_6	TARGET
+s228_4	NEGATED	kann	VMFIN
+s228_4	SCOPE	[]
+s228_3	SCOPE	[]
+s228_508	SCOPE	['für', 'jemanden']
+s228_7	SCOPE	[]
+s228_11	SCOPE	[]
+s228_513	SCOPE	['der', ['den', 'Namen', ['der', 'Baskervilles']], 'trägt']
+
+=SCOPE/FOCUS=
+s233_25	nichts	PIS
+s233_25	TARGET
+s233_26	NEGATED	preisgibt	VVFIN
+s233_24	SCOPE	[]
+s233_26	SCOPE	[]
+s233_523	SCOPE	['der', 'nichts', 'preisgibt']
+
+=SCOPE/FOCUS=
+s235_22	nicht	PTKNEG
+s235_22	TARGET
+s235_21	NEGATED	konnte	VMFIN
+s235_21	SCOPE	[]
+s235_20	SCOPE	[]
+s235_24	SCOPE	[]
+s235_526	SCOPE	['was', 'er', ['dort', 'getan'], 'hat']
+
+=SCOPE/FOCUS=
+s244_12	unruhige	ADJA
+s244_12	TARGET
+
+=SCOPE/FOCUS=
+s248_10	kein	PIAT
+s248_10	TARGET
+s248_14	NEGATED	soll	VMFIN
+s248_11	SCOPE	[]
+s248_12	SCOPE	[]
+s248_13	SCOPE	[]
+s248_14	SCOPE	[]
+s248_17	ohne	APPR
+s248_17	TARGET
+s248_20	SCOPE	[]
+s248_521	SCOPE	['getan', ['alles', 'Menschenmögliche']]
+s248_26	SCOPE	[]
+s248_27	SCOPE	[]
+s248_529	SCOPE	['um', 'vorzudringen', ['ins', 'Innerste', ['dieses', 'Geheimnisses']]]
