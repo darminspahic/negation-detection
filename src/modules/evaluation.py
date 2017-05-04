@@ -323,7 +323,7 @@ def evaluate(xml_gold_path, xml_output_path):
                                 e_id = edge.get('idref')
                                 if s_gold.find(id=e_id).get('word') is not None:
                                     try:
-                                        edge_word = s_gold.find(id=e_id).get('word')
+                                        edge_word = s_gold.find(id=e_id).get('word').lower()
                                         edge_words.append(edge_word)
                                     except:
                                         pass
@@ -343,7 +343,7 @@ def evaluate(xml_gold_path, xml_output_path):
                                 e_id = edge.get('idref')
                                 if s_test.find(id=e_id).get('word') is not None:
                                     try:
-                                        edge_word = s_test.find(id=e_id).get('word')
+                                        edge_word = s_test.find(id=e_id).get('word').lower()
                                         edge_words.append(edge_word)
                                     except:
                                         pass
@@ -360,7 +360,7 @@ def evaluate(xml_gold_path, xml_output_path):
                                 s_id = s_g.get('idref')
                                 if s_gold.find(id=s_id).get('word') is not None:
                                     try:
-                                        scope_word = s_gold.find(id=s_id).get('word')
+                                        scope_word = s_gold.find(id=s_id).get('word').lower()
                                         scope_gold_list.append(scope_word)
                                     except:
                                         pass
@@ -376,7 +376,7 @@ def evaluate(xml_gold_path, xml_output_path):
                                     s_id = s_t.get('idref')
                                     if s_test.find(id=s_id).get('word') is not None:
                                         try:
-                                            scope_word = s_test.find(id=s_id).get('word')
+                                            scope_word = s_test.find(id=s_id).get('word').lower()
                                             scope_test_list.append(scope_word)
                                         except:
                                             pass
@@ -392,7 +392,7 @@ def evaluate(xml_gold_path, xml_output_path):
                                 s_id = s_t.get('idref')
                                 if s_test.find(id=s_id).get('word') is not None:
                                     try:
-                                        scope_word = s_test.find(id=s_id).get('word')
+                                        scope_word = s_test.find(id=s_id).get('word').lower()
                                         scope_test_list.append(scope_word)
                                     except:
                                         pass
@@ -408,7 +408,7 @@ def evaluate(xml_gold_path, xml_output_path):
                                     s_id = s_g.get('idref')
                                     if s_gold.find(id=s_id).get('word') is not None:
                                         try:
-                                            scope_word = s_gold.find(id=s_id).get('word')
+                                            scope_word = s_gold.find(id=s_id).get('word').lower()
                                             scope_gold_list.append(scope_word)
                                         except:
                                             pass
@@ -427,12 +427,22 @@ def evaluate(xml_gold_path, xml_output_path):
                         #print('Scope [Test]:', sorted_scope_test_list)
 
 
-                        # If lists are same length, ok
+                        # If lists are same length, check if items are same
                         if len(sorted_scope_gold_list) == len(sorted_scope_test_list):
-                            pass
+                            sorted_scope_test_list_intersection = set(sorted_scope_gold_list).intersection(sorted_scope_test_list)
+                            sorted_scope_test_list_intersection = list(sorted_scope_test_list_intersection)
+                            if len(sorted_scope_test_list_intersection) < len(sorted_scope_test_list):
+                                difference = len(sorted_scope_test_list) - len(sorted_scope_test_list_intersection)
+                                empty_element = 0
+
+                                while empty_element < difference:
+                                    sorted_scope_test_list_intersection.append('')
+                                    empty_element = empty_element + 1
+                                    
+                                sorted_scope_test_list = sorted_scope_test_list_intersection
 
                         # If lists are different lengths, add empty elements
-                        if len(sorted_scope_gold_list) > len(sorted_scope_test_list):
+                        elif len(sorted_scope_gold_list) > len(sorted_scope_test_list):
                             difference = len(sorted_scope_gold_list) - len(sorted_scope_test_list)
                             empty_element = 0
 
@@ -450,17 +460,20 @@ def evaluate(xml_gold_path, xml_output_path):
 
 
                         # Align items in the lists for sklearn, set 1 for matched items, else set 0
-                        sorted_target_gold_list_normalized = [1 for element in sorted_target_gold_list]
+                        sorted_target_gold_list_normalized = [1 if element in sorted_target_gold_list and not element == "" else 0 for element in sorted_target_gold_list]
                         sorted_target_test_list_normalized = [1 if element in sorted_target_gold_list else 0 for element in sorted_target_test_list]
 
-                        sorted_focus_gold_list_normalized = [1 for element in sorted_focus_gold_list]
+                        sorted_focus_gold_list_normalized = [1 if element in sorted_focus_gold_list and not element == "" else 0 for element in sorted_focus_gold_list]
                         sorted_focus_test_list_normalized = [1 if element in sorted_focus_gold_list else 0 for element in sorted_focus_test_list]
 
-                        sorted_negated_gold_list_normalized = [1 for element in sorted_negated_gold_list]
+                        sorted_negated_gold_list_normalized = [1 if element in sorted_negated_gold_list and not element == "" else 0 for element in sorted_negated_gold_list]
                         sorted_negated_test_list_normalized = [1 if element in sorted_negated_gold_list else 0 for element in sorted_negated_test_list]
 
-                        sorted_scope_gold_list_normalized = [1 for element in sorted_scope_gold_list]
-                        sorted_scope_test_list_normalized = [1 if element in sorted_scope_gold_list else 0 for element in sorted_scope_test_list]
+                        sorted_scope_gold_list_normalized = [1 if element in sorted_scope_gold_list and not element == "" else 0 for element in sorted_scope_gold_list]
+                        sorted_scope_test_list_normalized = [1 if element in sorted_scope_gold_list else 1 if not element == "" else 0 for element in sorted_scope_test_list]
+
+                        #print(sorted_scope_gold_list_normalized)
+                        #print(sorted_scope_test_list_normalized)
 
 
                         # Sklearn calculations
@@ -488,8 +501,8 @@ def evaluate(xml_gold_path, xml_output_path):
                 print('\n=============================')
                 print('====== EVALUATION for:', chapter_input_test_name, '======')
                 print('Total Sentences:', sentence_count,
-                      '\nGold frames:', gold_frames_count,
-                      '\nTest frames:', test_frames_count, '\n')
+                      '\nNegation Gold frames:', gold_frames_count,
+                      '\nNegation Test frames:', test_frames_count, '\n')
 
                 print('----- CUEWORDS -----')
                 #print('Precision:\t', target_precision_scores / gold_frames_count)
@@ -509,11 +522,11 @@ def evaluate(xml_gold_path, xml_output_path):
                 print('F1 score:\t', negated_f1_scores / gold_frames_count)
                 #print('Jaccard similarity:\t', negated_jaccard_scores / gold_frames_count)
 
-                print('\n----- SCOPE -----')
-                print('Precision:\t', scope_precision_scores / scope_gold_frames_count)
-                print('Recall:\t', scope_recall_scores / scope_gold_frames_count)
-                print('F1 score:\t', scope_f1_scores / scope_gold_frames_count)
-                print('Jaccard similarity:\t', scope_jaccard_scores / scope_gold_frames_count)
+                print('\n----- SCOPE -----\nScope Gold frames:', scope_gold_frames_count, '\nScope Test frames:', scope_test_frames_count, '\n')
+                print('Precision:\t', scope_precision_scores / scope_test_frames_count)
+                print('Recall:\t', scope_recall_scores / scope_test_frames_count)
+                print('F1 score:\t', scope_f1_scores / scope_test_frames_count)
+                print('Jaccard similarity:\t', scope_jaccard_scores / scope_test_frames_count)
 
     print('Done!')
 

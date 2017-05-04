@@ -12,8 +12,10 @@ Focus [Test]: ['seltenen']
 Negated [Gold]: ['seltenen']
 Negated [Test]: ['absah']
 
-Scope [Gold]: ['Gelegenheiten', 'Nacht', 'aufblieb', 'da', 'die', 'er', 'ganze', 'seltenen', 'â€“']
-Scope [Test]: ['Gelegenheiten', 'Nacht', 'absah', 'aufblieb', 'da', 'die', 'einmal', 'er', 'ganze', 'jenen', 'man', 'seltenen', 'von']
+Scope [Gold]: ['aufblieb', 'da', 'die', 'er', 'ganze', 'gelegenheiten', 'nacht', 'seltenen', '–']
+Scope [Test]: ['absah', 'aufblieb', 'da', 'die', 'einmal', 'er', 'ganze', 'gelegenheiten', 'jenen', 'man', 'nacht', 'seltenen', 'von']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -28,8 +30,10 @@ Focus [Test]: ['anmerken']
 Negated [Gold]: ['lassen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['BeschÃ¤ftigung', 'Weise', 'anmerken', 'doch', 'hatte', 'ich', 'in', 'lassen', 'meine', 'mir']
-Scope [Test]: ['BeschÃ¤ftigung', 'Weise', 'anmerken', 'doch', 'hatte', 'ich', 'in', 'lassen', 'meine', 'mir']
+Scope [Gold]: ['anmerken', 'beschäftigung', 'doch', 'hatte', 'ich', 'in', 'lassen', 'meine', 'mir', 'weise']
+Scope [Test]: ['anmerken', 'beschäftigung', 'doch', 'hatte', 'ich', 'in', 'lassen', 'meine', 'mir', 'weise']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -44,8 +48,10 @@ Focus [Test]: ['seines']
 Negated [Gold]: ['haben']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ahnung', 'Anliegens', 'haben', 'hinsichtlich', 'seines', 'wir']
-Scope [Test]: ['Ahnung', 'Anliegens', 'haben', 'hinsichtlich', 'seines']
+Scope [Gold]: ['ahnung', 'anliegens', 'haben', 'hinsichtlich', 'seines', 'wir']
+Scope [Test]: ['ahnung', 'anliegens', 'haben', 'hinsichtlich', 'seines']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -55,13 +61,15 @@ Target [Gold]: ['keine']
 Target [Test]: ['keine']
 
 Focus [Gold]: ['leuchte']
-Focus [Test]: ['groÃŸe']
+Focus [Test]: ['große']
 
 Negated [Gold]: ['leuchte']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Leuchte', 'bist', 'du', 'groÃŸe', 'selbst']
-Scope [Test]: ['Leuchte', 'bist', 'du', 'groÃŸe', 'selbst']
+Scope [Gold]: ['bist', 'du', 'große', 'leuchte', 'selbst']
+Scope [Test]: ['bist', 'du', 'große', 'leuchte', 'selbst']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -76,8 +84,10 @@ Focus [Test]: ['besitzen']
 Negated [Gold]: ['besitzen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Genie', 'besitzen', 'die', 'selbst']
-Scope [Test]: ['Genie', 'besitzen', 'die', 'selbst']
+Scope [Gold]: ['besitzen', 'die', 'genie', 'selbst']
+Scope [Test]: ['besitzen', 'die', 'genie', 'selbst']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -94,6 +104,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['er', 'gelobt', 'hatte', 'mich', 'so', 'zuvor']
 Scope [Test]: ['er', 'gelobt', 'hatte', 'mich', 'so', 'zuvor']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -105,11 +117,13 @@ Target [Test]: ['nichts']
 Focus [Gold]: ['']
 Focus [Test]: ['bedeutung']
 
-Negated [Gold]: ['Ã¼bersehen']
+Negated [Gold]: ['übersehen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Bedeutung', 'haben', 'von', 'zu', 'Ã¼bersehen']
-Scope [Test]: ['Bedeutung', 'haben', 'von', 'zu', 'Ã¼bersehen']
+Scope [Gold]: ['bedeutung', 'haben', 'von', 'zu', 'übersehen']
+Scope [Test]: ['bedeutung', 'haben', 'von', 'zu', 'übersehen']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -118,14 +132,16 @@ Frame: 39_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['vÃ¶llig']
+Focus [Gold]: ['völlig']
 Focus [Test]: ['du']
 
 Negated [Gold]: ['gelegen']
 Negated [Test]: ['gelegen']
 
-Scope [Gold]: ['du', 'falsch', 'gelegen', 'hast', 'vÃ¶llig']
-Scope [Test]: ['dass', 'du', 'falsch', 'gelegen', 'hast', 'vÃ¶llig']
+Scope [Gold]: ['du', 'falsch', 'gelegen', 'hast', 'völlig']
+Scope [Test]: ['dass', 'du', 'falsch', 'gelegen', 'hast', 'völlig']
+[1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -142,6 +158,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -158,6 +176,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -174,6 +194,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['alles', 'das', 'war']
 Scope [Test]: ['alles', 'das', 'nicht', 'war', 'wirklich']
+[1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -190,6 +212,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: ['wirklich']
+[0]
+[1]
 
 =========
 
@@ -199,13 +223,15 @@ Target [Gold]: ['keines']
 Target [Test]: ['keinesfalls']
 
 Focus [Gold]: ['festen']
-Focus [Test]: ['gehÃ¶rt']
+Focus [Test]: ['gehört']
 
 Negated [Gold]: ['kann']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Krankenhauspersonals', 'Stamm', 'des', 'er', 'festen', 'gehÃ¶rt', 'haben', 'kann', 'zum']
-Scope [Test]: ['Arzt', 'Krankenhauspersonals', 'London', 'Stamm', 'da', 'des', 'dies', 'ein', 'er', 'etablierter', 'festen', 'gehÃ¶rt', 'haben', 'in', 'kann', 'kÃ¶nnte', 'nur', 'zum']
+Scope [Gold]: ['des', 'er', 'festen', 'gehört', 'haben', 'kann', 'krankenhauspersonals', 'stamm', 'zum']
+Scope [Test]: ['arzt', 'da', 'des', 'dies', 'ein', 'er', 'etablierter', 'festen', 'gehört', 'haben', 'in', 'kann', 'krankenhauspersonals', 'könnte', 'london', 'nur', 'stamm', 'zum']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -218,10 +244,12 @@ Focus [Gold]: ['land']
 Focus [Test]: ['ziehen']
 
 Negated [Gold]: ['']
-Negated [Test]: ['â€“']
+Negated [Test]: ['–']
 
-Scope [Gold]: ['Land', 'aufs', 'dieser', 'wÃ¼rde', 'ziehen']
-Scope [Test]: ['Land', 'aufs', 'dieser', 'wÃ¼rde', 'ziehen']
+Scope [Gold]: ['aufs', 'dieser', 'land', 'würde', 'ziehen']
+Scope [Test]: ['aufs', 'dieser', 'land', 'würde', 'ziehen']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -231,13 +259,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['']
-Focus [Test]: ['gehÃ¶rte']
+Focus [Test]: ['gehörte']
 
-Negated [Gold]: ['gehÃ¶rte']
-Negated [Test]: ['gehÃ¶rte']
+Negated [Gold]: ['gehörte']
+Negated [Test]: ['gehörte']
 
-Scope [Gold]: ['Personal', 'gehÃ¶rte', 'zum']
-Scope [Test]: ['Personal', 'gehÃ¶rte', 'zum']
+Scope [Gold]: ['gehörte', 'personal', 'zum']
+Scope [Test]: ['gehörte', 'personal', 'zum']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -246,14 +276,16 @@ Frame: 63_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['glÃ¤ubig']
-Focus [Test]: ['glÃ¤ubig']
+Focus [Gold]: ['gläubig']
+Focus [Test]: ['gläubig']
 
-Negated [Gold]: ['glÃ¤ubig']
-Negated [Test]: ['glÃ¤ubig']
+Negated [Gold]: ['gläubig']
+Negated [Test]: ['gläubig']
 
-Scope [Gold]: ['glÃ¤ubig']
-Scope [Test]: ['glÃ¤ubig']
+Scope [Gold]: ['gläubig']
+Scope [Test]: ['gläubig']
+[1]
+[1]
 
 =========
 
@@ -268,8 +300,10 @@ Focus [Test]: ['schwierig']
 Negated [Gold]: ['schwierig']
 Negated [Test]: ['das']
 
-Scope [Gold]: ['Alter', 'Einzelheiten', 'Erfahrung', 'Laufbahn', 'Mannes', 'berufliche', 'bringen', 'das', 'des', 'einige', 'es', 'in', 'ist', 'schwierig', 'seine', 'und', 'zu', 'Ã¼ber']
+Scope [Gold]: ['alter', 'berufliche', 'bringen', 'das', 'des', 'einige', 'einzelheiten', 'erfahrung', 'es', 'in', 'ist', 'laufbahn', 'mannes', 'schwierig', 'seine', 'und', 'zu', 'über']
 Scope [Test]: ['ansonsten', 'es', 'ist', 'schwierig']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -278,14 +312,16 @@ Frame: 73_f1
 Target [Gold]: ['keine']
 Target [Test]: ['keine']
 
-Focus [Gold]: ['erwÃ¤hnung']
-Focus [Test]: ['Ã¶rtlichen']
+Focus [Gold]: ['erwähnung']
+Focus [Test]: ['örtlichen']
 
-Negated [Gold]: ['erwÃ¤hnung']
+Negated [Gold]: ['erwähnung']
 Negated [Test]: ['']
 
-Scope [Gold]: ['ErwÃ¤hnung', 'Jagdvereins', 'dieses', 'Ã¶rtlichen']
-Scope [Test]: ['ErwÃ¤hnung', 'Jagdvereins', 'dieses', 'Ã¶rtlichen']
+Scope [Gold]: ['dieses', 'erwähnung', 'jagdvereins', 'örtlichen']
+Scope [Test]: ['dieses', 'erwähnung', 'jagdvereins', 'örtlichen']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -300,8 +336,10 @@ Focus [Test]: ['breit']
 Negated [Gold]: ['breit']
 Negated [Test]: ['eine']
 
-Scope [Gold]: ['AbdrÃ¼cken', 'Abstands', 'Angesichts', 'Bulldogge', 'Kiefer', 'breit', 'den', 'des', 'eine', 'erscheint', 'fÃ¼r', 'genug', 'mir', 'sein', 'zwischen']
-Scope [Test]: ['Bulldogge', 'breit', 'eine', 'fÃ¼r', 'genug']
+Scope [Gold]: ['abdrücken', 'abstands', 'angesichts', 'breit', 'bulldogge', 'den', 'des', 'eine', 'erscheint', 'für', 'genug', 'kiefer', 'mir', 'sein', 'zwischen']
+Scope [Test]: ['breit', 'bulldogge', 'eine', 'für', 'genug']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -316,8 +354,10 @@ Focus [Test]: ['es']
 Negated [Gold]: ['hast']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ahnung', 'BÃ¶sen', 'Guten', 'du', 'es', 'hast', 'ob', 'oder', 'sich', 'wenden', 'wird', 'zum', 'zum']
-Scope [Test]: ['Ahnung', 'BÃ¶sen', 'Guten', 'du', 'es', 'hast', 'ob', 'oder', 'sich', 'wenden', 'wird', 'zum', 'zum']
+Scope [Gold]: ['ahnung', 'bösen', 'du', 'es', 'guten', 'hast', 'ob', 'oder', 'sich', 'wenden', 'wird', 'zum', 'zum']
+Scope [Test]: ['ahnung', 'bösen', 'du', 'es', 'guten', 'hast', 'ob', 'oder', 'sich', 'wenden', 'wird', 'zum', 'zum']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -332,8 +372,10 @@ Focus [Test]: ['sicher']
 Negated [Gold]: ['sicher']
 Negated [Test]: ['vergessen']
 
-Scope [Gold]: ['ReedereibÃ¼ro', 'hatte', 'hier', 'ich', 'ich', 'ihn', 'im', 'ob', 'oder', 'sicher', 'vergessen', 'war']
-Scope [Test]: ['ReedereibÃ¼ro', 'hatte', 'hier', 'ich', 'ich', 'ihn', 'im', 'ob', 'oder', 'sicher', 'vergessen', 'war']
+Scope [Gold]: ['hatte', 'hier', 'ich', 'ich', 'ihn', 'im', 'ob', 'oder', 'reedereibüro', 'sicher', 'vergessen', 'war']
+Scope [Test]: ['hatte', 'hier', 'ich', 'ich', 'ihn', 'im', 'ob', 'oder', 'reedereibüro', 'sicher', 'vergessen', 'war']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -343,13 +385,15 @@ Target [Gold]: ['nichts']
 Target [Test]: ['nichts']
 
 Focus [Gold]: ['nichts']
-Focus [Test]: ['mÃ¶chte']
+Focus [Test]: ['möchte']
 
-Negated [Gold]: ['mÃ¶chte']
+Negated [Gold]: ['möchte']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Stock', 'diesen', 'ich', 'mÃ¶chte', 'verlieren']
-Scope [Test]: ['Stock', 'Um', 'Welt', 'der', 'diesen', 'ich', 'in', 'mÃ¶chte', 'verlieren']
+Scope [Gold]: ['diesen', 'ich', 'möchte', 'stock', 'verlieren']
+Scope [Test]: ['der', 'diesen', 'ich', 'in', 'möchte', 'stock', 'um', 'verlieren', 'welt']
+[1, 1, 1, 1, 1, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -366,6 +410,8 @@ Negated [Test]: ['sagte']
 
 Scope [Gold]: ['das', 'gut', 'ist']
 Scope [Test]: ['das', 'gut', 'ist']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -380,8 +426,10 @@ Focus [Test]: ['gut']
 Negated [Gold]: ['gut']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Was', 'daran', 'gut', 'ist']
-Scope [Test]: ['Was', 'daran', 'gut', 'ist']
+Scope [Gold]: ['daran', 'gut', 'ist', 'was']
+Scope [Test]: ['daran', 'gut', 'ist', 'was']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -398,6 +446,8 @@ Negated [Test]: ['sagte']
 
 Scope [Gold]: ['allzu', 'doch', 'geirrt', 'haben', 'sehr', 'uns', 'wir']
 Scope [Test]: ['allzu', 'dann', 'doch', 'geirrt', 'haben', 'sehr', 'uns', 'wir']
+[1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -414,6 +464,8 @@ Negated [Test]: ['bekannten']
 
 Scope [Gold]: ['bekannten']
 Scope [Test]: ['bekannten']
+[1]
+[1]
 
 =========
 
@@ -428,8 +480,10 @@ Focus [Test]: ['geraten']
 Negated [Gold]: ['will']
 Negated [Test]: ['muss']
 
-Scope [Gold]: ['Ich', 'SchwÃ¤rmen', 'geraten', 'ins', 'will']
-Scope [Test]: ['Ich', 'SchwÃ¤rmen', 'geraten', 'ins', 'will']
+Scope [Gold]: ['geraten', 'ich', 'ins', 'schwärmen', 'will']
+Scope [Test]: ['geraten', 'ich', 'ins', 'schwärmen', 'will']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -444,8 +498,10 @@ Focus [Test]: ['rauchen']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Haben', 'Hemmungen', 'Sie', 'rauchen', 'zu']
-Scope [Test]: ['Haben', 'Hemmungen', 'Ihnen', 'Sie', 'danach', 'ist', 'rauchen', 'wenn', 'zu']
+Scope [Gold]: ['haben', 'hemmungen', 'rauchen', 'sie', 'zu']
+Scope [Test]: ['danach', 'haben', 'hemmungen', 'ihnen', 'ist', 'rauchen', 'sie', 'wenn', 'zu']
+[1, 1, 1, 1, 1, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -460,8 +516,10 @@ Focus [Test]: ['gestern']
 Negated [Gold]: ['erwiesen']
 Negated [Test]: ['ein']
 
-Scope [Gold]: ['Abend', 'Besuches', 'Ehre', 'Ihres', 'Mal', 'SchÃ¤del', 'Sie', 'als', 'auch', 'die', 'ein', 'erwiesen', 'gestern', 'haben', 'heute', 'meinen', 'mir', 'nur', 'sowohl', 'um', 'untersuchen', 'weiteres', 'zu']
-Scope [Test]: ['Abend', 'Besuches', 'Ehre', 'Ihres', 'Mal', 'SchÃ¤del', 'Sie', 'als', 'auch', 'die', 'ein', 'erwiesen', 'gestern', 'haben', 'heute', 'meinen', 'mir', 'nur', 'sowohl', 'um', 'untersuchen', 'weiteres', 'zu']
+Scope [Gold]: ['abend', 'als', 'auch', 'besuches', 'die', 'ehre', 'ein', 'erwiesen', 'gestern', 'haben', 'heute', 'ihres', 'mal', 'meinen', 'mir', 'nur', 'schädel', 'sie', 'sowohl', 'um', 'untersuchen', 'weiteres', 'zu']
+Scope [Test]: ['abend', 'als', 'auch', 'besuches', 'die', 'ehre', 'ein', 'erwiesen', 'gestern', 'haben', 'heute', 'ihres', 'mal', 'meinen', 'mir', 'nur', 'schädel', 'sie', 'sowohl', 'um', 'untersuchen', 'weiteres', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -476,8 +534,10 @@ Focus [Test]: ['sonderlich']
 Negated [Gold]: ['mensch']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Mensch', 'bin', 'ich', 'praktischer', 'selbst', 'sonderlich']
-Scope [Test]: ['Mensch', 'bin', 'ich', 'praktischer', 'selbst', 'sonderlich']
+Scope [Gold]: ['bin', 'ich', 'mensch', 'praktischer', 'selbst', 'sonderlich']
+Scope [Test]: ['bin', 'ich', 'mensch', 'praktischer', 'selbst', 'sonderlich']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -486,14 +546,16 @@ Frame: 130_f2
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['gewÃ¶hnlichen']
-Focus [Test]: ['gewÃ¶hnlichen']
+Focus [Gold]: ['gewöhnlichen']
+Focus [Test]: ['gewöhnlichen']
 
-Negated [Gold]: ['gewÃ¶hnlichen']
-Negated [Test]: ['gewÃ¶hnlichen']
+Negated [Gold]: ['gewöhnlichen']
+Negated [Test]: ['gewöhnlichen']
 
-Scope [Gold]: ['gewÃ¶hnlichen']
-Scope [Test]: ['gewÃ¶hnlichen']
+Scope [Gold]: ['gewöhnlichen']
+Scope [Test]: ['gewöhnlichen']
+[1]
+[1]
 
 =========
 
@@ -510,6 +572,8 @@ Negated [Test]: ['vergleichlich']
 
 Scope [Gold]: ['vergleichlich']
 Scope [Test]: ['vergleichlich']
+[1]
+[1]
 
 =========
 
@@ -524,8 +588,10 @@ Focus [Test]: ['besser']
 Negated [Gold]: ['']
 Negated [Test]: ['gefragt']
 
-Scope [Gold]: ['HÃ¤tten', 'Rat', 'Sie', 'besser', 'gefragt', 'ihn', 'um']
-Scope [Test]: ['HÃ¤tten', 'Rat', 'Sie', 'besser', 'dann', 'gefragt', 'ihn', 'um']
+Scope [Gold]: ['besser', 'gefragt', 'hätten', 'ihn', 'rat', 'sie', 'um']
+Scope [Test]: ['besser', 'dann', 'gefragt', 'hätten', 'ihn', 'rat', 'sie', 'um']
+[1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -542,6 +608,8 @@ Negated [Test]: ['zweifel']
 
 Scope [Gold]: ['konkurrenz']
 Scope [Test]: ['zweifel']
+[1]
+[0]
 
 =========
 
@@ -556,29 +624,34 @@ Focus [Test]: ['versehentlich']
 Negated [Gold]: ['']
 Negated [Test]: ['versehentlich']
 
-Scope [Gold]: ['Sie', 'habe', 'ich', 'versehentlich']
-Scope [Test]: ['Sie', 'habe', 'ich', 'versehentlich']
+Scope [Gold]: ['habe', 'ich', 'sie', 'versehentlich']
+Scope [Test]: ['habe', 'ich', 'sie', 'versehentlich']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =============================
 ====== EVALUATION for: ../res/xml/test/output/tagged/baskerville_ch1.jr.xml ======
 Total Sentences: 139 
-Gold frames: 43 
-Test frames: 37 
+Negation Gold frames: 43 
+Negation Test frames: 37 
 
 ----- CUEWORDS -----
 F1 score:	 0.790697674419
 
 ----- FOCUS -----
-F1 score:	 0.302325581395
+F1 score:	 0.372093023256
 
 ----- NEGATED -----
-F1 score:	 0.232558139535
+F1 score:	 0.209302325581
 
 ----- SCOPE -----
-Precision:	 0.825
-Recall:	 0.718579059829
-F1 score:	 0.751942640693
-Jaccard similarity:	 0.608637820513
+Scope Gold frames: 40 
+Scope Test frames: 37 
+
+Precision:	 0.727899144213
+Recall:	 0.722037422037
+F1 score:	 0.708745291789
+Jaccard similarity:	 0.60990990991
 
 =========
 
@@ -587,14 +660,16 @@ Frame: 6_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['fÃ¤lschung']
+Focus [Gold]: ['fälschung']
 Focus [Test]: ['handelt']
 
 Negated [Gold]: ['']
 Negated [Test]: ['eine']
 
-Scope [Gold]: ['FÃ¤lschung', 'eine', 'es', 'handelt', 'sich', 'um']
-Scope [Test]: ['FÃ¤lschung', 'eine', 'es', 'handelt', 'sich', 'um']
+Scope [Gold]: ['eine', 'es', 'fälschung', 'handelt', 'sich', 'um']
+Scope [Test]: ['eine', 'es', 'fälschung', 'handelt', 'sich', 'um']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -609,8 +684,10 @@ Focus [Test]: ['wenigstens']
 Negated [Gold]: ['']
 Negated [Test]: ['der']
 
-Scope [Gold]: [',', 'Dokument', 'Fachmann', 'Jahrzehnt', 'Lage', 'Nur', 'armseliger', 'auf', 'datieren', 'der', 'ein', 'ein', 'ein', 'genau', 'in', 'wenigstens', 'wÃ¤re', 'zu']
-Scope [Test]: ['Dokument', 'Fachmann', 'Jahrzehnt', 'Lage', 'Nur', 'armseliger', 'auf', 'datieren', 'der', 'ein', 'ein', 'ein', 'genau', 'in', 'wenigstens', 'wÃ¤re', 'zu']
+Scope [Gold]: [',', 'armseliger', 'auf', 'datieren', 'der', 'dokument', 'ein', 'ein', 'ein', 'fachmann', 'genau', 'in', 'jahrzehnt', 'lage', 'nur', 'wenigstens', 'wäre', 'zu']
+Scope [Test]: ['armseliger', 'auf', 'datieren', 'der', 'dokument', 'ein', 'ein', 'ein', 'fachmann', 'genau', 'in', 'jahrzehnt', 'lage', 'nur', 'wenigstens', 'wäre', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -625,8 +702,10 @@ Focus [Test]: ['so']
 Negated [Gold]: ['kann']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Gebete', 'Reue', 'aufgehoben', 'durch', 'er', 'und', 'werden']
-Scope [Test]: ['Fluch', 'Gebete', 'dass', 'durch', 'er', 'nicht', 'schwer', 'so', 'wiegt']
+Scope [Gold]: ['aufgehoben', 'durch', 'er', 'gebete', 'reue', 'und', 'werden']
+Scope [Test]: ['dass', 'durch', 'er', 'fluch', 'gebete', 'nicht', 'schwer', 'so', 'wiegt']
+[1, 1, 1, 1, 1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -641,8 +720,10 @@ Focus [Test]: ['aufgehoben']
 Negated [Gold]: ['wiegt']
 Negated [Test]: ['aufgehoben']
 
-Scope [Gold]: ['Fluch', 'Gebete', 'Reue', 'aufgehoben', 'dass', 'durch', 'er', 'kann', 'nicht', 'schwer', 'so', 'und', 'werden', 'wiegt']
-Scope [Test]: ['Gebete', 'durch', 'er']
+Scope [Gold]: ['aufgehoben', 'dass', 'durch', 'er', 'fluch', 'gebete', 'kann', 'nicht', 'reue', 'schwer', 'so', 'und', 'werden', 'wiegt']
+Scope [Test]: ['durch', 'er', 'gebete']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -651,14 +732,16 @@ Frame: 33_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['fÃ¼rchten']
-Focus [Test]: ['fÃ¼rchten']
+Focus [Gold]: ['fürchten']
+Focus [Test]: ['fürchten']
 
-Negated [Gold]: ['fÃ¼rchten']
+Negated [Gold]: ['fürchten']
 Negated [Test]: ['die']
 
-Scope [Gold]: ['FrÃ¼chte', 'Vergangenheit', 'der', 'die', 'fÃ¼rchten', 'zu']
-Scope [Test]: ['FrÃ¼chte', 'Vergangenheit', 'der', 'die', 'fÃ¼rchten', 'zu']
+Scope [Gold]: ['der', 'die', 'früchte', 'fürchten', 'vergangenheit', 'zu']
+Scope [Test]: ['der', 'die', 'früchte', 'fürchten', 'vergangenheit', 'zu']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -673,8 +756,10 @@ Focus [Test]: ['unsrem']
 Negated [Gold]: ['']
 Negated [Test]: ['entfesselt']
 
-Scope [Gold]: [',', 'Familie', 'Leiden', 'Ruin', 'die', 'entfesselt', 'entsetzlich', 'erneut', 'haben', 'jene', 'so', 'unserer', 'unsrem', 'werden', 'zu', 'zugesetzt', 'Ã¼blen']
-Scope [Test]: ['Ruin', 'entfesselt', 'erneut', 'unsrem', 'werden', 'zu']
+Scope [Gold]: [',', 'die', 'entfesselt', 'entsetzlich', 'erneut', 'familie', 'haben', 'jene', 'leiden', 'ruin', 'so', 'unserer', 'unsrem', 'werden', 'zu', 'zugesetzt', 'üblen']
+Scope [Test]: ['entfesselt', 'erneut', 'ruin', 'unsrem', 'werden', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -689,8 +774,10 @@ Focus [Test]: ['stand']
 Negated [Gold]: ['']
 Negated [Test]: ['stand']
 
-Scope [Gold]: ['Sinn', 'der', 'ihm', 'nach', 'stand', 'Ãœblerem']
-Scope [Test]: ['Sinn', 'der', 'ihm', 'nach', 'stand', 'Ãœblerem']
+Scope [Gold]: ['der', 'ihm', 'nach', 'sinn', 'stand', 'üblerem']
+Scope [Test]: ['der', 'ihm', 'nach', 'sinn', 'stand', 'üblerem']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -699,14 +786,16 @@ Frame: 46_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['fÃ¤hig']
-Focus [Test]: ['fÃ¤hig']
+Focus [Gold]: ['fähig']
+Focus [Test]: ['fähig']
 
-Negated [Gold]: ['fÃ¤hig']
-Negated [Test]: ['fÃ¤hig']
+Negated [Gold]: ['fähig']
+Negated [Test]: ['fähig']
 
-Scope [Gold]: ['fÃ¤hig']
-Scope [Test]: ['fÃ¤hig']
+Scope [Gold]: ['fähig']
+Scope [Test]: ['fähig']
+[1]
+[1]
 
 =========
 
@@ -715,14 +804,16 @@ Frame: 52_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['glÃ¼ckliche']
-Focus [Test]: ['glÃ¼ckliche']
+Focus [Gold]: ['glückliche']
+Focus [Test]: ['glückliche']
 
-Negated [Gold]: ['glÃ¼ckliche']
-Negated [Test]: ['glÃ¼ckliche']
+Negated [Gold]: ['glückliche']
+Negated [Test]: ['glückliche']
 
-Scope [Gold]: ['glÃ¼ckliche']
-Scope [Test]: ['glÃ¼ckliche']
+Scope [Gold]: ['glückliche']
+Scope [Test]: ['glückliche']
+[1]
+[1]
 
 =========
 
@@ -732,13 +823,15 @@ Target [Gold]: ['niemals']
 Target [Test]: ['niemals']
 
 Focus [Gold]: ['niemals']
-Focus [Test]: ['mÃ¶ge']
+Focus [Test]: ['möge']
 
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Gott', 'auf', 'hetzen', 'ihn', 'mich', 'mÃ¶ge', 'niemals']
-Scope [Test]: ['Gott', 'auf', 'hetzen', 'ihn', 'mich', 'mÃ¶ge', 'wie']
+Scope [Gold]: ['auf', 'gott', 'hetzen', 'ihn', 'mich', 'möge', 'niemals']
+Scope [Test]: ['auf', 'gott', 'hetzen', 'ihn', 'mich', 'möge', 'wie']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -753,8 +846,10 @@ Focus [Test]: ['weiterzureiten']
 Negated [Gold]: ['waren']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Die', 'bewegen', 'durch', 'ihnen', 'meisten', 'nichts', 'von', 'waren', 'weiterzureiten', 'zu']
-Scope [Test]: ['Die', 'bewegen', 'durch', 'ihnen', 'meisten', 'von', 'waren', 'weiterzureiten', 'zu']
+Scope [Gold]: ['bewegen', 'die', 'durch', 'ihnen', 'meisten', 'nichts', 'von', 'waren', 'weiterzureiten', 'zu']
+Scope [Test]: ['bewegen', 'die', 'durch', 'ihnen', 'meisten', 'von', 'waren', 'weiterzureiten', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -763,14 +858,16 @@ Frame: 62_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['glÃ¼ckliche']
-Focus [Test]: ['glÃ¼ckliche']
+Focus [Gold]: ['glückliche']
+Focus [Test]: ['glückliche']
 
-Negated [Gold]: ['glÃ¼ckliche']
-Negated [Test]: ['glÃ¼ckliche']
+Negated [Gold]: ['glückliche']
+Negated [Test]: ['glückliche']
 
-Scope [Gold]: ['glÃ¼ckliche']
-Scope [Test]: ['glÃ¼ckliche']
+Scope [Gold]: ['glückliche']
+Scope [Test]: ['glückliche']
+[1]
+[1]
 
 =========
 
@@ -785,8 +882,10 @@ Focus [Test]: ['geleugnet']
 Negated [Gold]: ['kann']
 Negated [Test]: ['geleugnet']
 
-Scope [Gold]: [',', ',', 'Familie', 'Mitglieder', 'Todes', 'Weise', 'auf', 'blutige', 'dass', 'eines', 'geheimnisumwitterte', 'geleugnet', 'gestorben', 'kann', 'plÃ¶tzliche', 'sind', 'und', 'unglÃ¼cklichen', 'unserer', 'viele', 'werden']
-Scope [Test]: ['Auch', 'Familie', 'Mitglieder', 'Todes', 'auf', 'dass', 'eines', 'geleugnet', 'gestorben', 'kann', 'plÃ¶tzliche', 'sind', 'unglÃ¼cklichen', 'unserer', 'viele', 'werden']
+Scope [Gold]: [',', ',', 'auf', 'blutige', 'dass', 'eines', 'familie', 'geheimnisumwitterte', 'geleugnet', 'gestorben', 'kann', 'mitglieder', 'plötzliche', 'sind', 'todes', 'und', 'unglücklichen', 'unserer', 'viele', 'weise', 'werden']
+Scope [Test]: ['auch', 'auf', 'dass', 'eines', 'familie', 'geleugnet', 'gestorben', 'kann', 'mitglieder', 'plötzliche', 'sind', 'todes', 'unglücklichen', 'unserer', 'viele', 'werden']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
 
 =========
 
@@ -795,14 +894,16 @@ Frame: 68_f2
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['glÃ¼cklichen']
-Focus [Test]: ['glÃ¼cklichen']
+Focus [Gold]: ['glücklichen']
+Focus [Test]: ['glücklichen']
 
-Negated [Gold]: ['glÃ¼cklichen']
-Negated [Test]: ['glÃ¼cklichen']
+Negated [Gold]: ['glücklichen']
+Negated [Test]: ['glücklichen']
 
-Scope [Gold]: ['glÃ¼cklichen']
-Scope [Test]: ['glÃ¼cklichen']
+Scope [Gold]: ['glücklichen']
+Scope [Test]: ['glücklichen']
+[1]
+[1]
 
 =========
 
@@ -817,8 +918,10 @@ Focus [Test]: ['endlichen']
 Negated [Gold]: ['bestraft']
 Negated [Test]: ['endlichen']
 
-Scope [Gold]: ['Generation', 'Unschuldige', 'auf', 'bestraft', 'die', 'die', 'dritte', 'ewig', 'hinaus', 'oder', 'vierte', 'Ã¼ber']
+Scope [Gold]: ['auf', 'bestraft', 'die', 'die', 'dritte', 'ewig', 'generation', 'hinaus', 'oder', 'unschuldige', 'vierte', 'über']
 Scope [Test]: ['endlichen']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -834,7 +937,9 @@ Negated [Gold]: ['endlichen']
 Negated [Test]: ['die']
 
 Scope [Gold]: ['endlichen']
-Scope [Test]: ['Generation', 'Unschuldige', 'auf', 'bestraft', 'die', 'die', 'dritte', 'ewig', 'hinaus', 'oder', 'vierte', 'Ã¼ber']
+Scope [Test]: ['auf', 'bestraft', 'die', 'die', 'dritte', 'ewig', 'generation', 'hinaus', 'oder', 'unschuldige', 'vierte', 'über']
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -849,8 +954,10 @@ Focus [Test]: ['schwester']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Elizabeth', 'Schwester', 'berichten', 'hiervon', 'ihrer', 'zu']
-Scope [Test]: ['Elizabeth', 'Schwester', 'berichten', 'hiervon', 'ihrer', 'zu']
+Scope [Gold]: ['berichten', 'elizabeth', 'hiervon', 'ihrer', 'schwester', 'zu']
+Scope [Test]: ['berichten', 'elizabeth', 'hiervon', 'ihrer', 'schwester', 'zu']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -865,8 +972,10 @@ Focus [Test]: ['interessant']
 Negated [Gold]: ['']
 Negated [Test]: ['finden']
 
-Scope [Gold]: ['Finden', 'Sie', 'das', 'interessant']
-Scope [Test]: ['Finden', 'Sie', 'das', 'interessant']
+Scope [Gold]: ['das', 'finden', 'interessant', 'sie']
+Scope [Test]: ['das', 'finden', 'interessant', 'sie']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -875,14 +984,16 @@ Frame: 86_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['aufhÃ¶ren']
-Focus [Test]: ['aufhÃ¶ren']
+Focus [Gold]: ['aufhören']
+Focus [Test]: ['aufhören']
 
-Negated [Gold]: ['kÃ¶nnen']
-Negated [Test]: ['kÃ¶nnen']
+Negated [Gold]: ['können']
+Negated [Test]: ['können']
 
-Scope [Gold]: ['GlÃ¼ck', 'aufhÃ¶ren', 'bis', 'das', 'die', 'gegen', 'kÃ¶nnen', 'sich', 'sie', 'wendet', 'wieder']
-Scope [Test]: ['GlÃ¼ck', 'aufhÃ¶ren', 'bis', 'das', 'die', 'gegen', 'kÃ¶nnen', 'sich', 'sie', 'wendet', 'wieder']
+Scope [Gold]: ['aufhören', 'bis', 'das', 'die', 'gegen', 'glück', 'können', 'sich', 'sie', 'wendet', 'wieder']
+Scope [Test]: ['aufhören', 'bis', 'das', 'die', 'gegen', 'glück', 'können', 'sich', 'sie', 'wendet', 'wieder']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -897,8 +1008,10 @@ Focus [Test]: ['es']
 Negated [Gold]: ['hat']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Kinder', 'er', 'selbst']
-Scope [Test]: ['Kinder', 'er', 'hat', 'selbst']
+Scope [Gold]: ['er', 'kinder', 'selbst']
+Scope [Test]: ['er', 'hat', 'kinder', 'selbst']
+[1, 1, 1, 0]
+[1, 1, 1, 1]
 
 =========
 
@@ -907,14 +1020,16 @@ Frame: 90_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['vÃ¶llig']
-Focus [Test]: ['vÃ¶llig']
+Focus [Gold]: ['völlig']
+Focus [Test]: ['völlig']
 
-Negated [Gold]: ['kÃ¶nnen']
+Negated [Gold]: ['können']
 Negated [Test]: ['die']
 
-Scope [Gold]: ['Charles', 'Die', 'Sir', 'Tode', 'UmstÃ¤nde', 'Untersuchung', 'als', 'bezeichnet', 'dem', 'die', 'durch', 'geklÃ¤rt', 'kÃ¶nnen', 'mit', 'verbundenen', 'von', 'vÃ¶llig', 'werden']
-Scope [Test]: ['Charles', 'Die', 'Sir', 'Tode', 'UmstÃ¤nde', 'Untersuchung', 'als', 'bezeichnet', 'dem', 'die', 'durch', 'geklÃ¤rt', 'kÃ¶nnen', 'mit', 'verbundenen', 'von', 'vÃ¶llig', 'werden']
+Scope [Gold]: ['als', 'bezeichnet', 'charles', 'dem', 'die', 'die', 'durch', 'geklärt', 'können', 'mit', 'sir', 'tode', 'umstände', 'untersuchung', 'verbundenen', 'von', 'völlig', 'werden']
+Scope [Test]: ['als', 'bezeichnet', 'charles', 'dem', 'die', 'die', 'durch', 'geklärt', 'können', 'mit', 'sir', 'tode', 'umstände', 'untersuchung', 'verbundenen', 'von', 'völlig', 'werden']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -924,13 +1039,15 @@ Target [Gold]: ['keinerlei']
 Target [Test]: ['keinerlei']
 
 Focus [Gold]: ['keinerlei']
-Focus [Test]: ['unnatÃ¼rliche']
+Focus [Test]: ['unnatürliche']
 
 Negated [Gold]: ['gibt']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Anlass', 'Es', 'Ursachen', 'gar', 'gibt', 'oder', 'unnatÃ¼rliche', 'vermuten', 'zu', 'Ã¼bernatÃ¼rliche']
-Scope [Test]: ['Anlass', 'Es', 'gibt']
+Scope [Gold]: ['anlass', 'es', 'gar', 'gibt', 'oder', 'unnatürliche', 'ursachen', 'vermuten', 'zu', 'übernatürliche']
+Scope [Test]: ['anlass', 'es', 'gibt']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -939,14 +1056,16 @@ Frame: 91_f2
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['natÃ¼rliche']
-Focus [Test]: ['natÃ¼rliche']
+Focus [Gold]: ['natürliche']
+Focus [Test]: ['natürliche']
 
-Negated [Gold]: ['natÃ¼rliche']
-Negated [Test]: ['natÃ¼rliche']
+Negated [Gold]: ['natürliche']
+Negated [Test]: ['natürliche']
 
-Scope [Gold]: ['natÃ¼rliche']
-Scope [Test]: ['natÃ¼rliche']
+Scope [Gold]: ['natürliche']
+Scope [Test]: ['natürliche']
+[1]
+[1]
 
 =========
 
@@ -955,14 +1074,16 @@ Frame: 101_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['zurÃ¼ck']
+Focus [Gold]: ['zurück']
 Focus [Test]: ['']
 
 Negated [Gold]: ['kam']
 Negated [Test]: ['kam']
 
-Scope [Gold]: ['Er', 'kam', 'zurÃ¼ck']
-Scope [Test]: ['Er', 'jedoch', 'kam', 'zurÃ¼ck']
+Scope [Gold]: ['er', 'kam', 'zurück']
+Scope [Test]: ['er', 'jedoch', 'kam', 'zurück']
+[1, 1, 1, 0]
+[1, 1, 1, 1]
 
 =========
 
@@ -979,6 +1100,8 @@ Negated [Test]: ['verschlossen']
 
 Scope [Gold]: ['verschlossen']
 Scope [Test]: ['verschlossen']
+[1]
+[1]
 
 =========
 
@@ -993,8 +1116,10 @@ Focus [Test]: ['weit']
 Negated [Gold]: ['entfernt']
 Negated [Test]: ['entfernt']
 
-Scope [Gold]: ['Moor', 'auf', 'dem', 'entfernt', 'weit']
-Scope [Test]: ['Moor', 'Zeitpunkt', 'auf', 'auf', 'dem', 'diesem', 'entfernt', 'hielt', 'sich', 'weit', 'zu']
+Scope [Gold]: ['auf', 'dem', 'entfernt', 'moor', 'weit']
+Scope [Test]: ['auf', 'auf', 'dem', 'diesem', 'entfernt', 'hielt', 'moor', 'sich', 'weit', 'zeitpunkt', 'zu']
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1003,14 +1128,16 @@ Frame: 109_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['mÃ¶glich']
-Focus [Test]: ['mÃ¶glich']
+Focus [Gold]: ['möglich']
+Focus [Test]: ['möglich']
 
-Negated [Gold]: ['mÃ¶glich']
-Negated [Test]: ['mÃ¶glich']
+Negated [Gold]: ['möglich']
+Negated [Test]: ['möglich']
 
-Scope [Gold]: ['mÃ¶glich']
-Scope [Test]: ['mÃ¶glich']
+Scope [Gold]: ['möglich']
+Scope [Test]: ['möglich']
+[1]
+[1]
 
 =========
 
@@ -1020,13 +1147,15 @@ Target [Gold]: ['keinerlei']
 Target [Test]: ['keinerlei']
 
 Focus [Gold]: ['anzeichen']
-Focus [Test]: ['kÃ¶nnen']
+Focus [Test]: ['können']
 
-Negated [Gold]: ['kÃ¶nnen']
+Negated [Gold]: ['können']
 Negated [Test]: ['']
 
-Scope [Gold]: ["'", 'Anzeichen', 'Charles', 'Gewalt', 'KÃ¶rper', 'Man', 'Sir', 'an', 'entdecken', 'hat', 'kÃ¶nnen', 'von']
-Scope [Test]: ['Anzeichen', 'Charles', 'Gewalt', 'Man', 'Sir', 'an', 'auch', 'hat', 'von']
+Scope [Gold]: ["'", 'an', 'anzeichen', 'charles', 'entdecken', 'gewalt', 'hat', 'können', 'körper', 'man', 'sir', 'von']
+Scope [Test]: ['an', 'anzeichen', 'auch', 'charles', 'gewalt', 'hat', 'man', 'sir', 'von']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -1036,13 +1165,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['nicht']
-Focus [Test]: ['ungewÃ¶hnlich']
+Focus [Test]: ['ungewöhnlich']
 
 Negated [Gold]: ['']
 Negated [Test]: ['ein']
 
-Scope [Gold]: ['Atemnot', 'FÃ¤llen', 'Herzanfall', 'Symptom', 'Tod', 'durch', 'ein', 'in', 'sei', 'solches', 'und', 'ungewÃ¶hnlich', 'von']
-Scope [Test]: ['Herzanfall', 'Tod', 'durch', 'sei', 'ungewÃ¶hnlich']
+Scope [Gold]: ['atemnot', 'durch', 'ein', 'fällen', 'herzanfall', 'in', 'sei', 'solches', 'symptom', 'tod', 'und', 'ungewöhnlich', 'von']
+Scope [Test]: ['durch', 'herzanfall', 'sei', 'tod', 'ungewöhnlich']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -1051,21 +1182,23 @@ Frame: 110_f3
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['gewÃ¶hnlich']
-Focus [Test]: ['gewÃ¶hnlich']
+Focus [Gold]: ['gewöhnlich']
+Focus [Test]: ['gewöhnlich']
 
-Negated [Gold]: ['gewÃ¶hnlich']
-Negated [Test]: ['gewÃ¶hnlich']
+Negated [Gold]: ['gewöhnlich']
+Negated [Test]: ['gewöhnlich']
 
-Scope [Gold]: ['gewÃ¶hnlich']
-Scope [Test]: ['gewÃ¶hnlich']
+Scope [Gold]: ['gewöhnlich']
+Scope [Test]: ['gewöhnlich']
+[1]
+[1]
 
 =========
 
 Frame: 112_f1
 
-Target [Gold]: ['auÃŸer']
-Target [Test]: ['niederlÃ¤sst']
+Target [Gold]: ['außer']
+Target [Test]: ['niederlässt']
 
 Focus [Gold]: ['ordentlich']
 Focus [Test]: ['unterbrochen']
@@ -1074,7 +1207,9 @@ Negated [Gold]: ['ordentlich']
 Negated [Test]: ['']
 
 Scope [Gold]: ['ordentlich']
-Scope [Test]: ['Baskerville', 'Charles', 'Erbe', 'Hall', 'Sir', 'der', 'in', 'sich', 'von']
+Scope [Test]: ['baskerville', 'charles', 'der', 'erbe', 'hall', 'in', 'sich', 'sir', 'von']
+[1, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1089,8 +1224,10 @@ Focus [Test]: ['endlich']
 Negated [Gold]: ['']
 Negated [Test]: ['ein']
 
-Scope [Gold]: [',', 'AffÃ¤re', 'Ende', 'HÃ¤tte', 'Legenden', 'Leichenbeschauers', 'Resultat', 'Zusammenhang', 'das', 'den', 'der', 'des', 'ein', 'endlich', 'gesetzt', 'im', 'mit', 'prosaische', 'romantischen']
-Scope [Test]: ['Ende', 'ein', 'endlich', 'es', 'gesetzt', 'geworden', 'schwierig', 'sicherlich', 'so', 'wÃ¤re']
+Scope [Gold]: [',', 'affäre', 'das', 'den', 'der', 'des', 'ein', 'ende', 'endlich', 'gesetzt', 'hätte', 'im', 'legenden', 'leichenbeschauers', 'mit', 'prosaische', 'resultat', 'romantischen', 'zusammenhang']
+Scope [Test]: ['ein', 'ende', 'endlich', 'es', 'gesetzt', 'geworden', 'schwierig', 'sicherlich', 'so', 'wäre']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -1099,14 +1236,16 @@ Frame: 122_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['Ã¶ffentlichen']
-Focus [Test]: ['Ã¶ffentlichen']
+Focus [Gold]: ['öffentlichen']
+Focus [Test]: ['öffentlichen']
 
-Negated [Gold]: ['Ã¶ffentlichen']
+Negated [Gold]: ['öffentlichen']
 Negated [Test]: ['berichten']
 
-Scope [Gold]: ['Ã¶ffentlichen']
-Scope [Test]: ['Dann', 'Sie', 'berichten', 'die', 'doch', 'mir', 'Ã¶ffentlichen', 'Ã¼ber']
+Scope [Gold]: ['öffentlichen']
+Scope [Test]: ['berichten', 'dann', 'die', 'doch', 'mir', 'sie', 'öffentlichen', 'über']
+[1, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1123,6 +1262,8 @@ Negated [Test]: ['bewegter']
 
 Scope [Gold]: ['geteilter']
 Scope [Test]: ['bewegter']
+[1]
+[0]
 
 =========
 
@@ -1139,6 +1280,8 @@ Negated [Test]: ['geteilter']
 
 Scope [Gold]: ['bewegter']
 Scope [Test]: ['geteilter']
+[1]
+[0]
 
 =========
 
@@ -1148,13 +1291,15 @@ Target [Gold]: ['niemandem']
 Target [Test]: ['niemandem']
 
 Focus [Gold]: ['niemandem']
-Focus [Test]: ['erzÃ¤hlt']
+Focus [Test]: ['erzählt']
 
-Negated [Gold]: ['erzÃ¤hlt']
+Negated [Gold]: ['erzählt']
 Negated [Test]: ['']
 
-Scope [Gold]: ['die', 'erzÃ¤hlt', 'habe', 'ich', 'niemandem', 'sonst']
-Scope [Test]: ['die', 'erzÃ¤hlt', 'habe', 'ich', 'sonst']
+Scope [Gold]: ['die', 'erzählt', 'habe', 'ich', 'niemandem', 'sonst']
+Scope [Test]: ['die', 'erzählt', 'habe', 'ich', 'sonst']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -1163,14 +1308,16 @@ Frame: 125_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['erwÃ¤hnt']
-Focus [Test]: ['erwÃ¤hnt']
+Focus [Gold]: ['erwähnt']
+Focus [Test]: ['erwähnt']
 
-Negated [Gold]: ['erwÃ¤hnt']
-Negated [Test]: ['erwÃ¤hnt']
+Negated [Gold]: ['erwähnt']
+Negated [Test]: ['erwähnt']
 
-Scope [Gold]: ['Leichenbeschauer', 'dem', 'erwÃ¤hnt', 'habe', 'ich', 'vor', 'warum']
-Scope [Test]: ['Leichenbeschauer', 'dem', 'dies', 'erwÃ¤hnt', 'habe', 'ich', 'vor', 'warum']
+Scope [Gold]: ['dem', 'erwähnt', 'habe', 'ich', 'leichenbeschauer', 'vor', 'warum']
+Scope [Test]: ['dem', 'dies', 'erwähnt', 'habe', 'ich', 'leichenbeschauer', 'vor', 'warum']
+[1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1182,11 +1329,13 @@ Target [Test]: ['kein']
 Focus [Gold]: ['kein']
 Focus [Test]: ['praktischer']
 
-Negated [Gold]: ['wÃ¤re']
+Negated [Gold]: ['wäre']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Nutzen', 'daraus', 'praktischer', 'ziehen', 'zu']
-Scope [Test]: ['Grund', 'Ihnen', 'Nutzen', 'daraus', 'doch', 'es', 'fÃ¼r', 'gibt', 'keinen', 'mich', 'mit', 'nicht', 'offen', 'ohnehin', 'praktischer', 'sprechen', 'vÃ¶llig', 'wÃ¤re', 'ziehen', 'zu', 'zu']
+Scope [Gold]: ['daraus', 'nutzen', 'praktischer', 'ziehen', 'zu']
+Scope [Test]: ['daraus', 'doch', 'es', 'für', 'gibt', 'grund', 'ihnen', 'keinen', 'mich', 'mit', 'nicht', 'nutzen', 'offen', 'ohnehin', 'praktischer', 'sprechen', 'völlig', 'wäre', 'ziehen', 'zu', 'zu']
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1196,13 +1345,15 @@ Target [Gold]: ['keinen']
 Target [Test]: ['keinen']
 
 Focus [Gold]: ['keinen']
-Focus [Test]: ['fÃ¼r']
+Focus [Test]: ['für']
 
 Negated [Gold]: ['gibt']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Grund', 'Ihnen', 'es', 'fÃ¼r', 'gibt', 'keinen', 'mich', 'mit', 'nicht', 'offen', 'sprechen', 'vÃ¶llig', 'zu']
-Scope [Test]: ['Grund', 'Ihnen', 'doch', 'es', 'fÃ¼r', 'gibt', 'mich', 'mit', 'nicht', 'offen', 'sprechen', 'vÃ¶llig', 'zu']
+Scope [Gold]: ['es', 'für', 'gibt', 'grund', 'ihnen', 'keinen', 'mich', 'mit', 'nicht', 'offen', 'sprechen', 'völlig', 'zu']
+Scope [Test]: ['doch', 'es', 'für', 'gibt', 'grund', 'ihnen', 'mich', 'mit', 'nicht', 'offen', 'sprechen', 'völlig', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -1211,14 +1362,16 @@ Frame: 127_f3
 Target [Gold]: ['ihnen']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['vÃ¶llig']
-Focus [Test]: ['vÃ¶llig']
+Focus [Gold]: ['völlig']
+Focus [Test]: ['völlig']
 
 Negated [Gold]: ['']
-Negated [Test]: ['fÃ¼r']
+Negated [Test]: ['für']
 
-Scope [Gold]: ['Ihnen', 'mit', 'offen', 'sprechen', 'vÃ¶llig', 'zu']
-Scope [Test]: ['Ihnen', 'mit', 'offen', 'sprechen', 'vÃ¶llig', 'zu']
+Scope [Gold]: ['ihnen', 'mit', 'offen', 'sprechen', 'völlig', 'zu']
+Scope [Test]: ['ihnen', 'mit', 'offen', 'sprechen', 'völlig', 'zu']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1233,8 +1386,10 @@ Focus [Test]: ['kultivierten']
 Negated [Gold]: ['gibt']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Kilometern', 'Menschen', 'Umkreis', 'es', 'im', 'keine', 'kultivierten', 'vielen', 'von']
-Scope [Test]: ['Kilometern', 'Menschen', 'Umkreis', 'es', 'gibt', 'im', 'kultivierten', 'vielen', 'von']
+Scope [Gold]: ['es', 'im', 'keine', 'kilometern', 'kultivierten', 'menschen', 'umkreis', 'vielen', 'von']
+Scope [Test]: ['es', 'gibt', 'im', 'kilometern', 'kultivierten', 'menschen', 'umkreis', 'vielen', 'von']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -1249,8 +1404,10 @@ Focus [Test]: ['gebracht']
 Negated [Gold]: ['gebracht']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Moor', 'Nachts', 'Welt', 'auf', 'auf', 'das', 'dazu', 'der', 'des', 'gebracht', 'hinauszugehen', 'hÃ¤tte', 'ihn', 'nichts']
-Scope [Test]: ['Boden', 'Moor', 'Nachts', 'Welt', 'auf', 'auf', 'auf', 'das', 'dazu', 'der', 'des', 'eigenen', 'er', 'gebracht', 'ging', 'hinauszugehen', 'hÃ¤tte', 'ihn', 'obwohl', 'seinem', 'spazieren', 'viel']
+Scope [Gold]: ['auf', 'auf', 'das', 'dazu', 'der', 'des', 'gebracht', 'hinauszugehen', 'hätte', 'ihn', 'moor', 'nachts', 'nichts', 'welt']
+Scope [Test]: ['auf', 'auf', 'auf', 'boden', 'das', 'dazu', 'der', 'des', 'eigenen', 'er', 'gebracht', 'ging', 'hinauszugehen', 'hätte', 'ihn', 'moor', 'nachts', 'obwohl', 'seinem', 'spazieren', 'viel', 'welt']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1267,6 +1424,8 @@ Negated [Test]: ['glaublich']
 
 Scope [Gold]: ['glaublich']
 Scope [Test]: ['glaublich']
+[1]
+[1]
 
 =========
 
@@ -1282,7 +1441,9 @@ Negated [Gold]: ['belang']
 Negated [Test]: ['']
 
 Scope [Gold]: ['belanglos']
-Scope [Test]: ['Anlass', 'Aufregung', 'bestand', 'fÃ¼r', 'seine']
+Scope [Test]: ['anlass', 'aufregung', 'bestand', 'für', 'seine']
+[1, 0, 0, 0, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -1297,8 +1458,10 @@ Focus [Test]: ['bestand']
 Negated [Gold]: ['bestand']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Angst', 'Grund', 'bestand', 'diese', 'fÃ¼r', 'keinerlei']
-Scope [Test]: ['Angst', 'Grund', 'bestand', 'diese', 'fÃ¼r']
+Scope [Gold]: ['angst', 'bestand', 'diese', 'für', 'grund', 'keinerlei']
+Scope [Test]: ['angst', 'bestand', 'diese', 'für', 'grund']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -1313,8 +1476,10 @@ Focus [Test]: ['anderen']
 Negated [Gold]: ['gab']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Barrymore', 'FuÃŸabdrÃ¼cken', 'Spuren', 'Untergrund', 'anderen', 'auf', 'auÃŸer', 'dem', 'den', 'es', 'gab', 'keine', 'von', 'weichen']
-Scope [Test]: ['Barrymore', 'FuÃŸabdrÃ¼cken', 'Spuren', 'Untergrund', 'anderen', 'auf', 'auÃŸer', 'dem', 'den', 'es', 'gab', 'von', 'weichen']
+Scope [Gold]: ['anderen', 'auf', 'außer', 'barrymore', 'dem', 'den', 'es', 'fußabdrücken', 'gab', 'keine', 'spuren', 'untergrund', 'von', 'weichen']
+Scope [Test]: ['anderen', 'auf', 'außer', 'barrymore', 'dem', 'den', 'es', 'fußabdrücken', 'gab', 'spuren', 'untergrund', 'von', 'weichen']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -1323,14 +1488,16 @@ Frame: 153_f2
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['berÃ¼hrt']
-Focus [Test]: ['berÃ¼hrt']
+Focus [Gold]: ['berührt']
+Focus [Test]: ['berührt']
 
-Negated [Gold]: ['berÃ¼hrt']
-Negated [Test]: ['berÃ¼hrt']
+Negated [Gold]: ['berührt']
+Negated [Test]: ['berührt']
 
-Scope [Gold]: ['Ankunft', 'berÃ¼hrt', 'bis', 'der', 'meiner', 'war', 'worden', 'zu']
-Scope [Test]: ['Ankunft', 'berÃ¼hrt', 'bis', 'der', 'meiner', 'war', 'worden', 'zu']
+Scope [Gold]: ['ankunft', 'berührt', 'bis', 'der', 'meiner', 'war', 'worden', 'zu']
+Scope [Test]: ['ankunft', 'berührt', 'bis', 'der', 'meiner', 'war', 'worden', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1345,8 +1512,10 @@ Focus [Test]: ['physische']
 Negated [Gold]: ['gab']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Art', 'Verletzung', 'es', 'gab', 'irgendwelcher', 'keinerlei', 'physische']
-Scope [Test]: ['Art', 'Bestimmt', 'Verletzung', 'es', 'gab', 'irgendwelcher', 'physische']
+Scope [Gold]: ['art', 'es', 'gab', 'irgendwelcher', 'keinerlei', 'physische', 'verletzung']
+Scope [Test]: ['art', 'bestimmt', 'es', 'gab', 'irgendwelcher', 'physische', 'verletzung']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -1355,14 +1524,16 @@ Frame: s157_f1
 Target [Gold]: ['keine']
 Target [Test]: ['keine']
 
-Focus [Gold]: ['abdrÃ¼cke']
+Focus [Gold]: ['abdrücke']
 Focus [Test]: ['anderen']
 
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
 Scope [Gold]: ['']
-Scope [Test]: ['AbdrÃ¼cke', 'Leichnam', 'anderen', 'den', 'es', 'gegeben', 'habe', 'herum', 'um']
+Scope [Test]: ['abdrücke', 'anderen', 'den', 'es', 'gegeben', 'habe', 'herum', 'leichnam', 'um']
+[0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1377,29 +1548,34 @@ Focus [Test]: ['']
 Negated [Gold]: ['gesehen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Er', 'gesehen', 'habe', 'keine']
-Scope [Test]: ['Er', 'gesehen', 'habe', 'jedenfalls']
+Scope [Gold]: ['er', 'gesehen', 'habe', 'keine']
+Scope [Test]: ['er', 'gesehen', 'habe', 'jedenfalls']
+[1, 1, 1, 1]
+[1, 1, 1, 0]
 
 =============================
 ====== EVALUATION for: ../res/xml/test/output/tagged/baskerville_ch2.jr.xml ======
 Total Sentences: 163 
-Gold frames: 54 
-Test frames: 59 
+Negation Gold frames: 54 
+Negation Test frames: 59 
 
 ----- CUEWORDS -----
 F1 score:	 0.796296296296
 
 ----- FOCUS -----
-F1 score:	 0.388888888889
+F1 score:	 0.425925925926
 
 ----- NEGATED -----
-F1 score:	 0.314814814815
+F1 score:	 0.407407407407
 
 ----- SCOPE -----
-Precision:	 0.811320754717
-Recall:	 0.638870204508
-F1 score:	 0.688213104468
-Jaccard similarity:	 0.487138752233
+Scope Gold frames: 53 
+Scope Test frames: 59 
+
+Precision:	 0.665063355685
+Recall:	 0.593813580029
+F1 score:	 0.601968916513
+Jaccard similarity:	 0.360109146974
 
 =========
 
@@ -1409,13 +1585,15 @@ Target [Gold]: ['nichts']
 Target [Test]: ['nichts']
 
 Focus [Gold]: ['nichts']
-Focus [Test]: ['erzÃ¤hlt']
+Focus [Test]: ['erzählt']
 
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Sie', 'davon', 'erzÃ¤hlt', 'haben', 'nichts']
-Scope [Test]: ['Sie', 'davon', 'erzÃ¤hlt', 'haben']
+Scope [Gold]: ['davon', 'erzählt', 'haben', 'nichts', 'sie']
+Scope [Test]: ['davon', 'erzählt', 'haben', 'sie']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0]
 
 =========
 
@@ -1432,6 +1610,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['bemerkt', 'hat', 'niemand', 'sie', 'sonst']
 Scope [Test]: ['bemerkt', 'hat', 'sie', 'sonst']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0]
 
 =========
 
@@ -1446,8 +1626,10 @@ Focus [Test]: ['verschwendet']
 Negated [Gold]: ['verschwendet']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Gedanken', 'an', 'einen', 'hat', 'niemand', 'sie', 'verschwendet']
-Scope [Test]: ['Gedanken', 'an', 'einen', 'hat', 'sie', 'verschwendet']
+Scope [Gold]: ['an', 'einen', 'gedanken', 'hat', 'niemand', 'sie', 'verschwendet']
+Scope [Test]: ['an', 'einen', 'gedanken', 'hat', 'sie', 'verschwendet']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -1456,14 +1638,16 @@ Frame: 14_f1
 Target [Gold]: ['kein']
 Target [Test]: ['kein']
 
-Focus [Gold]: ['schÃ¤ferhund']
+Focus [Gold]: ['schäferhund']
 Focus [Test]: ['']
 
-Negated [Gold]: ['schÃ¤ferhund']
+Negated [Gold]: ['schäferhund']
 Negated [Test]: ['']
 
-Scope [Gold]: ['SchÃ¤ferhund', 'dies', 'kein', 'war']
-Scope [Test]: ['SchÃ¤ferhund', 'dies', 'doch', 'war']
+Scope [Gold]: ['dies', 'kein', 'schäferhund', 'war']
+Scope [Test]: ['dies', 'doch', 'schäferhund', 'war']
+[1, 1, 1, 1]
+[1, 1, 1, 0]
 
 =========
 
@@ -1472,14 +1656,16 @@ Frame: 17_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['genÃ¤hert']
-Focus [Test]: ['genÃ¤hert']
+Focus [Gold]: ['genähert']
+Focus [Test]: ['genähert']
 
 Negated [Gold]: ['']
 Negated [Test]: ['dem']
 
-Scope [Gold]: ['Leichnam', 'dem', 'er', 'genÃ¤hert', 'hatte', 'nicht', 'sich']
-Scope [Test]: ['Leichnam', 'dem', 'er', 'genÃ¤hert', 'hatte', 'sich']
+Scope [Gold]: ['dem', 'er', 'genähert', 'hatte', 'leichnam', 'nicht', 'sich']
+Scope [Test]: ['dem', 'er', 'genähert', 'hatte', 'leichnam', 'sich']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -1496,6 +1682,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -1512,6 +1700,8 @@ Negated [Test]: ['regnete']
 
 Scope [Gold]: ['es', 'nicht', 'regnete']
 Scope [Test]: ['es', 'regnete']
+[1, 1, 1]
+[1, 1, 0]
 
 =========
 
@@ -1528,6 +1718,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -1544,6 +1736,8 @@ Negated [Test]: ['durchdringlich']
 
 Scope [Gold]: ['durchdringlich']
 Scope [Test]: ['durchdringlich']
+[1]
+[1]
 
 =========
 
@@ -1558,8 +1752,10 @@ Focus [Test]: ['ganz']
 Negated [Gold]: ['breite']
 Negated [Test]: ['einen']
 
-Scope [Gold]: ['Breite', 'Metern', 'Rasen', 'Streifen', 'einen', 'ganz', 'nicht', 'von', 'zwei']
-Scope [Test]: ['Breite', 'Metern', 'Rasen', 'Seite', 'Streifen', 'Weges', 'auf', 'des', 'einen', 'es', 'ganz', 'gibt', 'jeder', 'vielleicht', 'von', 'zwei']
+Scope [Gold]: ['breite', 'einen', 'ganz', 'metern', 'nicht', 'rasen', 'streifen', 'von', 'zwei']
+Scope [Test]: ['auf', 'breite', 'des', 'einen', 'es', 'ganz', 'gibt', 'jeder', 'metern', 'rasen', 'seite', 'streifen', 'vielleicht', 'von', 'weges', 'zwei']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1576,6 +1772,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -1592,6 +1790,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -1606,8 +1806,10 @@ Focus [Test]: ['etwa']
 Negated [Gold]: ['']
 Negated [Test]: ['dem']
 
-Scope [Gold]: ['Rasen', 'auf', 'dem', 'diese', 'etwa', 'nicht', 'waren']
-Scope [Test]: ['Rasen', 'auf', 'dem', 'etwa']
+Scope [Gold]: ['auf', 'dem', 'diese', 'etwa', 'nicht', 'rasen', 'waren']
+Scope [Test]: ['auf', 'dem', 'etwa', 'rasen']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -1619,11 +1821,13 @@ Target [Test]: ['keine']
 Focus [Gold]: ['keine']
 Focus [Test]: ['sehen']
 
-Negated [Gold]: ['kÃ¶nnen']
+Negated [Gold]: ['können']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Gras', 'Man', 'Spuren', 'auf', 'dem', 'hÃ¤tte', 'kÃ¶nnen', 'sehen']
-Scope [Test]: ['Gras', 'Man', 'Spuren', 'auf', 'dem', 'hÃ¤tte', 'kÃ¶nnen', 'sehen']
+Scope [Gold]: ['auf', 'dem', 'gras', 'hätte', 'können', 'man', 'sehen', 'spuren']
+Scope [Test]: ['auf', 'dem', 'gras', 'hätte', 'können', 'man', 'sehen', 'spuren']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1640,6 +1844,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['besonderen']
 Scope [Test]: ['besonderen']
+[1]
+[1]
 
 =========
 
@@ -1654,8 +1860,10 @@ Focus [Test]: ['untersucht']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Hat', 'das', 'untersucht']
-Scope [Test]: ['Hat', 'das', 'untersucht']
+Scope [Gold]: ['das', 'hat', 'untersucht']
+Scope [Test]: ['das', 'hat', 'untersucht']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -1672,6 +1880,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['gefunden']
 Scope [Test]: ['gefunden']
+[1]
+[1]
 
 =========
 
@@ -1686,8 +1896,10 @@ Focus [Test]: ['anderen']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ich', 'anderen', 'ausfindig', 'konnte', 'machen']
-Scope [Test]: ['Ich', 'anderen', 'ausfindig', 'konnte', 'machen']
+Scope [Gold]: ['anderen', 'ausfindig', 'ich', 'konnte', 'machen']
+Scope [Test]: ['anderen', 'ausfindig', 'ich', 'konnte', 'machen']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -1704,22 +1916,26 @@ Negated [Test]: ['geduldigen']
 
 Scope [Gold]: ['geduldigen']
 Scope [Test]: ['geduldigen']
+[1]
+[1]
 
 =========
 
 Frame: 64_f1
 
-Target [Gold]: ['auÃŸer']
+Target [Gold]: ['außer']
 Target [Test]: ['un']
 
-Focus [Gold]: ['gewÃ¶hnlichem']
+Focus [Gold]: ['gewöhnlichem']
 Focus [Test]: ['ermessliche']
 
-Negated [Gold]: ['gewÃ¶hnlichem']
+Negated [Gold]: ['gewöhnlichem']
 Negated [Test]: ['ermessliche']
 
-Scope [Gold]: ['gewÃ¶hnlichem']
+Scope [Gold]: ['gewöhnlichem']
 Scope [Test]: ['ermessliche']
+[1]
+[0]
 
 =========
 
@@ -1729,13 +1945,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['warum']
-Focus [Test]: ['frÃ¼her']
+Focus [Test]: ['früher']
 
 Negated [Gold]: ['gerufen']
 Negated [Test]: ['gerufen']
 
-Scope [Gold]: ['Sie', 'frÃ¼her', 'gerufen', 'haben', 'mich', 'warum']
-Scope [Test]: ['Sie', 'frÃ¼her', 'gerufen', 'haben', 'mich', 'warum']
+Scope [Gold]: ['früher', 'gerufen', 'haben', 'mich', 'sie', 'warum']
+Scope [Test]: ['früher', 'gerufen', 'haben', 'mich', 'sie', 'warum']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1750,8 +1968,10 @@ Focus [Test]: ['ihnen']
 Negated [Gold]: ['konnte']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Ich', 'Ihnen', 'konnte', 'lassen', 'nach', 'nicht', 'schicken']
-Scope [Test]: ['Ich', 'Ihnen', 'doch', 'konnte', 'lassen', 'nach', 'schicken']
+Scope [Gold]: ['ich', 'ihnen', 'konnte', 'lassen', 'nach', 'nicht', 'schicken']
+Scope [Test]: ['doch', 'ich', 'ihnen', 'konnte', 'lassen', 'nach', 'schicken']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -1760,14 +1980,16 @@ Frame: 68_f2
 Target [Gold]: ['ohne']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['enthÃ¼llen']
+Focus [Gold]: ['enthüllen']
 Focus [Test]: ['wollte']
 
 Negated [Gold]: ['']
 Negated [Test]: ['wollte']
 
-Scope [Gold]: ['Fakten', 'der', 'diese', 'enthÃ¼llen', 'zu', 'Ã–ffentlichkeit', 'â€“']
+Scope [Gold]: ['der', 'diese', 'enthüllen', 'fakten', 'zu', 'öffentlichkeit', '–']
 Scope [Test]: ['das', 'ich', 'warum', 'wollte']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -1782,8 +2004,10 @@ Focus [Test]: ['direkt']
 Negated [Gold]: ['wollte']
 Negated [Test]: ['wollte']
 
-Scope [Gold]: ['Das', 'direkt', 'ich', 'sagen', 'wollte']
-Scope [Test]: ['Das', 'direkt', 'ich', 'sagen', 'wollte']
+Scope [Gold]: ['das', 'direkt', 'ich', 'sagen', 'wollte']
+Scope [Test]: ['das', 'direkt', 'ich', 'sagen', 'wollte']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -1800,6 +2024,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -1816,6 +2042,8 @@ Negated [Test]: ['geheuer']
 
 Scope [Gold]: ['geheuer']
 Scope [Test]: ['geheuer']
+[1]
+[1]
 
 =========
 
@@ -1824,14 +2052,16 @@ Frame: 82_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['weiÃŸ']
+Focus [Gold]: ['weiß']
 Focus [Test]: ['mehr']
 
-Negated [Gold]: ['weiÃŸ']
+Negated [Gold]: ['weiß']
 Negated [Test]: ['soll']
 
-Scope [Gold]: ['Ich', 'glauben', 'ich', 'mehr', 'soll', 'was', 'weiÃŸ']
-Scope [Test]: ['Ich', 'mehr', 'weiÃŸ']
+Scope [Gold]: ['glauben', 'ich', 'ich', 'mehr', 'soll', 'was', 'weiß']
+Scope [Test]: ['ich', 'mehr', 'weiß']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0]
 
 =========
 
@@ -1848,6 +2078,8 @@ Negated [Test]: ['sinn']
 
 Scope [Gold]: ['sinn']
 Scope [Test]: ['sinn']
+[1]
+[1]
 
 =========
 
@@ -1862,8 +2094,10 @@ Focus [Test]: ['gebeten']
 Negated [Gold]: ['gebeten']
 Negated [Test]: ['gebeten']
 
-Scope [Gold]: ['Darum', 'Sie', 'gebeten', 'hatte', 'ich']
-Scope [Test]: ['Darum', 'Sie', 'gebeten', 'hatte', 'ich']
+Scope [Gold]: ['darum', 'gebeten', 'hatte', 'ich', 'sie']
+Scope [Test]: ['darum', 'gebeten', 'hatte', 'ich', 'sie']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -1878,8 +2112,10 @@ Focus [Test]: ['sein']
 Negated [Gold]: ['sage']
 Negated [Test]: ['sage']
 
-Scope [Gold]: ['Arzt', 'Dies', 'als', 'ich', 'sage']
-Scope [Test]: ['Arzt', 'Dies', 'als', 'ich', 'sage']
+Scope [Gold]: ['als', 'arzt', 'dies', 'ich', 'sage']
+Scope [Test]: ['als', 'arzt', 'dies', 'ich', 'sage']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -1894,8 +2130,10 @@ Focus [Test]: ['anderen']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['AnwÃ¤rter', 'anderen', 'es', 'gibt']
-Scope [Test]: ['AnwÃ¤rter', 'anderen', 'es', 'gibt']
+Scope [Gold]: ['anderen', 'anwärter', 'es', 'gibt']
+Scope [Test]: ['anderen', 'anwärter', 'es', 'gibt']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -1912,6 +2150,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -1926,8 +2166,10 @@ Focus [Test]: ['seiner']
 Negated [Gold]: ['']
 Negated [Test]: ['das']
 
-Scope [Gold]: ['Besitz', 'Haus', 'Vorfahren', 'Warum', 'das', 'er', 'in', 'nehmen', 'seiner', 'sollte']
-Scope [Test]: ['Besitz', 'Haus', 'Vorfahren', 'Warum', 'das', 'er', 'in', 'nehmen', 'seiner', 'sollte']
+Scope [Gold]: ['besitz', 'das', 'er', 'haus', 'in', 'nehmen', 'seiner', 'sollte', 'vorfahren', 'warum']
+Scope [Test]: ['besitz', 'das', 'er', 'haus', 'in', 'nehmen', 'seiner', 'sollte', 'vorfahren', 'warum']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1942,8 +2184,10 @@ Focus [Test]: ['leugnen']
 Negated [Gold]: ['kann']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Anwesenheit', 'Gegend', 'Wohlstand', 'abhÃ¤ngt', 'armen', 'dass', 'der', 'dieser', 'freudlosen', 'ich', 'kann', 'leugnen', 'seiner', 'und', 'von']
-Scope [Test]: ['Andererseits', 'Wohlstand', 'armen', 'dass', 'der', 'dieser', 'ich', 'kann', 'leugnen']
+Scope [Gold]: ['abhängt', 'anwesenheit', 'armen', 'dass', 'der', 'dieser', 'freudlosen', 'gegend', 'ich', 'kann', 'leugnen', 'seiner', 'und', 'von', 'wohlstand']
+Scope [Test]: ['andererseits', 'armen', 'dass', 'der', 'dieser', 'ich', 'kann', 'leugnen', 'wohlstand']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -1960,6 +2204,8 @@ Negated [Test]: ['sicheren']
 
 Scope [Gold]: ['sicheren']
 Scope [Test]: ['sicheren']
+[1]
+[1]
 
 =========
 
@@ -1975,7 +2221,9 @@ Negated [Gold]: ['']
 Negated [Test]: ['']
 
 Scope [Gold]: ['']
-Scope [Test]: ['Angelegenheit', 'Klaren', 'alles', 'berichten', 'bin', 'bis', 'diese', 'ich', 'im', 'mir', 'Ã¼ber', 'Ã¼ber']
+Scope [Test]: ['alles', 'angelegenheit', 'berichten', 'bin', 'bis', 'diese', 'ich', 'im', 'klaren', 'mir', 'über', 'über']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -1987,11 +2235,13 @@ Target [Test]: ['nichts']
 Focus [Gold]: ['nichts']
 Focus [Test]: ['']
 
-Negated [Gold]: ['gehÃ¶rt']
+Negated [Gold]: ['gehört']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Davon', 'gehÃ¶rt', 'habe', 'ich']
-Scope [Test]: ['Davon', 'gehÃ¶rt', 'habe', 'ich']
+Scope [Gold]: ['davon', 'gehört', 'habe', 'ich']
+Scope [Test]: ['davon', 'gehört', 'habe', 'ich']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -2007,7 +2257,9 @@ Negated [Gold]: ['']
 Negated [Test]: ['kann']
 
 Scope [Gold]: ['behilflich', 'dir', 'ich', 'kann', 'sein']
-Scope [Test]: ['Sofern', 'behilflich', 'dir', 'ich', 'kann', 'sein']
+Scope [Test]: ['behilflich', 'dir', 'ich', 'kann', 'sein', 'sofern']
+[1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2023,7 +2275,9 @@ Negated [Gold]: ['']
 Negated [Test]: ['']
 
 Scope [Gold]: ['']
-Scope [Test]: ['Freund', 'Stunde', 'die', 'erst', 'gekommen', 'handeln', 'ist', 'lieber', 'wenn', 'zu']
+Scope [Test]: ['die', 'erst', 'freund', 'gekommen', 'handeln', 'ist', 'lieber', 'stunde', 'wenn', 'zu']
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2033,13 +2287,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['']
-Focus [Test]: ['zurÃ¼ckzukehren']
+Focus [Test]: ['zurückzukehren']
 
 Negated [Gold]: ['']
-Negated [Test]: ['zurÃ¼ckzukehren']
+Negated [Test]: ['zurückzukehren']
 
-Scope [Gold]: ['Abend', 'vor', 'zurÃ¼ckzukehren']
-Scope [Test]: ['Abend', 'vor', 'zurÃ¼ckzukehren']
+Scope [Gold]: ['abend', 'vor', 'zurückzukehren']
+Scope [Test]: ['abend', 'vor', 'zurückzukehren']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -2056,6 +2312,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -2064,14 +2322,16 @@ Frame: 163_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['ertrÃ¤glich']
-Focus [Test]: ['ertrÃ¤glich']
+Focus [Gold]: ['erträglich']
+Focus [Test]: ['erträglich']
 
-Negated [Gold]: ['ertrÃ¤glich']
-Negated [Test]: ['ertrÃ¤glich']
+Negated [Gold]: ['erträglich']
+Negated [Test]: ['erträglich']
 
-Scope [Gold]: ['ertrÃ¤glich']
-Scope [Test]: ['ertrÃ¤glich']
+Scope [Gold]: ['erträglich']
+Scope [Test]: ['erträglich']
+[1]
+[1]
 
 =========
 
@@ -2086,8 +2346,10 @@ Focus [Test]: ['engen']
 Negated [Gold]: ['hat']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Freunde', 'engen', 'er']
-Scope [Test]: ['Freunde', 'Nun', 'engen', 'er', 'hat']
+Scope [Gold]: ['engen', 'er', 'freunde']
+Scope [Test]: ['engen', 'er', 'freunde', 'hat', 'nun']
+[1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -2102,8 +2364,10 @@ Focus [Test]: ['offensichtlich']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ist', 'das', 'offensichtlich']
-Scope [Test]: ['Ist', 'das', 'offensichtlich']
+Scope [Gold]: ['das', 'ist', 'offensichtlich']
+Scope [Test]: ['das', 'ist', 'offensichtlich']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -2120,6 +2384,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['bemerkt', 'die', 'jemals']
 Scope [Test]: ['bemerkt', 'die', 'jemals']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -2136,6 +2402,8 @@ Negated [Test]: ['glaubliche']
 
 Scope [Gold]: ['glaubliche']
 Scope [Test]: ['glaubliche']
+[1]
+[1]
 
 =========
 
@@ -2150,8 +2418,10 @@ Focus [Test]: ['verzeichnet']
 Negated [Gold]: ['verzeichnet']
 Negated [Test]: ['verzeichnet']
 
-Scope [Gold]: ['Namen', 'Taxusallee', 'die', 'diesem', 'ist', 'unter', 'verzeichnet']
-Scope [Test]: ['Namen', 'Taxusallee', 'die', 'diesem', 'ist', 'unter', 'verzeichnet']
+Scope [Gold]: ['die', 'diesem', 'ist', 'namen', 'taxusallee', 'unter', 'verzeichnet']
+Scope [Test]: ['die', 'diesem', 'ist', 'namen', 'taxusallee', 'unter', 'verzeichnet']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2168,6 +2438,8 @@ Negated [Test]: ['irre']
 
 Scope [Gold]: ['ich', 'irre']
 Scope [Test]: ['ich', 'irre']
+[1, 1]
+[1, 1]
 
 =========
 
@@ -2184,6 +2456,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['dagegen', 'du', 'hast']
 Scope [Test]: ['dagegen', 'du', 'hast']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -2198,8 +2472,10 @@ Focus [Test]: ['so']
 Negated [Gold]: ['getrieben']
 Negated [Test]: ['getrieben']
 
-Scope [Gold]: [',', 'Ich', 'Kiste', 'eine', 'es', 'getrieben', 'habe', 'in', 'nachzudenken', 'noch', 'so', 'steigen', 'um', 'weit', 'zu']
-Scope [Test]: ['Ich', 'Kiste', 'eine', 'es', 'getrieben', 'habe', 'in', 'noch', 'so', 'steigen', 'weit', 'zu']
+Scope [Gold]: [',', 'eine', 'es', 'getrieben', 'habe', 'ich', 'in', 'kiste', 'nachzudenken', 'noch', 'so', 'steigen', 'um', 'weit', 'zu']
+Scope [Test]: ['eine', 'es', 'getrieben', 'habe', 'ich', 'in', 'kiste', 'noch', 'so', 'steigen', 'weit', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -2214,8 +2490,10 @@ Focus [Test]: ['seinem']
 Negated [Gold]: ['gewartet']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Haus', 'Nacht', 'eigenen', 'er', 'gewartet', 'in', 'in', 'jener', 'nicht', 'seinem', 'warum']
-Scope [Test]: ['Haus', 'eigenen', 'in', 'seinem']
+Scope [Gold]: ['eigenen', 'er', 'gewartet', 'haus', 'in', 'in', 'jener', 'nacht', 'nicht', 'seinem', 'warum']
+Scope [Test]: ['eigenen', 'haus', 'in', 'seinem']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -2232,27 +2510,32 @@ Negated [Test]: ['wahrscheinlich']
 
 Scope [Gold]: ['wahrscheinlich']
 Scope [Test]: ['wahrscheinlich']
+[1]
+[1]
 
 =============================
 ====== EVALUATION for: ../res/xml/test/output/tagged/baskerville_ch3.jr.xml ======
 Total Sentences: 244 
-Gold frames: 68 
-Test frames: 56 
+Negation Gold frames: 68 
+Negation Test frames: 56 
 
 ----- CUEWORDS -----
 F1 score:	 0.735294117647
 
 ----- FOCUS -----
-F1 score:	 0.367647058824
+F1 score:	 0.338235294118
 
 ----- NEGATED -----
-F1 score:	 0.441176470588
+F1 score:	 0.323529411765
 
 ----- SCOPE -----
-Precision:	 0.813559322034
-Recall:	 0.732515224888
-F1 score:	 0.762289086497
-Jaccard similarity:	 0.644872147626
+Scope Gold frames: 59 
+Scope Test frames: 56 
+
+Precision:	 0.720908048115
+Recall:	 0.659267741187
+F1 score:	 0.679348122116
+Jaccard similarity:	 0.672839363018
 
 =========
 
@@ -2267,8 +2550,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Geringsten', 'im']
-Scope [Test]: ['Geringsten', 'im']
+Scope [Gold]: ['geringsten', 'im']
+Scope [Test]: ['geringsten', 'im']
+[1, 1]
+[1, 1]
 
 =========
 
@@ -2285,6 +2570,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -2293,14 +2580,16 @@ Frame: s14_f2
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['Ã¤lter']
-Focus [Test]: ['Ã¤lter']
+Focus [Gold]: ['älter']
+Focus [Test]: ['älter']
 
-Negated [Gold]: ['Ã¤lter']
+Negated [Gold]: ['älter']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Johnson', 'Mr.', 'Sie', 'als', 'dieser', 'ist', 'selbst']
-Scope [Test]: ['Sie', 'als', 'selbst', 'Ã¤lter']
+Scope [Gold]: ['als', 'dieser', 'ist', 'johnson', 'mr.', 'selbst', 'sie']
+Scope [Test]: ['als', 'selbst', 'sie', 'älter']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -2315,8 +2604,10 @@ Focus [Test]: ['geirrt']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Berufes', 'Haben', 'Sie', 'geirrt', 'hinsichtlich', 'seines', 'sich']
-Scope [Test]: ['Berufes', 'Haben', 'Sie', 'geirrt', 'hinsichtlich', 'seines', 'sich']
+Scope [Gold]: ['berufes', 'geirrt', 'haben', 'hinsichtlich', 'seines', 'sich', 'sie']
+Scope [Test]: ['berufes', 'geirrt', 'haben', 'hinsichtlich', 'seines', 'sich', 'sie']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2333,6 +2624,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -2347,8 +2640,10 @@ Focus [Test]: ['ihrer']
 Negated [Gold]: ['kann']
 Negated [Test]: ['kann']
 
-Scope [Gold]: ['Bekanntschaft', 'ich', 'ihrer', 'kann', 'mich', 'rÃ¼hmen']
-Scope [Test]: ['Bekanntschaft', 'ich', 'ihrer', 'kann', 'mich', 'rÃ¼hmen']
+Scope [Gold]: ['bekanntschaft', 'ich', 'ihrer', 'kann', 'mich', 'rühmen']
+Scope [Test]: ['bekanntschaft', 'ich', 'ihrer', 'kann', 'mich', 'rühmen']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2363,8 +2658,10 @@ Focus [Test]: ['wohnen']
 Negated [Gold]: ['wohnen']
 Negated [Test]: ['wohnen']
 
-Scope [Gold]: ['Hotel', 'Leute', 'die', 'diesem', 'in', 'wohnen']
-Scope [Test]: ['Hotel', 'diesem', 'in', 'wohnen']
+Scope [Gold]: ['die', 'diesem', 'hotel', 'in', 'leute', 'wohnen']
+Scope [Test]: ['diesem', 'hotel', 'in', 'wohnen']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0]
 
 =========
 
@@ -2381,6 +2678,8 @@ Negated [Test]: ['gesehen']
 
 Scope [Gold]: ['gesehen', 'ihm', 'selbst', 'sie', 'von', 'werden', 'zu']
 Scope [Test]: ['gesehen', 'ihm', 'selbst', 'von', 'werden', 'zu']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -2397,6 +2696,8 @@ Negated [Test]: ['aufpassen']
 
 Scope [Gold]: ['aufpassen', 'sie']
 Scope [Test]: ['aufpassen', 'sie']
+[1, 1]
+[1, 1]
 
 =========
 
@@ -2411,8 +2712,10 @@ Focus [Test]: ['wiederfindet']
 Negated [Gold]: ['']
 Negated [Test]: ['wiederfindet']
 
-Scope [Gold]: ['Bengel', 'Schuh', 'dieser', 'meinen', 'verlorenen', 'wiederfindet']
-Scope [Test]: ['Bengel', 'Schuh', 'dieser', 'meinen', 'verlorenen', 'wiederfindet']
+Scope [Gold]: ['bengel', 'dieser', 'meinen', 'schuh', 'verlorenen', 'wiederfindet']
+Scope [Test]: ['bengel', 'dieser', 'meinen', 'schuh', 'verlorenen', 'wiederfindet']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2427,8 +2730,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['glotzen']
 Negated [Test]: ['glotzen']
 
-Scope [Gold]: ['Sie', 'glotzen']
-Scope [Test]: ['Sie', 'glotzen']
+Scope [Gold]: ['glotzen', 'sie']
+Scope [Test]: ['glotzen', 'sie']
+[1, 1]
+[1, 1]
 
 =========
 
@@ -2438,13 +2743,15 @@ Target [Gold]: ['niemand']
 Target [Test]: ['niemand']
 
 Focus [Gold]: ['niemand']
-Focus [Test]: ['weiÃŸ']
+Focus [Test]: ['weiß']
 
-Negated [Gold]: ['weiÃŸ']
+Negated [Gold]: ['weiß']
 Negated [Test]: ['']
 
-Scope [Gold]: ['darÃ¼ber', 'etwas', 'weiÃŸ']
-Scope [Test]: ['darÃ¼ber', 'etwas', 'weiÃŸ']
+Scope [Gold]: ['darüber', 'etwas', 'weiß']
+Scope [Test]: ['darüber', 'etwas', 'weiß']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -2459,8 +2766,10 @@ Focus [Test]: ['finden']
 Negated [Gold]: ['versuche']
 Negated [Test]: ['']
 
-Scope [Gold]: ['ErklÃ¤rung', 'Ich', 'finden', 'versuche', 'zu']
-Scope [Test]: ['ErklÃ¤rung', 'Ich', 'finden', 'gar', 'versuche', 'zu']
+Scope [Gold]: ['erklärung', 'finden', 'ich', 'versuche', 'zu']
+Scope [Test]: ['erklärung', 'finden', 'gar', 'ich', 'versuche', 'zu']
+[1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2477,6 +2786,8 @@ Negated [Test]: ['kann']
 
 Scope [Gold]: ['behaupten', 'durchschauen', 'es', 'ich', 'kann', 'schon', 'zu']
 Scope [Test]: ['behaupten', 'ich', 'kann']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0]
 
 =========
 
@@ -2485,14 +2796,16 @@ Frame: s74_f1
 Target [Gold]: ['un']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['unglÃ¼ck']
+Focus [Gold]: ['unglück']
 Focus [Test]: ['es']
 
-Negated [Gold]: ['glÃ¼ck']
+Negated [Gold]: ['glück']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['glÃ¼ck']
-Scope [Test]: ['Lage', 'der', 'in', 'wir', 'wÃ¤ren']
+Scope [Gold]: ['glück']
+Scope [Test]: ['der', 'in', 'lage', 'wir', 'wären']
+[1, 0, 0, 0, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -2507,8 +2820,10 @@ Focus [Test]: ['sie']
 Negated [Gold]: ['']
 Negated [Test]: ['verfolgt']
 
-Scope [Gold]: ['Morgen', 'Sie', 'Sie', 'heute', 'verfolgt', 'wurden', 'wussten']
-Scope [Test]: ['Sie', 'wussten']
+Scope [Gold]: ['heute', 'morgen', 'sie', 'sie', 'verfolgt', 'wurden', 'wussten']
+Scope [Test]: ['sie', 'wussten']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 0, 0, 0, 0, 0]
 
 =========
 
@@ -2523,8 +2838,10 @@ Focus [Test]: ['sagen']
 Negated [Gold]: ['kann']
 Negated [Test]: ['kann']
 
-Scope [Gold]: ['Das', 'Ihnen', 'ich', 'kann', 'sagen']
-Scope [Test]: ['Das', 'Ihnen', 'ich', 'kann', 'leider', 'sagen']
+Scope [Gold]: ['das', 'ich', 'ihnen', 'kann', 'sagen']
+Scope [Test]: ['das', 'ich', 'ihnen', 'kann', 'leider', 'sagen']
+[1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2541,6 +2858,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -2555,8 +2874,10 @@ Focus [Test]: ['ehrenwerteres']
 Negated [Gold]: ['gibt']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Frau', 'Grafschaft', 'Paar', 'als', 'der', 'ehrenwerteres', 'es', 'gibt', 'ihn', 'in', 'seine', 'und']
-Scope [Test]: ['Grafschaft', 'Paar', 'als', 'der', 'ehrenwerteres', 'es', 'gibt', 'ihn', 'in']
+Scope [Gold]: ['als', 'der', 'ehrenwerteres', 'es', 'frau', 'gibt', 'grafschaft', 'ihn', 'in', 'paar', 'seine', 'und']
+Scope [Test]: ['als', 'der', 'ehrenwerteres', 'es', 'gibt', 'grafschaft', 'ihn', 'in', 'paar']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -2571,8 +2892,10 @@ Focus [Test]: ['niemand']
 Negated [Gold]: ['haben']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Arbeit', 'Familie', 'Leute', 'der', 'diese', 'dort', 'haben', 'solange', 'von']
-Scope [Test]: ['Arbeit', 'Familie', 'der', 'dort', 'haben', 'niemand', 'solange', 'von', 'wohnt']
+Scope [Gold]: ['arbeit', 'der', 'diese', 'dort', 'familie', 'haben', 'leute', 'solange', 'von']
+Scope [Test]: ['arbeit', 'der', 'dort', 'familie', 'haben', 'niemand', 'solange', 'von', 'wohnt']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 0, 0]
 
 =========
 
@@ -2587,8 +2910,10 @@ Focus [Test]: ['wohnt']
 Negated [Gold]: ['wohnt']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Familie', 'der', 'dort', 'von', 'wohnt']
-Scope [Test]: ['Familie', 'der', 'dort', 'von', 'wohnt']
+Scope [Gold]: ['der', 'dort', 'familie', 'von', 'wohnt']
+Scope [Test]: ['der', 'dort', 'familie', 'von', 'wohnt']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -2603,8 +2928,10 @@ Focus [Test]: ['es']
 Negated [Gold]: ['hatte']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ahnung', 'GrÃ¶ÃŸe', 'Ich', 'Summe', 'dieser', 'eine', 'es', 'ging', 'hatte', 'um']
-Scope [Test]: ['Ahnung', 'GrÃ¶ÃŸe', 'Ich', 'Summe', 'dass', 'dieser', 'eine', 'es', 'ging', 'hatte', 'um']
+Scope [Gold]: ['ahnung', 'dieser', 'eine', 'es', 'ging', 'größe', 'hatte', 'ich', 'summe', 'um']
+Scope [Test]: ['ahnung', 'dass', 'dieser', 'eine', 'es', 'ging', 'größe', 'hatte', 'ich', 'summe', 'um']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2619,8 +2946,10 @@ Focus [Test]: ['reich']
 Negated [Gold]: ['wussten']
 Negated [Test]: ['begutachteten']
 
-Scope [Gold]: ['Wertpapiere', 'begutachteten', 'bis', 'er', 'reich', 'seine', 'war', 'wie', 'wir', 'wir', 'wirklich', 'wussten']
+Scope [Gold]: ['begutachteten', 'bis', 'er', 'reich', 'seine', 'war', 'wertpapiere', 'wie', 'wir', 'wir', 'wirklich', 'wussten']
 Scope [Test]: ['wir', 'wussten']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -2637,6 +2966,8 @@ Negated [Test]: ['erfreuliche']
 
 Scope [Gold]: ['unerfreuliche']
 Scope [Test]: ['erfreuliche']
+[1]
+[0]
 
 =========
 
@@ -2653,6 +2984,8 @@ Negated [Test]: ['verheiratet']
 
 Scope [Gold]: ['verheiratet']
 Scope [Test]: ['verheiratet']
+[1]
+[1]
 
 =========
 
@@ -2665,10 +2998,12 @@ Focus [Gold]: ['anders']
 Focus [Test]: ['anders']
 
 Negated [Gold]: ['bestimmt']
-Negated [Test]: ['wÃ¼rde']
+Negated [Test]: ['würde']
 
-Scope [Gold]: ['EigentÃ¼mer', 'anders', 'bestimmt', 'dies', 'gegenwÃ¤rtigen', 'vom', 'wÃ¼rde']
-Scope [Test]: ['EigentÃ¼mer', 'anders', 'bestimmt', 'dies', 'gegenwÃ¤rtigen', 'vom', 'wÃ¼rde']
+Scope [Gold]: ['anders', 'bestimmt', 'dies', 'eigentümer', 'gegenwärtigen', 'vom', 'würde']
+Scope [Test]: ['anders', 'bestimmt', 'dies', 'eigentümer', 'gegenwärtigen', 'vom', 'würde']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2685,6 +3020,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -2699,8 +3036,10 @@ Focus [Test]: ['ich']
 Negated [Gold]: ['hatte']
 Negated [Test]: ['die']
 
-Scope [Gold]: ['Zeit', 'dazu', 'die', 'hatte', 'ich']
-Scope [Test]: ['Zeit', 'da', 'dazu', 'die', 'erfuhr', 'erst', 'gestern', 'hatte', 'ich', 'ich', 'noch']
+Scope [Gold]: ['dazu', 'die', 'hatte', 'ich', 'zeit']
+Scope [Test]: ['da', 'dazu', 'die', 'erfuhr', 'erst', 'gestern', 'hatte', 'ich', 'ich', 'noch', 'zeit']
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2715,8 +3054,10 @@ Focus [Test]: ['erhalten']
 Negated [Gold]: ['hat']
 Negated [Test]: ['den']
 
-Scope [Gold]: ['Besitz', 'Geld', 'den', 'er', 'erhalten', 'genug', 'hat', 'um', 'zu']
-Scope [Test]: ['Geld', 'er', 'genug', 'hat']
+Scope [Gold]: ['besitz', 'den', 'er', 'erhalten', 'geld', 'genug', 'hat', 'um', 'zu']
+Scope [Test]: ['er', 'geld', 'genug', 'hat']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0, 0, 0]
 
 =========
 
@@ -2726,13 +3067,15 @@ Target [Gold]: ['keinesfalls']
 Target [Test]: ['un']
 
 Focus [Gold]: ['allein']
-Focus [Test]: ['verzÃ¼glich']
+Focus [Test]: ['verzüglich']
 
 Negated [Gold]: ['fahren']
-Negated [Test]: ['verzÃ¼glich']
+Negated [Test]: ['verzüglich']
 
-Scope [Gold]: ['Sie', 'allein', 'fahren', 'sollten']
-Scope [Test]: ['verzÃ¼glich']
+Scope [Gold]: ['allein', 'fahren', 'sie', 'sollten']
+Scope [Test]: ['verzüglich']
+[1, 1, 1, 1]
+[1, 0, 0, 0]
 
 =========
 
@@ -2749,6 +3092,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -2757,14 +3102,16 @@ Frame: s148_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['unmÃ¶glich']
-Focus [Test]: ['mÃ¶glich']
+Focus [Gold]: ['unmöglich']
+Focus [Test]: ['möglich']
 
-Negated [Gold]: ['mÃ¶glich']
-Negated [Test]: ['mÃ¶glich']
+Negated [Gold]: ['möglich']
+Negated [Test]: ['möglich']
 
-Scope [Gold]: ['mÃ¶glich']
-Scope [Test]: ['mÃ¶glich']
+Scope [Gold]: ['möglich']
+Scope [Test]: ['möglich']
+[1]
+[1]
 
 =========
 
@@ -2781,6 +3128,8 @@ Negated [Test]: ['bestimmte']
 
 Scope [Gold]: ['bestimmte']
 Scope [Test]: ['bestimmte']
+[1]
+[1]
 
 =========
 
@@ -2797,6 +3146,8 @@ Negated [Test]: ['denkbar']
 
 Scope [Gold]: ['undenkbar']
 Scope [Test]: ['denkbar']
+[1]
+[0]
 
 =========
 
@@ -2811,8 +3162,10 @@ Focus [Test]: ['finden']
 Negated [Gold]: ['finden']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Besseren', 'Ihnen', 'Seite', 'Sie', 'der', 'finden', 'steht', 'werden', 'zur']
-Scope [Test]: ['Besseren', 'Sie', 'finden', 'so', 'werden']
+Scope [Gold]: ['besseren', 'der', 'finden', 'ihnen', 'seite', 'sie', 'steht', 'werden', 'zur']
+Scope [Test]: ['besseren', 'finden', 'sie', 'so', 'werden']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0, 0, 0, 0]
 
 =========
 
@@ -2829,6 +3182,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['als', 'besser', 'beurteilen', 'das', 'ich', 'kann']
 Scope [Test]: ['als', 'besser', 'beurteilen', 'das', 'ich', 'kann']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2843,8 +3198,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['vergessen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ihnen', 'das', 'ich', 'vergessen', 'werde']
-Scope [Test]: ['Ihnen', 'das', 'ich', 'vergessen', 'werde']
+Scope [Gold]: ['das', 'ich', 'ihnen', 'vergessen', 'werde']
+Scope [Test]: ['das', 'ich', 'ihnen', 'vergessen', 'werde']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -2856,11 +3213,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['besser']
 Focus [Test]: ['ich']
 
-Negated [Gold]: ['wÃ¼sste']
-Negated [Test]: ['kÃ¶nnte']
+Negated [Gold]: ['wüsste']
+Negated [Test]: ['könnte']
 
-Scope [Gold]: ['Ich', 'Zeit', 'besser', 'ich', 'kÃ¶nnte', 'meine', 'verbringen', 'wie', 'wÃ¼sste']
-Scope [Test]: ['Ich', 'wÃ¼sste']
+Scope [Gold]: ['besser', 'ich', 'ich', 'könnte', 'meine', 'verbringen', 'wie', 'wüsste', 'zeit']
+Scope [Test]: ['ich', 'wüsste']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -2870,13 +3229,15 @@ Target [Gold]: ['nichts']
 Target [Test]: ['nichts']
 
 Focus [Gold]: ['gegenteiliges']
-Focus [Test]: ['hÃ¶ren']
+Focus [Test]: ['hören']
 
-Negated [Gold]: ['hÃ¶ren']
+Negated [Gold]: ['hören']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Gegenteiliges', 'Sie', 'hÃ¶ren']
-Scope [Test]: ['Gegenteiliges', 'Sie', 'hÃ¶ren']
+Scope [Gold]: ['gegenteiliges', 'hören', 'sie']
+Scope [Test]: ['gegenteiliges', 'hören', 'sie']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -2886,13 +3247,15 @@ Target [Gold]: ['nichts']
 Target [Test]: ['nichts']
 
 Focus [Gold]: ['']
-Focus [Test]: ['auflÃ¶sen']
+Focus [Test]: ['auflösen']
 
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
 Scope [Gold]: ['']
-Scope [Test]: ['MÃ¶gen', 'Schwierigkeiten', 'all', 'auflÃ¶sen', 'in', 'leicht', 'sich', 'so', 'unsere']
+Scope [Test]: ['all', 'auflösen', 'in', 'leicht', 'mögen', 'schwierigkeiten', 'sich', 'so', 'unsere']
+[0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2907,8 +3270,10 @@ Focus [Test]: ['drin']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Hier', 'Stiefel', 'drin', 'war']
-Scope [Test]: ['Hier', 'Stiefel', 'bestimmt', 'drin', 'war']
+Scope [Gold]: ['drin', 'hier', 'stiefel', 'war']
+Scope [Test]: ['bestimmt', 'drin', 'hier', 'stiefel', 'war']
+[1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -2923,8 +3288,10 @@ Focus [Test]: ['brachte']
 Negated [Gold]: ['wissen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Angelegenheit', 'dieser', 'dieser', 'von', 'wissen', 'zu']
-Scope [Test]: ['Angelegenheit', 'dieser', 'von', 'wissen', 'zu']
+Scope [Gold]: ['angelegenheit', 'dieser', 'dieser', 'von', 'wissen', 'zu']
+Scope [Test]: ['angelegenheit', 'dieser', 'von', 'wissen', 'zu']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -2939,8 +3306,10 @@ Focus [Test]: ['brachte']
 Negated [Gold]: ['brachte']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Befragung', 'Licht', 'Sache', 'brachte', 'die', 'in']
-Scope [Test]: ['Befragung', 'Licht', 'Sache', 'brachte', 'die', 'in']
+Scope [Gold]: ['befragung', 'brachte', 'die', 'in', 'licht', 'sache']
+Scope [Test]: ['befragung', 'brachte', 'die', 'in', 'licht', 'sache']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2949,14 +3318,16 @@ Frame: s179_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['unerklÃ¤rlicher']
-Focus [Test]: ['erklÃ¤rlicher']
+Focus [Gold]: ['unerklärlicher']
+Focus [Test]: ['erklärlicher']
 
-Negated [Gold]: ['erklÃ¤rlicher']
-Negated [Test]: ['erklÃ¤rlicher']
+Negated [Gold]: ['erklärlicher']
+Negated [Test]: ['erklärlicher']
 
-Scope [Gold]: ['erklÃ¤rlicher']
-Scope [Test]: ['erklÃ¤rlicher']
+Scope [Gold]: ['erklärlicher']
+Scope [Test]: ['erklärlicher']
+[1]
+[1]
 
 =========
 
@@ -2971,8 +3342,10 @@ Focus [Test]: ['gefunden.']
 Negated [Gold]: ['gefunden.']
 Negated [Test]: ['das']
 
-Scope [Gold]: ['Ausschnitten', 'Timesseite', 'gefunden.', 'mit']
-Scope [Test]: ['Ausschnitten', 'Hotels,', 'Timesseite', 'befohlen', 'dreiundzwanzig', 'gefunden.', 'leider', 'mit']
+Scope [Gold]: ['ausschnitten', 'gefunden.', 'mit', 'timesseite']
+Scope [Test]: ['ausschnitten', 'befohlen', 'dreiundzwanzig', 'gefunden.', 'hotels,', 'leider', 'mit', 'timesseite']
+[1, 1, 1, 1, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2987,8 +3360,10 @@ Focus [Test]: ['stellt.']
 Negated [Gold]: ['gibt']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Anregenderes', 'Es', 'Fall,', 'alles', 'als', 'dich', 'einen', 'gegen', 'gibt', 'sich', 'stellt.', 'wo']
-Scope [Test]: ['Anregenderes', 'Es', 'Fall,', 'alles', 'als', 'dich', 'doch', 'einen', 'gegen', 'gibt', 'sich', 'stellt.', 'wo']
+Scope [Gold]: ['alles', 'als', 'anregenderes', 'dich', 'einen', 'es', 'fall,', 'gegen', 'gibt', 'sich', 'stellt.', 'wo']
+Scope [Test]: ['alles', 'als', 'anregenderes', 'dich', 'doch', 'einen', 'es', 'fall,', 'gegen', 'gibt', 'sich', 'stellt.', 'wo']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -2997,14 +3372,16 @@ Frame: 192_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['Ã¼berraschen,']
-Focus [Test]: ['Ã¼berraschen,']
+Focus [Gold]: ['überraschen,']
+Focus [Test]: ['überraschen,']
 
 Negated [Gold]: ['']
 Negated [Test]: ['die']
 
-Scope [Gold]: ['Antwort', 'Es', 'Frage', 'auf', 'die', 'dies', 'meine', 'mich', 'wenn', 'wÃ¤re.', 'wÃ¼rde', 'Ã¼berraschen,']
-Scope [Test]: ['Antwort', 'Es', 'Frage', 'auf', 'die', 'dies', 'meine', 'mich', 'wenn', 'wÃ¤re.', 'wÃ¼rde', 'Ã¼berraschen,']
+Scope [Gold]: ['antwort', 'auf', 'die', 'dies', 'es', 'frage', 'meine', 'mich', 'wenn', 'wäre.', 'würde', 'überraschen,']
+Scope [Test]: ['antwort', 'auf', 'die', 'dies', 'es', 'frage', 'meine', 'mich', 'wenn', 'wäre.', 'würde', 'überraschen,']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3019,8 +3396,10 @@ Focus [Test]: ['ich']
 Negated [Gold]: ['habe']
 Negated [Test]: ['das']
 
-Scope [Gold]: ['Geringste', 'Sie,', 'das', 'gegen', 'habe', 'ich']
-Scope [Test]: ['",', 'Geringste', 'Holmes.', 'Mann', 'Sie,', 'das', 'gegen', 'guter', 'habe', 'ich', 'sagte']
+Scope [Gold]: ['das', 'gegen', 'geringste', 'habe', 'ich', 'sie,']
+Scope [Test]: ['",', 'das', 'gegen', 'geringste', 'guter', 'habe', 'holmes.', 'ich', 'mann', 'sagte', 'sie,']
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3035,8 +3414,10 @@ Focus [Test]: ['viel']
 Negated [Gold]: ['macht']
 Negated [Test]: ['wissen']
 
-Scope [Gold]: ['Macht', 'Sinn,', 'davon', 'erzÃ¤hlen,', 'viel', 'zu']
-Scope [Test]: ['",', 'Ihnen', 'Macht', 'Sie', 'Sinn,', 'anscheinend', 'da', 'darÃ¼ber', 'davon', 'er.', 'erzÃ¤hlen,', 'genauso', 'ich', 'sagte', 'selbst', 'viel', 'viel', 'wie', 'wissen', 'zu']
+Scope [Gold]: ['davon', 'erzählen,', 'macht', 'sinn,', 'viel', 'zu']
+Scope [Test]: ['",', 'anscheinend', 'da', 'darüber', 'davon', 'er.', 'erzählen,', 'genauso', 'ich', 'ihnen', 'macht', 'sagte', 'selbst', 'sie', 'sinn,', 'viel', 'viel', 'wie', 'wissen', 'zu']
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3051,8 +3432,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['erzÃ¤hlen.', 'etwas', 'ich', 'ihn', 'niemandem', 'solle', 'Ã¼ber']
-Scope [Test]: ['erzÃ¤hlen.', 'etwas', 'ich', 'ihn', 'solle', 'Ã¼ber']
+Scope [Gold]: ['erzählen.', 'etwas', 'ich', 'ihn', 'niemandem', 'solle', 'über']
+Scope [Test]: ['erzählen.', 'etwas', 'ich', 'ihn', 'solle', 'über']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -3069,6 +3452,8 @@ Negated [Test]: ['klug.']
 
 Scope [Gold]: ['klug.']
 Scope [Test]: ['klug.']
+[1]
+[1]
 
 =========
 
@@ -3083,8 +3468,10 @@ Focus [Test]: ['gesehen']
 Negated [Gold]: ['gesehen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Antwort', 'Freund', 'Kutschers.', 'als', 'des', 'dieser', 'gesehen', 'habe', 'ich', 'meinen', 'nach', 'verblÃ¼ffter']
-Scope [Test]: ['Antwort', 'Freund', 'Kutschers.', 'als', 'des', 'dieser', 'gesehen', 'habe', 'ich', 'meinen', 'nach', 'verblÃ¼ffter']
+Scope [Gold]: ['als', 'antwort', 'des', 'dieser', 'freund', 'gesehen', 'habe', 'ich', 'kutschers.', 'meinen', 'nach', 'verblüffter']
+Scope [Test]: ['als', 'antwort', 'des', 'dieser', 'freund', 'gesehen', 'habe', 'ich', 'kutschers.', 'meinen', 'nach', 'verblüffter']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3101,6 +3488,8 @@ Negated [Test]: ['leugbarer']
 
 Scope [Gold]: ['leugbarer']
 Scope [Test]: ['leugbarer']
+[1]
+[1]
 
 =========
 
@@ -3116,7 +3505,9 @@ Negated [Gold]: ['war']
 Negated [Test]: ['sicher,']
 
 Scope [Gold]: ['dessen', 'ich', 'mir', 'sicher,', 'so', 'war']
-Scope [Test]: ['Bescheid.', 'Fahrgast', 'Nun,', 'aber', 'dessen', 'genau', 'ich', 'mein', 'mir', 'sicher,', 'so', 'war', 'wusste']
+Scope [Test]: ['aber', 'bescheid.', 'dessen', 'fahrgast', 'genau', 'ich', 'mein', 'mir', 'nun,', 'sicher,', 'so', 'war', 'wusste']
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3131,8 +3522,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Sie', 'ihm?', 'sahen', 'von', 'weiter']
-Scope [Test]: ['Sie', 'ihm?', 'sahen', 'von', 'weiter']
+Scope [Gold]: ['ihm?', 'sahen', 'sie', 'von', 'weiter']
+Scope [Test]: ['ihm?', 'sahen', 'sie', 'von', 'weiter']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -3148,7 +3541,9 @@ Negated [Gold]: ['']
 Negated [Test]: ['']
 
 Scope [Gold]: ['']
-Scope [Test]: ['Bahnhof', 'betreten', 'den', 'er', 'hatte.', 'nachdem']
+Scope [Test]: ['bahnhof', 'betreten', 'den', 'er', 'hatte.', 'nachdem']
+[0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3158,13 +3553,15 @@ Target [Gold]: ['nicht,']
 Target [Test]: ['nicht,']
 
 Focus [Gold]: ['noch']
-Focus [Test]: ['kÃ¶nnte.']
+Focus [Test]: ['könnte.']
 
-Negated [Gold]: ['wÃ¼sste']
+Negated [Gold]: ['wüsste']
 Negated [Test]: ['']
 
-Scope [Gold]: ['WÃ¼sste', 'ich', 'kÃ¶nnte.', 'noch', 'sagen', 'was']
-Scope [Test]: ['WÃ¼sste', 'ich', 'kÃ¶nnte.', 'noch', 'sagen', 'was']
+Scope [Gold]: ['ich', 'könnte.', 'noch', 'sagen', 'was', 'wüsste']
+Scope [Test]: ['ich', 'könnte.', 'noch', 'sagen', 'was', 'wüsste']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3179,8 +3576,10 @@ Focus [Test]: ['sagen.']
 Negated [Gold]: ['kann']
 Negated [Test]: ['kann']
 
-Scope [Gold]: ['Kann', 'ich', 'sagen.']
-Scope [Test]: ['Kann', 'ich', 'sagen.']
+Scope [Gold]: ['ich', 'kann', 'sagen.']
+Scope [Test]: ['ich', 'kann', 'sagen.']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -3195,8 +3594,10 @@ Focus [Test]: ['erinnern']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Sie', 'Sonst', 'an', 'das', 'erinnern', 'kÃ¶nnen?', 'sich']
-Scope [Test]: ['Sie', 'Sonst', 'an', 'das', 'erinnern', 'kÃ¶nnen?', 'sich']
+Scope [Gold]: ['an', 'das', 'erinnern', 'können?', 'sich', 'sie', 'sonst']
+Scope [Test]: ['an', 'das', 'erinnern', 'können?', 'sich', 'sie', 'sonst']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3212,13 +3613,15 @@ Negated [Gold]: ['']
 Negated [Test]: ['']
 
 Scope [Gold]: ['']
-Scope [Test]: ['Nein,', 'Sir.']
+Scope [Test]: ['nein,', 'sir.']
+[0, 0]
+[1, 1]
 
 =============================
 ====== EVALUATION for: ../res/xml/test/output/tagged/baskerville_ch5.jr.xml ======
 Total Sentences: 275 
-Gold frames: 70 
-Test frames: 68 
+Negation Gold frames: 70 
+Negation Test frames: 68 
 
 ----- CUEWORDS -----
 F1 score:	 0.828571428571
@@ -3227,13 +3630,16 @@ F1 score:	 0.828571428571
 F1 score:	 0.257142857143
 
 ----- NEGATED -----
-F1 score:	 0.385714285714
+F1 score:	 0.242857142857
 
 ----- SCOPE -----
-Precision:	 0.868852459016
-Recall:	 0.71908164695
-F1 score:	 0.764916925161
-Jaccard similarity:	 0.56877134705
+Scope Gold frames: 61 
+Scope Test frames: 68 
+
+Precision:	 0.644184649392
+Recall:	 0.57980940628
+F1 score:	 0.58699147445
+Jaccard similarity:	 0.495561831959
 
 =========
 
@@ -3243,13 +3649,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['']
-Focus [Test]: ['Ã¼ber']
+Focus [Test]: ['über']
 
-Negated [Gold]: ['mÃ¼ssen']
-Negated [Test]: ['Ã¼ber']
+Negated [Gold]: ['müssen']
+Negated [Test]: ['über']
 
-Scope [Gold]: ['Haus', 'beklagen', 'das', 'mÃ¼ssen', 'wir', 'Ã¼ber']
-Scope [Test]: ['Haus', 'beklagen', 'das', 'Ã¼ber']
+Scope [Gold]: ['beklagen', 'das', 'haus', 'müssen', 'wir', 'über']
+Scope [Test]: ['beklagen', 'das', 'haus', 'über']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0]
 
 =========
 
@@ -3258,14 +3666,16 @@ Frame: 8_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['vÃ¶llig']
-Focus [Test]: ['vÃ¶llig']
+Focus [Gold]: ['völlig']
+Focus [Test]: ['völlig']
 
 Negated [Gold]: ['war']
 Negated [Test]: ['eine']
 
-Scope [Gold]: ['Einbildung', 'Frage', 'der', 'eine', 'es', 'vÃ¶llig', 'war']
-Scope [Test]: ['Einbildung', 'Frage', 'der', 'doch', 'eine', 'es', 'vÃ¶llig', 'war']
+Scope [Gold]: ['der', 'einbildung', 'eine', 'es', 'frage', 'völlig', 'war']
+Scope [Test]: ['der', 'doch', 'einbildung', 'eine', 'es', 'frage', 'völlig', 'war']
+[1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3282,6 +3692,8 @@ Negated [Test]: ['wiederholt']
 
 Scope [Gold]: ['es', 'hat', 'sich', 'wiederholt']
 Scope [Test]: ['es', 'hat', 'sich', 'wiederholt']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -3293,11 +3705,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['']
 Focus [Test]: ['ihr']
 
-Negated [Gold]: ['kÃ¶nnen']
+Negated [Gold]: ['können']
 Negated [Test]: ['stammen']
 
-Scope [Gold]: ['TÃ¶ne', 'diese', 'ihr', 'kÃ¶nnen', 'stammen', 'von']
-Scope [Test]: ['TÃ¶ne', 'diese', 'ihr', 'kÃ¶nnen', 'stammen', 'von']
+Scope [Gold]: ['diese', 'ihr', 'können', 'stammen', 'töne', 'von']
+Scope [Test]: ['diese', 'ihr', 'können', 'stammen', 'töne', 'von']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3310,10 +3724,12 @@ Focus [Gold]: ['nicht']
 Focus [Test]: ['so']
 
 Negated [Gold]: ['gewesen']
-Negated [Test]: ['erklÃ¤rt']
+Negated [Test]: ['erklärt']
 
 Scope [Gold]: ['es', 'gewesen', 'sei', 'so']
 Scope [Test]: ['es', 'gewesen', 'sei', 'so']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -3330,6 +3746,8 @@ Negated [Test]: ['zugestellt']
 
 Scope [Gold]: ['wahr']
 Scope [Test]: ['wahr']
+[1]
+[1]
 
 =========
 
@@ -3345,7 +3763,9 @@ Negated [Gold]: ['konnte']
 Negated [Test]: ['dem']
 
 Scope [Gold]: ['es', 'geben', 'ich', 'ihm', 'konnte', 'selbst']
-Scope [Test]: ['Boden', 'Moment', 'auf', 'dem', 'dem', 'er', 'es', 'geben', 'ich', 'ihm', 'in', 'konnte', 'oben', 'selbst', 'war', 'weil']
+Scope [Test]: ['auf', 'boden', 'dem', 'dem', 'er', 'es', 'geben', 'ich', 'ihm', 'in', 'konnte', 'moment', 'oben', 'selbst', 'war', 'weil']
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3362,6 +3782,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -3377,7 +3799,9 @@ Negated [Gold]: ['']
 Negated [Test]: ['gesehen']
 
 Scope [Gold]: ['du', 'gesehen', 'hast', 'ihn']
-Scope [Test]: ['Boden', 'auf', 'befand', 'dann', 'dass', 'dem', 'du', 'du', 'er', 'gesehen', 'hast', 'ihn', 'sich', 'weiÃŸt', 'woher']
+Scope [Test]: ['auf', 'befand', 'boden', 'dann', 'dass', 'dem', 'du', 'du', 'er', 'gesehen', 'hast', 'ihn', 'sich', 'weißt', 'woher']
+[1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3392,8 +3816,10 @@ Focus [Test]: ['erhalten']
 Negated [Gold]: ['']
 Negated [Test]: ['das']
 
-Scope [Gold]: ['Hat', 'Telegramm', 'das', 'er', 'erhalten']
-Scope [Test]: ['Hat', 'Telegramm', 'das', 'er', 'erhalten']
+Scope [Gold]: ['das', 'er', 'erhalten', 'hat', 'telegramm']
+Scope [Test]: ['das', 'er', 'erhalten', 'hat', 'telegramm']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -3403,13 +3829,15 @@ Target [Gold]: ['keinen']
 Target [Test]: ['keinen']
 
 Focus [Gold]: ['keinen']
-Focus [Test]: ['dafÃ¼r']
+Focus [Test]: ['dafür']
 
 Negated [Gold]: ['hatten']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Barrymore', 'Beweis', 'Holmesâ€˜', 'List', 'London', 'Zeit', 'dafÃ¼r', 'dass', 'die', 'ganze', 'gewesen', 'hatten', 'in', 'nicht', 'trotz', 'war', 'wir']
-Scope [Test]: ['Barrymore', 'Beweis', 'Holmesâ€˜', 'List', 'London', 'Zeit', 'dafÃ¼r', 'dass', 'die', 'ganze', 'gewesen', 'hatten', 'in', 'nicht', 'trotz', 'war', 'wir']
+Scope [Gold]: ['barrymore', 'beweis', 'dafür', 'dass', 'die', 'ganze', 'gewesen', 'hatten', 'holmes‘', 'in', 'list', 'london', 'nicht', 'trotz', 'war', 'wir', 'zeit']
+Scope [Test]: ['barrymore', 'beweis', 'dafür', 'dass', 'die', 'ganze', 'gewesen', 'hatten', 'holmes‘', 'in', 'list', 'london', 'nicht', 'trotz', 'war', 'wir', 'zeit']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3425,7 +3853,9 @@ Negated [Gold]: ['hoffnungs']
 Negated [Test]: ['die']
 
 Scope [Gold]: ['hoffnungslos']
-Scope [Test]: ['Barrymore', 'London', 'Zeit', 'die', 'ganze', 'gewesen', 'in', 'war']
+Scope [Test]: ['barrymore', 'die', 'ganze', 'gewesen', 'in', 'london', 'war', 'zeit']
+[1, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3442,6 +3872,8 @@ Negated [Test]: ['angebracht']
 
 Scope [Gold]: ['angebracht']
 Scope [Test]: ['angebracht']
+[1]
+[1]
 
 =========
 
@@ -3458,6 +3890,8 @@ Negated [Test]: ['sichtbares']
 
 Scope [Gold]: ['sichtbares']
 Scope [Test]: ['sichtbares']
+[1]
+[1]
 
 =========
 
@@ -3472,8 +3906,10 @@ Focus [Test]: ['untergekommen']
 Negated [Gold]: ['untergekommen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['FÃ¤lle', 'Reihe', 'der', 'der', 'gewesen', 'ihm', 'in', 'komplex', 'langen', 'sei', 'seiner', 'sensationellen', 'so', 'untergekommen', 'war']
-Scope [Test]: ['FÃ¤lle', 'Reihe', 'der', 'ihm', 'in', 'langen', 'seiner', 'sensationellen', 'untergekommen', 'war']
+Scope [Gold]: ['der', 'der', 'fälle', 'gewesen', 'ihm', 'in', 'komplex', 'langen', 'reihe', 'sei', 'seiner', 'sensationellen', 'so', 'untergekommen', 'war']
+Scope [Test]: ['der', 'fälle', 'ihm', 'in', 'langen', 'reihe', 'seiner', 'sensationellen', 'untergekommen', 'war']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
 
 =========
 
@@ -3488,8 +3924,10 @@ Focus [Test]: ['einander']
 Negated [Gold]: ['warten']
 Negated [Test]: ['vorgestellt']
 
-Scope [Gold]: ['Wir', 'darauf', 'einander', 'fÃ¶rmlich', 'vorgestellt', 'warten', 'werden', 'zu']
-Scope [Test]: ['darauf', 'einander', 'fÃ¶rmlich', 'vorgestellt', 'warten', 'werden', 'zu']
+Scope [Gold]: ['darauf', 'einander', 'förmlich', 'vorgestellt', 'warten', 'werden', 'wir', 'zu']
+Scope [Test]: ['darauf', 'einander', 'förmlich', 'vorgestellt', 'warten', 'werden', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -3504,8 +3942,10 @@ Focus [Test]: ['sagen']
 Negated [Gold]: ['muss']
 Negated [Test]: ['die']
 
-Scope [Gold]: ['Bedeutung', 'Ihnen', 'Leute', 'dass', 'die', 'es', 'fÃ¼r', 'groÃŸer', 'hier', 'ich', 'ist', 'muss', 'sagen', 'von']
-Scope [Test]: ['Bedeutung', 'Ihnen', 'Leute', 'dass', 'die', 'es', 'fÃ¼r', 'groÃŸer', 'hier', 'ich', 'ist', 'muss', 'sagen', 'von', 'wohl']
+Scope [Gold]: ['bedeutung', 'dass', 'die', 'es', 'für', 'großer', 'hier', 'ich', 'ihnen', 'ist', 'leute', 'muss', 'sagen', 'von']
+Scope [Test]: ['bedeutung', 'dass', 'die', 'es', 'für', 'großer', 'hier', 'ich', 'ihnen', 'ist', 'leute', 'muss', 'sagen', 'von', 'wohl']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3515,13 +3955,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['nicht']
-Focus [Test]: ['aberglÃ¤ubisch']
+Focus [Test]: ['abergläubisch']
 
 Negated [Gold]: ['']
-Negated [Test]: ['aberglÃ¤ubisch']
+Negated [Test]: ['abergläubisch']
 
-Scope [Gold]: ['Henry', 'Sir', 'aberglÃ¤ubisch', 'ist']
-Scope [Test]: ['Henry', 'Sir', 'aberglÃ¤ubisch', 'doch', 'hoffentlich', 'ist']
+Scope [Gold]: ['abergläubisch', 'henry', 'ist', 'sir']
+Scope [Test]: ['abergläubisch', 'doch', 'henry', 'hoffentlich', 'ist', 'sir']
+[1, 1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3538,6 +3980,8 @@ Negated [Test]: ['wahrscheinlich']
 
 Scope [Gold]: ['wahrscheinlich']
 Scope [Test]: ['wahrscheinlich']
+[1]
+[1]
 
 =========
 
@@ -3554,6 +3998,8 @@ Negated [Test]: ['glaublich']
 
 Scope [Gold]: ['glaublich']
 Scope [Test]: ['glaublich']
+[1]
+[1]
 
 =========
 
@@ -3568,8 +4014,10 @@ Focus [Test]: ['seinem']
 Negated [Gold]: ['habe']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ende', 'Zweifel', 'dass', 'dies', 'gefÃ¼hrt', 'habe', 'hat', 'ich', 'seinem', 'tragischen', 'zu']
-Scope [Test]: ['Ende', 'Zweifel', 'dass', 'dies', 'gefÃ¼hrt', 'habe', 'hat', 'ich', 'seinem', 'tragischen', 'zu']
+Scope [Gold]: ['dass', 'dies', 'ende', 'geführt', 'habe', 'hat', 'ich', 'seinem', 'tragischen', 'zu', 'zweifel']
+Scope [Test]: ['dass', 'dies', 'ende', 'geführt', 'habe', 'hat', 'ich', 'seinem', 'tragischen', 'zu', 'zweifel']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3584,8 +4032,10 @@ Focus [Test]: ['gebildet']
 Negated [Gold]: ['gebildet']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ich', 'Urteil', 'gebildet', 'habe', 'mir']
-Scope [Test]: ['Ich', 'Urteil', 'gebildet', 'habe', 'mir', 'noch']
+Scope [Gold]: ['gebildet', 'habe', 'ich', 'mir', 'urteil']
+Scope [Test]: ['gebildet', 'habe', 'ich', 'mir', 'noch', 'urteil']
+[1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3601,7 +4051,9 @@ Negated [Gold]: ['sprach']
 Negated [Test]: ['die']
 
 Scope [Gold]: ['sprachlos']
-Scope [Test]: ['Absicht', 'die', 'er', 'gehabt', 'hatte']
+Scope [Test]: ['absicht', 'die', 'er', 'gehabt', 'hatte']
+[1, 0, 0, 0, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -3616,8 +4068,10 @@ Focus [Test]: ['so']
 Negated [Gold]: ['hat']
 Negated [Test]: ['']
 
-Scope [Gold]: [',', 'Es', 'Sie', 'Sinn', 'als', 'hat', 'nicht', 'sind', 'tun', 'wer', 'wir', 'wÃ¼ssten', 'zu']
-Scope [Test]: ['Es', 'Sinn', 'hat']
+Scope [Gold]: [',', 'als', 'es', 'hat', 'nicht', 'sie', 'sind', 'sinn', 'tun', 'wer', 'wir', 'wüssten', 'zu']
+Scope [Test]: ['es', 'hat', 'sinn']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -3627,13 +4081,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['']
-Focus [Test]: ['rÃ¼hmen']
+Focus [Test]: ['rühmen']
 
 Negated [Gold]: ['konnten']
 Negated [Test]: ['konnten']
 
-Scope [Gold]: ['Sie', 'bekannt', 'ihn', 'konnten', 'ohne', 'rÃ¼hmen', 'selbst', 'werden', 'zu']
-Scope [Test]: ['Sie', 'ihn', 'konnten', 'rÃ¼hmen']
+Scope [Gold]: ['bekannt', 'ihn', 'konnten', 'ohne', 'rühmen', 'selbst', 'sie', 'werden', 'zu']
+Scope [Test]: ['ihn', 'konnten', 'rühmen', 'sie']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0, 0, 0]
 
 =========
 
@@ -3648,8 +4104,10 @@ Focus [Test]: ['verbergen']
 Negated [Gold]: ['konnte']
 Negated [Test]: ['konnte']
 
-Scope [Gold]: ['IdentitÃ¤t', 'Ihre', 'er', 'konnte', 'mir', 'verbergen']
-Scope [Test]: ['IdentitÃ¤t', 'Ihre', 'er', 'konnte', 'mir', 'verbergen']
+Scope [Gold]: ['er', 'identität', 'ihre', 'konnte', 'mir', 'verbergen']
+Scope [Test]: ['er', 'identität', 'ihre', 'konnte', 'mir', 'verbergen']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3664,8 +4122,10 @@ Focus [Test]: ['beantworten']
 Negated [Gold]: ['kann']
 Negated [Test]: ['kann']
 
-Scope [Gold]: ['Frage', 'beantworten', 'diese', 'ich', 'kann']
-Scope [Test]: ['Frage', 'beantworten', 'diese', 'ich', 'kann']
+Scope [Gold]: ['beantworten', 'diese', 'frage', 'ich', 'kann']
+Scope [Test]: ['beantworten', 'diese', 'frage', 'ich', 'kann']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -3680,8 +4140,10 @@ Focus [Test]: ['verlassen']
 Negated [Gold]: ['kann']
 Negated [Test]: ['verlassen']
 
-Scope [Gold]: ['Stadt', 'Zeit', 'Zur', 'die', 'er', 'kann', 'verlassen']
-Scope [Test]: ['Stadt', 'Zeit', 'Zur', 'die', 'er', 'kann', 'verlassen']
+Scope [Gold]: ['die', 'er', 'kann', 'stadt', 'verlassen', 'zeit', 'zur']
+Scope [Test]: ['die', 'er', 'kann', 'stadt', 'verlassen', 'zeit', 'zur']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3693,11 +4155,13 @@ Target [Test]: ['keinerlei']
 Focus [Gold]: ['keinerlei']
 Focus [Test]: ['welcher']
 
-Negated [Gold]: ['benÃ¶tige']
+Negated [Gold]: ['benötige']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Art', 'Hilfe', 'auch', 'benÃ¶tige', 'ich', 'immer', 'welcher']
-Scope [Test]: ['Art', 'Hilfe', 'auch', 'benÃ¶tige', 'immer', 'welcher']
+Scope [Gold]: ['art', 'auch', 'benötige', 'hilfe', 'ich', 'immer', 'welcher']
+Scope [Test]: ['art', 'auch', 'benötige', 'hilfe', 'immer', 'welcher']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -3712,8 +4176,10 @@ Focus [Test]: ['verspreche']
 Negated [Gold]: ['rechtfertigende']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Aufdringlichkeit', 'durch', 'rechtfertigende', 'zu']
-Scope [Test]: ['Aufdringlichkeit', 'Ich', 'Recht', 'durch', 'fÃ¼r', 'meine', 'rechtfertigende', 'wohl', 'wurde', 'zu', 'zu', 'zurÃ¼ckgewiesen']
+Scope [Gold]: ['aufdringlichkeit', 'durch', 'rechtfertigende', 'zu']
+Scope [Test]: ['aufdringlichkeit', 'durch', 'für', 'ich', 'meine', 'recht', 'rechtfertigende', 'wohl', 'wurde', 'zu', 'zu', 'zurückgewiesen']
+[1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3725,11 +4191,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['nicht']
 Focus [Test]: ['mehr']
 
-Negated [Gold]: ['erwÃ¤hnen']
-Negated [Test]: ['erwÃ¤hnen']
+Negated [Gold]: ['erwähnen']
+Negated [Test]: ['erwähnen']
 
-Scope [Gold]: ['Angelegenheit', 'die', 'erwÃ¤hnen', 'ich', 'werde']
-Scope [Test]: ['Angelegenheit', 'die', 'erwÃ¤hnen', 'ich', 'mehr', 'werde']
+Scope [Gold]: ['angelegenheit', 'die', 'erwähnen', 'ich', 'werde']
+Scope [Test]: ['angelegenheit', 'die', 'erwähnen', 'ich', 'mehr', 'werde']
+[1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3744,8 +4212,10 @@ Focus [Test]: ['helfen']
 Negated [Gold]: ['konnte']
 Negated [Test]: ['konnte']
 
-Scope [Gold]: ['Dabei', 'bestimmt', 'helfen', 'ich', 'ihm', 'konnte']
-Scope [Test]: ['Dabei', 'bestimmt', 'helfen', 'ich', 'ihm', 'konnte']
+Scope [Gold]: ['bestimmt', 'dabei', 'helfen', 'ich', 'ihm', 'konnte']
+Scope [Test]: ['bestimmt', 'dabei', 'helfen', 'ich', 'ihm', 'konnte']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3760,8 +4230,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['langweilig']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Das', 'Moor', 'ist', 'langweilig']
-Scope [Test]: ['Das', 'Moor', 'ist', 'langweilig']
+Scope [Gold]: ['das', 'ist', 'langweilig', 'moor']
+Scope [Test]: ['das', 'ist', 'langweilig', 'moor']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -3776,8 +4248,10 @@ Focus [Test]: ['wunderbaren']
 Negated [Gold]: ['haben']
 Negated [Test]: ['']
 
-Scope [Gold]: [',', 'Geheimnissen', 'Sie', 'Vorstellungen', 'darin', 'den', 'die', 'haben', 'sich', 'verbergen', 'von', 'wunderbaren']
-Scope [Test]: ['Geheimnissen', 'Sie', 'Vorstellungen', 'den', 'haben', 'von', 'wunderbaren']
+Scope [Gold]: [',', 'darin', 'den', 'die', 'geheimnissen', 'haben', 'sich', 'sie', 'verbergen', 'von', 'vorstellungen', 'wunderbaren']
+Scope [Test]: ['den', 'geheimnissen', 'haben', 'sie', 'von', 'vorstellungen', 'wunderbaren']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
 
 =========
 
@@ -3792,8 +4266,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['kam']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Es', 'kam', 'wieder', 'zurÃ¼ck']
-Scope [Test]: ['Es', 'kam', 'wieder', 'zurÃ¼ck']
+Scope [Gold]: ['es', 'kam', 'wieder', 'zurück']
+Scope [Test]: ['es', 'kam', 'wieder', 'zurück']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -3808,8 +4284,10 @@ Focus [Test]: ['sie']
 Negated [Gold]: ['erkennen']
 Negated [Test]: ['das']
 
-Scope [Gold]: ['VerÃ¤nderung', 'die', 'erkennen', 'sie']
-Scope [Test]: ['Klauen', 'Moor', 'VerÃ¤nderung', 'bis', 'das', 'die', 'erkennen', 'hat', 'in', 'seinen', 'sie']
+Scope [Gold]: ['die', 'erkennen', 'sie', 'veränderung']
+Scope [Test]: ['bis', 'das', 'die', 'erkennen', 'hat', 'in', 'klauen', 'moor', 'seinen', 'sie', 'veränderung']
+[1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3826,6 +4304,8 @@ Negated [Test]: ['durchdringlichen']
 
 Scope [Gold]: ['durchdringlichen']
 Scope [Test]: ['durchdringlichen']
+[1]
+[1]
 
 =========
 
@@ -3837,11 +4317,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['geringste']
 Focus [Test]: ['geringste']
 
-Negated [Gold]: ['hÃ¤tten']
+Negated [Gold]: ['hätten']
 Negated [Test]: ['die']
 
-Scope [Gold]: ['Chance', 'Sie', 'die', 'dort', 'geringste', 'herauszukommen', 'hÃ¤tten', 'lebend']
-Scope [Test]: ['Chance', 'Sie', 'die', 'dort', 'geringste', 'herauszukommen', 'hÃ¤tten', 'lebend']
+Scope [Gold]: ['chance', 'die', 'dort', 'geringste', 'herauszukommen', 'hätten', 'lebend', 'sie']
+Scope [Test]: ['chance', 'die', 'dort', 'geringste', 'herauszukommen', 'hätten', 'lebend', 'sie']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3850,14 +4332,16 @@ Frame: 168_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['mÃ¶glich']
-Focus [Test]: ['mÃ¶glich']
+Focus [Gold]: ['möglich']
+Focus [Test]: ['möglich']
 
-Negated [Gold]: ['mÃ¶glich']
-Negated [Test]: ['mÃ¶glich']
+Negated [Gold]: ['möglich']
+Negated [Test]: ['möglich']
 
-Scope [Gold]: ['mÃ¶glich']
-Scope [Test]: ['mÃ¶glich']
+Scope [Gold]: ['möglich']
+Scope [Test]: ['möglich']
+[1]
+[1]
 
 =========
 
@@ -3869,11 +4353,13 @@ Target [Test]: ['nie']
 Focus [Gold]: ['']
 Focus [Test]: ['']
 
-Negated [Gold]: ['gehÃ¶rt']
+Negated [Gold]: ['gehört']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ich', 'es', 'gehÃ¶rt', 'habe', 'laut', 'noch', 'so']
+Scope [Gold]: ['es', 'gehört', 'habe', 'ich', 'laut', 'noch', 'so']
 Scope [Test]: ['laut', 'noch', 'so']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0]
 
 =========
 
@@ -3888,8 +4374,10 @@ Focus [Test]: ['bewegte']
 Negated [Gold]: ['bewegte']
 Negated [Test]: ['']
 
-Scope [Gold]: [',', 'Felsturm', 'Paar', 'Raben', 'Weite', 'auÃŸer', 'bewegte', 'der', 'die', 'einem', 'einem', 'ganzen', 'herunterkrÃ¤chzten', 'hinter', 'laut', 'sich', 'uns', 'von', 'Ã¼ber']
-Scope [Test]: ['Paar', 'Raben', 'Weite', 'auÃŸer', 'bewegte', 'der', 'einem', 'ganzen', 'sich', 'Ã¼ber']
+Scope [Gold]: [',', 'außer', 'bewegte', 'der', 'die', 'einem', 'einem', 'felsturm', 'ganzen', 'herunterkrächzten', 'hinter', 'laut', 'paar', 'raben', 'sich', 'uns', 'von', 'weite', 'über']
+Scope [Test]: ['außer', 'bewegte', 'der', 'einem', 'ganzen', 'paar', 'raben', 'sich', 'weite', 'über']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -3904,8 +4392,10 @@ Focus [Test]: ['sagte']
 Negated [Gold]: ['glauben']
 Negated [Test]: ['sagte']
 
-Scope [Gold]: ['Sie', 'Unsinn', 'doch', 'einen', 'glauben', 'solchen']
-Scope [Test]: ['Sie', 'Unsinn', 'doch', 'einen', 'glauben', 'solchen']
+Scope [Gold]: ['doch', 'einen', 'glauben', 'sie', 'solchen', 'unsinn']
+Scope [Test]: ['doch', 'einen', 'glauben', 'sie', 'solchen', 'unsinn']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -3922,6 +4412,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -3938,6 +4430,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -3954,6 +4448,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: ['nie', 'noch']
+[0, 0]
+[1, 1]
 
 =========
 
@@ -3970,6 +4466,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['noch']
 Scope [Test]: ['noch']
+[1]
+[1]
 
 =========
 
@@ -3979,13 +4477,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['nicht']
-Focus [Test]: ['Ã¼berrascht']
+Focus [Test]: ['überrascht']
 
-Negated [Gold]: ['Ã¼berrascht']
-Negated [Test]: ['gehÃ¶rt']
+Negated [Gold]: ['überrascht']
+Negated [Test]: ['gehört']
 
-Scope [Gold]: [',', ',', 'Ich', 'Rohrdommel', 'Schrei', 'das', 'dass', 'der', 'der', 'erfahren', 'gehÃ¶rt', 'haben', 'letzten', 'war', 'was', 'wir', 'wÃ¤re', 'zu', 'Ã¼berrascht']
-Scope [Test]: ['Ich', 'das', 'dass', 'erfahren', 'wÃ¤re', 'zu', 'Ã¼berrascht']
+Scope [Gold]: [',', ',', 'das', 'dass', 'der', 'der', 'erfahren', 'gehört', 'haben', 'ich', 'letzten', 'rohrdommel', 'schrei', 'war', 'was', 'wir', 'wäre', 'zu', 'überrascht']
+Scope [Test]: ['das', 'dass', 'erfahren', 'ich', 'wäre', 'zu', 'überrascht']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -4002,6 +4502,8 @@ Negated [Test]: ['heimlicher']
 
 Scope [Gold]: ['heimlicher']
 Scope [Test]: ['heimlicher']
+[1]
+[1]
 
 =========
 
@@ -4018,6 +4520,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -4034,6 +4538,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['dort', 'gewohnt', 'hat', 'seither']
 Scope [Test]: ['dort', 'gewohnt', 'hat', 'seither']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -4050,6 +4556,8 @@ Negated [Test]: ['erwarteter']
 
 Scope [Gold]: ['erwarteter']
 Scope [Test]: ['erwarteter']
+[1]
+[1]
 
 =========
 
@@ -4059,13 +4567,15 @@ Target [Gold]: ['ohne']
 Target [Test]: ['un']
 
 Focus [Gold]: ['nachzudenken']
-Focus [Test]: ['ablÃ¤ssig']
+Focus [Test]: ['ablässig']
 
 Negated [Gold]: ['nachzudenken']
-Negated [Test]: ['ablÃ¤ssig']
+Negated [Test]: ['ablässig']
 
 Scope [Gold]: ['nachzudenken']
-Scope [Test]: ['ablÃ¤ssig']
+Scope [Test]: ['ablässig']
+[1]
+[0]
 
 =========
 
@@ -4074,14 +4584,16 @@ Frame: 210_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['regelmÃ¤ÃŸiges']
-Focus [Test]: ['regelmÃ¤ÃŸiges']
+Focus [Gold]: ['regelmäßiges']
+Focus [Test]: ['regelmäßiges']
 
-Negated [Gold]: ['regelmÃ¤ÃŸiges']
-Negated [Test]: ['regelmÃ¤ÃŸiges']
+Negated [Gold]: ['regelmäßiges']
+Negated [Test]: ['regelmäßiges']
 
-Scope [Gold]: ['regelmÃ¤ÃŸiges']
-Scope [Test]: ['regelmÃ¤ÃŸiges']
+Scope [Gold]: ['regelmäßiges']
+Scope [Test]: ['regelmäßiges']
+[1]
+[1]
 
 =========
 
@@ -4096,8 +4608,10 @@ Focus [Test]: ['es']
 Negated [Gold]: ['zweifelte']
 Negated [Test]: ['handelte']
 
-Scope [Gold]: ['Ich', 'Miss', 'Stapleton', 'dass', 'es', 'handelte', 'sich', 'um', 'zweifelte']
-Scope [Test]: ['Ich', 'Miss', 'Stapleton', 'dass', 'es', 'handelte', 'sich', 'um', 'zweifelte']
+Scope [Gold]: ['dass', 'es', 'handelte', 'ich', 'miss', 'sich', 'stapleton', 'um', 'zweifelte']
+Scope [Test]: ['dass', 'es', 'handelte', 'ich', 'miss', 'sich', 'stapleton', 'um', 'zweifelte']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4106,14 +4620,16 @@ Frame: 215_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['gewÃ¶hnlicher']
-Focus [Test]: ['gewÃ¶hnlicher']
+Focus [Gold]: ['gewöhnlicher']
+Focus [Test]: ['gewöhnlicher']
 
-Negated [Gold]: ['gewÃ¶hnlicher']
-Negated [Test]: ['gewÃ¶hnlicher']
+Negated [Gold]: ['gewöhnlicher']
+Negated [Test]: ['gewöhnlicher']
 
-Scope [Gold]: ['gewÃ¶hnlicher']
-Scope [Test]: ['gewÃ¶hnlicher']
+Scope [Gold]: ['gewöhnlicher']
+Scope [Test]: ['gewöhnlicher']
+[1]
+[1]
 
 =========
 
@@ -4122,14 +4638,16 @@ Frame: 216_f1
 Target [Gold]: ['un']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['auffÃ¤lliger']
-Focus [Test]: ['grÃ¶ÃŸer']
+Focus [Gold]: ['auffälliger']
+Focus [Test]: ['größer']
 
-Negated [Gold]: ['auffÃ¤lliger']
+Negated [Gold]: ['auffälliger']
 Negated [Test]: ['ein']
 
-Scope [Gold]: ['auffÃ¤lliger']
-Scope [Test]: ['Schwester', 'grÃ¶ÃŸer', 'hÃ¤tte', 'kÃ¶nnen', 'sein']
+Scope [Gold]: ['auffälliger']
+Scope [Test]: ['größer', 'hätte', 'können', 'schwester', 'sein']
+[1, 0, 0, 0, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -4144,8 +4662,10 @@ Focus [Test]: ['sinnliche']
 Negated [Gold]: ['']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Augen', 'Mund', 'da', 'der', 'die', 'dunklen', 'gewesen', 'schÃ¶nen', 'sinnliche', 'und', 'wÃ¤ren']
-Scope [Test]: ['Mund', 'da', 'der', 'sinnliche', 'wÃ¤ren']
+Scope [Gold]: ['augen', 'da', 'der', 'die', 'dunklen', 'gewesen', 'mund', 'schönen', 'sinnliche', 'und', 'wären']
+Scope [Test]: ['da', 'der', 'mund', 'sinnliche', 'wären']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -4162,6 +4682,8 @@ Negated [Test]: ['geduldig']
 
 Scope [Gold]: ['geduldig']
 Scope [Test]: ['geduldig']
+[1]
+[1]
 
 =========
 
@@ -4171,13 +4693,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['nicht']
-Focus [Test]: ['erklÃ¤ren']
+Focus [Test]: ['erklären']
 
 Negated [Gold]: ['kann']
 Negated [Test]: ['kann']
 
-Scope [Gold]: ['Das', 'erklÃ¤ren', 'ich', 'kann']
-Scope [Test]: ['Das', 'erklÃ¤ren', 'ich', 'kann']
+Scope [Gold]: ['das', 'erklären', 'ich', 'kann']
+Scope [Test]: ['das', 'erklären', 'ich', 'kann']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -4192,8 +4716,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['setzen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['FuÃŸ', 'Moor', 'Sie', 'dieses', 'einen', 'in', 'setzen']
-Scope [Test]: ['FuÃŸ', 'Moor', 'Sie', 'dieses', 'einen', 'in', 'mehr', 'setzen']
+Scope [Gold]: ['dieses', 'einen', 'fuß', 'in', 'moor', 'setzen', 'sie']
+Scope [Test]: ['dieses', 'einen', 'fuß', 'in', 'mehr', 'moor', 'setzen', 'sie']
+[1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4208,8 +4734,10 @@ Focus [Test]: ['gut']
 Negated [Gold]: ['']
 Negated [Test]: ['eine']
 
-Scope [Gold]: ['Merken', 'Sie', 'Warnung', 'eine', 'gemeint', 'gut', 'ist', 'wenn']
-Scope [Test]: ['Merken', 'Sie', 'Warnung', 'eine', 'gemeint', 'gut', 'ist', 'wenn']
+Scope [Gold]: ['eine', 'gemeint', 'gut', 'ist', 'merken', 'sie', 'warnung', 'wenn']
+Scope [Test]: ['eine', 'gemeint', 'gut', 'ist', 'merken', 'sie', 'warnung', 'wenn']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4224,8 +4752,10 @@ Focus [Test]: ['ich']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: [',', 'Wort', 'dem', 'gesagt', 'habe', 'ich', 'von', 'was']
-Scope [Test]: ['Wort', 'dem', 'von']
+Scope [Gold]: [',', 'dem', 'gesagt', 'habe', 'ich', 'von', 'was', 'wort']
+Scope [Test]: ['dem', 'von', 'wort']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0, 0]
 
 =========
 
@@ -4240,8 +4770,10 @@ Focus [Test]: ['herzlich']
 Negated [Gold]: ['']
 Negated [Test]: ['schien']
 
-Scope [Gold]: ['BegrÃ¼ÃŸung', 'Ton', 'allzu', 'der', 'herzlich', 'sein', 'seiner', 'zu']
-Scope [Test]: ['BegrÃ¼ÃŸung', 'Ton', 'allzu', 'der', 'herzlich', 'mir', 'schien', 'sein', 'seiner', 'zu']
+Scope [Gold]: ['allzu', 'begrüßung', 'der', 'herzlich', 'sein', 'seiner', 'ton', 'zu']
+Scope [Test]: ['allzu', 'begrüßung', 'der', 'herzlich', 'mir', 'schien', 'sein', 'seiner', 'ton', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4258,6 +4790,8 @@ Negated [Test]: ['erwischt']
 
 Scope [Gold]: ['erwischt', 'habe', 'ich', 'ihn']
 Scope [Test]: ['erwischt', 'habe', 'ich', 'ihn']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -4274,6 +4808,8 @@ Negated [Test]: ['beteiligt']
 
 Scope [Gold]: ['beteiligt']
 Scope [Test]: ['beteiligt']
+[1]
+[1]
 
 =========
 
@@ -4290,6 +4826,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -4306,6 +4844,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -4320,8 +4860,10 @@ Focus [Test]: ['nur']
 Negated [Gold]: ['']
 Negated [Test]: ['ein']
 
-Scope [Gold]: ['Besucher', 'ein', 'er', 'nicht', 'nur', 'nur', 'wÃ¤re']
-Scope [Test]: ['Besucher', 'ein', 'nur', 'wÃ¤re']
+Scope [Gold]: ['besucher', 'ein', 'er', 'nicht', 'nur', 'nur', 'wäre']
+Scope [Test]: ['besucher', 'ein', 'nur', 'wäre']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -4338,6 +4880,8 @@ Negated [Test]: ['endliche']
 
 Scope [Gold]: ['endliche']
 Scope [Test]: ['endliche']
+[1]
+[1]
 
 =========
 
@@ -4354,6 +4898,8 @@ Negated [Test]: ['sagte']
 
 Scope [Gold]: ['wahr']
 Scope [Test]: ['wahr']
+[1]
+[1]
 
 =========
 
@@ -4366,10 +4912,12 @@ Focus [Gold]: ['']
 Focus [Test]: ['wahr']
 
 Negated [Gold]: ['']
-Negated [Test]: ['fÃ¼hlen']
+Negated [Test]: ['fühlen']
 
 Scope [Gold]: ['wahr']
 Scope [Test]: ['wahr']
+[1]
+[1]
 
 =========
 
@@ -4384,8 +4932,10 @@ Focus [Test]: ['sonderlich']
 Negated [Gold]: ['klangen']
 Negated [Test]: ['klangen']
 
-Scope [Gold]: ['Worte', 'ihre', 'klangen', 'sonderlich', 'Ã¼berzeugt']
-Scope [Test]: ['Worte', 'ihre', 'klangen', 'sonderlich', 'Ã¼berzeugt']
+Scope [Gold]: ['ihre', 'klangen', 'sonderlich', 'worte', 'überzeugt']
+Scope [Test]: ['ihre', 'klangen', 'sonderlich', 'worte', 'überzeugt']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -4402,6 +4952,8 @@ Negated [Test]: ['interessant']
 
 Scope [Gold]: ['interessant']
 Scope [Test]: ['interessant']
+[1]
+[1]
 
 =========
 
@@ -4416,8 +4968,10 @@ Focus [Test]: ['gut']
 Negated [Gold]: ['meinte']
 Negated [Test]: ['meinte']
 
-Scope [Gold]: ['Schicksal', 'das', 'gut', 'meinte', 'mit', 'uns']
-Scope [Test]: ['Schicksal', 'das', 'es', 'gut', 'meinte', 'mit', 'uns']
+Scope [Gold]: ['das', 'gut', 'meinte', 'mit', 'schicksal', 'uns']
+Scope [Test]: ['das', 'es', 'gut', 'meinte', 'mit', 'schicksal', 'uns']
+[1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4432,8 +4986,10 @@ Focus [Test]: ['erholt']
 Negated [Gold]: ['erholt']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Schlag', 'Sie', 'dem', 'erholt', 'hat', 'sich', 'von']
-Scope [Test]: ['Schlag', 'Sie', 'dem', 'erholt', 'hat', 'mehr', 'sich', 'von']
+Scope [Gold]: ['dem', 'erholt', 'hat', 'schlag', 'sich', 'sie', 'von']
+Scope [Test]: ['dem', 'erholt', 'hat', 'mehr', 'schlag', 'sich', 'sie', 'von']
+[1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4450,6 +5006,8 @@ Negated [Test]: ['wiederbringlich']
 
 Scope [Gold]: ['wiederbringlich']
 Scope [Test]: ['wiederbringlich']
+[1]
+[1]
 
 =========
 
@@ -4464,8 +5022,10 @@ Focus [Test]: ['reizvollen']
 Negated [Gold]: ['']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Jungen', 'Umgangs', 'Verlust', 'da', 'den', 'der', 'des', 'mit', 'reizvollen', 'wÃ¤re']
-Scope [Test]: ['Jungen', 'Umgangs', 'Verlust', 'da', 'den', 'der', 'des', 'mit', 'reizvollen', 'wÃ¤re']
+Scope [Gold]: ['da', 'den', 'der', 'des', 'jungen', 'mit', 'reizvollen', 'umgangs', 'verlust', 'wäre']
+Scope [Test]: ['da', 'den', 'der', 'des', 'jungen', 'mit', 'reizvollen', 'umgangs', 'verlust', 'wäre']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4482,6 +5042,8 @@ Negated [Test]: ['begrenztes']
 
 Scope [Gold]: ['begrenztes']
 Scope [Test]: ['begrenztes']
+[1]
+[1]
 
 =========
 
@@ -4498,6 +5060,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -4514,6 +5078,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -4528,8 +5094,10 @@ Focus [Test]: ['sagte']
 Negated [Gold]: ['finde']
 Negated [Test]: ['']
 
-Scope [Gold]: ['eintÃ¶nig', 'es', 'finde', 'ich']
-Scope [Test]: ['eintÃ¶nig', 'es', 'finde', 'ich']
+Scope [Gold]: ['eintönig', 'es', 'finde', 'ich']
+Scope [Test]: ['eintönig', 'es', 'finde', 'ich']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -4539,13 +5107,15 @@ Target [Gold]: ['un']
 Target [Test]: ['un']
 
 Focus [Gold]: ['heimliche']
-Focus [Test]: ['glÃ¼cklichen']
+Focus [Test]: ['glücklichen']
 
 Negated [Gold]: ['heimliche']
-Negated [Test]: ['glÃ¼cklichen']
+Negated [Test]: ['glücklichen']
 
 Scope [Gold]: ['heimliche']
-Scope [Test]: ['glÃ¼cklichen']
+Scope [Test]: ['glücklichen']
+[1]
+[0]
 
 =========
 
@@ -4554,14 +5124,16 @@ Frame: 289_f2
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['glÃ¼cklichen']
+Focus [Gold]: ['glücklichen']
 Focus [Test]: ['heimliche']
 
-Negated [Gold]: ['glÃ¼cklichen']
+Negated [Gold]: ['glücklichen']
 Negated [Test]: ['heimliche']
 
-Scope [Gold]: ['glÃ¼cklichen']
+Scope [Gold]: ['glücklichen']
 Scope [Test]: ['heimliche']
+[1]
+[0]
 
 =========
 
@@ -4576,8 +5148,10 @@ Focus [Test]: ['mal']
 Negated [Gold]: ['hatte']
 Negated [Test]: ['die']
 
-Scope [Gold]: [',', 'Hut', 'Ich', 'Zeit', 'aufzusetzen', 'die', 'hatte', 'mal', 'meinen']
-Scope [Test]: ['Ich', 'Zeit', 'die', 'hatte', 'mal', 'noch']
+Scope [Gold]: [',', 'aufzusetzen', 'die', 'hatte', 'hut', 'ich', 'mal', 'meinen', 'zeit']
+Scope [Test]: ['die', 'hatte', 'ich', 'mal', 'noch', 'zeit']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -4592,8 +5166,10 @@ Focus [Test]: ['lang']
 Negated [Gold]: ['darf']
 Negated [Test]: ['suchen']
 
-Scope [Gold]: ['Ich', 'bleiben', 'darf', 'lang']
-Scope [Test]: ['Bruder', 'Ich', 'bleiben', 'darf', 'lang', 'mein', 'mir', 'nach', 'sonst', 'suchen', 'wird']
+Scope [Gold]: ['bleiben', 'darf', 'ich', 'lang']
+Scope [Test]: ['bleiben', 'bruder', 'darf', 'ich', 'lang', 'mein', 'mir', 'nach', 'sonst', 'suchen', 'wird']
+[1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4608,8 +5184,10 @@ Focus [Test]: ['ihnen']
 Negated [Gold]: ['hat']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ihnen', 'alles', 'das', 'hat', 'mit', 'tun', 'zu']
-Scope [Test]: ['Ihnen', 'alles', 'das', 'hat', 'mit', 'tun', 'zu']
+Scope [Gold]: ['alles', 'das', 'hat', 'ihnen', 'mit', 'tun', 'zu']
+Scope [Test]: ['alles', 'das', 'hat', 'ihnen', 'mit', 'tun', 'zu']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4626,6 +5204,8 @@ Negated [Test]: ['sagte']
 
 Scope [Gold]: ['das', 'ich', 'kann', 'vergessen']
 Scope [Test]: ['das', 'ich', 'kann', 'vergessen']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -4640,8 +5220,10 @@ Focus [Test]: ['immer']
 Negated [Gold]: ['kann']
 Negated [Test]: ['einen']
 
-Scope [Gold]: ['Grund', 'Taten', 'Worte', 'angeben', 'einen', 'ich', 'immer', 'meine', 'oder']
-Scope [Test]: ['Grund', 'Taten', 'angeben', 'einen', 'immer', 'kann']
+Scope [Gold]: ['angeben', 'einen', 'grund', 'ich', 'immer', 'meine', 'oder', 'taten', 'worte']
+Scope [Test]: ['angeben', 'einen', 'grund', 'immer', 'kann', 'taten']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -4658,6 +5240,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -4674,6 +5258,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -4688,8 +5274,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['glaube']
 Negated [Test]: ['glaube']
 
-Scope [Gold]: ['Ich', 'Unsinn', 'an', 'glaube', 'solchen']
-Scope [Test]: ['Ich', 'Unsinn', 'an', 'glaube', 'solchen']
+Scope [Gold]: ['an', 'glaube', 'ich', 'solchen', 'unsinn']
+Scope [Test]: ['an', 'glaube', 'ich', 'solchen', 'unsinn']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -4701,11 +5289,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['eindeutigere']
 Focus [Test]: ['eindeutigere']
 
-Negated [Gold]: ['kÃ¶nnen']
-Negated [Test]: ['kÃ¶nnen']
+Negated [Gold]: ['können']
+Negated [Test]: ['können']
 
-Scope [Gold]: ['Informationen', 'Sie', 'eindeutigere', 'geben', 'kÃ¶nnen', 'mir']
-Scope [Test]: ['Informationen', 'Sie', 'eindeutigere', 'geben', 'kÃ¶nnen', 'mir']
+Scope [Gold]: ['eindeutigere', 'geben', 'informationen', 'können', 'mir', 'sie']
+Scope [Test]: ['eindeutigere', 'geben', 'informationen', 'können', 'mir', 'sie']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4714,14 +5304,16 @@ Frame: 326_f2
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['mÃ¶glich']
-Focus [Test]: ['mÃ¶glich']
+Focus [Gold]: ['möglich']
+Focus [Test]: ['möglich']
 
-Negated [Gold]: ['mÃ¶glich']
-Negated [Test]: ['mÃ¶glich']
+Negated [Gold]: ['möglich']
+Negated [Test]: ['möglich']
 
-Scope [Gold]: ['mÃ¶glich']
-Scope [Test]: ['mÃ¶glich']
+Scope [Gold]: ['möglich']
+Scope [Test]: ['möglich']
+[1]
+[1]
 
 =========
 
@@ -4731,13 +5323,15 @@ Target [Gold]: ['nichts']
 Target [Test]: ['nichts']
 
 Focus [Gold]: ['nichts']
-Focus [Test]: ['weiÃŸ']
+Focus [Test]: ['weiß']
 
 Negated [Gold]: ['sagen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Eindeutigeres', 'Ich', 'kann', 'sagen']
-Scope [Test]: ['Eindeutigeres', 'Eindeutigeres', 'Ich', 'da', 'ich', 'kann', 'nichts', 'sagen', 'weiÃŸ']
+Scope [Gold]: ['eindeutigeres', 'ich', 'kann', 'sagen']
+Scope [Test]: ['da', 'eindeutigeres', 'eindeutigeres', 'ich', 'ich', 'kann', 'nichts', 'sagen', 'weiß']
+[1, 1, 1, 1, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4747,13 +5341,15 @@ Target [Gold]: ['nichts']
 Target [Test]: ['nichts']
 
 Focus [Gold]: ['nichts']
-Focus [Test]: ['weiÃŸ']
+Focus [Test]: ['weiß']
 
-Negated [Gold]: ['weiÃŸ']
+Negated [Gold]: ['weiß']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Eindeutigeres', 'ich', 'weiÃŸ']
-Scope [Test]: ['Eindeutigeres', 'ich', 'weiÃŸ']
+Scope [Gold]: ['eindeutigeres', 'ich', 'weiß']
+Scope [Test]: ['eindeutigeres', 'ich', 'weiß']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -4768,8 +5364,10 @@ Focus [Test]: ['wollten']
 Negated [Gold]: ['wollten']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Sie', 'mitteilen', 'sonst', 'wollten']
+Scope [Gold]: ['mitteilen', 'sie', 'sonst', 'wollten']
 Scope [Test]: ['mitteilen', 'sonst', 'wollten']
+[1, 1, 1, 1]
+[1, 1, 1, 0]
 
 =========
 
@@ -4782,10 +5380,12 @@ Focus [Gold]: ['nicht']
 Focus [Test]: ['ihr']
 
 Negated [Gold]: ['wollten']
-Negated [Test]: ['hÃ¶rte']
+Negated [Test]: ['hörte']
 
-Scope [Gold]: [',', 'Bruder', 'Ihr', 'Sie', 'dass', 'hÃ¶rte', 'sprachen', 'wir', 'wollten', 'worÃ¼ber']
-Scope [Test]: ['Bruder', 'Ihr', 'Sie', 'dann', 'dass', 'hÃ¶rte', 'warum', 'wollten']
+Scope [Gold]: [',', 'bruder', 'dass', 'hörte', 'ihr', 'sie', 'sprachen', 'wir', 'wollten', 'worüber']
+Scope [Test]: ['bruder', 'dann', 'dass', 'hörte', 'ihr', 'sie', 'warum', 'wollten']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 0, 0]
 
 =========
 
@@ -4795,13 +5395,15 @@ Target [Gold]: ['nichts']
 Target [Test]: ['nichts']
 
 Focus [Gold]: ['nichts']
-Focus [Test]: ['kÃ¶nnte']
+Focus [Test]: ['könnte']
 
 Negated [Gold]: ['war']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Bruder', 'Das', 'EinwÃ¤nde', 'Ihr', 'haben', 'irgendwelche', 'kÃ¶nnte', 'oder', 'sonstwer', 'war', 'wogegen']
-Scope [Test]: ['Das', 'doch', 'war']
+Scope [Gold]: ['bruder', 'das', 'einwände', 'haben', 'ihr', 'irgendwelche', 'könnte', 'oder', 'sonstwer', 'war', 'wogegen']
+Scope [Test]: ['das', 'doch', 'war']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -4818,27 +5420,32 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['ich', 'sagen', 'weiter', 'werde']
 Scope [Test]: ['mehr', 'sagen', 'weiter', 'werde']
+[1, 1, 1, 1]
+[1, 1, 1, 0]
 
 =============================
 ====== EVALUATION for: ../res/xml/test/output/tagged/baskerville_ch7.jr.xml ======
 Total Sentences: 336 
-Gold frames: 112 
-Test frames: 103 
+Negation Gold frames: 112 
+Negation Test frames: 103 
 
 ----- CUEWORDS -----
 F1 score:	 0.839285714286
 
 ----- FOCUS -----
-F1 score:	 0.330357142857
+F1 score:	 0.303571428571
 
 ----- NEGATED -----
-F1 score:	 0.366071428571
+F1 score:	 0.348214285714
 
 ----- SCOPE -----
-Precision:	 0.910891089109
-Recall:	 0.776216560349
-F1 score:	 0.819013242607
-Jaccard similarity:	 0.658455131227
+Scope Gold frames: 101 
+Scope Test frames: 103 
+
+Precision:	 0.72093669144
+Recall:	 0.671600900944
+F1 score:	 0.677176389941
+Jaccard similarity:	 0.639717563989
 
 =========
 
@@ -4855,6 +5462,8 @@ Negated [Test]: ['fruchtbaren']
 
 Scope [Gold]: ['fruchtbaren']
 Scope [Test]: ['fruchtbaren']
+[1]
+[1]
 
 =========
 
@@ -4870,7 +5479,9 @@ Negated [Gold]: ['wollte']
 Negated [Test]: ['']
 
 Scope [Gold]: ['anderes', 'besiedeln', 'die', 'niemand', 'wollte']
-Scope [Test]: ['FrÃ¼hgeschichtler', 'Zwar', 'bin', 'ich']
+Scope [Test]: ['bin', 'frühgeschichtler', 'ich', 'zwar']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0]
 
 =========
 
@@ -4879,14 +5490,16 @@ Frame: s12_f1
 Target [Gold]: ['kein']
 Target [Test]: ['niemand']
 
-Focus [Gold]: ['frÃ¼hgeschichtler']
+Focus [Gold]: ['frühgeschichtler']
 Focus [Test]: ['wollte']
 
-Negated [Gold]: ['frÃ¼hgeschichtler']
+Negated [Gold]: ['frühgeschichtler']
 Negated [Test]: ['']
 
-Scope [Gold]: ['FrÃ¼hgeschichtler', 'bin', 'ich']
+Scope [Gold]: ['bin', 'frühgeschichtler', 'ich']
 Scope [Test]: ['anderes', 'besiedeln', 'die', 'wollte']
+[1, 1, 1, 0]
+[1, 1, 1, 1]
 
 =========
 
@@ -4902,7 +5515,9 @@ Negated [Gold]: ['interessant']
 Negated [Test]: ['']
 
 Scope [Gold]: ['interessant']
-Scope [Test]: ['Das', 'Fall', 'alles', 'dem', 'hat', 'mit', 'natÃ¼rlich', 'tun', 'zu']
+Scope [Test]: ['alles', 'das', 'dem', 'fall', 'hat', 'mit', 'natürlich', 'tun', 'zu']
+[1, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4917,8 +5532,10 @@ Focus [Test]: ['interessant']
 Negated [Gold]: ['hat']
 Negated [Test]: ['interessant']
 
-Scope [Gold]: ['Das', 'Fall', 'alles', 'dem', 'mit', 'tun', 'zu']
+Scope [Gold]: ['alles', 'das', 'dem', 'fall', 'mit', 'tun', 'zu']
 Scope [Test]: ['interessant']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -4933,8 +5550,10 @@ Focus [Test]: ['erhalten']
 Negated [Gold]: ['erhalten']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Bericht', 'Tagen', 'den', 'du', 'erhalten', 'hast', 'in', 'letzten', 'mir', 'von']
-Scope [Test]: ['Bericht', 'Tagen', 'den', 'du', 'erhalten', 'hast', 'in', 'letzten', 'mir', 'von']
+Scope [Gold]: ['bericht', 'den', 'du', 'erhalten', 'hast', 'in', 'letzten', 'mir', 'tagen', 'von']
+Scope [Test]: ['bericht', 'den', 'du', 'erhalten', 'hast', 'in', 'letzten', 'mir', 'tagen', 'von']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4949,8 +5568,10 @@ Focus [Test]: ['nennenswertes']
 Negated [Gold]: ['war']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Nennenswertes', 'Zeitpunkt', 'berichten', 'bis', 'derzeitigen', 'war', 'zu', 'zum']
-Scope [Test]: ['Nennenswertes', 'Zeitpunkt', 'berichten', 'bis', 'derzeitigen', 'war', 'zu', 'zum']
+Scope [Gold]: ['berichten', 'bis', 'derzeitigen', 'nennenswertes', 'war', 'zeitpunkt', 'zu', 'zum']
+Scope [Test]: ['berichten', 'bis', 'derzeitigen', 'nennenswertes', 'war', 'zeitpunkt', 'zu', 'zum']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4966,7 +5587,9 @@ Negated [Gold]: ['gibt']
 Negated [Test]: ['']
 
 Scope [Gold]: ['es', 'essen', 'gibt', 'zu']
-Scope [Test]: ['NatÃ¼rlich', 'Problem', 'SteinhÃ¼tte', 'Versteck', 'da', 'das', 'ein', 'geboten', 'geeignetes', 'gewesen', 'hÃ¤tte', 'ihm', 'jede', 'wÃ¤re']
+Scope [Test]: ['da', 'das', 'ein', 'geboten', 'geeignetes', 'gewesen', 'hätte', 'ihm', 'jede', 'natürlich', 'problem', 'steinhütte', 'versteck', 'wäre']
+[1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4981,8 +5604,10 @@ Focus [Test]: ['fing']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Moorschaf', 'ein', 'er', 'fing', 'schlachtete', 'sich', 'und']
-Scope [Test]: ['Moorschaf', 'ein', 'er', 'es', 'essen', 'fing', 'gibt', 'nicht', 'sich', 'sofern', 'zu']
+Scope [Gold]: ['ein', 'er', 'fing', 'moorschaf', 'schlachtete', 'sich', 'und']
+Scope [Test]: ['ein', 'er', 'es', 'essen', 'fing', 'gibt', 'moorschaf', 'nicht', 'sich', 'sofern', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -4997,8 +5622,10 @@ Focus [Test]: ['fing']
 Negated [Gold]: ['']
 Negated [Test]: ['ein']
 
-Scope [Gold]: ['Problem', 'das', 'gewesen']
-Scope [Test]: ['Moorschaf', 'ein', 'er', 'fing', 'sich']
+Scope [Gold]: ['das', 'gewesen', 'problem']
+Scope [Test]: ['ein', 'er', 'fing', 'moorschaf', 'sich']
+[1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -5013,8 +5640,10 @@ Focus [Test]: ['sonderlich']
 Negated [Gold]: ['mann']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Mann', 'ist', 'letzterer', 'sonderlich', 'starker']
-Scope [Test]: ['Mann', 'ist', 'letzterer', 'sonderlich', 'starker', 'wobei']
+Scope [Gold]: ['ist', 'letzterer', 'mann', 'sonderlich', 'starker']
+Scope [Test]: ['ist', 'letzterer', 'mann', 'sonderlich', 'starker', 'wobei']
+[1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5031,6 +5660,8 @@ Negated [Test]: ['hilf']
 
 Scope [Gold]: ['hilflos']
 Scope [Test]: ['hilf']
+[1]
+[0]
 
 =========
 
@@ -5045,8 +5676,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['wollte']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Stapleton', 'davon', 'wissen', 'wollte']
-Scope [Test]: ['Stapleton', 'davon', 'wissen', 'wollte']
+Scope [Gold]: ['davon', 'stapleton', 'wissen', 'wollte']
+Scope [Test]: ['davon', 'stapleton', 'wissen', 'wollte']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -5061,8 +5694,10 @@ Focus [Test]: ['weiter']
 Negated [Gold]: ['verwunderlich']
 Negated [Test]: ['die']
 
-Scope [Gold]: ['Das', 'ist', 'verwunderlich', 'weiter']
-Scope [Test]: ['Das', 'ist', 'verwunderlich', 'weiter']
+Scope [Gold]: ['das', 'ist', 'verwunderlich', 'weiter']
+Scope [Test]: ['das', 'ist', 'verwunderlich', 'weiter']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -5079,6 +5714,8 @@ Negated [Test]: ['geheuren']
 
 Scope [Gold]: ['geheuren']
 Scope [Test]: ['geheuren']
+[1]
+[1]
 
 =========
 
@@ -5093,8 +5730,10 @@ Focus [Test]: ['offen']
 Negated [Gold]: ['wollte']
 Negated [Test]: ['des']
 
-Scope [Gold]: ['Baronets', 'GefÃ¼hle', 'Meinung', 'RÃ¼cksicht', 'auf', 'aus', 'des', 'die', 'er', 'kundtun', 'offen', 'seine', 'wollte']
-Scope [Test]: [';', 'Baronets', 'GefÃ¼hle', 'Meinung', 'RÃ¼cksicht', 'anscheinend', 'auf', 'aus', 'des', 'die', 'er', 'er', 'kundtun', 'offen', 'seine', 'wollte', 'wusste']
+Scope [Gold]: ['auf', 'aus', 'baronets', 'des', 'die', 'er', 'gefühle', 'kundtun', 'meinung', 'offen', 'rücksicht', 'seine', 'wollte']
+Scope [Test]: [';', 'anscheinend', 'auf', 'aus', 'baronets', 'des', 'die', 'er', 'er', 'gefühle', 'kundtun', 'meinung', 'offen', 'rücksicht', 'seine', 'wollte', 'wusste']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5109,8 +5748,10 @@ Focus [Test]: ['gegenseitiges']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['GefÃ¼hl', 'das', 'gegenseitiges', 'war']
-Scope [Test]: ['GefÃ¼hl', 'das', 'gegenseitiges', 'war']
+Scope [Gold]: ['das', 'gefühl', 'gegenseitiges', 'war']
+Scope [Test]: ['das', 'gefühl', 'gegenseitiges', 'war']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -5125,8 +5766,10 @@ Focus [Test]: ['vergangen']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Bruder', 'Schwester', 'gesehen', 'hÃ¤tten', 'oder', 'wir']
-Scope [Test]: ['Bruder', 'Schwester', 'Tag', 'dass', 'gesehen', 'hÃ¤tten', 'ist', 'oder', 'ohne', 'seither', 'vergangen', 'wir']
+Scope [Gold]: ['bruder', 'gesehen', 'hätten', 'oder', 'schwester', 'wir']
+Scope [Test]: ['bruder', 'dass', 'gesehen', 'hätten', 'ist', 'oder', 'ohne', 'schwester', 'seither', 'tag', 'vergangen', 'wir']
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5143,6 +5786,8 @@ Negated [Test]: ['zweifel']
 
 Scope [Gold]: ['sie']
 Scope [Test]: ['zweifel']
+[1]
+[0]
 
 =========
 
@@ -5154,11 +5799,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['nicht']
 Focus [Test]: ['ihre']
 
-Negated [Gold]: ['wÃ¼nsche']
+Negated [Gold]: ['wünsche']
 Negated [Test]: ['reift']
 
-Scope [Gold]: ['Liebe', 'Vertrautheit', 'dass', 'er', 'ihre', 'reift', 'wÃ¼nsche', 'zu']
-Scope [Test]: ['Liebe', 'Vertrautheit', 'dass', 'er', 'ihre', 'reift', 'wÃ¼nsche', 'zu']
+Scope [Gold]: ['dass', 'er', 'ihre', 'liebe', 'reift', 'vertrautheit', 'wünsche', 'zu']
+Scope [Test]: ['dass', 'er', 'ihre', 'liebe', 'reift', 'vertrautheit', 'wünsche', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5173,8 +5820,10 @@ Focus [Test]: ['gesellte']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Henry', 'Sir', 'allein', 'ausgehen', 'lassen', 'zu']
-Scope [Test]: ['Henry', 'LiebesaffÃ¤re', 'Problemen', 'Sir', 'allein', 'auch', 'ausgehen', 'eine', 'gesellte', 'lassen', 'mÃ¼hevoller', 'noch', 'sehr', 'sich', 'umzusetzen', 'unseren', 'viel', 'wenn', 'zu', 'zu']
+Scope [Gold]: ['allein', 'ausgehen', 'henry', 'lassen', 'sir', 'zu']
+Scope [Test]: ['allein', 'auch', 'ausgehen', 'eine', 'gesellte', 'henry', 'lassen', 'liebesaffäre', 'mühevoller', 'noch', 'problemen', 'sehr', 'sich', 'sir', 'umzusetzen', 'unseren', 'viel', 'wenn', 'zu', 'zu']
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5189,8 +5838,10 @@ Focus [Test]: ['gegeben']
 Negated [Gold]: ['gegeben']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Enthusiasten', 'Es', 'einen', 'einseitigen', 'gegeben', 'hat', 'ihn', 'solch', 'wie']
-Scope [Test]: ['Enthusiasten', 'Es', 'einen', 'einseitigen', 'gegeben', 'hat', 'ihn', 'noch', 'solch', 'wie', 'wohl']
+Scope [Gold]: ['einen', 'einseitigen', 'enthusiasten', 'es', 'gegeben', 'hat', 'ihn', 'solch', 'wie']
+Scope [Test]: ['einen', 'einseitigen', 'enthusiasten', 'es', 'gegeben', 'hat', 'ihn', 'noch', 'solch', 'wie', 'wohl']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5207,6 +5858,8 @@ Negated [Test]: ['durchschaubar']
 
 Scope [Gold]: ['durchschaubar']
 Scope [Test]: ['durchschaubar']
+[1]
+[1]
 
 =========
 
@@ -5221,8 +5874,10 @@ Focus [Test]: ['es']
 Negated [Gold]: ['nimmt']
 Negated [Test]: ['ein']
 
-Scope [Gold]: ['Hobby', 'Wunder', 'dass', 'ein', 'es', 'es', 'fÃ¼r', 'ihn', 'ist', 'kostspieliges', 'nimmt']
-Scope [Test]: ['Hobby', 'Wunder', 'dass', 'ein', 'es', 'es', 'fÃ¼r', 'ihn', 'ist', 'kostspieliges', 'nimmt']
+Scope [Gold]: ['dass', 'ein', 'es', 'es', 'für', 'hobby', 'ihn', 'ist', 'kostspieliges', 'nimmt', 'wunder']
+Scope [Test]: ['dass', 'ein', 'es', 'es', 'für', 'hobby', 'ihn', 'ist', 'kostspieliges', 'nimmt', 'wunder']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -5238,7 +5893,9 @@ Negated [Gold]: ['denklichen']
 Negated [Test]: ['']
 
 Scope [Gold]: ['denklichen']
-Scope [Test]: ['Behauptung', 'Dann', 'HÃ¤nden', 'Stelle', 'Tor', 'Weg', 'Zeiten', 'an', 'dass', 'der', 'dieser', 'eigenen', 'ein', 'er', 'existiert', 'habe', 'jemandes', 'mit', 'mit', 'reiÃŸt', 'seit', 'undenklichen', 'wieder']
+Scope [Test]: ['an', 'behauptung', 'dann', 'dass', 'der', 'dieser', 'eigenen', 'ein', 'er', 'existiert', 'habe', 'händen', 'jemandes', 'mit', 'mit', 'reißt', 'seit', 'stelle', 'tor', 'undenklichen', 'weg', 'wieder', 'zeiten']
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5253,8 +5910,10 @@ Focus [Test]: ['mehr']
 Negated [Gold]: ['kann']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Schaden', 'anrichten', 'er', 'kann', 'kÃ¼nftig']
-Scope [Test]: ['Schaden', 'anrichten', 'er', 'kann', 'kÃ¼nftig', 'mehr']
+Scope [Gold]: ['anrichten', 'er', 'kann', 'künftig', 'schaden']
+Scope [Test]: ['anrichten', 'er', 'kann', 'künftig', 'mehr', 'schaden']
+[1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5270,7 +5929,9 @@ Negated [Gold]: ['wert']
 Negated [Test]: ['']
 
 Scope [Gold]: ['wertlos']
-Scope [Test]: ['Anwesenheit', 'Beweis', 'fÃ¼r', 'haben', 'seine', 'wir']
+Scope [Test]: ['anwesenheit', 'beweis', 'für', 'haben', 'seine', 'wir']
+[1, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5287,6 +5948,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -5303,6 +5966,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -5317,8 +5982,10 @@ Focus [Test]: ['ganz']
 Negated [Gold]: ['klar']
 Negated [Test]: ['sir']
 
-Scope [Gold]: ['Fragen', 'Ihrer', 'Mir', 'Morgen', 'Zweck', 'der', 'ganz', 'geworden', 'heute', 'ist', 'klar', 'von']
-Scope [Test]: ['Fragen', 'Ihrer', 'Mir', 'Morgen', 'Zweck', 'der', 'ganz', 'geworden', 'heute', 'ist', 'klar', 'von']
+Scope [Gold]: ['der', 'fragen', 'ganz', 'geworden', 'heute', 'ihrer', 'ist', 'klar', 'mir', 'morgen', 'von', 'zweck']
+Scope [Test]: ['der', 'fragen', 'ganz', 'geworden', 'heute', 'ihrer', 'ist', 'klar', 'mir', 'morgen', 'von', 'zweck']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5333,8 +6000,10 @@ Focus [Test]: ['ich']
 Negated [Gold]: ['']
 Negated [Test]: ['der']
 
-Scope [Gold]: [',', 'Meinung', 'Sie', 'Vertrauen', 'der', 'etwas', 'getan', 'habe', 'hÃ¤tte', 'ich', 'ich', 'ihr', 'irgend', 'missbraucht', 'sind', 'womit']
-Scope [Test]: ['Meinung', 'Sie', 'der', 'sind']
+Scope [Gold]: [',', 'der', 'etwas', 'getan', 'habe', 'hätte', 'ich', 'ich', 'ihr', 'irgend', 'meinung', 'missbraucht', 'sie', 'sind', 'vertrauen', 'womit']
+Scope [Test]: ['der', 'meinung', 'sie', 'sind']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -5349,8 +6018,10 @@ Focus [Test]: ['er']
 Negated [Gold]: ['war']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Fall', 'der', 'dies', 'war']
-Scope [Test]: ['Fall', 'der', 'dies', 'war']
+Scope [Gold]: ['der', 'dies', 'fall', 'war']
+Scope [Test]: ['der', 'dies', 'fall', 'war']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -5365,8 +6036,10 @@ Focus [Test]: ['wert']
 Negated [Gold]: ['']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Rede', 'Sache', 'an', 'der', 'die', 'ganze', 'sich', 'wert']
-Scope [Test]: ['Rede', 'Sache', 'an', 'der', 'die', 'doch', 'erscheint', 'fast', 'ganze', 'sich', 'wert']
+Scope [Gold]: ['an', 'der', 'die', 'ganze', 'rede', 'sache', 'sich', 'wert']
+Scope [Test]: ['an', 'der', 'die', 'doch', 'erscheint', 'fast', 'ganze', 'rede', 'sache', 'sich', 'wert']
+[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5381,8 +6054,10 @@ Focus [Test]: ['sonderlich']
 Negated [Gold]: ['habe']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Schlaf', 'habe', 'ich', 'sonderlich', 'tiefen']
-Scope [Test]: ['Schlaf', 'habe', 'ich', 'sonderlich', 'tiefen']
+Scope [Gold]: ['habe', 'ich', 'schlaf', 'sonderlich', 'tiefen']
+Scope [Test]: ['habe', 'ich', 'schlaf', 'sonderlich', 'tiefen']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -5397,8 +6072,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['hatte']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Er', 'FÃ¼ÃŸen', 'Schuhe', 'an', 'den', 'hatte']
-Scope [Test]: ['FÃ¼ÃŸen', 'Schuhe', 'an', 'den']
+Scope [Gold]: ['an', 'den', 'er', 'füßen', 'hatte', 'schuhe']
+Scope [Test]: ['an', 'den', 'füßen', 'schuhe']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0]
 
 =========
 
@@ -5415,6 +6092,8 @@ Negated [Test]: ['beschreiblich']
 
 Scope [Gold]: ['beschreiblich']
 Scope [Test]: ['beschreiblich']
+[1]
+[1]
 
 =========
 
@@ -5431,6 +6110,8 @@ Negated [Test]: ['laut']
 
 Scope [Gold]: ['lautlos']
 Scope [Test]: ['laut']
+[1]
+[0]
 
 =========
 
@@ -5447,6 +6128,8 @@ Negated [Test]: ['geduldigen']
 
 Scope [Gold]: ['geduldigen']
 Scope [Test]: ['geduldigen']
+[1]
+[1]
 
 =========
 
@@ -5455,14 +6138,16 @@ Frame: s124_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['mÃ¶glich']
-Focus [Test]: ['mÃ¶glich']
+Focus [Gold]: ['möglich']
+Focus [Test]: ['möglich']
 
-Negated [Gold]: ['mÃ¶glich']
-Negated [Test]: ['mÃ¶glich']
+Negated [Gold]: ['möglich']
+Negated [Test]: ['möglich']
 
-Scope [Gold]: ['GerÃ¤usch', 'bestimmen', 'das', 'es', 'kam', 'mir', 'mÃ¶glich', 'war', 'woher', 'zu']
-Scope [Test]: ['bestimmen', 'doch', 'es', 'mir', 'mÃ¶glich', 'war', 'zu']
+Scope [Gold]: ['bestimmen', 'das', 'es', 'geräusch', 'kam', 'mir', 'möglich', 'war', 'woher', 'zu']
+Scope [Test]: ['bestimmen', 'doch', 'es', 'mir', 'möglich', 'war', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -5477,8 +6162,10 @@ Focus [Test]: ['sagen']
 Negated [Gold]: ['kann']
 Negated [Test]: ['geht']
 
-Scope [Gold]: ['Was', 'alles', 'bedeuten', 'das', 'hat', 'ich', 'kann', 'sagen', 'zu']
+Scope [Gold]: ['alles', 'bedeuten', 'das', 'hat', 'ich', 'kann', 'sagen', 'was', 'zu']
 Scope [Test]: ['ich', 'kann', 'sagen']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -5490,11 +6177,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['nicht']
 Focus [Test]: ['meinen']
 
-Negated [Gold]: ['belÃ¤stigen']
+Negated [Gold]: ['belästigen']
 Negated [Test]: ['gebeten']
 
-Scope [Gold]: ['Ich', 'Theorien', 'belÃ¤stigen', 'dich', 'meinen', 'mit', 'werde']
-Scope [Test]: ['Ich', 'Theorien', 'ausdrÃ¼cklich', 'belÃ¤stigen', 'da', 'darum', 'dich', 'du', 'gebeten', 'hast', 'meinen', 'mich', 'mit', 'werde']
+Scope [Gold]: ['belästigen', 'dich', 'ich', 'meinen', 'mit', 'theorien', 'werde']
+Scope [Test]: ['ausdrücklich', 'belästigen', 'da', 'darum', 'dich', 'du', 'gebeten', 'hast', 'ich', 'meinen', 'mich', 'mit', 'theorien', 'werde']
+[1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5509,29 +6198,34 @@ Focus [Test]: ['sprechen']
 Negated [Gold]: ['will']
 Negated [Test]: ['sollte']
 
-Scope [Gold]: ['Jetzt', 'darÃ¼ber', 'ich', 'noch', 'sprechen', 'will']
-Scope [Test]: ['Jetzt', 'darÃ¼ber', 'ich', 'noch', 'sprechen', 'will']
+Scope [Gold]: ['darüber', 'ich', 'jetzt', 'noch', 'sprechen', 'will']
+Scope [Test]: ['darüber', 'ich', 'jetzt', 'noch', 'sprechen', 'will']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =============================
 ====== EVALUATION for: ../res/xml/test/output/tagged/baskerville_ch8.jr.xml ======
 Total Sentences: 128 
-Gold frames: 52 
-Test frames: 45 
+Negation Gold frames: 52 
+Negation Test frames: 45 
 
 ----- CUEWORDS -----
 F1 score:	 0.596153846154
 
 ----- FOCUS -----
-F1 score:	 0.326923076923
+F1 score:	 0.307692307692
 
 ----- NEGATED -----
-F1 score:	 0.269230769231
+F1 score:	 0.230769230769
 
 ----- SCOPE -----
-Precision:	 0.62
-Recall:	 0.513803921569
-F1 score:	 0.547807294793
-Jaccard similarity:	 0.427796536797
+Scope Gold frames: 50 
+Scope Test frames: 45 
+
+Precision:	 0.604735916212
+Recall:	 0.592713535714
+F1 score:	 0.571886291603
+Jaccard similarity:	 0.450168350168
 
 =========
 
@@ -5541,13 +6235,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['nicht']
-Focus [Test]: ['mÃ¶glich']
+Focus [Test]: ['möglich']
 
-Negated [Gold]: ['mÃ¶glich']
+Negated [Gold]: ['möglich']
 Negated [Test]: ['mitzuteilen']
 
-Scope [Gold]: ['Aufenthalts', 'Neuigkeiten', 'Tagen', 'den', 'dir', 'ersten', 'es', 'in', 'meines', 'mir', 'mitzuteilen', 'mÃ¶glich', 'viele', 'war']
-Scope [Test]: ['Aufenthalts', 'Tagen', 'den', 'ersten', 'es', 'in', 'meines', 'mir', 'mÃ¶glich', 'war']
+Scope [Gold]: ['aufenthalts', 'den', 'dir', 'ersten', 'es', 'in', 'meines', 'mir', 'mitzuteilen', 'möglich', 'neuigkeiten', 'tagen', 'viele', 'war']
+Scope [Test]: ['aufenthalts', 'den', 'ersten', 'es', 'in', 'meines', 'mir', 'möglich', 'tagen', 'war']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
 
 =========
 
@@ -5564,6 +6260,8 @@ Negated [Test]: ['gerechnet']
 
 Scope [Gold]: ['der', 'gerechnet', 'habe', 'ich', 'mit']
 Scope [Test]: ['der', 'gerechnet', 'habe', 'ich', 'mit']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -5579,7 +6277,9 @@ Negated [Gold]: ['']
 Negated [Test]: ['lassen']
 
 Scope [Gold]: ['auf', 'dies', 'lassen', 'sich', 'warten', 'wird']
-Scope [Test]: ['Dame', 'auf', 'die', 'dies', 'einverstanden', 'ist', 'lassen', 'sich', 'sofern', 'warten', 'wird']
+Scope [Test]: ['auf', 'dame', 'die', 'dies', 'einverstanden', 'ist', 'lassen', 'sich', 'sofern', 'warten', 'wird']
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5591,11 +6291,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['so']
 Focus [Test]: ['so']
 
-Negated [Gold]: ['lÃ¤uft']
+Negated [Gold]: ['läuft']
 Negated [Test]: ['den']
 
-Scope [Gold]: ['Liebe', 'UmstÃ¤nden', 'den', 'der', 'dÃ¼rfte', 'erwarten', 'es', 'es', 'gegebenen', 'lÃ¤uft', 'man', 'mit', 'rund', 'so', 'unter', 'wahren', 'wie']
-Scope [Test]: ['Liebe', 'der', 'doch', 'es', 'lÃ¤uft', 'mit', 'rund', 'so', 'wahren']
+Scope [Gold]: ['den', 'der', 'dürfte', 'erwarten', 'es', 'es', 'gegebenen', 'liebe', 'läuft', 'man', 'mit', 'rund', 'so', 'umständen', 'unter', 'wahren', 'wie']
+Scope [Test]: ['der', 'doch', 'es', 'liebe', 'läuft', 'mit', 'rund', 'so', 'wahren']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -5612,6 +6314,8 @@ Negated [Test]: ['erwartetes']
 
 Scope [Gold]: ['erwartetes']
 Scope [Test]: ['erwartetes']
+[1]
+[1]
 
 =========
 
@@ -5626,8 +6330,10 @@ Focus [Test]: ['allein']
 Negated [Gold]: ['soll']
 Negated [Test]: ['soll']
 
-Scope [Gold]: ['Sie', 'allein', 'ich', 'lassen', 'soll']
-Scope [Test]: ['Moor', 'Sie', 'Sie', 'allein', 'allein', 'allem', 'auf', 'das', 'dass', 'hinausgehen', 'ich', 'lassen', 'nicht', 'soll', 'sollen', 'vor']
+Scope [Gold]: ['allein', 'ich', 'lassen', 'sie', 'soll']
+Scope [Test]: ['allein', 'allein', 'allem', 'auf', 'das', 'dass', 'hinausgehen', 'ich', 'lassen', 'moor', 'nicht', 'sie', 'sie', 'soll', 'sollen', 'vor']
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5642,8 +6348,10 @@ Focus [Test]: ['allein']
 Negated [Gold]: ['sollen']
 Negated [Test]: ['das']
 
-Scope [Gold]: ['Moor', 'Sie', 'allein', 'auf', 'das', 'hinausgehen', 'sollen']
-Scope [Test]: ['Moor', 'Sie', 'allein', 'auf', 'das', 'hinausgehen', 'sollen']
+Scope [Gold]: ['allein', 'auf', 'das', 'hinausgehen', 'moor', 'sie', 'sollen']
+Scope [Test]: ['allein', 'auf', 'das', 'hinausgehen', 'moor', 'sie', 'sollen']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5655,11 +6363,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['alles']
 Focus [Test]: ['alles']
 
-Negated [Gold]: ['kÃ¶nnen']
-Negated [Test]: ['kÃ¶nnen']
+Negated [Gold]: ['können']
+Negated [Test]: ['können']
 
-Scope [Gold]: [',', 'Holmes', 'Weisheit', 'all', 'alles', 'bin', 'das', 'geschehen', 'gezogen', 'hierher', 'ich', 'in', 'ist', 'kÃ¶nnen', 'seiner', 'seit', 'voraussehen']
-Scope [Test]: ['Holmes', 'Weisheit', 'all', 'alles', 'hat', 'in', 'kÃ¶nnen', 'seiner', 'voraussehen']
+Scope [Gold]: [',', 'all', 'alles', 'bin', 'das', 'geschehen', 'gezogen', 'hierher', 'holmes', 'ich', 'in', 'ist', 'können', 'seiner', 'seit', 'voraussehen', 'weisheit']
+Scope [Test]: ['all', 'alles', 'hat', 'holmes', 'in', 'können', 'seiner', 'voraussehen', 'weisheit']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -5676,6 +6386,8 @@ Negated [Test]: ['angenehme']
 
 Scope [Gold]: ['angenehme']
 Scope [Test]: ['angenehme']
+[1]
+[1]
 
 =========
 
@@ -5690,8 +6402,10 @@ Focus [Test]: ['ich']
 Negated [Gold]: ['wusste']
 Negated [Test]: ['sollte']
 
-Scope [Gold]: ['Ich', 'ich', 'oder', 'sagen', 'sollte', 'tun', 'was', 'wusste']
-Scope [Test]: ['Ich', 'wusste']
+Scope [Gold]: ['ich', 'ich', 'oder', 'sagen', 'sollte', 'tun', 'was', 'wusste']
+Scope [Test]: ['ich', 'wusste']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -5701,13 +6415,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['']
-Focus [Test]: ['spÃ¤t']
+Focus [Test]: ['spät']
 
 Negated [Gold]: ['']
 Negated [Test]: ['einzuholen']
 
-Scope [Gold]: ['dran', 'einzuholen', 'ich', 'ihn', 'spÃ¤t', 'um', 'war', 'zu']
-Scope [Test]: ['MÃ¶glicherweise', 'dran', 'ich', 'noch', 'spÃ¤t', 'war', 'zu']
+Scope [Gold]: ['dran', 'einzuholen', 'ich', 'ihn', 'spät', 'um', 'war', 'zu']
+Scope [Test]: ['dran', 'ich', 'möglicherweise', 'noch', 'spät', 'war', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -5716,14 +6432,16 @@ Frame: 64_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['schlÃ¼ssig']
-Focus [Test]: ['schlÃ¼ssig']
+Focus [Gold]: ['schlüssig']
+Focus [Test]: ['schlüssig']
 
-Negated [Gold]: ['schlÃ¼ssig']
-Negated [Test]: ['schlÃ¼ssig']
+Negated [Gold]: ['schlüssig']
+Negated [Test]: ['schlüssig']
 
-Scope [Gold]: ['schlÃ¼ssig']
-Scope [Test]: ['schlÃ¼ssig']
+Scope [Gold]: ['schlüssig']
+Scope [Test]: ['schlüssig']
+[1]
+[1]
 
 =========
 
@@ -5738,8 +6456,10 @@ Focus [Test]: ['kleinsten']
 Negated [Gold]: ['']
 Negated [Test]: ['den']
 
-Scope [Gold]: ['Augen', 'Moment', 'aus', 'den', 'den', 'ihn', 'kleinsten', 'lassen', 'zu']
-Scope [Test]: ['Augen', 'Moment', 'aus', 'den', 'den', 'ihn', 'kleinsten', 'lassen', 'zu']
+Scope [Gold]: ['augen', 'aus', 'den', 'den', 'ihn', 'kleinsten', 'lassen', 'moment', 'zu']
+Scope [Test]: ['augen', 'aus', 'den', 'den', 'ihn', 'kleinsten', 'lassen', 'moment', 'zu']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -5754,8 +6474,10 @@ Focus [Test]: ['bessere']
 Negated [Gold]: ['fiel']
 Negated [Test]: ['']
 
-Scope [Gold]: [',', ',', 'Gewissen', 'HÃ¼gel', 'LÃ¶sung', 'als', 'aus', 'bessere', 'dadurch', 'dass', 'dem', 'ein', 'erleichtern', 'erzÃ¤hlen', 'fiel', 'getan', 'hatte', 'ich', 'ich', 'ihm', 'ihn', 'mein', 'mir', 'spÃ¤ter', 'und', 'von', 'was', 'wollte', 'zu', 'zu', 'Ã¼berwachen']
-Scope [Test]: ['HÃ¼gel', 'LÃ¶sung', 'als', 'aus', 'bessere', 'dem', 'ein', 'fiel', 'ihn', 'jedoch', 'mir', 'von', 'zu', 'Ã¼berwachen']
+Scope [Gold]: [',', ',', 'als', 'aus', 'bessere', 'dadurch', 'dass', 'dem', 'ein', 'erleichtern', 'erzählen', 'fiel', 'getan', 'gewissen', 'hatte', 'hügel', 'ich', 'ich', 'ihm', 'ihn', 'lösung', 'mein', 'mir', 'später', 'und', 'von', 'was', 'wollte', 'zu', 'zu', 'überwachen']
+Scope [Test]: ['als', 'aus', 'bessere', 'dem', 'ein', 'fiel', 'hügel', 'ihn', 'jedoch', 'lösung', 'mir', 'von', 'zu', 'überwachen']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -5772,6 +6494,8 @@ Negated [Test]: ['mittelbar']
 
 Scope [Gold]: ['mittelbar']
 Scope [Test]: ['mittelbar']
+[1]
+[1]
 
 =========
 
@@ -5788,6 +6512,8 @@ Negated [Test]: ['konnte']
 
 Scope [Gold]: ['ich', 'konnte', 'mehr', 'tun']
 Scope [Test]: ['ich', 'konnte', 'mehr', 'tun']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -5802,8 +6528,10 @@ Focus [Test]: ['einzige']
 Negated [Gold]: ['zeuge']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Zeuge', 'Zusammenseins', 'der', 'einzige', 'ich', 'ihres', 'war']
-Scope [Test]: ['Zeuge', 'Zusammenseins', 'der', 'einzige', 'ich', 'ihres', 'war']
+Scope [Gold]: ['der', 'einzige', 'ich', 'ihres', 'war', 'zeuge', 'zusammenseins']
+Scope [Test]: ['der', 'einzige', 'ich', 'ihres', 'war', 'zeuge', 'zusammenseins']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5820,6 +6548,8 @@ Negated [Test]: ['ebenen']
 
 Scope [Gold]: ['ebenen']
 Scope [Test]: ['ebenen']
+[1]
+[1]
 
 =========
 
@@ -5834,8 +6564,10 @@ Focus [Test]: ['vorstellen']
 Negated [Gold]: ['konnte']
 Negated [Test]: ['schien']
 
-Scope [Gold]: ['Schauspiel', 'Was', 'bedeuten', 'das', 'hatte', 'ich', 'konnte', 'mir', 'vorstellen', 'zu']
+Scope [Gold]: ['bedeuten', 'das', 'hatte', 'ich', 'konnte', 'mir', 'schauspiel', 'vorstellen', 'was', 'zu']
 Scope [Test]: ['ich', 'konnte', 'mir', 'vorstellen']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -5852,6 +6584,8 @@ Negated [Test]: ['einging']
 
 Scope [Gold]: ['andere', 'darauf', 'der', 'einging']
 Scope [Test]: ['andere', 'darauf', 'der', 'einging']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -5868,6 +6602,8 @@ Negated [Test]: ['entschlossenen']
 
 Scope [Gold]: ['entschlossenen']
 Scope [Test]: ['entschlossenen']
+[1]
+[1]
 
 =========
 
@@ -5880,10 +6616,12 @@ Focus [Gold]: ['nicht']
 Focus [Test]: ['klar']
 
 Negated [Gold]: ['klar']
-Negated [Test]: ['schÃ¤mte']
+Negated [Test]: ['schämte']
 
-Scope [Gold]: ['Bedeutung', 'Die', 'all', 'dem', 'klar', 'mir', 'von', 'war']
-Scope [Test]: ['Bedeutung', 'Die', 'all', 'dem', 'klar', 'mir', 'von', 'war']
+Scope [Gold]: ['all', 'bedeutung', 'dem', 'die', 'klar', 'mir', 'von', 'war']
+Scope [Test]: ['all', 'bedeutung', 'dem', 'die', 'klar', 'mir', 'von', 'war']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5898,8 +6636,10 @@ Focus [Test]: ['sagen']
 Negated [Gold]: ['']
 Negated [Test]: ['gefolgt']
 
-Scope [Gold]: ['Sie', 'Sie', 'allem', 'dass', 'gefolgt', 'mir', 'sagen', 'sind', 'trotz', 'wollen']
-Scope [Test]: ['Sie', 'Sie', 'allem', 'dass', 'doch', 'gefolgt', 'mir', 'sagen', 'sind', 'trotz', 'wohl', 'wollen']
+Scope [Gold]: ['allem', 'dass', 'gefolgt', 'mir', 'sagen', 'sie', 'sie', 'sind', 'trotz', 'wollen']
+Scope [Test]: ['allem', 'dass', 'doch', 'gefolgt', 'mir', 'sagen', 'sie', 'sie', 'sind', 'trotz', 'wohl', 'wollen']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5908,14 +6648,16 @@ Frame: s99_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['wÃ¼sste']
+Focus [Gold]: ['wüsste']
 Focus [Test]: ['dass']
 
-Negated [Gold]: ['wÃ¼sste']
-Negated [Test]: ['wÃ¼sste']
+Negated [Gold]: ['wüsste']
+Negated [Test]: ['wüsste']
 
-Scope [Gold]: ['dass', 'ich', 'wÃ¼sste']
-Scope [Test]: ['dass', 'ich', 'wÃ¼sste']
+Scope [Gold]: ['dass', 'ich', 'wüsste']
+Scope [Test]: ['dass', 'ich', 'wüsste']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -5930,8 +6672,10 @@ Focus [Test]: ['mir']
 Negated [Gold]: ['']
 Negated [Test]: ['stimmt']
 
-Scope [Gold]: ['Was', 'mir', 'mit', 'stimmt']
-Scope [Test]: ['Was', 'denn', 'mir', 'mit', 'stimmt']
+Scope [Gold]: ['mir', 'mit', 'stimmt', 'was']
+Scope [Test]: ['denn', 'mir', 'mit', 'stimmt', 'was']
+[1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -5947,7 +6691,9 @@ Negated [Gold]: ['']
 Negated [Test]: ['wissens']
 
 Scope [Gold]: ['']
-Scope [Test]: ['Meines', 'Wissens']
+Scope [Test]: ['meines', 'wissens']
+[0, 0]
+[1, 1]
 
 =========
 
@@ -5959,11 +6705,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['']
 Focus [Test]: ['meine']
 
-Negated [Gold]: ['kÃ¶nnen']
-Negated [Test]: ['kÃ¶nnen']
+Negated [Gold]: ['können']
+Negated [Test]: ['können']
 
-Scope [Gold]: ['Da', 'VerhÃ¤ltnisse', 'es', 'finanziellen', 'kÃ¶nnen', 'meine', 'sein']
-Scope [Test]: ['VerhÃ¤ltnisse', 'es', 'finanziellen', 'kÃ¶nnen', 'meine', 'sein']
+Scope [Gold]: ['da', 'es', 'finanziellen', 'können', 'meine', 'sein', 'verhältnisse']
+Scope [Test]: ['es', 'finanziellen', 'können', 'meine', 'sein', 'verhältnisse']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -5972,14 +6720,16 @@ Frame: 109_f1
 Target [Gold]: ['niemals']
 Target [Test]: ['niemals']
 
-Focus [Gold]: ['zugefÃ¼gt']
-Focus [Test]: ['zugefÃ¼gt']
+Focus [Gold]: ['zugefügt']
+Focus [Test]: ['zugefügt']
 
-Negated [Gold]: ['zugefÃ¼gt']
+Negated [Gold]: ['zugefügt']
 Negated [Test]: ['']
 
-Scope [Gold]: ['BÃ¶ses', 'Frau', 'Ich', 'Leben', 'Mann', 'einem', 'einer', 'habe', 'in', 'meinem', 'niemals', 'oder', 'zugefÃ¼gt']
-Scope [Test]: ['BÃ¶ses', 'Frau', 'Ich', 'Leben', 'Mann', 'einem', 'einer', 'habe', 'ich', 'in', 'meinem', 'oder', 'soviel', 'weiÃŸ', 'zugefÃ¼gt']
+Scope [Gold]: ['böses', 'einem', 'einer', 'frau', 'habe', 'ich', 'in', 'leben', 'mann', 'meinem', 'niemals', 'oder', 'zugefügt']
+Scope [Test]: ['böses', 'einem', 'einer', 'frau', 'habe', 'ich', 'ich', 'in', 'leben', 'mann', 'meinem', 'oder', 'soviel', 'weiß', 'zugefügt']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -5992,10 +6742,12 @@ Focus [Gold]: ['']
 Focus [Test]: ['einmal']
 
 Negated [Gold]: ['will']
-Negated [Test]: ['berÃ¼hre']
+Negated [Test]: ['berühre']
 
-Scope [Gold]: ['berÃ¼hre', 'dass', 'einmal', 'er', 'ich', 'sie', 'will', 'zulassen']
-Scope [Test]: ['berÃ¼hre', 'dass', 'doch', 'einmal', 'er', 'ich', 'sie', 'will', 'zulassen']
+Scope [Gold]: ['berühre', 'dass', 'einmal', 'er', 'ich', 'sie', 'will', 'zulassen']
+Scope [Test]: ['berühre', 'dass', 'doch', 'einmal', 'er', 'ich', 'sie', 'will', 'zulassen']
+[1, 1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6010,8 +6762,10 @@ Focus [Test]: ['gegeben']
 Negated [Gold]: ['gegeben']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Gelegenheit', 'er', 'gegeben', 'hat', 'uns']
-Scope [Test]: ['Gelegenheit', 'dazu', 'er', 'gegeben', 'hat', 'uns']
+Scope [Gold]: ['er', 'gegeben', 'gelegenheit', 'hat', 'uns']
+Scope [Test]: ['dazu', 'er', 'gegeben', 'gelegenheit', 'hat', 'uns']
+[1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6021,13 +6775,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['liebe']
-Focus [Test]: ['Ã¼ber']
+Focus [Test]: ['über']
 
 Negated [Gold]: ['wollte']
 Negated [Test]: ['wollte']
 
-Scope [Gold]: ['Liebe', 'davon', 'hÃ¶ren', 'mich', 'mir', 'mit', 'oder', 'reden', 'sie', 'sprechen', 'wollte', 'Ã¼ber']
-Scope [Test]: ['Liebe', 'davon', 'hÃ¶ren', 'mich', 'mir', 'mit', 'oder', 'reden', 'sie', 'sprechen', 'wollte', 'Ã¼ber']
+Scope [Gold]: ['davon', 'hören', 'liebe', 'mich', 'mir', 'mit', 'oder', 'reden', 'sie', 'sprechen', 'wollte', 'über']
+Scope [Test]: ['davon', 'hören', 'liebe', 'mich', 'mir', 'mit', 'oder', 'reden', 'sie', 'sprechen', 'wollte', 'über']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6037,13 +6793,15 @@ Target [Gold]: ['niemals']
 Target [Test]: ['niemals']
 
 Focus [Gold]: ['']
-Focus [Test]: ['glÃ¼cklich']
+Focus [Test]: ['glücklich']
 
-Negated [Gold]: ['kÃ¶nne']
+Negated [Gold]: ['könne']
 Negated [Test]: ['']
 
-Scope [Gold]: ['glÃ¼cklich', 'kÃ¶nne', 'niemals', 'sein', 'sie']
-Scope [Test]: ['abgereist', 'bis', 'glÃ¼cklich', 'ich', 'kÃ¶nne', 'sei', 'sein', 'sie']
+Scope [Gold]: ['glücklich', 'könne', 'niemals', 'sein', 'sie']
+Scope [Test]: ['abgereist', 'bis', 'glücklich', 'ich', 'könne', 'sei', 'sein', 'sie']
+[1, 1, 1, 1, 1, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6056,10 +6814,12 @@ Focus [Gold]: ['']
 Focus [Test]: ['ihr']
 
 Negated [Gold]: ['']
-Negated [Test]: ['hÃ¤tte']
+Negated [Test]: ['hätte']
 
-Scope [Gold]: ['Bruder', 'WÃ¤re', 'er', 'ihr']
-Scope [Test]: ['Bruder', 'WÃ¤re', 'er', 'ihr']
+Scope [Gold]: ['bruder', 'er', 'ihr', 'wäre']
+Scope [Test]: ['bruder', 'er', 'ihr', 'wäre']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -6069,13 +6829,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['']
-Focus [Test]: ['schÃ¤men']
+Focus [Test]: ['schämen']
 
 Negated [Gold]: ['brauchte']
 Negated [Test]: ['brauchte']
 
-Scope [Gold]: ['brauchte', 'derer', 'ich', 'mich', 'schÃ¤men', 'zu']
-Scope [Test]: ['brauchte', 'derer', 'ich', 'mich', 'schÃ¤men', 'zu']
+Scope [Gold]: ['brauchte', 'derer', 'ich', 'mich', 'schämen', 'zu']
+Scope [Test]: ['brauchte', 'derer', 'ich', 'mich', 'schämen', 'zu']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6092,6 +6854,8 @@ Negated [Test]: ['rat']
 
 Scope [Gold]: ['ratlos']
 Scope [Test]: ['rat']
+[1]
+[0]
 
 =========
 
@@ -6106,8 +6870,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['stehe']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Grafschaft', 'dieser', 'hier', 'ich', 'in', 'ratlos', 'so', 'sonst', 'stehe', 'wie']
-Scope [Test]: ['Grafschaft', 'dieser', 'hier', 'ich', 'in', 'ratlos', 'so', 'sonst', 'stehe', 'wie']
+Scope [Gold]: ['dieser', 'grafschaft', 'hier', 'ich', 'in', 'ratlos', 'so', 'sonst', 'stehe', 'wie']
+Scope [Test]: ['dieser', 'grafschaft', 'hier', 'ich', 'in', 'ratlos', 'so', 'sonst', 'stehe', 'wie']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6124,6 +6890,8 @@ Negated [Test]: ['rat']
 
 Scope [Gold]: ['ratlos']
 Scope [Test]: ['rat']
+[1]
+[0]
 
 =========
 
@@ -6133,13 +6901,15 @@ Target [Gold]: ['nichts']
 Target [Test]: ['nichts']
 
 Focus [Gold]: ['nichts']
-Focus [Test]: ['wÃ¤re']
+Focus [Test]: ['wäre']
 
 Negated [Gold]: ['fiel']
 Negated [Test]: ['']
 
 Scope [Gold]: ['ein', 'fiel', 'gegen', 'ihn', 'mir']
 Scope [Test]: ['ein', 'fiel', 'gegen', 'ihn', 'mir']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -6152,10 +6922,12 @@ Focus [Gold]: ['']
 Focus [Test]: ['dunkle']
 
 Negated [Gold]: ['']
-Negated [Test]: ['Ã¼ber']
+Negated [Test]: ['über']
 
-Scope [Gold]: [',', 'Familie', 'VerhÃ¤ngnis', 'da', 'das', 'dieses', 'dunkle', 'schwebte', 'seiner', 'wÃ¤re', 'Ã¼ber']
-Scope [Test]: ['VerhÃ¤ngnis', 'da', 'dieses', 'dunkle', 'wÃ¤re']
+Scope [Gold]: [',', 'da', 'das', 'dieses', 'dunkle', 'familie', 'schwebte', 'seiner', 'verhängnis', 'wäre', 'über']
+Scope [Test]: ['da', 'dieses', 'dunkle', 'verhängnis', 'wäre']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -6168,10 +6940,12 @@ Focus [Gold]: ['']
 Focus [Test]: ['er']
 
 Negated [Gold]: ['sage']
-Negated [Test]: ['verrÃ¼ckt']
+Negated [Test]: ['verrückt']
 
-Scope [Gold]: ['Ich', 'dass', 'er', 'ist', 'jetzt', 'nicht', 'sage', 'verrÃ¼ckt']
-Scope [Test]: ['Ich', 'dass', 'er', 'ist', 'jetzt', 'nicht', 'sage', 'verrÃ¼ckt']
+Scope [Gold]: ['dass', 'er', 'ich', 'ist', 'jetzt', 'nicht', 'sage', 'verrückt']
+Scope [Test]: ['dass', 'er', 'ich', 'ist', 'jetzt', 'nicht', 'sage', 'verrückt']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6181,13 +6955,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['nicht']
-Focus [Test]: ['verrÃ¼ckt']
+Focus [Test]: ['verrückt']
 
-Negated [Gold]: ['verrÃ¼ckt']
-Negated [Test]: ['verrÃ¼ckt']
+Negated [Gold]: ['verrückt']
+Negated [Test]: ['verrückt']
 
-Scope [Gold]: ['er', 'ist', 'verrÃ¼ckt']
-Scope [Test]: ['er', 'ist', 'verrÃ¼ckt']
+Scope [Gold]: ['er', 'ist', 'verrückt']
+Scope [Test]: ['er', 'ist', 'verrückt']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -6202,8 +6978,10 @@ Focus [Test]: ['vergessen']
 Negated [Gold]: ['vergessen']
 Negated [Test]: ['losging']
 
-Scope [Gold]: ['Augen', 'Blick', 'Ich', 'Morgen', 'als', 'auf', 'den', 'er', 'heute', 'in', 'losging', 'mich', 'seinen', 'vergessen', 'werde']
-Scope [Test]: ['Augen', 'Blick', 'Ich', 'Morgen', 'als', 'auf', 'den', 'er', 'heute', 'in', 'losging', 'mich', 'seinen', 'vergessen', 'werde']
+Scope [Gold]: ['als', 'auf', 'augen', 'blick', 'den', 'er', 'heute', 'ich', 'in', 'losging', 'mich', 'morgen', 'seinen', 'vergessen', 'werde']
+Scope [Test]: ['als', 'auf', 'augen', 'blick', 'den', 'er', 'heute', 'ich', 'in', 'losging', 'mich', 'morgen', 'seinen', 'vergessen', 'werde']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6213,13 +6991,15 @@ Target [Gold]: ['niemand']
 Target [Test]: ['niemand']
 
 Focus [Gold]: ['niemand']
-Focus [Test]: ['kÃ¶nnte']
+Focus [Test]: ['könnte']
 
-Negated [Gold]: ['kÃ¶nnte']
+Negated [Gold]: ['könnte']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Entschuldigung', 'als', 'eine', 'er', 'hervorbringen', 'kÃ¶nnte', 'niemand', 'vollendetere']
-Scope [Test]: ['Entschuldigung', 'als', 'eine', 'er', 'hervorbringen', 'kÃ¶nnte', 'vollendetere']
+Scope [Gold]: ['als', 'eine', 'entschuldigung', 'er', 'hervorbringen', 'könnte', 'niemand', 'vollendetere']
+Scope [Test]: ['als', 'eine', 'entschuldigung', 'er', 'hervorbringen', 'könnte', 'vollendetere']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -6234,8 +7014,10 @@ Focus [Test]: ['dass']
 Negated [Gold]: ['hat']
 Negated [Test]: ['']
 
-Scope [Gold]: ['auÃŸer', 'der', 'hat', 'ihr', 'niemanden']
-Scope [Test]: ['Gedanke', 'auÃŸer', 'dass', 'der', 'der', 'hat', 'ihr', 'so']
+Scope [Gold]: ['außer', 'der', 'hat', 'ihr', 'niemanden']
+Scope [Test]: ['außer', 'dass', 'der', 'der', 'gedanke', 'hat', 'ihr', 'so']
+[1, 1, 1, 1, 1, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6250,8 +7032,10 @@ Focus [Test]: ['bemerkt']
 Negated [Gold]: ['bemerkt']
 Negated [Test]: ['bemerkt']
 
-Scope [Gold]: ['Er', 'bemerkt', 'dass', 'hat', 'ich', 'in', 'mich', 'sie', 'verliebte']
-Scope [Test]: ['Er', 'bemerkt', 'hat']
+Scope [Gold]: ['bemerkt', 'dass', 'er', 'hat', 'ich', 'in', 'mich', 'sie', 'verliebte']
+Scope [Test]: ['bemerkt', 'er', 'hat']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -6268,6 +7052,8 @@ Negated [Test]: ['wusste']
 
 Scope [Gold]: ['er', 'er', 'mehr', 'sagte', 'was', 'wusste', 'zeitweise']
 Scope [Test]: ['er', 'mehr', 'wusste', 'zeitweise']
+[1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -6276,14 +7062,16 @@ Frame: 148_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['enttÃ¤uscht']
-Focus [Test]: ['enttÃ¤uscht']
+Focus [Gold]: ['enttäuscht']
+Focus [Test]: ['enttäuscht']
 
-Negated [Gold]: ['enttÃ¤uscht']
-Negated [Test]: ['enttÃ¤uscht']
+Negated [Gold]: ['enttäuscht']
+Negated [Test]: ['enttäuscht']
 
-Scope [Gold]: ['Vertreter', 'als', 'dein', 'dich', 'enttÃ¤uscht', 'ich']
-Scope [Test]: ['Vertreter', 'als', 'dein', 'dich', 'enttÃ¤uscht', 'ich']
+Scope [Gold]: ['als', 'dein', 'dich', 'enttäuscht', 'ich', 'vertreter']
+Scope [Test]: ['als', 'dein', 'dich', 'enttäuscht', 'ich', 'vertreter']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6298,8 +7086,10 @@ Focus [Test]: ['erfahren']
 Negated [Gold]: ['erfahren']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Nacht', 'der', 'erfahren', 'ersten', 'haben', 'in', 'nichts', 'wir']
-Scope [Test]: ['Nacht', 'der', 'erfahren', 'ersten', 'gar', 'haben', 'in', 'wir']
+Scope [Gold]: ['der', 'erfahren', 'ersten', 'haben', 'in', 'nacht', 'nichts', 'wir']
+Scope [Test]: ['der', 'erfahren', 'ersten', 'gar', 'haben', 'in', 'nacht', 'wir']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -6311,11 +7101,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['geringsten']
 Focus [Test]: ['geringsten']
 
-Negated [Gold]: ['hÃ¶rten']
+Negated [Gold]: ['hörten']
 Negated [Test]: ['den']
 
-Scope [Gold]: ['Laut', 'Schlagen', 'Treppe', 'Uhr', 'abgesehen', 'auf', 'den', 'der', 'der', 'geringsten', 'hÃ¶rten', 'vom', 'wir']
-Scope [Test]: ['Laut', 'Schlagen', 'Treppe', 'Uhr', 'abgesehen', 'auf', 'den', 'der', 'der', 'geringsten', 'hÃ¶rten', 'vom', 'wir']
+Scope [Gold]: ['abgesehen', 'auf', 'den', 'der', 'der', 'geringsten', 'hörten', 'laut', 'schlagen', 'treppe', 'uhr', 'vom', 'wir']
+Scope [Test]: ['abgesehen', 'auf', 'den', 'der', 'der', 'geringsten', 'hörten', 'laut', 'schlagen', 'treppe', 'uhr', 'vom', 'wir']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
 
 =========
 
@@ -6331,7 +7123,9 @@ Negated [Gold]: ['entmutigt']
 Negated [Test]: ['unternahmen']
 
 Scope [Gold]: ['das', 'entmutigt', 'hat', 'uns']
-Scope [Test]: ['GlÃ¼cklicherweise', 'das', 'entmutigt', 'hat', 'uns']
+Scope [Test]: ['das', 'entmutigt', 'glücklicherweise', 'hat', 'uns']
+[1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -6348,6 +7142,8 @@ Negated [Test]: ['glaublich']
 
 Scope [Gold]: ['glaublich']
 Scope [Test]: ['glaublich']
+[1]
+[1]
 
 =========
 
@@ -6364,6 +7160,8 @@ Negated [Test]: ['vorstellbar']
 
 Scope [Gold]: ['vorstellbar']
 Scope [Test]: ['vorstellbar']
+[1]
+[1]
 
 =========
 
@@ -6373,13 +7171,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['nicht']
-Focus [Test]: ['hÃ¶rte']
+Focus [Test]: ['hörte']
 
-Negated [Gold]: ['hÃ¶rte']
-Negated [Test]: ['hÃ¶rte']
+Negated [Gold]: ['hörte']
+Negated [Test]: ['hörte']
 
-Scope [Gold]: ['er', 'hÃ¶rte', 'uns']
-Scope [Test]: ['er', 'hÃ¶rte', 'uns']
+Scope [Gold]: ['er', 'hörte', 'uns']
+Scope [Test]: ['er', 'hörte', 'uns']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -6389,13 +7189,15 @@ Target [Gold]: ['keinen']
 Target [Test]: ['keinen']
 
 Focus [Gold]: ['keinen']
-Focus [Test]: ['fÃ¼r']
+Focus [Test]: ['für']
 
 Negated [Gold]: ['hatten']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Plan', 'Vorgehen', 'fÃ¼r', 'hatten', 'unser', 'weiteres', 'wir']
-Scope [Test]: ['Plan', 'Vorgehen', 'Zwar', 'fÃ¼r', 'hatten', 'unser', 'weiteres', 'wir']
+Scope [Gold]: ['für', 'hatten', 'plan', 'unser', 'vorgehen', 'weiteres', 'wir']
+Scope [Test]: ['für', 'hatten', 'plan', 'unser', 'vorgehen', 'weiteres', 'wir', 'zwar']
+[1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6412,6 +7214,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -6423,11 +7227,13 @@ Target [Test]: ['keine']
 Focus [Gold]: ['keine']
 Focus [Test]: ['']
 
-Negated [Gold]: ['lÃ¼gen']
+Negated [Gold]: ['lügen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['LÃ¼gen']
-Scope [Test]: ['LÃ¼gen']
+Scope [Gold]: ['lügen']
+Scope [Test]: ['lügen']
+[1]
+[1]
 
 =========
 
@@ -6442,8 +7248,10 @@ Focus [Test]: ['geschadet']
 Negated [Gold]: ['geschadet']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ich', 'geschadet', 'habe', 'niemandem']
-Scope [Test]: ['Ich', 'geschadet', 'habe']
+Scope [Gold]: ['geschadet', 'habe', 'ich', 'niemandem']
+Scope [Test]: ['geschadet', 'habe', 'ich']
+[1, 1, 1, 1]
+[1, 1, 1, 0]
 
 =========
 
@@ -6458,8 +7266,10 @@ Focus [Test]: ['sir']
 Negated [Gold]: ['fragen']
 Negated [Test]: ['fragen']
 
-Scope [Gold]: ['Fragen', 'Sie', 'mich']
-Scope [Test]: ['Fragen', 'Sie', 'mich']
+Scope [Gold]: ['fragen', 'mich', 'sie']
+Scope [Test]: ['fragen', 'mich', 'sie']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -6474,8 +7284,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['fragen']
 Negated [Test]: ['fragen']
 
-Scope [Gold]: ['Sie', 'fragen', 'mich']
-Scope [Test]: ['Sie', 'fragen', 'mich']
+Scope [Gold]: ['fragen', 'mich', 'sie']
+Scope [Test]: ['fragen', 'mich', 'sie']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -6490,8 +7302,10 @@ Focus [Test]: ['mein']
 Negated [Gold]: ['geheimnis']
 Negated [Test]: ['verraten']
 
-Scope [Gold]: ['Geheimnis', 'dies', 'ist', 'mein']
-Scope [Test]: ['Geheimnis', 'dies', 'ist', 'mein']
+Scope [Gold]: ['dies', 'geheimnis', 'ist', 'mein']
+Scope [Test]: ['dies', 'geheimnis', 'ist', 'mein']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -6508,6 +7322,8 @@ Negated [Test]: ['verraten']
 
 Scope [Gold]: ['daher', 'darf', 'es', 'ich', 'verraten']
 Scope [Test]: ['daher', 'darf', 'es', 'ich', 'verraten']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -6520,10 +7336,12 @@ Focus [Gold]: ['verbergen']
 Focus [Test]: ['verbergen']
 
 Negated [Gold]: ['']
-Negated [Test]: ['wÃ¼rde']
+Negated [Test]: ['würde']
 
-Scope [Gold]: ['Ihnen', 'es', 'ich', 'verbergen', 'vor', 'wÃ¼rde']
-Scope [Test]: ['Ihnen', 'es', 'ich', 'verbergen', 'vor', 'wÃ¼rde']
+Scope [Gold]: ['es', 'ich', 'ihnen', 'verbergen', 'vor', 'würde']
+Scope [Test]: ['es', 'ich', 'ihnen', 'verbergen', 'vor', 'würde']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6540,6 +7358,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -6556,6 +7376,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['das', 'ist', 'nichts']
 Scope [Test]: []
+[1, 1, 1]
+[0, 0, 0]
 
 =========
 
@@ -6570,8 +7392,10 @@ Focus [Test]: ['fiel']
 Negated [Gold]: ['ist']
 Negated [Test]: ['']
 
-Scope [Gold]: ['das', 'ist', 'nichts', 'Ã¼berhaupt']
+Scope [Gold]: ['das', 'ist', 'nichts', 'überhaupt']
 Scope [Test]: ['das', 'ist']
+[1, 1, 1, 1]
+[1, 1, 0, 0]
 
 =========
 
@@ -6587,7 +7411,9 @@ Negated [Gold]: ['']
 Negated [Test]: ['']
 
 Scope [Gold]: ['']
-Scope [Test]: ['das', 'ist', 'nichts', 'Ã¼berhaupt', 'â€“']
+Scope [Test]: ['das', 'ist', 'nichts', 'überhaupt', '–']
+[0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -6602,8 +7428,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['geht']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Das', 'Sie', 'an', 'geht', 'nichts']
-Scope [Test]: ['Sie', 'an', 'geht']
+Scope [Gold]: ['an', 'das', 'geht', 'nichts', 'sie']
+Scope [Test]: ['an', 'geht', 'sie']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0]
 
 =========
 
@@ -6618,8 +7446,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['sagen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ich', 'gar', 'nichts', 'sagen', 'werde']
-Scope [Test]: ['Ich', 'gar', 'sagen', 'werde']
+Scope [Gold]: ['gar', 'ich', 'nichts', 'sagen', 'werde']
+Scope [Test]: ['gar', 'ich', 'sagen', 'werde']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0]
 
 =========
 
@@ -6634,8 +7464,10 @@ Focus [Test]: ['']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Sie', 'gegen']
+Scope [Gold]: ['gegen', 'sie']
 Scope [Test]: []
+[1, 1]
+[0, 0]
 
 =========
 
@@ -6652,6 +7484,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -6661,13 +7495,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['']
-Focus [Test]: ['bestÃ¼rzte']
+Focus [Test]: ['bestürzte']
 
 Negated [Gold]: ['']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Ausdruck', 'Gesicht', 'auf', 'bestÃ¼rzte', 'da', 'der', 'ihrem', 'wÃ¤re']
-Scope [Test]: ['Ausdruck', 'Gesicht', 'auf', 'bestÃ¼rzte', 'da', 'der', 'ihrem', 'wÃ¤re']
+Scope [Gold]: ['auf', 'ausdruck', 'bestürzte', 'da', 'der', 'gesicht', 'ihrem', 'wäre']
+Scope [Test]: ['auf', 'ausdruck', 'bestürzte', 'da', 'der', 'gesicht', 'ihrem', 'wäre']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6683,7 +7519,9 @@ Negated [Gold]: ['getan']
 Negated [Test]: ['']
 
 Scope [Gold]: ['als', 'darum', 'gebeten', 'getan', 'habe', 'helfen', 'ich', 'ihn', 'mir', 'weil', 'zu']
-Scope [Test]: ['Er', 'getan', 'hat']
+Scope [Test]: ['er', 'getan', 'hat']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -6692,14 +7530,16 @@ Frame: 221_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['unglÃ¼cklicher']
-Focus [Test]: ['glÃ¼cklicher']
+Focus [Gold]: ['unglücklicher']
+Focus [Test]: ['glücklicher']
 
-Negated [Gold]: ['glÃ¼cklicher']
-Negated [Test]: ['glÃ¼cklicher']
+Negated [Gold]: ['glücklicher']
+Negated [Test]: ['glücklicher']
 
-Scope [Gold]: ['glÃ¼cklicher']
-Scope [Test]: ['glÃ¼cklicher']
+Scope [Gold]: ['glücklicher']
+Scope [Test]: ['glücklicher']
+[1]
+[1]
 
 =========
 
@@ -6708,14 +7548,16 @@ Frame: 222_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['kÃ¶nnen']
+Focus [Gold]: ['können']
 Focus [Test]: ['unserer']
 
-Negated [Gold]: ['kÃ¶nnen']
-Negated [Test]: ['kÃ¶nnen']
+Negated [Gold]: ['können']
+Negated [Test]: ['können']
 
-Scope [Gold]: ['TÃ¼r', 'Wir', 'kÃ¶nnen', 'lassen', 'sterben', 'unserer', 'vor']
-Scope [Test]: ['TÃ¼r', 'Wir', 'doch', 'ihn', 'kÃ¶nnen', 'lassen', 'sterben', 'unserer', 'vor']
+Scope [Gold]: ['können', 'lassen', 'sterben', 'tür', 'unserer', 'vor', 'wir']
+Scope [Test]: ['doch', 'ihn', 'können', 'lassen', 'sterben', 'tür', 'unserer', 'vor', 'wir']
+[1, 1, 1, 1, 1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6730,8 +7572,10 @@ Focus [Test]: ['mein']
 Negated [Gold]: ['geheimnis']
 Negated [Test]: ['konnte']
 
-Scope [Gold]: ['Geheimnis', 'es', 'mein', 'war']
-Scope [Test]: ['Geheimnis', 'es', 'mein', 'war']
+Scope [Gold]: ['es', 'geheimnis', 'mein', 'war']
+Scope [Test]: ['es', 'geheimnis', 'mein', 'war']
+[1, 1, 1, 1]
+[1, 1, 1, 1]
 
 =========
 
@@ -6740,14 +7584,16 @@ Frame: 227_f2
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['erzÃ¤hlen']
-Focus [Test]: ['erzÃ¤hlen']
+Focus [Gold]: ['erzählen']
+Focus [Test]: ['erzählen']
 
 Negated [Gold]: ['konnte']
 Negated [Test]: ['konnte']
 
-Scope [Gold]: ['Ihnen', 'erzÃ¤hlen', 'es', 'ich', 'konnte']
-Scope [Test]: ['Ihnen', 'daher', 'erzÃ¤hlen', 'es', 'ich', 'konnte']
+Scope [Gold]: ['erzählen', 'es', 'ich', 'ihnen', 'konnte']
+Scope [Test]: ['daher', 'erzählen', 'es', 'ich', 'ihnen', 'konnte']
+[1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6762,8 +7608,10 @@ Focus [Test]: ['sie']
 Negated [Gold]: ['gerichtet']
 Negated [Test]: ['gerichtet']
 
-Scope [Gold]: ['Sie', 'VerschwÃ¶rung', 'die', 'gegen', 'gerichtet', 'war']
-Scope [Test]: ['Sie', 'gegen', 'gerichtet', 'war']
+Scope [Gold]: ['die', 'gegen', 'gerichtet', 'sie', 'verschwörung', 'war']
+Scope [Test]: ['gegen', 'gerichtet', 'sie', 'war']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0]
 
 =========
 
@@ -6776,10 +7624,12 @@ Focus [Gold]: ['versagen']
 Focus [Test]: ['versagen']
 
 Negated [Gold]: ['versagen']
-Negated [Test]: ['wÃ¼rde']
+Negated [Test]: ['würde']
 
-Scope [Gold]: ['Hilfe', 'ihm', 'meine', 'versagen', 'wÃ¼rde']
-Scope [Test]: ['Hilfe', 'ihm', 'meine', 'versagen', 'wÃ¼rde']
+Scope [Gold]: ['hilfe', 'ihm', 'meine', 'versagen', 'würde']
+Scope [Test]: ['hilfe', 'ihm', 'meine', 'versagen', 'würde']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -6796,6 +7646,8 @@ Negated [Test]: ['konnten']
 
 Scope [Gold]: ['allein', 'ihn', 'konnten', 'lassen', 'wir']
 Scope [Test]: ['allein', 'ihn', 'konnten', 'lassen', 'wir']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -6807,11 +7659,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['']
 Focus [Test]: ['meinem']
 
-Negated [Gold]: ['mÃ¼ssen']
+Negated [Gold]: ['müssen']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Ehemann', 'Sie', 'alles', 'der', 'getan', 'hat', 'meinem', 'meinetwillen', 'mir', 'mÃ¼ssen', 'um']
-Scope [Test]: ['Ehemann', 'alles', 'der', 'getan', 'hat', 'meinem', 'meinetwillen', 'um']
+Scope [Gold]: ['alles', 'der', 'ehemann', 'getan', 'hat', 'meinem', 'meinetwillen', 'mir', 'müssen', 'sie', 'um']
+Scope [Test]: ['alles', 'der', 'ehemann', 'getan', 'hat', 'meinem', 'meinetwillen', 'um']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0]
 
 =========
 
@@ -6826,8 +7680,10 @@ Focus [Test]: ['vorwerfen']
 Negated [Gold]: ['kann']
 Negated [Test]: ['gestanden']
 
-Scope [Gold]: ['Frau', 'Ihnen', 'Ihrer', 'Seite', 'Sie', 'dass', 'gestanden', 'haben', 'ich', 'kann', 'vorwerfen', 'zur']
-Scope [Test]: ['Frau', 'Ihnen', 'Ihrer', 'Seite', 'Sie', 'dass', 'gestanden', 'haben', 'ich', 'kann', 'vorwerfen', 'zur']
+Scope [Gold]: ['dass', 'frau', 'gestanden', 'haben', 'ich', 'ihnen', 'ihrer', 'kann', 'seite', 'sie', 'vorwerfen', 'zur']
+Scope [Test]: ['dass', 'frau', 'gestanden', 'haben', 'ich', 'ihnen', 'ihrer', 'kann', 'seite', 'sie', 'vorwerfen', 'zur']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6842,8 +7698,10 @@ Focus [Test]: ['mehr']
 Negated [Gold]: ['']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Kilometer', 'als', 'drei', 'mehr', 'oder', 'zwei']
-Scope [Test]: ['Also', 'Kilometer', 'als', 'drei', 'mehr', 'oder', 'zwei']
+Scope [Gold]: ['als', 'drei', 'kilometer', 'mehr', 'oder', 'zwei']
+Scope [Test]: ['als', 'also', 'drei', 'kilometer', 'mehr', 'oder', 'zwei']
+[1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6859,7 +7717,9 @@ Negated [Gold]: ['kann']
 Negated [Test]: ['das']
 
 Scope [Gold]: ['es', 'kann', 'sehr', 'sein', 'weit']
-Scope [Test]: ['Barrymore', 'Essen', 'das', 'es', 'hinbringen', 'kann', 'sehr', 'sein', 'soll', 'weit', 'wenn']
+Scope [Test]: ['barrymore', 'das', 'es', 'essen', 'hinbringen', 'kann', 'sehr', 'sein', 'soll', 'weit', 'wenn']
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6874,8 +7734,10 @@ Focus [Test]: ['so']
 Negated [Gold]: ['war']
 Negated [Test]: ['die']
 
-Scope [Gold]: ['Barrymores', 'Vertrauen', 'dass', 'die', 'es', 'gezogen', 'hatten', 'ins', 'so', 'uns', 'war']
-Scope [Test]: ['Barrymores', 'SchlieÃŸlich', 'Vertrauen', 'dass', 'die', 'es', 'gezogen', 'hatten', 'ins', 'so', 'uns', 'war']
+Scope [Gold]: ['barrymores', 'dass', 'die', 'es', 'gezogen', 'hatten', 'ins', 'so', 'uns', 'vertrauen', 'war']
+Scope [Test]: ['barrymores', 'dass', 'die', 'es', 'gezogen', 'hatten', 'ins', 'schließlich', 'so', 'uns', 'vertrauen', 'war']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6891,7 +7753,9 @@ Negated [Gold]: ['konnte']
 Negated [Test]: ['']
 
 Scope [Gold]: ['antun', 'er', 'etwas', 'konnte', 'niemandem', 'wo']
-Scope [Test]: ['Pflicht', 'antun', 'er', 'erfÃ¼llten', 'etwas', 'konnte', 'nur', 'so', 'unsere', 'wir', 'wo']
+Scope [Test]: ['antun', 'er', 'erfüllten', 'etwas', 'konnte', 'nur', 'pflicht', 'so', 'unsere', 'wir', 'wo']
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -6904,10 +7768,12 @@ Focus [Gold]: ['handeln']
 Focus [Test]: ['handeln']
 
 Negated [Gold]: ['']
-Negated [Test]: ['wÃ¼rden']
+Negated [Test]: ['würden']
 
-Scope [Gold]: ['handeln', 'wir', 'wÃ¼rden']
-Scope [Test]: ['handeln', 'wir', 'wÃ¼rden']
+Scope [Gold]: ['handeln', 'wir', 'würden']
+Scope [Test]: ['handeln', 'wir', 'würden']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -6916,14 +7782,16 @@ Frame: 288_f1
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['weiÃŸ']
+Focus [Gold]: ['weiß']
 Focus [Test]: ['']
 
-Negated [Gold]: ['weiÃŸ']
-Negated [Test]: ['weiÃŸ']
+Negated [Gold]: ['weiß']
+Negated [Test]: ['weiß']
 
-Scope [Gold]: ['Ich', 'es', 'weiÃŸ']
-Scope [Test]: ['Ich', 'es', 'weiÃŸ']
+Scope [Gold]: ['es', 'ich', 'weiß']
+Scope [Test]: ['es', 'ich', 'weiß']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -6932,14 +7800,16 @@ Frame: s292_f1
 Target [Gold]: ['nichts']
 Target [Test]: ['nichts']
 
-Focus [Gold]: ['hÃ¶ren']
+Focus [Gold]: ['hören']
 Focus [Test]: ['']
 
 Negated [Gold]: ['war']
 Negated [Test]: ['']
 
-Scope [Gold]: ['hÃ¶ren', 'nichts', 'war', 'zu']
-Scope [Test]: ['hÃ¶ren', 'war', 'zu']
+Scope [Gold]: ['hören', 'nichts', 'war', 'zu']
+Scope [Test]: ['hören', 'war', 'zu']
+[1, 1, 1, 1]
+[1, 1, 1, 0]
 
 =========
 
@@ -6956,6 +7826,8 @@ Negated [Test]: ['wissendes']
 
 Scope [Gold]: ['wissendes']
 Scope [Test]: ['wissendes']
+[1]
+[1]
 
 =========
 
@@ -6970,8 +7842,10 @@ Focus [Test]: ['ausweichen']
 Negated [Gold]: ['konnte']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Frage', 'Ich', 'ausweichen', 'der', 'konnte']
-Scope [Test]: ['Frage', 'ausweichen', 'der', 'jedoch', 'konnte']
+Scope [Gold]: ['ausweichen', 'der', 'frage', 'ich', 'konnte']
+Scope [Test]: ['ausweichen', 'der', 'frage', 'jedoch', 'konnte']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0]
 
 =========
 
@@ -6981,13 +7855,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['nicht']
-Focus [Test]: ['groÃŸen']
+Focus [Test]: ['großen']
 
 Negated [Gold]: ['']
 Negated [Test]: ['die']
 
-Scope [Gold]: ['Grimpener', 'Ist', 'Moores', 'Richtung', 'das', 'des', 'die', 'groÃŸen']
-Scope [Test]: ['Grimpener', 'Ist', 'Moores', 'Richtung', 'das', 'des', 'die', 'groÃŸen']
+Scope [Gold]: ['das', 'des', 'die', 'grimpener', 'großen', 'ist', 'moores', 'richtung']
+Scope [Test]: ['das', 'des', 'die', 'grimpener', 'großen', 'ist', 'moores', 'richtung']
+[1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -7002,8 +7878,10 @@ Focus [Test]: ['selbst']
 Negated [Gold]: ['']
 Negated [Test]: ['geglaubt']
 
-Scope [Gold]: ['Heulen', 'Hundes', 'Sie', 'das', 'eines', 'es', 'geglaubt', 'haben', 'selbst', 'wÃ¤re']
-Scope [Test]: ['Sie', 'geglaubt', 'haben', 'selbst']
+Scope [Gold]: ['das', 'eines', 'es', 'geglaubt', 'haben', 'heulen', 'hundes', 'selbst', 'sie', 'wäre']
+Scope [Test]: ['geglaubt', 'haben', 'selbst', 'sie']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -7018,8 +7896,10 @@ Focus [Test]: ['sie']
 Negated [Gold]: ['brauchen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Angst', 'Wahrheit', 'brauchen', 'die', 'haben', 'mir', 'sagen', 'sie', 'zu', 'zu']
-Scope [Test]: ['Ich', 'Kind', 'bin']
+Scope [Gold]: ['angst', 'brauchen', 'die', 'haben', 'mir', 'sagen', 'sie', 'wahrheit', 'zu', 'zu']
+Scope [Test]: ['bin', 'ich', 'kind']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -7034,8 +7914,10 @@ Focus [Test]: ['sagen']
 Negated [Gold]: ['kind']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Ich', 'Kind', 'bin']
-Scope [Test]: ['Angst', 'brauchen', 'haben', 'sie', 'zu']
+Scope [Gold]: ['bin', 'ich', 'kind']
+Scope [Test]: ['angst', 'brauchen', 'haben', 'sie', 'zu']
+[1, 1, 1, 0, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -7052,6 +7934,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -7068,6 +7952,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -7082,8 +7968,10 @@ Focus [Test]: ['wahr']
 Negated [Gold]: ['glauben']
 Negated [Test]: ['glauben']
 
-Scope [Gold]: ['Sie', 'daran', 'glauben']
-Scope [Test]: ['Sie', 'daran', 'glauben']
+Scope [Gold]: ['daran', 'glauben', 'sie']
+Scope [Test]: ['daran', 'glauben', 'sie']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -7100,6 +7988,8 @@ Negated [Test]: ['glauben']
 
 Scope [Gold]: ['wahr']
 Scope [Test]: ['wahr']
+[1]
+[1]
 
 =========
 
@@ -7115,7 +8005,9 @@ Negated [Gold]: ['']
 Negated [Test]: ['']
 
 Scope [Gold]: ['']
-Scope [Test]: ['NatÃ¼rlich']
+Scope [Test]: ['natürlich']
+[0]
+[1]
 
 =========
 
@@ -7125,13 +8017,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['nicht']
-Focus [Test]: ['fÃ¼r']
+Focus [Test]: ['für']
 
 Negated [Gold]: ['halte']
 Negated [Test]: ['einen']
 
-Scope [Gold]: ['Feigling', 'Ich', 'einen', 'fÃ¼r', 'halte', 'mich']
-Scope [Test]: ['Feigling', 'Ich', 'einen', 'fÃ¼r', 'halte', 'mich']
+Scope [Gold]: ['einen', 'feigling', 'für', 'halte', 'ich', 'mich']
+Scope [Test]: ['einen', 'feigling', 'für', 'halte', 'ich', 'mich']
+[1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -7148,6 +8042,8 @@ Negated [Test]: ['']
 
 Scope [Gold]: ['']
 Scope [Test]: []
+[0]
+[1]
 
 =========
 
@@ -7164,6 +8060,8 @@ Negated [Test]: ['gegeben']
 
 Scope [Gold]: ['dass', 'dieser', 'gegeben', 'hatte']
 Scope [Test]: ['dieser', 'gegeben', 'hatte']
+[1, 1, 1, 1]
+[1, 1, 1, 0]
 
 =========
 
@@ -7180,6 +8078,8 @@ Negated [Test]: ['stimmte']
 
 Scope [Gold]: ['etwas', 'stimmte']
 Scope [Test]: ['etwas', 'stimmte']
+[1, 1]
+[1, 1]
 
 =========
 
@@ -7196,6 +8096,8 @@ Negated [Test]: ['einen']
 
 Scope [Gold]: ['bewaffneten']
 Scope [Test]: ['jedoch']
+[1]
+[0]
 
 =========
 
@@ -7210,8 +8112,10 @@ Focus [Test]: ['bewaffneten']
 Negated [Gold]: ['mitgebracht']
 Negated [Test]: ['bewaffneten']
 
-Scope [Gold]: ['Flucht', 'Mann', 'auf', 'der', 'einen', 'erschieÃŸen', 'hatte', 'ich', 'ihn', 'mitgebracht', 'nur', 'um', 'unbewaffneten', 'zu']
+Scope [Gold]: ['auf', 'der', 'einen', 'erschießen', 'flucht', 'hatte', 'ich', 'ihn', 'mann', 'mitgebracht', 'nur', 'um', 'unbewaffneten', 'zu']
 Scope [Test]: ['bewaffneten']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -7226,8 +8130,10 @@ Focus [Test]: ['ihn']
 Negated [Gold]: ['hatten']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Chance', 'einzuholen', 'hatten', 'ihn', 'wir']
-Scope [Test]: ['Chance', 'hatten', 'wir']
+Scope [Gold]: ['chance', 'einzuholen', 'hatten', 'ihn', 'wir']
+Scope [Test]: ['chance', 'hatten', 'wir']
+[1, 1, 1, 1, 1]
+[1, 1, 1, 0, 0]
 
 =========
 
@@ -7239,11 +8145,13 @@ Target [Test]: ['keine']
 Focus [Gold]: ['keine']
 Focus [Test]: ['']
 
-Negated [Gold]: ['sinnestÃ¤uschung']
+Negated [Gold]: ['sinnestäuschung']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Das', 'SinnestÃ¤uschung', 'war']
-Scope [Test]: ['Das', 'SinnestÃ¤uschung', 'war']
+Scope [Gold]: ['das', 'sinnestäuschung', 'war']
+Scope [Test]: ['das', 'sinnestäuschung', 'war']
+[1, 1, 1]
+[1, 1, 1]
 
 =========
 
@@ -7258,8 +8166,10 @@ Focus [Test]: ['gesehen']
 Negated [Gold]: ['gesehen']
 Negated [Test]: ['']
 
-Scope [Gold]: ['Leben', 'deutlicher', 'etwas', 'gesehen', 'habe', 'ich', 'in', 'meinem', 'mir', 'vor']
-Scope [Test]: ['Leben', 'deutlicher', 'etwas', 'gesehen', 'habe', 'ich', 'in', 'meinem', 'mir', 'vor']
+Scope [Gold]: ['deutlicher', 'etwas', 'gesehen', 'habe', 'ich', 'in', 'leben', 'meinem', 'mir', 'vor']
+Scope [Test]: ['deutlicher', 'etwas', 'gesehen', 'habe', 'ich', 'in', 'leben', 'meinem', 'mir', 'vor']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -7276,6 +8186,8 @@ Negated [Test]: ['geheure']
 
 Scope [Gold]: ['geheure']
 Scope [Test]: ['geheure']
+[1]
+[1]
 
 =========
 
@@ -7287,11 +8199,13 @@ Target [Test]: ['nicht']
 Focus [Gold]: ['']
 Focus [Test]: ['hier']
 
-Negated [Gold]: ['zuchthÃ¤usler']
+Negated [Gold]: ['zuchthäusler']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['ZuchthÃ¤usler', 'der', 'es', 'war']
-Scope [Test]: ['ZuchthÃ¤usler', 'der', 'es', 'jedenfalls', 'war']
+Scope [Gold]: ['der', 'es', 'war', 'zuchthäusler']
+Scope [Test]: ['der', 'es', 'jedenfalls', 'war', 'zuchthäusler']
+[1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1]
 
 =========
 
@@ -7308,6 +8222,8 @@ Negated [Test]: ['bewegt']
 
 Scope [Gold]: ['bewegt']
 Scope [Test]: ['bewegt']
+[1]
+[1]
 
 =========
 
@@ -7324,6 +8240,8 @@ Negated [Test]: ['tere']
 
 Scope [Gold]: ['reglosen']
 Scope [Test]: ['tere']
+[1]
+[0]
 
 =========
 
@@ -7333,13 +8251,15 @@ Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
 Focus [Gold]: ['abenteuer']
-Focus [Test]: ['fÃ¼r']
+Focus [Test]: ['für']
 
 Negated [Gold]: ['war']
 Negated [Test]: ['der']
 
-Scope [Gold]: ['Abenteuer', 'Stimmung', 'der', 'er', 'fÃ¼r', 'in', 'war', 'weitere']
-Scope [Test]: ['Abenteuer', 'Stimmung', 'der', 'er', 'fÃ¼r', 'in', 'so', 'war', 'weitere']
+Scope [Gold]: ['abenteuer', 'der', 'er', 'für', 'in', 'stimmung', 'war', 'weitere']
+Scope [Test]: ['abenteuer', 'der', 'er', 'für', 'in', 'so', 'stimmung', 'war', 'weitere']
+[1, 1, 1, 1, 1, 1, 1, 1, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -7354,8 +8274,10 @@ Focus [Test]: ['gesehen']
 Negated [Gold]: ['gesehen']
 Negated [Test]: ['gesehen']
 
-Scope [Gold]: ['Er', 'Felsturm', 'Mann', 'auf', 'dem', 'einsamen', 'gesehen', 'hatte', 'jenen']
-Scope [Test]: ['Er', 'Felsturm', 'Mann', 'auf', 'dem', 'einsamen', 'gesehen', 'hatte', 'jenen']
+Scope [Gold]: ['auf', 'dem', 'einsamen', 'er', 'felsturm', 'gesehen', 'hatte', 'jenen', 'mann']
+Scope [Test]: ['auf', 'dem', 'einsamen', 'er', 'felsturm', 'gesehen', 'hatte', 'jenen', 'mann']
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 =========
 
@@ -7364,14 +8286,16 @@ Frame: 377_f2
 Target [Gold]: ['nicht']
 Target [Test]: ['nicht']
 
-Focus [Gold]: ['nachfÃ¼hlen']
-Focus [Test]: ['nachfÃ¼hlen']
+Focus [Gold]: ['nachfühlen']
+Focus [Test]: ['nachfühlen']
 
 Negated [Gold]: ['konnte']
-Negated [Test]: ['auslÃ¶st']
+Negated [Test]: ['auslöst']
 
-Scope [Gold]: ['Er', 'Erscheinung', 'Haltung', 'Schauder', 'auslÃ¶st', 'bei', 'den', 'den', 'gebieterische', 'hatte', 'konnte', 'mir', 'nachfÃ¼hlen', 'seine', 'seine', 'seltsame', 'und']
-Scope [Test]: ['Schauder', 'daher', 'den', 'konnte', 'nachfÃ¼hlen']
+Scope [Gold]: ['auslöst', 'bei', 'den', 'den', 'er', 'erscheinung', 'gebieterische', 'haltung', 'hatte', 'konnte', 'mir', 'nachfühlen', 'schauder', 'seine', 'seine', 'seltsame', 'und']
+Scope [Test]: ['daher', 'den', 'konnte', 'nachfühlen', 'schauder']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -7386,8 +8310,10 @@ Focus [Test]: ['erleben']
 Negated [Gold]: ['konnten']
 Negated [Test]: ['den']
 
-Scope [Gold]: ['Gefangenen', 'Triumph', 'als', 'den', 'erleben', 'ihn', 'konnten', 'selbst', 'unseren', 'wir', 'zurÃ¼ckzubringen']
-Scope [Test]: ['Triumph', 'den', 'erleben', 'konnten', 'wir']
+Scope [Gold]: ['als', 'den', 'erleben', 'gefangenen', 'ihn', 'konnten', 'selbst', 'triumph', 'unseren', 'wir', 'zurückzubringen']
+Scope [Test]: ['den', 'erleben', 'konnten', 'triumph', 'wir']
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
 
 =========
 
@@ -7396,33 +8322,38 @@ Frame: 386_f1
 Target [Gold]: ['un']
 Target [Test]: ['un']
 
-Focus [Gold]: ['ergrÃ¼ndlich']
-Focus [Test]: ['ergrÃ¼ndlich']
+Focus [Gold]: ['ergründlich']
+Focus [Test]: ['ergründlich']
 
-Negated [Gold]: ['ergrÃ¼ndlich']
-Negated [Test]: ['ergrÃ¼ndlich']
+Negated [Gold]: ['ergründlich']
+Negated [Test]: ['ergründlich']
 
-Scope [Gold]: ['ergrÃ¼ndlich']
-Scope [Test]: ['ergrÃ¼ndlich']
+Scope [Gold]: ['ergründlich']
+Scope [Test]: ['ergründlich']
+[1]
+[1]
 
 =============================
 ====== EVALUATION for: ../res/xml/test/output/tagged/baskerville_ch9.jr.xml ======
 Total Sentences: 389 
-Gold frames: 138 
-Test frames: 123 
+Negation Gold frames: 138 
+Negation Test frames: 123 
 
 ----- CUEWORDS -----
 F1 score:	 0.789855072464
 
 ----- FOCUS -----
-F1 score:	 0.355072463768
+F1 score:	 0.434782608696
 
 ----- NEGATED -----
-F1 score:	 0.36231884058
+F1 score:	 0.391304347826
 
 ----- SCOPE -----
-Precision:	 0.813953488372
-Recall:	 0.684979580085
-F1 score:	 0.727461493338
-Jaccard similarity:	 0.523364483214
+Scope Gold frames: 129 
+Scope Test frames: 123 
+
+Precision:	 0.758705572581
+Recall:	 0.682470591923
+F1 score:	 0.69743318101
+Jaccard similarity:	 0.546636369502
 Done!

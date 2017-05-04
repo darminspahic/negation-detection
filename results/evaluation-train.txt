@@ -2,147 +2,168 @@
 =============================
 ====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch10.jr.xml ======
 Total Sentences: 248 
-Gold frames: 85 
-Test frames: 82 
+Negation Gold frames: 85 
+Negation Test frames: 82 
 
 ----- CUEWORDS -----
 F1 score:	 0.894117647059
 
 ----- FOCUS -----
-F1 score:	 0.152941176471
+F1 score:	 0.776470588235
 
 ----- NEGATED -----
-F1 score:	 0.305882352941
+F1 score:	 0.329411764706
 
 ----- SCOPE -----
-Precision:	 0.935064935065
-Recall:	 0.743522386704
-F1 score:	 0.802312576073
-Jaccard similarity:	 0.580582260452
+Scope Gold frames: 77 
+Scope Test frames: 82 
+
+Precision:	 0.741909997327
+Recall:	 0.636193785889
+F1 score:	 0.659694660883
+Jaccard similarity:	 0.553107732376
 
 =============================
 ====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch11.jr.xml ======
 Total Sentences: 286 
-Gold frames: 84 
-Test frames: 93 
+Negation Gold frames: 84 
+Negation Test frames: 93 
 
 ----- CUEWORDS -----
 F1 score:	 0.904761904762
 
 ----- FOCUS -----
-F1 score:	 0.142857142857
+F1 score:	 0.821428571429
 
 ----- NEGATED -----
-F1 score:	 0.404761904762
+F1 score:	 0.5
 
 ----- SCOPE -----
-Precision:	 0.949367088608
-Recall:	 0.764244299763
-F1 score:	 0.81917403141
-Jaccard similarity:	 0.600895415377
+Scope Gold frames: 79 
+Scope Test frames: 93 
+
+Precision:	 0.675675423015
+Recall:	 0.626630478039
+F1 score:	 0.629728802727
+Jaccard similarity:	 0.484933149916
 
 =============================
 ====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch12.jr.xml ======
 Total Sentences: 311 
-Gold frames: 80 
-Test frames: 85 
+Negation Gold frames: 80 
+Negation Test frames: 85 
 
 ----- CUEWORDS -----
 F1 score:	 0.9875
 
 ----- FOCUS -----
-F1 score:	 0.175
+F1 score:	 0.825
 
 ----- NEGATED -----
-F1 score:	 0.475
+F1 score:	 0.4375
 
 ----- SCOPE -----
-Precision:	 1.08695652174
-Recall:	 0.875793851881
-F1 score:	 0.931484192518
-Jaccard similarity:	 0.733988957902
+Scope Gold frames: 69 
+Scope Test frames: 85 
+
+Precision:	 0.747826842374
+Recall:	 0.633207446149
+F1 score:	 0.657588024419
+Jaccard similarity:	 0.623865546218
 
 =============================
 ====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch13.xml ======
 Total Sentences: 298 
-Gold frames: 72 
-Test frames: 77 
+Negation Gold frames: 72 
+Negation Test frames: 77 
 
 ----- CUEWORDS -----
 F1 score:	 0.875
 
 ----- FOCUS -----
-F1 score:	 0.291666666667
+F1 score:	 0.388888888889
 
 ----- NEGATED -----
-F1 score:	 0.291666666667
+F1 score:	 0.361111111111
 
 ----- SCOPE -----
-Precision:	 0.915492957746
-Recall:	 0.830017188924
-F1 score:	 0.857779975133
-Jaccard similarity:	 0.718396236002
+Scope Gold frames: 71 
+Scope Test frames: 77 
+
+Precision:	 0.791307346232
+Recall:	 0.75790906742
+F1 score:	 0.758917654999
+Jaccard similarity:	 0.658833518574
 
 =============================
 ====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch14.xml ======
 Total Sentences: 265 
-Gold frames: 76 
-Test frames: 84 
+Negation Gold frames: 76 
+Negation Test frames: 84 
 
 ----- CUEWORDS -----
 F1 score:	 0.960526315789
 
 ----- FOCUS -----
-F1 score:	 0.434210526316
+F1 score:	 0.460526315789
 
 ----- NEGATED -----
-F1 score:	 0.434210526316
+F1 score:	 0.421052631579
 
 ----- SCOPE -----
-Precision:	 1.02777777778
-Recall:	 0.863947698946
-F1 score:	 0.905565314315
-Jaccard similarity:	 0.756053090428
+Scope Gold frames: 72 
+Scope Test frames: 84 
+
+Precision:	 0.810245535714
+Recall:	 0.690634824205
+F1 score:	 0.716561652633
+Jaccard similarity:	 0.613507524222
 
 =============================
 ====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch15.xml ======
 Total Sentences: 171 
-Gold frames: 64 
-Test frames: 69 
+Negation Gold frames: 64 
+Negation Test frames: 69 
 
 ----- CUEWORDS -----
 F1 score:	 0.796875
 
 ----- FOCUS -----
-F1 score:	 0.421875
+F1 score:	 0.515625
 
 ----- NEGATED -----
-F1 score:	 0.390625
+F1 score:	 0.453125
 
 ----- SCOPE -----
-Precision:	 0.796875
-Recall:	 0.616028811405
-F1 score:	 0.662297327363
-Jaccard similarity:	 0.49214502945
+Scope Gold frames: 64 
+Scope Test frames: 69 
+
+Precision:	 0.727100116883
+Recall:	 0.601999233399
+F1 score:	 0.614068226872
+Jaccard similarity:	 0.45275738754
 
 =============================
 ====== EVALUATION for: ../res/xml/train/output/tagged/baskerville_ch4.jr.xml ======
 Total Sentences: 266 
-Gold frames: 73 
-Test frames: 76 
+Negation Gold frames: 73 
+Negation Test frames: 76 
 
 ----- CUEWORDS -----
 F1 score:	 0.917808219178
 
 ----- FOCUS -----
-F1 score:	 0.465753424658
+F1 score:	 0.493150684932
 
 ----- NEGATED -----
-F1 score:	 0.369863013699
+F1 score:	 0.479452054795
 
 ----- SCOPE -----
-Precision:	 1.01515151515
-Recall:	 0.857798316925
-F1 score:	 0.904743616402
-Jaccard similarity:	 0.729320279003
+Scope Gold frames: 66 
+Scope Test frames: 76 
+
+Precision:	 0.803554072735
+Recall:	 0.687330972408
+F1 score:	 0.720939865873
+Jaccard similarity:	 0.600753787203
 Done!

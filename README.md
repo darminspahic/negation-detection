@@ -24,7 +24,7 @@ Or install the requirements separately:
 
 Clone the repository:
 ```bash
-$ git clone https://github.com/darminspahic/negation-detection.git
+$ git clone https://gitlab.cl.uni-heidelberg.de/negation-detection/ws16.git
 ```
 
 Optional:
